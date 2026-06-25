@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <linearGradient id="orangecreammilk-body" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f8b85e"/>
+      <stop offset="1" stop-color="#f4a23a"/>
+    </linearGradient>
+  </defs>
+  <ellipse cx="128" cy="224" rx="58" ry="11" fill="#000" opacity="0.12"/>
+  <!-- carton body -->
+  <path d="M78 96 L178 96 L178 206 Q178 212 172 212 L84 212 Q78 212 78 206 Z" fill="url(#orangecreammilk-body)" stroke="#5a3a1f" stroke-width="6" stroke-linejoin="round"/>
+  <!-- gable roof -->
+  <path d="M78 96 L128 60 L178 96 Z" fill="#fdd89a" stroke="#5a3a1f" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M128 60 L128 96" stroke="#5a3a1f" stroke-width="5" stroke-linecap="round"/>
+  <!-- folded top crease -->
+  <path d="M101 78 L155 78" stroke="#5a3a1f" stroke-width="5" stroke-linecap="round"/>
+  <!-- body highlight -->
+  <path d="M88 104 L100 104 L100 200 L88 200 Z" fill="#fff" opacity="0.22"/>
+  <!-- label panel -->
+  <rect x="96" y="128" width="64" height="52" rx="8" fill="#fff7ec" stroke="#5a3a1f" stroke-width="5"/>
+  <!-- orange & cream swirl accent -->
+  <path d="M128 138 Q146 146 138 162 Q130 176 116 168 Q106 162 112 152 Q117 144 128 148" fill="none" stroke="#f47a2a" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="128" cy="156" r="5" fill="#fff" stroke="#f47a2a" stroke-width="3"/>
+</svg>

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <linearGradient id="blackshell-body" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#4a4444"/>
+      <stop offset="1" stop-color="#2a2626"/>
+    </linearGradient>
+    <linearGradient id="blackshell-cream" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#e6e2da"/>
+    </linearGradient>
+    <clipPath id="blackshell-clip">
+      <path d="M56 96 C56 64 96 56 128 56 C160 56 200 64 200 96 L200 158 C200 192 160 200 128 200 C96 200 56 192 56 158 Z"/>
+    </clipPath>
+  </defs>
+  <ellipse cx="128" cy="224" rx="62" ry="11" fill="#000" opacity="0.12"/>
+  <path d="M56 96 C56 64 96 56 128 56 C160 56 200 64 200 96 L200 158 C200 192 160 200 128 200 C96 200 56 192 56 158 Z" fill="url(#blackshell-body)" stroke="#161212" stroke-width="6" stroke-linejoin="round"/>
+  <!-- noir diagonal ridges + white accents -->
+  <g clip-path="url(#blackshell-clip)">
+    <path d="M104 50 L86 210" stroke="#5e5858" stroke-width="6" stroke-linecap="round"/>
+    <path d="M130 50 L128 210" stroke="#5e5858" stroke-width="6" stroke-linecap="round"/>
+    <path d="M156 50 L172 210" stroke="#5e5858" stroke-width="6" stroke-linecap="round"/>
+    <path d="M118 50 L100 210" stroke="#f2f0ea" stroke-width="4" stroke-linecap="round" opacity="0.85"/>
+    <path d="M170 50 L186 210" stroke="#f2f0ea" stroke-width="4" stroke-linecap="round" opacity="0.85"/>
+    <!-- white powdered-sugar specks -->
+    <circle cx="112" cy="104" r="3" fill="#f7f5ef"/>
+    <circle cx="150" cy="120" r="3" fill="#f7f5ef"/>
+    <circle cx="128" cy="150" r="3" fill="#f7f5ef"/>
+    <circle cx="96" cy="156" r="2.5" fill="#f7f5ef"/>
+    <circle cx="166" cy="150" r="2.5" fill="#f7f5ef"/>
+  </g>
+  <ellipse cx="72" cy="98" rx="20" ry="30" fill="url(#blackshell-cream)" stroke="#161212" stroke-width="6"/>
+  <ellipse cx="69" cy="92" rx="8" ry="13" fill="#ffffff" opacity="0.8"/>
+  <ellipse cx="184" cy="98" rx="20" ry="30" fill="url(#blackshell-cream)" stroke="#161212" stroke-width="6"/>
+  <ellipse cx="181" cy="92" rx="8" ry="13" fill="#ffffff" opacity="0.8"/>
+</svg>

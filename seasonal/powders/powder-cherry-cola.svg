@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <linearGradient id="powdercherrycola-glass" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#9a3e3a"/>
+      <stop offset="1" stop-color="#7a2a28"/>
+    </linearGradient>
+    <linearGradient id="powdercherrycola-lid" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c08080"/>
+      <stop offset="1" stop-color="#8a4a48"/>
+    </linearGradient>
+  </defs>
+  <ellipse cx="128" cy="224" rx="58" ry="11" fill="#000" opacity="0.12"/>
+  <path d="M58 214 q22 -26 70 -26 q48 0 70 26 q-32 10 -70 10 q-38 0 -70 -10 Z" fill="#7a2a28" stroke="#43291a" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M76 206 q20 -12 52 -12 q32 0 52 12" fill="none" stroke="#9a3e3a" stroke-width="5" stroke-linecap="round" opacity="0.7"/>
+  <!-- cherry-red flecks -->
+  <circle cx="104" cy="205" r="2.4" fill="#e04848"/>
+  <circle cx="150" cy="206" r="2.4" fill="#e04848"/>
+  <rect x="84" y="92" width="88" height="100" rx="20" fill="url(#powdercherrycola-glass)" stroke="#43291a" stroke-width="6" stroke-linejoin="round"/>
+  <rect x="90" y="128" width="76" height="58" rx="14" fill="#7a2a28" opacity="0.92"/>
+  <path d="M90 132 q38 -14 76 0" fill="none" stroke="#a84a44" stroke-width="5" stroke-linecap="round" opacity="0.8"/>
+  <circle cx="114" cy="152" r="2.6" fill="#e04848"/>
+  <circle cx="144" cy="150" r="2.6" fill="#e04848"/>
+  <circle cx="130" cy="170" r="2.4" fill="#e04848"/>
+  <rect x="96" y="104" width="14" height="74" rx="7" fill="#ffffff" opacity="0.3"/>
+  <rect x="98" y="76" width="60" height="22" rx="8" fill="#8a3230" stroke="#43291a" stroke-width="6" stroke-linejoin="round"/>
+  <rect x="92" y="54" width="72" height="30" rx="12" fill="url(#powdercherrycola-lid)" stroke="#43291a" stroke-width="6" stroke-linejoin="round"/>
+  <circle cx="112" cy="69" r="3.4" fill="#43291a"/>
+  <circle cx="128" cy="66" r="3.4" fill="#43291a"/>
+  <circle cx="144" cy="69" r="3.4" fill="#43291a"/>
+  <circle cx="120" cy="76" r="3" fill="#43291a"/>
+  <circle cx="136" cy="76" r="3" fill="#43291a"/>
+  <rect x="98" y="58" width="10" height="20" rx="5" fill="#ffffff" opacity="0.34"/>
+</svg>

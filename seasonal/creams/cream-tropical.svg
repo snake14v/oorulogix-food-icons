@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <linearGradient id="cream-tropical-body" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f8cd6a"/>
+      <stop offset="1" stop-color="#eba637"/>
+    </linearGradient>
+  </defs>
+  <ellipse cx="128" cy="224" rx="58" ry="11" fill="#000" opacity="0.12"/>
+  <path d="M128 36
+    C150 36 164 54 158 72
+    C176 70 190 86 182 104
+    C200 104 210 122 196 138
+    C210 142 214 160 198 172
+    C206 188 192 206 168 208
+    L88 208
+    C64 206 50 188 58 172
+    C42 160 46 142 60 138
+    C46 122 56 104 74 104
+    C66 86 80 70 98 72
+    C92 54 106 36 128 36 Z"
+    fill="url(#cream-tropical-body)" stroke="#9a6420" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M74 104 C108 96 150 96 182 104" fill="none" stroke="#d98e2a" stroke-width="5" stroke-linecap="round"/>
+  <path d="M60 138 C104 128 154 128 196 138" fill="none" stroke="#d98e2a" stroke-width="5" stroke-linecap="round"/>
+  <path d="M58 172 C104 162 154 162 198 172" fill="none" stroke="#d98e2a" stroke-width="5" stroke-linecap="round"/>
+  <!-- tropical fruit bits -->
+  <g>
+    <circle cx="116" cy="126" r="5" fill="#ff7a3c"/>
+    <circle cx="150" cy="158" r="5" fill="#ffe14a"/>
+    <circle cx="98" cy="168" r="4.5" fill="#ff9b4a"/>
+  </g>
+  <ellipse cx="104" cy="118" rx="10" ry="16" fill="#ffe6a8" opacity="0.85"/>
+  <path d="M120 50 C126 44 134 44 138 52" fill="none" stroke="#fff0c8" stroke-width="6" stroke-linecap="round"/>
+</svg>

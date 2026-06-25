@@ -3,7 +3,7 @@
   "style": "flat-cartoon",
   "viewBox": "0 0 256 256",
   "license": "MIT",
-  "count": 219,
+  "count": 291,
   "assets": [
     {
       "id": "bakery-crusts-chocolate-crust",
@@ -1537,6 +1537,510 @@
       "category": "toppings",
       "file": "sandwich/toppings/top-turkey.svg",
       "name": "Turkey"
+    },
+    {
+      "id": "seasonal-creams-cream-blue-pop",
+      "theme": "seasonal",
+      "category": "creams",
+      "file": "seasonal/creams/cream-blue-pop.svg",
+      "name": "Blue Pop Cream"
+    },
+    {
+      "id": "seasonal-creams-cream-blueberry",
+      "theme": "seasonal",
+      "category": "creams",
+      "file": "seasonal/creams/cream-blueberry.svg",
+      "name": "Blueberry Cream"
+    },
+    {
+      "id": "seasonal-creams-cream-candy-corn",
+      "theme": "seasonal",
+      "category": "creams",
+      "file": "seasonal/creams/cream-candy-corn.svg",
+      "name": "Candy Corn Cream"
+    },
+    {
+      "id": "seasonal-creams-cream-emerald",
+      "theme": "seasonal",
+      "category": "creams",
+      "file": "seasonal/creams/cream-emerald.svg",
+      "name": "Emerald Cream"
+    },
+    {
+      "id": "seasonal-creams-cream-ghost",
+      "theme": "seasonal",
+      "category": "creams",
+      "file": "seasonal/creams/cream-ghost.svg",
+      "name": "Ghost Cream"
+    },
+    {
+      "id": "seasonal-creams-cream-licorice",
+      "theme": "seasonal",
+      "category": "creams",
+      "file": "seasonal/creams/cream-licorice.svg",
+      "name": "Licorice Cream"
+    },
+    {
+      "id": "seasonal-creams-cream-neapolitan",
+      "theme": "seasonal",
+      "category": "creams",
+      "file": "seasonal/creams/cream-neapolitan.svg",
+      "name": "Neapolitan Cream"
+    },
+    {
+      "id": "seasonal-creams-cream-rainbow",
+      "theme": "seasonal",
+      "category": "creams",
+      "file": "seasonal/creams/cream-rainbow.svg",
+      "name": "Rainbow Cream"
+    },
+    {
+      "id": "seasonal-creams-cream-red-bean",
+      "theme": "seasonal",
+      "category": "creams",
+      "file": "seasonal/creams/cream-red-bean.svg",
+      "name": "Red Bean Cream"
+    },
+    {
+      "id": "seasonal-creams-cream-snow",
+      "theme": "seasonal",
+      "category": "creams",
+      "file": "seasonal/creams/cream-snow.svg",
+      "name": "Snow Cream"
+    },
+    {
+      "id": "seasonal-creams-cream-tres-leches",
+      "theme": "seasonal",
+      "category": "creams",
+      "file": "seasonal/creams/cream-tres-leches.svg",
+      "name": "Tres Leches Cream"
+    },
+    {
+      "id": "seasonal-creams-cream-tropical",
+      "theme": "seasonal",
+      "category": "creams",
+      "file": "seasonal/creams/cream-tropical.svg",
+      "name": "Tropical Cream"
+    },
+    {
+      "id": "seasonal-milks-cherry-bomb-milk",
+      "theme": "seasonal",
+      "category": "milks",
+      "file": "seasonal/milks/cherry-bomb-milk.svg",
+      "name": "Cherry Bomb Milk"
+    },
+    {
+      "id": "seasonal-milks-eggnog",
+      "theme": "seasonal",
+      "category": "milks",
+      "file": "seasonal/milks/eggnog.svg",
+      "name": "Eggnog"
+    },
+    {
+      "id": "seasonal-milks-golden-milk",
+      "theme": "seasonal",
+      "category": "milks",
+      "file": "seasonal/milks/golden-milk.svg",
+      "name": "Golden Milk"
+    },
+    {
+      "id": "seasonal-milks-horchata-milk",
+      "theme": "seasonal",
+      "category": "milks",
+      "file": "seasonal/milks/horchata-milk.svg",
+      "name": "Horchata Milk"
+    },
+    {
+      "id": "seasonal-milks-irish-cream-milk",
+      "theme": "seasonal",
+      "category": "milks",
+      "file": "seasonal/milks/irish-cream-milk.svg",
+      "name": "Irish Cream Milk"
+    },
+    {
+      "id": "seasonal-milks-lollipop-milk",
+      "theme": "seasonal",
+      "category": "milks",
+      "file": "seasonal/milks/lollipop-milk.svg",
+      "name": "Lollipop Milk"
+    },
+    {
+      "id": "seasonal-milks-orange-cream-milk",
+      "theme": "seasonal",
+      "category": "milks",
+      "file": "seasonal/milks/orange-cream-milk.svg",
+      "name": "Orange Cream Milk"
+    },
+    {
+      "id": "seasonal-milks-pecan-milk",
+      "theme": "seasonal",
+      "category": "milks",
+      "file": "seasonal/milks/pecan-milk.svg",
+      "name": "Pecan Milk"
+    },
+    {
+      "id": "seasonal-milks-pina-colada-milk",
+      "theme": "seasonal",
+      "category": "milks",
+      "file": "seasonal/milks/pina-colada-milk.svg",
+      "name": "Pina Colada Milk"
+    },
+    {
+      "id": "seasonal-milks-rainbow-milk",
+      "theme": "seasonal",
+      "category": "milks",
+      "file": "seasonal/milks/rainbow-milk.svg",
+      "name": "Rainbow Milk"
+    },
+    {
+      "id": "seasonal-milks-red-bean-soy-milk",
+      "theme": "seasonal",
+      "category": "milks",
+      "file": "seasonal/milks/red-bean-soy-milk.svg",
+      "name": "Red Bean Soy Milk"
+    },
+    {
+      "id": "seasonal-milks-root-beer-float-milk",
+      "theme": "seasonal",
+      "category": "milks",
+      "file": "seasonal/milks/root-beer-float-milk.svg",
+      "name": "Root Beer Float Milk"
+    },
+    {
+      "id": "seasonal-powders-powder-almond",
+      "theme": "seasonal",
+      "category": "powders",
+      "file": "seasonal/powders/powder-almond.svg",
+      "name": "Almond Powder"
+    },
+    {
+      "id": "seasonal-powders-powder-cherry-blossom",
+      "theme": "seasonal",
+      "category": "powders",
+      "file": "seasonal/powders/powder-cherry-blossom.svg",
+      "name": "Cherry Blossom Powder"
+    },
+    {
+      "id": "seasonal-powders-powder-cherry-cola",
+      "theme": "seasonal",
+      "category": "powders",
+      "file": "seasonal/powders/powder-cherry-cola.svg",
+      "name": "Cherry Cola Powder"
+    },
+    {
+      "id": "seasonal-powders-powder-dark-berry",
+      "theme": "seasonal",
+      "category": "powders",
+      "file": "seasonal/powders/powder-dark-berry.svg",
+      "name": "Dark Berry Powder"
+    },
+    {
+      "id": "seasonal-powders-powder-gold-dust",
+      "theme": "seasonal",
+      "category": "powders",
+      "file": "seasonal/powders/powder-gold-dust.svg",
+      "name": "Gold Dust Powder"
+    },
+    {
+      "id": "seasonal-powders-powder-mango",
+      "theme": "seasonal",
+      "category": "powders",
+      "file": "seasonal/powders/powder-mango.svg",
+      "name": "Mango Powder"
+    },
+    {
+      "id": "seasonal-powders-powder-midnight",
+      "theme": "seasonal",
+      "category": "powders",
+      "file": "seasonal/powders/powder-midnight.svg",
+      "name": "Midnight Powder"
+    },
+    {
+      "id": "seasonal-powders-powder-peppermint",
+      "theme": "seasonal",
+      "category": "powders",
+      "file": "seasonal/powders/powder-peppermint.svg",
+      "name": "Peppermint Powder"
+    },
+    {
+      "id": "seasonal-powders-powder-rooibos",
+      "theme": "seasonal",
+      "category": "powders",
+      "file": "seasonal/powders/powder-rooibos.svg",
+      "name": "Rooibos Powder"
+    },
+    {
+      "id": "seasonal-powders-powder-snickerdoodle",
+      "theme": "seasonal",
+      "category": "powders",
+      "file": "seasonal/powders/powder-snickerdoodle.svg",
+      "name": "Snickerdoodle Powder"
+    },
+    {
+      "id": "seasonal-powders-powder-spiced-chocolate",
+      "theme": "seasonal",
+      "category": "powders",
+      "file": "seasonal/powders/powder-spiced-chocolate.svg",
+      "name": "Spiced Chocolate Powder"
+    },
+    {
+      "id": "seasonal-powders-powder-white-chocolate",
+      "theme": "seasonal",
+      "category": "powders",
+      "file": "seasonal/powders/powder-white-chocolate.svg",
+      "name": "White Chocolate Powder"
+    },
+    {
+      "id": "seasonal-shakers-autumn-sprinkles",
+      "theme": "seasonal",
+      "category": "shakers",
+      "file": "seasonal/shakers/autumn-sprinkles.svg",
+      "name": "Autumn Sprinkles"
+    },
+    {
+      "id": "seasonal-shakers-clover-sprinkles",
+      "theme": "seasonal",
+      "category": "shakers",
+      "file": "seasonal/shakers/clover-sprinkles.svg",
+      "name": "Clover Sprinkles"
+    },
+    {
+      "id": "seasonal-shakers-fiesta-swirls",
+      "theme": "seasonal",
+      "category": "shakers",
+      "file": "seasonal/shakers/fiesta-swirls.svg",
+      "name": "Fiesta Swirls"
+    },
+    {
+      "id": "seasonal-shakers-fruit-hoops",
+      "theme": "seasonal",
+      "category": "shakers",
+      "file": "seasonal/shakers/fruit-hoops.svg",
+      "name": "Fruit Hoops"
+    },
+    {
+      "id": "seasonal-shakers-holiday-sugar",
+      "theme": "seasonal",
+      "category": "shakers",
+      "file": "seasonal/shakers/holiday-sugar.svg",
+      "name": "Holiday Sugar"
+    },
+    {
+      "id": "seasonal-shakers-petal-sprinkles",
+      "theme": "seasonal",
+      "category": "shakers",
+      "file": "seasonal/shakers/petal-sprinkles.svg",
+      "name": "Petal Sprinkles"
+    },
+    {
+      "id": "seasonal-shakers-pop-crumbs",
+      "theme": "seasonal",
+      "category": "shakers",
+      "file": "seasonal/shakers/pop-crumbs.svg",
+      "name": "Pop Crumbs"
+    },
+    {
+      "id": "seasonal-shakers-spice-sprinkles",
+      "theme": "seasonal",
+      "category": "shakers",
+      "file": "seasonal/shakers/spice-sprinkles.svg",
+      "name": "Spice Sprinkles"
+    },
+    {
+      "id": "seasonal-shakers-spooky-sprinkles",
+      "theme": "seasonal",
+      "category": "shakers",
+      "file": "seasonal/shakers/spooky-sprinkles.svg",
+      "name": "Spooky Sprinkles"
+    },
+    {
+      "id": "seasonal-shakers-toffee-bits",
+      "theme": "seasonal",
+      "category": "shakers",
+      "file": "seasonal/shakers/toffee-bits.svg",
+      "name": "Toffee Bits"
+    },
+    {
+      "id": "seasonal-shakers-tropical-charms",
+      "theme": "seasonal",
+      "category": "shakers",
+      "file": "seasonal/shakers/tropical-charms.svg",
+      "name": "Tropical Charms"
+    },
+    {
+      "id": "seasonal-shakers-xo-sprinkles",
+      "theme": "seasonal",
+      "category": "shakers",
+      "file": "seasonal/shakers/xo-sprinkles.svg",
+      "name": "Xo Sprinkles"
+    },
+    {
+      "id": "seasonal-shells-black-shell",
+      "theme": "seasonal",
+      "category": "shells",
+      "file": "seasonal/shells/black-shell.svg",
+      "name": "Black Shell"
+    },
+    {
+      "id": "seasonal-shells-churro-shell",
+      "theme": "seasonal",
+      "category": "shells",
+      "file": "seasonal/shells/churro-shell.svg",
+      "name": "Churro Shell"
+    },
+    {
+      "id": "seasonal-shells-clover-shell",
+      "theme": "seasonal",
+      "category": "shells",
+      "file": "seasonal/shells/clover-shell.svg",
+      "name": "Clover Shell"
+    },
+    {
+      "id": "seasonal-shells-dirt-cake-shell",
+      "theme": "seasonal",
+      "category": "shells",
+      "file": "seasonal/shells/dirt-cake-shell.svg",
+      "name": "Dirt Cake Shell"
+    },
+    {
+      "id": "seasonal-shells-egg-waffle-shell",
+      "theme": "seasonal",
+      "category": "shells",
+      "file": "seasonal/shells/egg-waffle-shell.svg",
+      "name": "Egg Waffle Shell"
+    },
+    {
+      "id": "seasonal-shells-gingerbread-shell",
+      "theme": "seasonal",
+      "category": "shells",
+      "file": "seasonal/shells/gingerbread-shell.svg",
+      "name": "Gingerbread Shell"
+    },
+    {
+      "id": "seasonal-shells-harvest-shell",
+      "theme": "seasonal",
+      "category": "shells",
+      "file": "seasonal/shells/harvest-shell.svg",
+      "name": "Harvest Shell"
+    },
+    {
+      "id": "seasonal-shells-heart-shell",
+      "theme": "seasonal",
+      "category": "shells",
+      "file": "seasonal/shells/heart-shell.svg",
+      "name": "Heart Shell"
+    },
+    {
+      "id": "seasonal-shells-monster-shell",
+      "theme": "seasonal",
+      "category": "shells",
+      "file": "seasonal/shells/monster-shell.svg",
+      "name": "Monster Shell"
+    },
+    {
+      "id": "seasonal-shells-starlight-shell",
+      "theme": "seasonal",
+      "category": "shells",
+      "file": "seasonal/shells/starlight-shell.svg",
+      "name": "Starlight Shell"
+    },
+    {
+      "id": "seasonal-shells-sunburst-shell",
+      "theme": "seasonal",
+      "category": "shells",
+      "file": "seasonal/shells/sunburst-shell.svg",
+      "name": "Sunburst Shell"
+    },
+    {
+      "id": "seasonal-shells-tie-dye-shell",
+      "theme": "seasonal",
+      "category": "shells",
+      "file": "seasonal/shells/tie-dye-shell.svg",
+      "name": "Tie Dye Shell"
+    },
+    {
+      "id": "seasonal-syrups-syrup-berry-jelly",
+      "theme": "seasonal",
+      "category": "syrups",
+      "file": "seasonal/syrups/syrup-berry-jelly.svg",
+      "name": "Berry Jelly Syrup"
+    },
+    {
+      "id": "seasonal-syrups-syrup-cherry-cheesecake",
+      "theme": "seasonal",
+      "category": "syrups",
+      "file": "seasonal/syrups/syrup-cherry-cheesecake.svg",
+      "name": "Cherry Cheesecake Syrup"
+    },
+    {
+      "id": "seasonal-syrups-syrup-ginger",
+      "theme": "seasonal",
+      "category": "syrups",
+      "file": "seasonal/syrups/syrup-ginger.svg",
+      "name": "Ginger Syrup"
+    },
+    {
+      "id": "seasonal-syrups-syrup-golden-age",
+      "theme": "seasonal",
+      "category": "syrups",
+      "file": "seasonal/syrups/syrup-golden-age.svg",
+      "name": "Golden Age Syrup"
+    },
+    {
+      "id": "seasonal-syrups-syrup-honeydew",
+      "theme": "seasonal",
+      "category": "syrups",
+      "file": "seasonal/syrups/syrup-honeydew.svg",
+      "name": "Honeydew Syrup"
+    },
+    {
+      "id": "seasonal-syrups-syrup-mamey",
+      "theme": "seasonal",
+      "category": "syrups",
+      "file": "seasonal/syrups/syrup-mamey.svg",
+      "name": "Mamey Syrup"
+    },
+    {
+      "id": "seasonal-syrups-syrup-mint",
+      "theme": "seasonal",
+      "category": "syrups",
+      "file": "seasonal/syrups/syrup-mint.svg",
+      "name": "Mint Syrup"
+    },
+    {
+      "id": "seasonal-syrups-syrup-mystery",
+      "theme": "seasonal",
+      "category": "syrups",
+      "file": "seasonal/syrups/syrup-mystery.svg",
+      "name": "Mystery Syrup"
+    },
+    {
+      "id": "seasonal-syrups-syrup-potion",
+      "theme": "seasonal",
+      "category": "syrups",
+      "file": "seasonal/syrups/syrup-potion.svg",
+      "name": "Potion Syrup"
+    },
+    {
+      "id": "seasonal-syrups-syrup-pumpkin-spice",
+      "theme": "seasonal",
+      "category": "syrups",
+      "file": "seasonal/syrups/syrup-pumpkin-spice.svg",
+      "name": "Pumpkin Spice Syrup"
+    },
+    {
+      "id": "seasonal-syrups-syrup-sugar-cookie",
+      "theme": "seasonal",
+      "category": "syrups",
+      "file": "seasonal/syrups/syrup-sugar-cookie.svg",
+      "name": "Sugar Cookie Syrup"
+    },
+    {
+      "id": "seasonal-syrups-syrup-tropical-punch",
+      "theme": "seasonal",
+      "category": "syrups",
+      "file": "seasonal/syrups/syrup-tropical-punch.svg",
+      "name": "Tropical Punch Syrup"
     }
   ]
 }

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <linearGradient id="cherrybombmilk-body" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ef5a50"/>
+      <stop offset="1" stop-color="#e23b30"/>
+    </linearGradient>
+  </defs>
+  <ellipse cx="128" cy="224" rx="58" ry="11" fill="#000" opacity="0.12"/>
+  <path d="M78 96 L178 96 L178 206 Q178 212 172 212 L84 212 Q78 212 78 206 Z" fill="url(#cherrybombmilk-body)" stroke="#43291a" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M78 96 L128 60 L178 96 Z" fill="#f47b73" stroke="#43291a" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M128 60 L128 96" stroke="#43291a" stroke-width="5" stroke-linecap="round"/>
+  <path d="M101 78 L155 78" stroke="#43291a" stroke-width="5" stroke-linecap="round"/>
+  <path d="M88 104 L100 104 L100 200 L88 200 Z" fill="#fff" opacity="0.2"/>
+  <rect x="96" y="128" width="64" height="52" rx="8" fill="#fff1ef" stroke="#43291a" stroke-width="5"/>
+  <!-- cherry accent -->
+  <circle cx="120" cy="164" r="11" fill="#c81f2a" stroke="#43291a" stroke-width="5"/>
+  <circle cx="142" cy="166" r="9" fill="#d8333d" stroke="#43291a" stroke-width="5"/>
+  <path d="M120 153 Q128 134 144 132 M142 157 Q146 138 144 132" fill="none" stroke="#5a7a2a" stroke-width="5" stroke-linecap="round"/>
+  <path d="M144 132 Q152 126 160 130 Q154 136 146 134 Z" fill="#7cae54" stroke="#3c2a1a" stroke-width="3" stroke-linejoin="round"/>
+  <circle cx="116" cy="160" r="3" fill="#fff" opacity="0.7"/>
+</svg>

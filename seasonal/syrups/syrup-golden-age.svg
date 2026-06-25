@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <linearGradient id="golden-body" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#e8c772"/>
+      <stop offset="1" stop-color="#b58632"/>
+    </linearGradient>
+  </defs>
+  <ellipse cx="128" cy="224" rx="58" ry="11" fill="#000" opacity="0.12"/>
+  <!-- cap -->
+  <rect x="106" y="34" width="44" height="22" rx="6" fill="#5a4220" stroke="#3c2c16" stroke-width="6" stroke-linejoin="round"/>
+  <rect x="114" y="22" width="28" height="16" rx="5" fill="#74552b" stroke="#3c2c16" stroke-width="6" stroke-linejoin="round"/>
+  <!-- neck -->
+  <rect x="112" y="54" width="32" height="20" fill="#d4a84a" stroke="#3c2c16" stroke-width="6" stroke-linejoin="round"/>
+  <!-- body -->
+  <path d="M96 76 Q88 84 88 104 L88 178 Q88 206 128 206 Q168 206 168 178 L168 104 Q168 84 160 76 Z" fill="url(#golden-body)" stroke="#3c2c16" stroke-width="6" stroke-linejoin="round"/>
+  <!-- label dab -->
+  <ellipse cx="128" cy="148" rx="30" ry="34" fill="#fdf4dd" stroke="#3c2c16" stroke-width="5"/>
+  <!-- golden star/medal accent -->
+  <circle cx="128" cy="150" r="17" fill="#dcab47" stroke="#9c742a" stroke-width="3"/>
+  <path d="M128 138 l4 9 9.5 0.8 -7.2 6.3 2.2 9.3 -8.5 -5 -8.5 5 2.2 -9.3 -7.2 -6.3 9.5 -0.8 z" fill="#f6dd92" stroke="#9c742a" stroke-width="1.8" stroke-linejoin="round"/>
+  <!-- highlight -->
+  <path d="M104 92 Q98 100 98 120 L98 168" fill="none" stroke="#f3da9a" stroke-width="8" stroke-linecap="round" opacity="0.82"/>
+  <circle cx="150" cy="100" r="5" fill="#fbeec3" opacity="0.88"/>
+</svg>

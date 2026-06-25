@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <radialGradient id="popcrumbs-pile" cx="50%" cy="40%" r="65%">
+      <stop offset="0%" stop-color="#fff2fb"/>
+      <stop offset="100%" stop-color="#e8c9f0"/>
+    </radialGradient>
+  </defs>
+  <ellipse cx="128" cy="224" rx="62" ry="11" fill="#000" opacity="0.12"/>
+  <path d="M58 150 C58 120 92 104 128 104 C168 104 200 122 200 150 C200 172 168 184 128 184 C90 184 58 174 58 150 Z" fill="url(#popcrumbs-pile)" stroke="#43291a" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M70 138 C92 124 168 124 188 140 C170 130 96 130 70 138 Z" fill="#fff" opacity="0.4"/>
+  <!-- jagged crumb chunks -->
+  <g stroke="#3c2a1a" stroke-width="3.5" stroke-linejoin="round">
+    <path d="M88 124 L96 122 L100 130 L94 136 L86 132 Z" fill="#ff5a8a"/>
+    <path d="M156 122 L165 124 L166 132 L158 136 L152 130 Z" fill="#3aa0ff"/>
+    <path d="M122 154 L131 152 L136 160 L129 167 L120 162 Z" fill="#ffc63d"/>
+    <path d="M76 158 L84 156 L87 163 L81 169 L73 164 Z" fill="#5fcf6e"/>
+    <path d="M170 156 L178 158 L180 165 L173 170 L166 164 Z" fill="#ff8a2b"/>
+    <path d="M114 128 L121 127 L124 134 L118 138 L111 133 Z" fill="#c46bff"/>
+    <path d="M142 158 L149 157 L152 164 L146 168 L139 163 Z" fill="#ff5a8a"/>
+  </g>
+  <!-- pop sparkles -->
+  <g stroke="#fff" stroke-width="2.5" stroke-linecap="round">
+    <line x1="108" y1="118" x2="108" y2="113"/>
+    <line x1="105" y1="115" x2="111" y2="115"/>
+    <line x1="148" y1="146" x2="148" y2="141"/>
+    <line x1="145" y1="143" x2="151" y2="143"/>
+    <line x1="96" y1="148" x2="96" y2="144"/>
+    <line x1="93" y1="146" x2="99" y2="146"/>
+  </g>
+</svg>

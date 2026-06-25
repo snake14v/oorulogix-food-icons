@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <radialGradient id="fiestaswirls-pile" cx="50%" cy="40%" r="65%">
+      <stop offset="0%" stop-color="#fff7e8"/>
+      <stop offset="100%" stop-color="#f5d98f"/>
+    </radialGradient>
+  </defs>
+  <ellipse cx="128" cy="224" rx="62" ry="11" fill="#000" opacity="0.12"/>
+  <path d="M58 150 C58 120 92 104 128 104 C168 104 200 122 200 150 C200 172 168 184 128 184 C90 184 58 174 58 150 Z" fill="url(#fiestaswirls-pile)" stroke="#43291a" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M70 138 C92 124 168 124 188 140 C170 130 96 130 70 138 Z" fill="#fff" opacity="0.4"/>
+  <!-- swirl rods (rotated rounded bars with two-tone) -->
+  <g stroke="#3c2a1a" stroke-width="3.5" stroke-linecap="round">
+    <line x1="86" y1="138" x2="104" y2="124" stroke="#ff5a5a" stroke-width="9"/>
+    <line x1="86" y1="138" x2="104" y2="124"/>
+    <line x1="150" y1="124" x2="170" y2="136" stroke="#3aa0ff" stroke-width="9"/>
+    <line x1="150" y1="124" x2="170" y2="136"/>
+    <line x1="116" y1="170" x2="138" y2="154" stroke="#ffc63d" stroke-width="9"/>
+    <line x1="116" y1="170" x2="138" y2="154"/>
+    <line x1="74" y1="166" x2="92" y2="158" stroke="#5fcf6e" stroke-width="9"/>
+    <line x1="74" y1="166" x2="92" y2="158"/>
+    <line x1="166" y1="166" x2="184" y2="156" stroke="#c46bff" stroke-width="9"/>
+    <line x1="166" y1="166" x2="184" y2="156"/>
+    <line x1="118" y1="128" x2="134" y2="138" stroke="#ff8a2b" stroke-width="9"/>
+    <line x1="118" y1="128" x2="134" y2="138"/>
+    <line x1="146" y1="160" x2="160" y2="170" stroke="#ff5a9e" stroke-width="9"/>
+    <line x1="146" y1="160" x2="160" y2="170"/>
+  </g>
+</svg>

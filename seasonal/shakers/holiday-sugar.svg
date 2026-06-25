@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <radialGradient id="holidaysugar-pile" cx="50%" cy="40%" r="65%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#e6efe6"/>
+    </radialGradient>
+  </defs>
+  <ellipse cx="128" cy="224" rx="62" ry="11" fill="#000" opacity="0.12"/>
+  <path d="M58 150 C58 120 92 104 128 104 C168 104 200 122 200 150 C200 172 168 184 128 184 C90 184 58 174 58 150 Z" fill="url(#holidaysugar-pile)" stroke="#43291a" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M70 138 C92 124 168 124 188 140 C170 130 96 130 70 138 Z" fill="#fff" opacity="0.5"/>
+  <!-- red sugar crystals (diamonds) -->
+  <g stroke="#3c2a1a" stroke-width="3.5" stroke-linejoin="round">
+    <path d="M92 128 L99 134 L92 140 L85 134 Z" fill="#e23b3b"/>
+    <path d="M160 126 L167 133 L160 140 L153 133 Z" fill="#3aa64a"/>
+    <path d="M128 156 L135 163 L128 170 L121 163 Z" fill="#e23b3b"/>
+    <path d="M108 134 L114 139 L108 144 L102 139 Z" fill="#3aa64a"/>
+    <path d="M148 134 L154 139 L148 144 L142 139 Z" fill="#e23b3b"/>
+    <path d="M82 158 L88 163 L82 168 L76 163 Z" fill="#3aa64a"/>
+    <path d="M174 158 L180 163 L174 168 L168 163 Z" fill="#e23b3b"/>
+    <path d="M106 166 L112 171 L106 176 L100 171 Z" fill="#3aa64a"/>
+    <path d="M152 166 L158 171 L152 176 L146 171 Z" fill="#e23b3b"/>
+  </g>
+  <!-- sparkles -->
+  <circle cx="120" cy="142" r="2" fill="#fff"/>
+  <circle cx="140" cy="150" r="2" fill="#fff"/>
+</svg>

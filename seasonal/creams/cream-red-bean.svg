@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <linearGradient id="cream-red-bean-body" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#bd726c"/>
+      <stop offset="1" stop-color="#984a45"/>
+    </linearGradient>
+  </defs>
+  <ellipse cx="128" cy="224" rx="58" ry="11" fill="#000" opacity="0.12"/>
+  <path d="M128 36
+    C150 36 164 54 158 72
+    C176 70 190 86 182 104
+    C200 104 210 122 196 138
+    C210 142 214 160 198 172
+    C206 188 192 206 168 208
+    L88 208
+    C64 206 50 188 58 172
+    C42 160 46 142 60 138
+    C46 122 56 104 74 104
+    C66 86 80 70 98 72
+    C92 54 106 36 128 36 Z"
+    fill="url(#cream-red-bean-body)" stroke="#5a3028" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M74 104 C108 96 150 96 182 104" fill="none" stroke="#8c423d" stroke-width="5" stroke-linecap="round"/>
+  <path d="M60 138 C104 128 154 128 196 138" fill="none" stroke="#8c423d" stroke-width="5" stroke-linecap="round"/>
+  <path d="M58 172 C104 162 154 162 198 172" fill="none" stroke="#8c423d" stroke-width="5" stroke-linecap="round"/>
+  <!-- red bean specks -->
+  <g fill="#5e2f2a">
+    <ellipse cx="112" cy="128" rx="6" ry="4" transform="rotate(20 112 128)"/>
+    <ellipse cx="150" cy="160" rx="6" ry="4" transform="rotate(-15 150 160)"/>
+    <ellipse cx="96" cy="170" rx="5" ry="3.5" transform="rotate(10 96 170)"/>
+  </g>
+  <ellipse cx="104" cy="118" rx="9" ry="14" fill="#d49b96" opacity="0.7"/>
+  <path d="M120 50 C126 44 134 44 138 52" fill="none" stroke="#e3bcb8" stroke-width="6" stroke-linecap="round"/>
+</svg>

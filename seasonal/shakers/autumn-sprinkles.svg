@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <radialGradient id="autumnsprinkles-pile" cx="50%" cy="40%" r="65%">
+      <stop offset="0%" stop-color="#ffe7c4"/>
+      <stop offset="100%" stop-color="#e8a45e"/>
+    </radialGradient>
+  </defs>
+  <ellipse cx="128" cy="224" rx="62" ry="11" fill="#000" opacity="0.12"/>
+  <path d="M58 150 C58 120 92 104 128 104 C168 104 200 122 200 150 C200 172 168 184 128 184 C90 184 58 174 58 150 Z" fill="url(#autumnsprinkles-pile)" stroke="#43291a" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M70 138 C92 124 168 124 188 140 C170 130 96 130 70 138 Z" fill="#fff" opacity="0.4"/>
+  <!-- red leaf -->
+  <g transform="rotate(-18 96 134)">
+    <path d="M96 124 C104 128 104 140 96 146 C88 140 88 128 96 124 Z" fill="#d6452f" stroke="#3c2a1a" stroke-width="4" stroke-linejoin="round"/>
+    <path d="M96 126 L96 144" stroke="#3c2a1a" stroke-width="2.5"/>
+  </g>
+  <!-- orange leaf -->
+  <g transform="rotate(22 158 128)">
+    <path d="M158 118 C166 122 166 134 158 140 C150 134 150 122 158 118 Z" fill="#f08a2c" stroke="#3c2a1a" stroke-width="4" stroke-linejoin="round"/>
+    <path d="M158 120 L158 138" stroke="#3c2a1a" stroke-width="2.5"/>
+  </g>
+  <!-- brown leaf -->
+  <g transform="rotate(8 128 162)">
+    <path d="M128 152 C136 156 136 168 128 174 C120 168 120 156 128 152 Z" fill="#9c5a2c" stroke="#3c2a1a" stroke-width="4" stroke-linejoin="round"/>
+    <path d="M128 154 L128 172" stroke="#3c2a1a" stroke-width="2.5"/>
+  </g>
+  <!-- scatter dots -->
+  <ellipse cx="80" cy="162" rx="7" ry="4" fill="#d6452f" stroke="#3c2a1a" stroke-width="4" transform="rotate(20 80 162)"/>
+  <ellipse cx="172" cy="160" rx="7" ry="4" fill="#f08a2c" stroke="#3c2a1a" stroke-width="4" transform="rotate(-25 172 160)"/>
+  <ellipse cx="106" cy="168" rx="6" ry="4" fill="#9c5a2c" stroke="#3c2a1a" stroke-width="4" transform="rotate(-12 106 168)"/>
+  <ellipse cx="150" cy="166" rx="6" ry="4" fill="#d6452f" stroke="#3c2a1a" stroke-width="4" transform="rotate(28 150 166)"/>
+</svg>

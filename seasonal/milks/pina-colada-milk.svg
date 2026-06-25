@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <linearGradient id="pinacoladamilk-body" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f7ebbd"/>
+      <stop offset="1" stop-color="#f2e2a8"/>
+    </linearGradient>
+  </defs>
+  <ellipse cx="128" cy="224" rx="58" ry="11" fill="#000" opacity="0.12"/>
+  <path d="M78 96 L178 96 L178 206 Q178 212 172 212 L84 212 Q78 212 78 206 Z" fill="url(#pinacoladamilk-body)" stroke="#5a3a1f" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M78 96 L128 60 L178 96 Z" fill="#f9f0cd" stroke="#5a3a1f" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M128 60 L128 96" stroke="#5a3a1f" stroke-width="5" stroke-linecap="round"/>
+  <path d="M101 78 L155 78" stroke="#5a3a1f" stroke-width="5" stroke-linecap="round"/>
+  <path d="M88 104 L100 104 L100 200 L88 200 Z" fill="#fff" opacity="0.26"/>
+  <rect x="96" y="128" width="64" height="52" rx="8" fill="#fffbe9" stroke="#5a3a1f" stroke-width="5"/>
+  <!-- pineapple accent -->
+  <ellipse cx="124" cy="160" rx="13" ry="16" fill="#f4c534" stroke="#5a3a1f" stroke-width="5"/>
+  <path d="M118 150 L130 170 M130 150 L118 170 M124 146 L124 174" stroke="#b8862a" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M124 144 Q118 130 110 132 M124 144 Q124 128 124 126 M124 144 Q130 130 138 132" fill="none" stroke="#5aa84a" stroke-width="5" stroke-linecap="round"/>
+  <!-- coconut wedge -->
+  <path d="M142 168 Q156 162 158 176 Q150 182 142 178 Z" fill="#fff7e8" stroke="#5a3a1f" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M144 170 Q154 166 156 175" fill="none" stroke="#8a6a44" stroke-width="3" stroke-linecap="round"/>
+</svg>

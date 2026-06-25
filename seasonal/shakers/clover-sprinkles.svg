@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <radialGradient id="cloversprinkles-pile" cx="50%" cy="40%" r="65%">
+      <stop offset="0%" stop-color="#eafbe8"/>
+      <stop offset="100%" stop-color="#bfe6b0"/>
+    </radialGradient>
+  </defs>
+  <ellipse cx="128" cy="224" rx="62" ry="11" fill="#000" opacity="0.12"/>
+  <path d="M58 150 C58 120 92 104 128 104 C168 104 200 122 200 150 C200 172 168 184 128 184 C90 184 58 174 58 150 Z" fill="url(#cloversprinkles-pile)" stroke="#43291a" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M70 138 C92 124 168 124 188 140 C170 130 96 130 70 138 Z" fill="#fff" opacity="0.45"/>
+  <!-- big clover -->
+  <g stroke="#3c2a1a" stroke-width="4" stroke-linejoin="round" transform="rotate(-10 96 132)">
+    <circle cx="90" cy="128" r="6.5" fill="#3fae4a"/>
+    <circle cx="102" cy="128" r="6.5" fill="#3fae4a"/>
+    <circle cx="96" cy="120" r="6.5" fill="#3fae4a"/>
+    <circle cx="96" cy="136" r="6.5" fill="#3fae4a"/>
+    <path d="M96 138 L99 150" stroke="#2e7d32" stroke-width="3.5" stroke-linecap="round"/>
+  </g>
+  <!-- mid clover -->
+  <g stroke="#3c2a1a" stroke-width="4" stroke-linejoin="round" transform="rotate(15 158 130)">
+    <circle cx="153" cy="127" r="6" fill="#5cc769"/>
+    <circle cx="163" cy="127" r="6" fill="#5cc769"/>
+    <circle cx="158" cy="120" r="6" fill="#5cc769"/>
+    <circle cx="158" cy="134" r="6" fill="#5cc769"/>
+    <path d="M158 136 L161 147" stroke="#2e7d32" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  <!-- small clover -->
+  <g stroke="#3c2a1a" stroke-width="3.5" stroke-linejoin="round" transform="rotate(5 126 162)">
+    <circle cx="122" cy="160" r="5" fill="#3fae4a"/>
+    <circle cx="130" cy="160" r="5" fill="#3fae4a"/>
+    <circle cx="126" cy="154" r="5" fill="#3fae4a"/>
+    <circle cx="126" cy="166" r="5" fill="#3fae4a"/>
+  </g>
+  <!-- dots -->
+  <ellipse cx="84" cy="162" rx="6" ry="4" fill="#5cc769" stroke="#3c2a1a" stroke-width="3.5" transform="rotate(20 84 162)"/>
+  <ellipse cx="172" cy="160" rx="6" ry="4" fill="#3fae4a" stroke="#3c2a1a" stroke-width="3.5" transform="rotate(-22 172 160)"/>
+</svg>

@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <clipPath id="cream-rainbow-clip">
+      <path d="M128 36
+        C150 36 164 54 158 72
+        C176 70 190 86 182 104
+        C200 104 210 122 196 138
+        C210 142 214 160 198 172
+        C206 188 192 206 168 208
+        L88 208
+        C64 206 50 188 58 172
+        C42 160 46 142 60 138
+        C46 122 56 104 74 104
+        C66 86 80 70 98 72
+        C92 54 106 36 128 36 Z"/>
+    </clipPath>
+  </defs>
+  <ellipse cx="128" cy="224" rx="58" ry="11" fill="#000" opacity="0.12"/>
+  <g clip-path="url(#cream-rainbow-clip)">
+    <rect x="20" y="30" width="216" height="32" fill="#ff5a5a"/>
+    <rect x="20" y="62" width="216" height="30" fill="#ff9f43"/>
+    <rect x="20" y="92" width="216" height="30" fill="#ffd93b"/>
+    <rect x="20" y="122" width="216" height="30" fill="#4fc36a"/>
+    <rect x="20" y="152" width="216" height="30" fill="#4aa8e0"/>
+    <rect x="20" y="182" width="216" height="46" fill="#9b6ad6"/>
+  </g>
+  <path d="M128 36
+    C150 36 164 54 158 72
+    C176 70 190 86 182 104
+    C200 104 210 122 196 138
+    C210 142 214 160 198 172
+    C206 188 192 206 168 208
+    L88 208
+    C64 206 50 188 58 172
+    C42 160 46 142 60 138
+    C46 122 56 104 74 104
+    C66 86 80 70 98 72
+    C92 54 106 36 128 36 Z"
+    fill="none" stroke="#5a3a1f" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M120 50 C126 44 134 44 138 52" fill="none" stroke="#ffffff" stroke-width="6" stroke-linecap="round"/>
+  <ellipse cx="102" cy="120" rx="9" ry="16" fill="#ffffff" opacity="0.35"/>
+</svg>

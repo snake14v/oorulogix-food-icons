@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <linearGradient id="heartshell-body" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f88cba"/>
+      <stop offset="1" stop-color="#e2548e"/>
+    </linearGradient>
+    <linearGradient id="heartshell-cream" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fff7f0"/>
+      <stop offset="1" stop-color="#ffe6d6"/>
+    </linearGradient>
+  </defs>
+  <ellipse cx="128" cy="224" rx="62" ry="11" fill="#000" opacity="0.12"/>
+  <path d="M56 96 C56 64 96 56 128 56 C160 56 200 64 200 96 L200 158 C200 192 160 200 128 200 C96 200 56 192 56 158 Z" fill="url(#heartshell-body)" stroke="#7a2347" stroke-width="6" stroke-linejoin="round"/>
+  <ellipse cx="72" cy="98" rx="20" ry="30" fill="url(#heartshell-cream)" stroke="#7a2347" stroke-width="6"/>
+  <ellipse cx="69" cy="92" rx="8" ry="13" fill="#fffdf8" opacity="0.7"/>
+  <ellipse cx="184" cy="98" rx="20" ry="30" fill="url(#heartshell-cream)" stroke="#7a2347" stroke-width="6"/>
+  <ellipse cx="181" cy="92" rx="8" ry="13" fill="#fffdf8" opacity="0.7"/>
+  <!-- white hearts -->
+  <path d="M112 108 C108 100 96 102 96 112 C96 120 112 130 112 130 C112 130 128 120 128 112 C128 102 116 100 112 108 Z" fill="#fff5fa" stroke="#7a2347" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M152 138 C149 132 140 133 140 141 C140 147 152 155 152 155 C152 155 164 147 164 141 C164 133 155 132 152 138 Z" fill="#fff5fa" stroke="#7a2347" stroke-width="4" stroke-linejoin="round"/>
+  <!-- sprinkle dots -->
+  <circle cx="100" cy="150" r="5" fill="#fff5fa"/>
+  <circle cx="170" cy="110" r="5" fill="#fff5fa"/>
+  <circle cx="128" cy="160" r="4" fill="#fff5fa"/>
+  <path d="M86 76 C104 70 122 70 132 75" stroke="#ffb6d4" stroke-width="7" stroke-linecap="round" fill="none" opacity="0.7"/>
+</svg>

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <linearGradient id="pumpkin-body" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#e8923f"/>
+      <stop offset="1" stop-color="#b85e1c"/>
+    </linearGradient>
+  </defs>
+  <ellipse cx="128" cy="224" rx="58" ry="11" fill="#000" opacity="0.12"/>
+  <!-- cap -->
+  <rect x="106" y="34" width="44" height="22" rx="6" fill="#4a2c14" stroke="#3c2a1a" stroke-width="6" stroke-linejoin="round"/>
+  <rect x="114" y="22" width="28" height="16" rx="5" fill="#5e3a1e" stroke="#3c2a1a" stroke-width="6" stroke-linejoin="round"/>
+  <!-- neck -->
+  <rect x="112" y="54" width="32" height="20" fill="#d97a2b" stroke="#3c2a1a" stroke-width="6" stroke-linejoin="round"/>
+  <!-- body -->
+  <path d="M96 76 Q88 84 88 104 L88 178 Q88 206 128 206 Q168 206 168 178 L168 104 Q168 84 160 76 Z" fill="url(#pumpkin-body)" stroke="#3c2a1a" stroke-width="6" stroke-linejoin="round"/>
+  <!-- label dab -->
+  <ellipse cx="128" cy="148" rx="30" ry="34" fill="#fdf3e6" stroke="#3c2a1a" stroke-width="5"/>
+  <!-- pumpkin accent -->
+  <path d="M128 132 q-16 0 -16 16 q0 16 16 16 q16 0 16 -16 q0 -16 -16 -16 z" fill="#d97a2b" stroke="#9c4e16" stroke-width="3"/>
+  <path d="M128 130 q-4 6 0 36 M118 134 q-3 8 0 28 M138 134 q3 8 0 28" fill="none" stroke="#9c4e16" stroke-width="2.5"/>
+  <path d="M128 130 q2 -8 8 -8" fill="none" stroke="#5e7a2a" stroke-width="4" stroke-linecap="round"/>
+  <!-- highlight -->
+  <path d="M104 92 Q98 100 98 120 L98 168" fill="none" stroke="#f6c089" stroke-width="8" stroke-linecap="round" opacity="0.8"/>
+  <circle cx="150" cy="100" r="5" fill="#fce3c8" opacity="0.85"/>
+</svg>

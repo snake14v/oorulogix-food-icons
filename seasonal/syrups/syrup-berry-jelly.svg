@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <linearGradient id="berry-body" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#c44a82"/>
+      <stop offset="1" stop-color="#7c1a48"/>
+    </linearGradient>
+  </defs>
+  <ellipse cx="128" cy="224" rx="58" ry="11" fill="#000" opacity="0.12"/>
+  <!-- cap -->
+  <rect x="106" y="34" width="44" height="22" rx="6" fill="#3c1430" stroke="#2c0e24" stroke-width="6" stroke-linejoin="round"/>
+  <rect x="114" y="22" width="28" height="16" rx="5" fill="#522042" stroke="#2c0e24" stroke-width="6" stroke-linejoin="round"/>
+  <!-- neck -->
+  <rect x="112" y="54" width="32" height="20" fill="#a02a5a" stroke="#2c0e24" stroke-width="6" stroke-linejoin="round"/>
+  <!-- body -->
+  <path d="M96 76 Q88 84 88 104 L88 178 Q88 206 128 206 Q168 206 168 178 L168 104 Q168 84 160 76 Z" fill="url(#berry-body)" stroke="#2c0e24" stroke-width="6" stroke-linejoin="round"/>
+  <!-- label dab -->
+  <ellipse cx="128" cy="148" rx="30" ry="34" fill="#fdeef5" stroke="#2c0e24" stroke-width="5"/>
+  <!-- berry cluster accent -->
+  <circle cx="121" cy="150" r="7" fill="#8e2e66" stroke="#5a1640" stroke-width="2"/>
+  <circle cx="134" cy="150" r="7" fill="#a93a78" stroke="#5a1640" stroke-width="2"/>
+  <circle cx="128" cy="161" r="7" fill="#8e2e66" stroke="#5a1640" stroke-width="2"/>
+  <circle cx="119" cy="148" r="2" fill="#f0c8de" opacity="0.8"/>
+  <circle cx="132" cy="148" r="2" fill="#f0c8de" opacity="0.8"/>
+  <path d="M124 142 q4 -8 8 -8" fill="none" stroke="#4a9c3a" stroke-width="3.5" stroke-linecap="round"/>
+  <!-- highlight -->
+  <path d="M104 92 Q98 100 98 120 L98 168" fill="none" stroke="#d98ab2" stroke-width="8" stroke-linecap="round" opacity="0.75"/>
+  <circle cx="150" cy="100" r="5" fill="#ecbcd4" opacity="0.8"/>
+</svg>

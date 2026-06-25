@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <linearGradient id="cookie-body" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f3d488"/>
+      <stop offset="1" stop-color="#d9aa45"/>
+    </linearGradient>
+  </defs>
+  <ellipse cx="128" cy="224" rx="58" ry="11" fill="#000" opacity="0.12"/>
+  <!-- cap -->
+  <rect x="106" y="34" width="44" height="22" rx="6" fill="#5a3a1f" stroke="#43291a" stroke-width="6" stroke-linejoin="round"/>
+  <rect x="114" y="22" width="28" height="16" rx="5" fill="#714c2a" stroke="#43291a" stroke-width="6" stroke-linejoin="round"/>
+  <!-- neck -->
+  <rect x="112" y="54" width="32" height="20" fill="#e8c46a" stroke="#43291a" stroke-width="6" stroke-linejoin="round"/>
+  <!-- body -->
+  <path d="M96 76 Q88 84 88 104 L88 178 Q88 206 128 206 Q168 206 168 178 L168 104 Q168 84 160 76 Z" fill="url(#cookie-body)" stroke="#43291a" stroke-width="6" stroke-linejoin="round"/>
+  <!-- label dab -->
+  <ellipse cx="128" cy="148" rx="30" ry="34" fill="#fff7e6" stroke="#43291a" stroke-width="5"/>
+  <!-- cookie accent -->
+  <circle cx="128" cy="148" r="18" fill="#d9aa45" stroke="#9c7227" stroke-width="3"/>
+  <circle cx="121" cy="142" r="3" fill="#6e4a1d"/>
+  <circle cx="135" cy="145" r="3" fill="#6e4a1d"/>
+  <circle cx="126" cy="156" r="3" fill="#6e4a1d"/>
+  <circle cx="136" cy="155" r="2.5" fill="#6e4a1d"/>
+  <!-- highlight -->
+  <path d="M104 92 Q98 100 98 120 L98 168" fill="none" stroke="#fbe9b8" stroke-width="8" stroke-linecap="round" opacity="0.85"/>
+  <circle cx="150" cy="100" r="5" fill="#fff3d4" opacity="0.9"/>
+</svg>

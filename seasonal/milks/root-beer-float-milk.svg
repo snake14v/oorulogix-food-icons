@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <linearGradient id="rootbeerfloatmilk-body" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#6e4a30"/>
+      <stop offset="1" stop-color="#5a3a24"/>
+    </linearGradient>
+    <clipPath id="rootbeerfloatmilk-clip">
+      <path d="M78 96 L178 96 L178 206 Q178 212 172 212 L84 212 Q78 212 78 206 Z"/>
+    </clipPath>
+  </defs>
+  <ellipse cx="128" cy="224" rx="58" ry="11" fill="#000" opacity="0.12"/>
+  <path d="M78 96 L178 96 L178 206 Q178 212 172 212 L84 212 Q78 212 78 206 Z" fill="url(#rootbeerfloatmilk-body)" stroke="#3c2a1a" stroke-width="6" stroke-linejoin="round"/>
+  <!-- cream foam band near top of body -->
+  <g clip-path="url(#rootbeerfloatmilk-clip)">
+    <path d="M78 116 Q92 108 104 116 Q116 108 128 116 Q140 108 152 116 Q164 108 178 116 L178 132 L78 132 Z" fill="#f6ecd6"/>
+    <circle cx="96" cy="114" r="7" fill="#fbf4e4"/>
+    <circle cx="120" cy="112" r="8" fill="#fbf4e4"/>
+    <circle cx="146" cy="114" r="7" fill="#fbf4e4"/>
+    <circle cx="166" cy="116" r="6" fill="#fbf4e4"/>
+  </g>
+  <path d="M78 96 L128 60 L178 96 Z" fill="#7d5740" stroke="#3c2a1a" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M128 60 L128 96" stroke="#3c2a1a" stroke-width="5" stroke-linecap="round"/>
+  <path d="M101 78 L155 78" stroke="#3c2a1a" stroke-width="5" stroke-linecap="round"/>
+  <path d="M88 134 L100 134 L100 200 L88 200 Z" fill="#fff" opacity="0.12"/>
+  <rect x="96" y="146" width="64" height="48" rx="8" fill="#f7eddb" stroke="#3c2a1a" stroke-width="5"/>
+  <!-- root beer mug accent -->
+  <path d="M118 158 L142 158 L140 184 Q140 188 136 188 L124 188 Q120 188 120 184 Z" fill="#7a4a28" stroke="#3c2a1a" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M120 162 Q130 158 140 162 L140 158 L120 158 Z" fill="#f6ecd6"/>
+  <circle cx="126" cy="159" r="2.5" fill="#fbf4e4"/>
+  <circle cx="134" cy="160" r="2.5" fill="#fbf4e4"/>
+  <path d="M142 164 Q150 164 150 172 Q150 180 142 180" fill="none" stroke="#3c2a1a" stroke-width="4" stroke-linecap="round"/>
+</svg>

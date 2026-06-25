@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <linearGradient id="potion-body" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#6fce53"/>
+      <stop offset="1" stop-color="#3f8c2e"/>
+    </linearGradient>
+    <radialGradient id="potion-glow" cx="0.5" cy="0.45" r="0.6">
+      <stop offset="0" stop-color="#bdf79a" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#bdf79a" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <ellipse cx="128" cy="224" rx="58" ry="11" fill="#000" opacity="0.12"/>
+  <ellipse cx="128" cy="140" rx="78" ry="86" fill="url(#potion-glow)"/>
+  <!-- cap -->
+  <rect x="106" y="34" width="44" height="22" rx="6" fill="#2c5520" stroke="#1d3a15" stroke-width="6" stroke-linejoin="round"/>
+  <rect x="114" y="22" width="28" height="16" rx="5" fill="#3c6e2a" stroke="#1d3a15" stroke-width="6" stroke-linejoin="round"/>
+  <!-- neck -->
+  <rect x="112" y="54" width="32" height="20" fill="#4faa3a" stroke="#1d3a15" stroke-width="6" stroke-linejoin="round"/>
+  <!-- body -->
+  <path d="M96 76 Q88 84 88 104 L88 178 Q88 206 128 206 Q168 206 168 178 L168 104 Q168 84 160 76 Z" fill="url(#potion-body)" stroke="#1d3a15" stroke-width="6" stroke-linejoin="round"/>
+  <!-- label dab -->
+  <ellipse cx="128" cy="148" rx="30" ry="34" fill="#f4fbef" stroke="#1d3a15" stroke-width="5"/>
+  <path d="M128 128 l7 14 15 2 -11 11 3 15 -14 -7 -14 7 3 -15 -11 -11 15 -2 z" fill="#4faa3a" stroke="#2c5520" stroke-width="2" stroke-linejoin="round"/>
+  <!-- highlight -->
+  <path d="M104 92 Q98 100 98 120 L98 168" fill="none" stroke="#bdf79a" stroke-width="8" stroke-linecap="round" opacity="0.8"/>
+  <circle cx="150" cy="100" r="5" fill="#eafce0" opacity="0.85"/>
+</svg>

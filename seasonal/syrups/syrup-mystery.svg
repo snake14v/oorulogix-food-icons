@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <linearGradient id="mystery-body" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ff9bb8"/>
+      <stop offset="0.3" stop-color="#ffd36a"/>
+      <stop offset="0.55" stop-color="#8be08f"/>
+      <stop offset="0.78" stop-color="#6ab8f0"/>
+      <stop offset="1" stop-color="#c08bf0"/>
+    </linearGradient>
+  </defs>
+  <ellipse cx="128" cy="224" rx="58" ry="11" fill="#000" opacity="0.12"/>
+  <!-- cap -->
+  <rect x="106" y="34" width="44" height="22" rx="6" fill="#3a2c4a" stroke="#2a1d3c" stroke-width="6" stroke-linejoin="round"/>
+  <rect x="114" y="22" width="28" height="16" rx="5" fill="#4e3a66" stroke="#2a1d3c" stroke-width="6" stroke-linejoin="round"/>
+  <!-- neck -->
+  <rect x="112" y="54" width="32" height="20" fill="#b88be0" stroke="#2a1d3c" stroke-width="6" stroke-linejoin="round"/>
+  <!-- body -->
+  <path d="M96 76 Q88 84 88 104 L88 178 Q88 206 128 206 Q168 206 168 178 L168 104 Q168 84 160 76 Z" fill="url(#mystery-body)" stroke="#2a1d3c" stroke-width="6" stroke-linejoin="round"/>
+  <!-- label dab -->
+  <ellipse cx="128" cy="148" rx="30" ry="34" fill="#f7f0ff" stroke="#2a1d3c" stroke-width="5"/>
+  <!-- question mark accent -->
+  <path d="M119 138 q0 -12 12 -12 q12 0 12 12 q0 9 -10 12 q-4 1.5 -4 7" fill="none" stroke="#8a4fd0" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="129" cy="166" r="4" fill="#8a4fd0"/>
+  <!-- sparkles -->
+  <path d="M108 120 l2 5 5 2 -5 2 -2 5 -2 -5 -5 -2 5 -2 z" fill="#fff" opacity="0.9"/>
+  <path d="M150 170 l1.5 4 4 1.5 -4 1.5 -1.5 4 -1.5 -4 -4 -1.5 4 -1.5 z" fill="#fff" opacity="0.9"/>
+  <!-- highlight -->
+  <path d="M104 92 Q98 100 98 120 L98 168" fill="none" stroke="#ffffff" stroke-width="7" stroke-linecap="round" opacity="0.55"/>
+</svg>

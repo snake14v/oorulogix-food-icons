@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <linearGradient id="cream-snow-body" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#e8f1fb"/>
+    </linearGradient>
+  </defs>
+  <ellipse cx="128" cy="224" rx="58" ry="11" fill="#000" opacity="0.12"/>
+  <path d="M128 36
+    C150 36 164 54 158 72
+    C176 70 190 86 182 104
+    C200 104 210 122 196 138
+    C210 142 214 160 198 172
+    C206 188 192 206 168 208
+    L88 208
+    C64 206 50 188 58 172
+    C42 160 46 142 60 138
+    C46 122 56 104 74 104
+    C66 86 80 70 98 72
+    C92 54 106 36 128 36 Z"
+    fill="url(#cream-snow-body)" stroke="#5a3a1f" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M74 104 C108 96 150 96 182 104" fill="none" stroke="#cfe0f2" stroke-width="5" stroke-linecap="round"/>
+  <path d="M60 138 C104 128 154 128 196 138" fill="none" stroke="#cfe0f2" stroke-width="5" stroke-linecap="round"/>
+  <path d="M58 172 C104 162 154 162 198 172" fill="none" stroke="#cfe0f2" stroke-width="5" stroke-linecap="round"/>
+  <ellipse cx="104" cy="120" rx="10" ry="16" fill="#ffffff" opacity="0.9"/>
+  <!-- sparkles -->
+  <g fill="#bcd6f0" stroke="#9cc0e8" stroke-width="2">
+    <path d="M120 88 l4 8 8 4 -8 4 -4 8 -4 -8 -8 -4 8 -4 z"/>
+    <path d="M150 150 l3 6 6 3 -6 3 -3 6 -3 -6 -6 -3 6 -3 z"/>
+    <path d="M90 162 l3 5 5 3 -5 3 -3 5 -3 -5 -5 -3 5 -3 z"/>
+  </g>
+  <path d="M120 50 C126 44 134 44 138 52" fill="none" stroke="#ffffff" stroke-width="6" stroke-linecap="round"/>
+</svg>

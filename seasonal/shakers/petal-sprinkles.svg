@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <radialGradient id="petalsprinkles-pile" cx="50%" cy="40%" r="65%">
+      <stop offset="0%" stop-color="#fff3f7"/>
+      <stop offset="100%" stop-color="#ffd9e6"/>
+    </radialGradient>
+  </defs>
+  <ellipse cx="128" cy="224" rx="62" ry="11" fill="#000" opacity="0.12"/>
+  <path d="M58 150 C58 120 92 104 128 104 C168 104 200 122 200 150 C200 172 168 184 128 184 C90 184 58 174 58 150 Z" fill="url(#petalsprinkles-pile)" stroke="#43291a" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M70 138 C92 124 168 124 188 140 C170 130 96 130 70 138 Z" fill="#fff" opacity="0.5"/>
+  <!-- petals: teardrop shapes -->
+  <g stroke="#3c2a1a" stroke-width="3.5" stroke-linejoin="round">
+    <path d="M92 122 C100 124 102 134 96 142 C90 138 86 128 92 122 Z" fill="#ffb3cf" transform="rotate(-20 94 132)"/>
+    <path d="M158 120 C166 122 168 132 162 140 C156 136 152 126 158 120 Z" fill="#ff9ec0" transform="rotate(25 160 130)"/>
+    <path d="M126 154 C134 156 136 166 130 174 C124 170 120 160 126 154 Z" fill="#ffc4d9" transform="rotate(8 128 164)"/>
+    <path d="M78 156 C85 158 87 166 82 173 C77 170 73 162 78 156 Z" fill="#ff9ec0" transform="rotate(-30 80 165)"/>
+    <path d="M172 156 C179 158 181 166 176 173 C171 170 167 162 172 156 Z" fill="#ffb3cf" transform="rotate(35 174 165)"/>
+    <path d="M126 122 C133 124 135 132 130 139 C125 136 121 128 126 122 Z" fill="#ffd0e0" transform="rotate(10 128 130)"/>
+  </g>
+  <!-- petal veins -->
+  <path d="M94 126 L93 140" stroke="#3c2a1a" stroke-width="1.5" opacity="0.4"/>
+  <path d="M160 124 L160 138" stroke="#3c2a1a" stroke-width="1.5" opacity="0.4"/>
+  <circle cx="128" cy="146" r="2" fill="#fff"/>
+</svg>

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <radialGradient id="tropicalcharms-pile" cx="50%" cy="40%" r="65%">
+      <stop offset="0%" stop-color="#fffaf0"/>
+      <stop offset="100%" stop-color="#f0e6d2"/>
+    </radialGradient>
+  </defs>
+  <ellipse cx="128" cy="224" rx="62" ry="11" fill="#000" opacity="0.12"/>
+  <path d="M58 150 C58 120 92 104 128 104 C168 104 200 122 200 150 C200 172 168 184 128 184 C90 184 58 174 58 150 Z" fill="url(#tropicalcharms-pile)" stroke="#43291a" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M70 138 C92 124 168 124 188 140 C170 130 96 130 70 138 Z" fill="#fff" opacity="0.45"/>
+  <!-- marshmallow star -->
+  <path d="M94 118 L98 128 L109 128 L100 135 L103 146 L94 139 L85 146 L88 135 L79 128 L90 128 Z" fill="#ffd86b" stroke="#3c2a1a" stroke-width="3.5" stroke-linejoin="round"/>
+  <!-- marshmallow heart -->
+  <path d="M158 124 C155 119 147 120 147 127 C147 132 155 138 158 141 C161 138 169 132 169 127 C169 120 161 119 158 124 Z" fill="#ff9ec0" stroke="#3c2a1a" stroke-width="3.5" stroke-linejoin="round"/>
+  <!-- marshmallow moon -->
+  <path d="M124 152 a12 12 0 1 0 12 16 a9 9 0 1 1 -12 -16 Z" fill="#aee0ff" stroke="#3c2a1a" stroke-width="3.5" stroke-linejoin="round"/>
+  <!-- marshmallow clover/circle (green) -->
+  <circle cx="82" cy="160" r="10" fill="#a6e2a0" stroke="#3c2a1a" stroke-width="3.5"/>
+  <!-- marshmallow diamond (purple) -->
+  <path d="M174 152 L184 162 L174 172 L164 162 Z" fill="#d3b3f0" stroke="#3c2a1a" stroke-width="3.5" stroke-linejoin="round"/>
+  <!-- highlights -->
+  <circle cx="90" cy="124" r="1.8" fill="#fff"/>
+  <circle cx="154" cy="129" r="1.8" fill="#fff"/>
+  <circle cx="79" cy="156" r="2" fill="#fff" opacity="0.8"/>
+</svg>

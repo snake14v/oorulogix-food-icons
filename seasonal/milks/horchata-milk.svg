@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <linearGradient id="horchatamilk-body" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f2e5cc"/>
+      <stop offset="1" stop-color="#ead8b8"/>
+    </linearGradient>
+  </defs>
+  <ellipse cx="128" cy="224" rx="58" ry="11" fill="#000" opacity="0.12"/>
+  <path d="M78 96 L178 96 L178 206 Q178 212 172 212 L84 212 Q78 212 78 206 Z" fill="url(#horchatamilk-body)" stroke="#5a3a1f" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M78 96 L128 60 L178 96 Z" fill="#f4ebd6" stroke="#5a3a1f" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M128 60 L128 96" stroke="#5a3a1f" stroke-width="5" stroke-linecap="round"/>
+  <path d="M101 78 L155 78" stroke="#5a3a1f" stroke-width="5" stroke-linecap="round"/>
+  <path d="M88 104 L100 104 L100 200 L88 200 Z" fill="#fff" opacity="0.28"/>
+  <rect x="96" y="128" width="64" height="52" rx="8" fill="#fffaee" stroke="#5a3a1f" stroke-width="5"/>
+  <!-- cinnamon stick accent -->
+  <rect x="113" y="134" width="14" height="42" rx="7" fill="#9c5a2c" stroke="#5a3a1f" stroke-width="5" transform="rotate(-20 120 155)"/>
+  <path d="M118 138 L118 174" stroke="#7a4420" stroke-width="3" stroke-linecap="round" transform="rotate(-20 120 155)"/>
+  <ellipse cx="128" cy="146" rx="9" ry="5" fill="#b87a44" stroke="#5a3a1f" stroke-width="3" transform="rotate(-20 120 155)"/>
+  <!-- cinnamon dots -->
+  <circle cx="146" cy="160" r="3" fill="#9c5a2c"/>
+  <circle cx="150" cy="168" r="2.5" fill="#b87a44"/>
+  <circle cx="142" cy="170" r="2.5" fill="#9c5a2c"/>
+</svg>

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <linearGradient id="pecanmilk-body" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#d8b083"/>
+      <stop offset="1" stop-color="#c79a6a"/>
+    </linearGradient>
+  </defs>
+  <ellipse cx="128" cy="224" rx="58" ry="11" fill="#000" opacity="0.12"/>
+  <path d="M78 96 L178 96 L178 206 Q178 212 172 212 L84 212 Q78 212 78 206 Z" fill="url(#pecanmilk-body)" stroke="#5a3a1f" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M78 96 L128 60 L178 96 Z" fill="#e4c8a2" stroke="#5a3a1f" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M128 60 L128 96" stroke="#5a3a1f" stroke-width="5" stroke-linecap="round"/>
+  <path d="M101 78 L155 78" stroke="#5a3a1f" stroke-width="5" stroke-linecap="round"/>
+  <path d="M88 104 L100 104 L100 200 L88 200 Z" fill="#fff" opacity="0.2"/>
+  <rect x="96" y="128" width="64" height="52" rx="8" fill="#fbf1e2" stroke="#5a3a1f" stroke-width="5"/>
+  <!-- pecan nut accent -->
+  <ellipse cx="128" cy="154" rx="15" ry="20" fill="#8a5a2e" stroke="#5a3a1f" stroke-width="5"/>
+  <path d="M128 136 L128 172" stroke="#5a3a1f" stroke-width="4" stroke-linecap="round"/>
+  <path d="M120 144 Q128 150 120 158 M120 158 Q128 164 120 170" fill="none" stroke="#5a3a1f" stroke-width="3" stroke-linecap="round"/>
+  <path d="M136 144 Q128 150 136 158 M136 158 Q128 164 136 170" fill="none" stroke="#5a3a1f" stroke-width="3" stroke-linecap="round"/>
+  <ellipse cx="122" cy="146" rx="4" ry="6" fill="#a9703c" opacity="0.7"/>
+</svg>

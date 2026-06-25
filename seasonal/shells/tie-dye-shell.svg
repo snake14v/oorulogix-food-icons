@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <linearGradient id="tiedyeshell-cream" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fff7e0"/>
+      <stop offset="1" stop-color="#f1e3bb"/>
+    </linearGradient>
+    <clipPath id="tiedyeshell-clip">
+      <path d="M56 96 C56 64 96 56 128 56 C160 56 200 64 200 96 L200 158 C200 192 160 200 128 200 C96 200 56 192 56 158 Z"/>
+    </clipPath>
+  </defs>
+  <ellipse cx="128" cy="224" rx="62" ry="11" fill="#000" opacity="0.12"/>
+  <path d="M56 96 C56 64 96 56 128 56 C160 56 200 64 200 96 L200 158 C200 192 160 200 128 200 C96 200 56 192 56 158 Z" fill="#f06aa0" stroke="#3c2a1a" stroke-width="6" stroke-linejoin="round"/>
+  <!-- swirly tie-dye bands -->
+  <g clip-path="url(#tiedyeshell-clip)">
+    <rect x="40" y="40" width="180" height="180" fill="#f06aa0"/>
+    <path d="M40 60 Q128 20 220 60 L220 90 Q128 50 40 90 Z" fill="#ff9a3d"/>
+    <path d="M40 90 Q128 50 220 90 L220 120 Q128 80 40 120 Z" fill="#ffd23d"/>
+    <path d="M40 120 Q128 80 220 120 L220 150 Q128 110 40 150 Z" fill="#5ad17f"/>
+    <path d="M40 150 Q128 110 220 150 L220 180 Q128 140 40 180 Z" fill="#4aa3e6"/>
+    <path d="M40 180 Q128 140 220 180 L220 220 Q128 180 40 220 Z" fill="#a06ad9"/>
+    <!-- swirl accent -->
+    <path d="M128 128 m-40 0 a40 40 0 1 1 80 0 a30 30 0 1 1 -60 0 a20 20 0 1 1 40 0" fill="none" stroke="#fff" stroke-width="4" opacity="0.45"/>
+  </g>
+  <ellipse cx="72" cy="98" rx="20" ry="30" fill="url(#tiedyeshell-cream)" stroke="#3c2a1a" stroke-width="6"/>
+  <ellipse cx="69" cy="92" rx="8" ry="13" fill="#fffdf2" opacity="0.7"/>
+  <ellipse cx="184" cy="98" rx="20" ry="30" fill="url(#tiedyeshell-cream)" stroke="#3c2a1a" stroke-width="6"/>
+  <ellipse cx="181" cy="92" rx="8" ry="13" fill="#fffdf2" opacity="0.7"/>
+</svg>

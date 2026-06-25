@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <radialGradient id="spookysprinkles-pile" cx="50%" cy="40%" r="65%">
+      <stop offset="0%" stop-color="#ffd9a8"/>
+      <stop offset="100%" stop-color="#f4b46a"/>
+    </radialGradient>
+  </defs>
+  <ellipse cx="128" cy="224" rx="62" ry="11" fill="#000" opacity="0.12"/>
+  <!-- scatter pile base -->
+  <path d="M58 150 C58 120 92 104 128 104 C168 104 200 122 200 150 C200 172 168 184 128 184 C90 184 58 174 58 150 Z" fill="url(#spookysprinkles-pile)" stroke="#43291a" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M70 138 C92 124 168 124 188 140 C170 130 96 130 70 138 Z" fill="#fff" opacity="0.4"/>
+  <!-- orange bat sprinkle -->
+  <g stroke="#3c2a1a" stroke-width="4" stroke-linejoin="round">
+    <path d="M92 132 C100 126 104 132 104 138 C104 132 108 126 116 132 C112 138 108 140 104 140 C100 140 96 138 92 132 Z" fill="#ff8a2b" transform="rotate(-12 104 134)"/>
+  </g>
+  <!-- ghost sprinkle (white) -->
+  <path d="M150 124 C150 116 162 116 162 124 L162 138 L158 134 L154 138 L150 134 Z" fill="#fbf7f0" stroke="#3c2a1a" stroke-width="4" stroke-linejoin="round" transform="rotate(10 156 130)"/>
+  <circle cx="153" cy="126" r="1.8" fill="#3c2a1a"/>
+  <circle cx="159" cy="126" r="1.8" fill="#3c2a1a"/>
+  <!-- black bat -->
+  <path d="M118 158 C124 152 128 158 128 162 C128 158 132 152 138 158 C134 163 130 165 128 165 C126 165 122 163 118 158 Z" fill="#2b2230" stroke="#3c2a1a" stroke-width="4" stroke-linejoin="round"/>
+  <!-- scatter dots -->
+  <ellipse cx="82" cy="160" rx="7" ry="4" fill="#ff8a2b" stroke="#3c2a1a" stroke-width="4" transform="rotate(20 82 160)"/>
+  <ellipse cx="170" cy="160" rx="7" ry="4" fill="#2b2230" stroke="#3c2a1a" stroke-width="4" transform="rotate(-25 170 160)"/>
+  <ellipse cx="128" cy="172" rx="7" ry="4" fill="#ff8a2b" stroke="#3c2a1a" stroke-width="4" transform="rotate(8 128 172)"/>
+  <ellipse cx="108" cy="166" rx="6" ry="4" fill="#2b2230" stroke="#3c2a1a" stroke-width="4" transform="rotate(-15 108 166)"/>
+  <ellipse cx="148" cy="168" rx="6" ry="4" fill="#ff8a2b" stroke="#3c2a1a" stroke-width="4" transform="rotate(30 148 168)"/>
+</svg>

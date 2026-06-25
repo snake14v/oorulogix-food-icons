@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <linearGradient id="powderalmond-glass" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f2e6c8"/>
+      <stop offset="1" stop-color="#e6d4b0"/>
+    </linearGradient>
+    <linearGradient id="powderalmond-lid" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d6c49a"/>
+      <stop offset="1" stop-color="#b09c72"/>
+    </linearGradient>
+  </defs>
+  <ellipse cx="128" cy="224" rx="58" ry="11" fill="#000" opacity="0.12"/>
+  <path d="M58 214 q22 -26 70 -26 q48 0 70 26 q-32 10 -70 10 q-38 0 -70 -10 Z" fill="#e6d4b0" stroke="#5a3a1f" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M76 206 q20 -12 52 -12 q32 0 52 12" fill="none" stroke="#f2e6c8" stroke-width="5" stroke-linecap="round" opacity="0.7"/>
+  <!-- little almond accent at base -->
+  <path d="M150 202 q8 -10 16 -2 q-2 10 -12 10 q-6 -2 -4 -8 Z" fill="#d8b888" stroke="#5a3a1f" stroke-width="4" stroke-linejoin="round"/>
+  <rect x="84" y="92" width="88" height="100" rx="20" fill="url(#powderalmond-glass)" stroke="#5a3a1f" stroke-width="6" stroke-linejoin="round"/>
+  <rect x="90" y="128" width="76" height="58" rx="14" fill="#e6d4b0" opacity="0.92"/>
+  <path d="M90 132 q38 -14 76 0" fill="none" stroke="#f4e8cc" stroke-width="5" stroke-linecap="round" opacity="0.8"/>
+  <rect x="96" y="104" width="14" height="74" rx="7" fill="#ffffff" opacity="0.46"/>
+  <rect x="98" y="76" width="60" height="22" rx="8" fill="#ecdcbc" stroke="#5a3a1f" stroke-width="6" stroke-linejoin="round"/>
+  <rect x="92" y="54" width="72" height="30" rx="12" fill="url(#powderalmond-lid)" stroke="#5a3a1f" stroke-width="6" stroke-linejoin="round"/>
+  <circle cx="112" cy="69" r="3.4" fill="#7a6240"/>
+  <circle cx="128" cy="66" r="3.4" fill="#7a6240"/>
+  <circle cx="144" cy="69" r="3.4" fill="#7a6240"/>
+  <circle cx="120" cy="76" r="3" fill="#7a6240"/>
+  <circle cx="136" cy="76" r="3" fill="#7a6240"/>
+  <rect x="98" y="58" width="10" height="20" rx="5" fill="#ffffff" opacity="0.42"/>
+</svg>

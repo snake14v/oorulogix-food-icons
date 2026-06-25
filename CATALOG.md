@@ -1,6 +1,6 @@
 # Asset Catalog
 
-219 flat-cartoon food icons (SVG, 256×256). All names are generic.
+291 flat-cartoon food icons (SVG, 256×256). All names are generic.
 
 ## Bakery (27)
 
@@ -387,3 +387,107 @@
 | Steak Strips | `sandwich/toppings/top-steak-strips.svg` |
 | Tomatoes | `sandwich/toppings/top-tomatoes.svg` |
 | Turkey | `sandwich/toppings/top-turkey.svg` |
+
+## Seasonal (72)
+
+### Creams
+
+| Label | File |
+|---|---|
+| Blue Pop Cream | `seasonal/creams/cream-blue-pop.svg` |
+| Blueberry Cream | `seasonal/creams/cream-blueberry.svg` |
+| Candy Corn Cream | `seasonal/creams/cream-candy-corn.svg` |
+| Emerald Cream | `seasonal/creams/cream-emerald.svg` |
+| Ghost Cream | `seasonal/creams/cream-ghost.svg` |
+| Licorice Cream | `seasonal/creams/cream-licorice.svg` |
+| Neapolitan Cream | `seasonal/creams/cream-neapolitan.svg` |
+| Rainbow Cream | `seasonal/creams/cream-rainbow.svg` |
+| Red Bean Cream | `seasonal/creams/cream-red-bean.svg` |
+| Snow Cream | `seasonal/creams/cream-snow.svg` |
+| Tres Leches Cream | `seasonal/creams/cream-tres-leches.svg` |
+| Tropical Cream | `seasonal/creams/cream-tropical.svg` |
+
+### Milks
+
+| Label | File |
+|---|---|
+| Cherry Bomb Milk | `seasonal/milks/cherry-bomb-milk.svg` |
+| Eggnog | `seasonal/milks/eggnog.svg` |
+| Golden Milk | `seasonal/milks/golden-milk.svg` |
+| Horchata Milk | `seasonal/milks/horchata-milk.svg` |
+| Irish Cream Milk | `seasonal/milks/irish-cream-milk.svg` |
+| Lollipop Milk | `seasonal/milks/lollipop-milk.svg` |
+| Orange Cream Milk | `seasonal/milks/orange-cream-milk.svg` |
+| Pecan Milk | `seasonal/milks/pecan-milk.svg` |
+| Pina Colada Milk | `seasonal/milks/pina-colada-milk.svg` |
+| Rainbow Milk | `seasonal/milks/rainbow-milk.svg` |
+| Red Bean Soy Milk | `seasonal/milks/red-bean-soy-milk.svg` |
+| Root Beer Float Milk | `seasonal/milks/root-beer-float-milk.svg` |
+
+### Powders
+
+| Label | File |
+|---|---|
+| Almond Powder | `seasonal/powders/powder-almond.svg` |
+| Cherry Blossom Powder | `seasonal/powders/powder-cherry-blossom.svg` |
+| Cherry Cola Powder | `seasonal/powders/powder-cherry-cola.svg` |
+| Dark Berry Powder | `seasonal/powders/powder-dark-berry.svg` |
+| Gold Dust Powder | `seasonal/powders/powder-gold-dust.svg` |
+| Mango Powder | `seasonal/powders/powder-mango.svg` |
+| Midnight Powder | `seasonal/powders/powder-midnight.svg` |
+| Peppermint Powder | `seasonal/powders/powder-peppermint.svg` |
+| Rooibos Powder | `seasonal/powders/powder-rooibos.svg` |
+| Snickerdoodle Powder | `seasonal/powders/powder-snickerdoodle.svg` |
+| Spiced Chocolate Powder | `seasonal/powders/powder-spiced-chocolate.svg` |
+| White Chocolate Powder | `seasonal/powders/powder-white-chocolate.svg` |
+
+### Shakers
+
+| Label | File |
+|---|---|
+| Autumn Sprinkles | `seasonal/shakers/autumn-sprinkles.svg` |
+| Clover Sprinkles | `seasonal/shakers/clover-sprinkles.svg` |
+| Fiesta Swirls | `seasonal/shakers/fiesta-swirls.svg` |
+| Fruit Hoops | `seasonal/shakers/fruit-hoops.svg` |
+| Holiday Sugar | `seasonal/shakers/holiday-sugar.svg` |
+| Petal Sprinkles | `seasonal/shakers/petal-sprinkles.svg` |
+| Pop Crumbs | `seasonal/shakers/pop-crumbs.svg` |
+| Spice Sprinkles | `seasonal/shakers/spice-sprinkles.svg` |
+| Spooky Sprinkles | `seasonal/shakers/spooky-sprinkles.svg` |
+| Toffee Bits | `seasonal/shakers/toffee-bits.svg` |
+| Tropical Charms | `seasonal/shakers/tropical-charms.svg` |
+| Xo Sprinkles | `seasonal/shakers/xo-sprinkles.svg` |
+
+### Shells
+
+| Label | File |
+|---|---|
+| Black Shell | `seasonal/shells/black-shell.svg` |
+| Churro Shell | `seasonal/shells/churro-shell.svg` |
+| Clover Shell | `seasonal/shells/clover-shell.svg` |
+| Dirt Cake Shell | `seasonal/shells/dirt-cake-shell.svg` |
+| Egg Waffle Shell | `seasonal/shells/egg-waffle-shell.svg` |
+| Gingerbread Shell | `seasonal/shells/gingerbread-shell.svg` |
+| Harvest Shell | `seasonal/shells/harvest-shell.svg` |
+| Heart Shell | `seasonal/shells/heart-shell.svg` |
+| Monster Shell | `seasonal/shells/monster-shell.svg` |
+| Starlight Shell | `seasonal/shells/starlight-shell.svg` |
+| Sunburst Shell | `seasonal/shells/sunburst-shell.svg` |
+| Tie Dye Shell | `seasonal/shells/tie-dye-shell.svg` |
+
+### Syrups
+
+| Label | File |
+|---|---|
+| Berry Jelly Syrup | `seasonal/syrups/syrup-berry-jelly.svg` |
+| Cherry Cheesecake Syrup | `seasonal/syrups/syrup-cherry-cheesecake.svg` |
+| Ginger Syrup | `seasonal/syrups/syrup-ginger.svg` |
+| Golden Age Syrup | `seasonal/syrups/syrup-golden-age.svg` |
+| Honeydew Syrup | `seasonal/syrups/syrup-honeydew.svg` |
+| Mamey Syrup | `seasonal/syrups/syrup-mamey.svg` |
+| Mint Syrup | `seasonal/syrups/syrup-mint.svg` |
+| Mystery Syrup | `seasonal/syrups/syrup-mystery.svg` |
+| Potion Syrup | `seasonal/syrups/syrup-potion.svg` |
+| Pumpkin Spice Syrup | `seasonal/syrups/syrup-pumpkin-spice.svg` |
+| Sugar Cookie Syrup | `seasonal/syrups/syrup-sugar-cookie.svg` |
+| Tropical Punch Syrup | `seasonal/syrups/syrup-tropical-punch.svg` |

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <linearGradient id="mamey-body" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#eea980"/>
+      <stop offset="1" stop-color="#c96d3e"/>
+    </linearGradient>
+  </defs>
+  <ellipse cx="128" cy="224" rx="58" ry="11" fill="#000" opacity="0.12"/>
+  <!-- cap -->
+  <rect x="106" y="34" width="44" height="22" rx="6" fill="#5a2f1c" stroke="#43221a" stroke-width="6" stroke-linejoin="round"/>
+  <rect x="114" y="22" width="28" height="16" rx="5" fill="#723f26" stroke="#43221a" stroke-width="6" stroke-linejoin="round"/>
+  <!-- neck -->
+  <rect x="112" y="54" width="32" height="20" fill="#e08a5a" stroke="#43221a" stroke-width="6" stroke-linejoin="round"/>
+  <!-- body -->
+  <path d="M96 76 Q88 84 88 104 L88 178 Q88 206 128 206 Q168 206 168 178 L168 104 Q168 84 160 76 Z" fill="url(#mamey-body)" stroke="#43221a" stroke-width="6" stroke-linejoin="round"/>
+  <!-- label dab -->
+  <ellipse cx="128" cy="148" rx="30" ry="34" fill="#fff2e8" stroke="#43221a" stroke-width="5"/>
+  <!-- mamey fruit half accent -->
+  <path d="M110 148 q0 -18 18 -18 q18 0 18 18 q0 14 -18 14 q-18 0 -18 -14 z" fill="#d9743f" stroke="#9c4a22" stroke-width="2.5" stroke-linejoin="round"/>
+  <ellipse cx="128" cy="150" rx="6" ry="8" fill="#3c2218" stroke="#241108" stroke-width="2"/>
+  <ellipse cx="126" cy="148" rx="2" ry="3" fill="#6b4030" opacity="0.7"/>
+  <!-- highlight -->
+  <path d="M104 92 Q98 100 98 120 L98 168" fill="none" stroke="#f5cbab" stroke-width="8" stroke-linecap="round" opacity="0.8"/>
+  <circle cx="150" cy="100" r="5" fill="#fbe2d0" opacity="0.85"/>
+</svg>

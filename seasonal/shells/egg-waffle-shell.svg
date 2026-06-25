@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <linearGradient id="eggwaffleshell-body" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#eec684"/>
+      <stop offset="1" stop-color="#cf9b48"/>
+    </linearGradient>
+    <linearGradient id="eggwaffleshell-cream" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fff7e0"/>
+      <stop offset="1" stop-color="#f1e2b6"/>
+    </linearGradient>
+    <clipPath id="eggwaffleshell-clip">
+      <path d="M56 96 C56 64 96 56 128 56 C160 56 200 64 200 96 L200 158 C200 192 160 200 128 200 C96 200 56 192 56 158 Z"/>
+    </clipPath>
+  </defs>
+  <ellipse cx="128" cy="224" rx="62" ry="11" fill="#000" opacity="0.12"/>
+  <path d="M56 96 C56 64 96 56 128 56 C160 56 200 64 200 96 L200 158 C200 192 160 200 128 200 C96 200 56 192 56 158 Z" fill="url(#eggwaffleshell-body)" stroke="#7a4f1e" stroke-width="6" stroke-linejoin="round"/>
+  <!-- bubble-waffle texture -->
+  <g clip-path="url(#eggwaffleshell-clip)" fill="#f6d99a" stroke="#b67f34" stroke-width="3">
+    <circle cx="92" cy="92" r="11"/>
+    <circle cx="120" cy="84" r="11"/>
+    <circle cx="148" cy="92" r="11"/>
+    <circle cx="176" cy="100" r="11"/>
+    <circle cx="98" cy="122" r="11"/>
+    <circle cx="128" cy="116" r="11"/>
+    <circle cx="158" cy="124" r="11"/>
+    <circle cx="92" cy="152" r="11"/>
+    <circle cx="122" cy="148" r="11"/>
+    <circle cx="152" cy="156" r="11"/>
+    <circle cx="178" cy="132" r="11"/>
+  </g>
+  <ellipse cx="72" cy="98" rx="20" ry="30" fill="url(#eggwaffleshell-cream)" stroke="#7a4f1e" stroke-width="6"/>
+  <ellipse cx="69" cy="92" rx="8" ry="13" fill="#fffdf2" opacity="0.7"/>
+  <ellipse cx="184" cy="98" rx="20" ry="30" fill="url(#eggwaffleshell-cream)" stroke="#7a4f1e" stroke-width="6"/>
+  <ellipse cx="181" cy="92" rx="8" ry="13" fill="#fffdf2" opacity="0.7"/>
+</svg>

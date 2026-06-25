@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <linearGradient id="cream-blue-pop-body" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#6fc0ee"/>
+      <stop offset="1" stop-color="#3a93cf"/>
+    </linearGradient>
+  </defs>
+  <ellipse cx="128" cy="224" rx="58" ry="11" fill="#000" opacity="0.12"/>
+  <path d="M128 36
+    C150 36 164 54 158 72
+    C176 70 190 86 182 104
+    C200 104 210 122 196 138
+    C210 142 214 160 198 172
+    C206 188 192 206 168 208
+    L88 208
+    C64 206 50 188 58 172
+    C42 160 46 142 60 138
+    C46 122 56 104 74 104
+    C66 86 80 70 98 72
+    C92 54 106 36 128 36 Z"
+    fill="url(#cream-blue-pop-body)" stroke="#1f5c8a" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M74 104 C108 96 150 96 182 104" fill="none" stroke="#2f7eb8" stroke-width="5" stroke-linecap="round"/>
+  <path d="M60 138 C104 128 154 128 196 138" fill="none" stroke="#2f7eb8" stroke-width="5" stroke-linecap="round"/>
+  <path d="M58 172 C104 162 154 162 198 172" fill="none" stroke="#2f7eb8" stroke-width="5" stroke-linecap="round"/>
+  <!-- pop sparkle stars -->
+  <g fill="#d7f0ff">
+    <path d="M118 90 l3 7 7 3 -7 3 -3 7 -3 -7 -7 -3 7 -3 z"/>
+    <path d="M152 152 l2.5 6 6 2.5 -6 2.5 -2.5 6 -2.5 -6 -6 -2.5 6 -2.5 z"/>
+  </g>
+  <ellipse cx="104" cy="120" rx="10" ry="16" fill="#bfe6ff" opacity="0.85"/>
+  <path d="M120 50 C126 44 134 44 138 52" fill="none" stroke="#e6f6ff" stroke-width="6" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <linearGradient id="redbeansoymilk-body" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#bd726c"/>
+      <stop offset="1" stop-color="#a85a55"/>
+    </linearGradient>
+  </defs>
+  <ellipse cx="128" cy="224" rx="58" ry="11" fill="#000" opacity="0.12"/>
+  <path d="M78 96 L178 96 L178 206 Q178 212 172 212 L84 212 Q78 212 78 206 Z" fill="url(#redbeansoymilk-body)" stroke="#43291a" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M78 96 L128 60 L178 96 Z" fill="#c98882" stroke="#43291a" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M128 60 L128 96" stroke="#43291a" stroke-width="5" stroke-linecap="round"/>
+  <path d="M101 78 L155 78" stroke="#43291a" stroke-width="5" stroke-linecap="round"/>
+  <path d="M88 104 L100 104 L100 200 L88 200 Z" fill="#fff" opacity="0.18"/>
+  <rect x="96" y="128" width="64" height="52" rx="8" fill="#f7eee3" stroke="#43291a" stroke-width="5"/>
+  <!-- soy leaf accent -->
+  <path d="M128 176 Q108 166 110 142 Q132 144 128 176 Z" fill="#7cae54" stroke="#3c2a1a" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M128 176 Q148 166 146 142 Q124 144 128 176 Z" fill="#8fbf63" stroke="#3c2a1a" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M128 176 L128 150" stroke="#3c2a1a" stroke-width="4" stroke-linecap="round"/>
+  <!-- red bean -->
+  <ellipse cx="128" cy="138" rx="8" ry="6" fill="#7a3530" stroke="#43291a" stroke-width="3"/>
+</svg>

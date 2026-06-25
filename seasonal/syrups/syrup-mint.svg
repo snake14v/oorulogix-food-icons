@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <linearGradient id="mint-body" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#a3ddbf"/>
+      <stop offset="1" stop-color="#5aa37e"/>
+    </linearGradient>
+  </defs>
+  <ellipse cx="128" cy="224" rx="58" ry="11" fill="#000" opacity="0.12"/>
+  <!-- cap -->
+  <rect x="106" y="34" width="44" height="22" rx="6" fill="#234a36" stroke="#193428" stroke-width="6" stroke-linejoin="round"/>
+  <rect x="114" y="22" width="28" height="16" rx="5" fill="#326148" stroke="#193428" stroke-width="6" stroke-linejoin="round"/>
+  <!-- neck -->
+  <rect x="112" y="54" width="32" height="20" fill="#7fc8a0" stroke="#193428" stroke-width="6" stroke-linejoin="round"/>
+  <!-- body -->
+  <path d="M96 76 Q88 84 88 104 L88 178 Q88 206 128 206 Q168 206 168 178 L168 104 Q168 84 160 76 Z" fill="url(#mint-body)" stroke="#193428" stroke-width="6" stroke-linejoin="round"/>
+  <!-- label dab -->
+  <ellipse cx="128" cy="148" rx="30" ry="34" fill="#f0fbf5" stroke="#193428" stroke-width="5"/>
+  <!-- mint leaf accent -->
+  <path d="M128 132 q16 4 16 22 q-18 -2 -16 -22 z" fill="#5aa37e" stroke="#2c6347" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M128 134 q14 6 14 18" fill="none" stroke="#2c6347" stroke-width="2"/>
+  <path d="M128 134 q-16 4 -16 22 q18 -2 16 -22 z" fill="#7fc8a0" stroke="#2c6347" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M128 136 q-14 6 -14 18" fill="none" stroke="#2c6347" stroke-width="2"/>
+  <!-- highlight -->
+  <path d="M104 92 Q98 100 98 120 L98 168" fill="none" stroke="#cdeede" stroke-width="8" stroke-linecap="round" opacity="0.85"/>
+  <circle cx="150" cy="100" r="5" fill="#e2f6ec" opacity="0.9"/>
+</svg>

@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <radialGradient id="spicesprinkles-pile" cx="50%" cy="40%" r="65%">
+      <stop offset="0%" stop-color="#f3d3a8"/>
+      <stop offset="100%" stop-color="#cf9358"/>
+    </radialGradient>
+  </defs>
+  <ellipse cx="128" cy="224" rx="62" ry="11" fill="#000" opacity="0.12"/>
+  <path d="M58 150 C58 120 92 104 128 104 C168 104 200 122 200 150 C200 172 168 184 128 184 C90 184 58 174 58 150 Z" fill="url(#spicesprinkles-pile)" stroke="#43291a" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M70 138 C92 124 168 124 188 140 C170 130 96 130 70 138 Z" fill="#fff" opacity="0.35"/>
+  <!-- spice rods/flecks (cinnamon + chili red) -->
+  <g stroke="#3c2a1a" stroke-width="3" stroke-linecap="round">
+    <line x1="84" y1="136" x2="100" y2="124" stroke="#a14a22" stroke-width="8"/>
+    <line x1="84" y1="136" x2="100" y2="124"/>
+    <line x1="150" y1="124" x2="168" y2="134" stroke="#d6402f" stroke-width="8"/>
+    <line x1="150" y1="124" x2="168" y2="134"/>
+    <line x1="116" y1="168" x2="136" y2="154" stroke="#8c3e1c" stroke-width="8"/>
+    <line x1="116" y1="168" x2="136" y2="154"/>
+    <line x1="74" y1="164" x2="90" y2="158" stroke="#d6402f" stroke-width="8"/>
+    <line x1="74" y1="164" x2="90" y2="158"/>
+    <line x1="166" y1="164" x2="184" y2="156" stroke="#a14a22" stroke-width="8"/>
+    <line x1="166" y1="164" x2="184" y2="156"/>
+    <line x1="118" y1="128" x2="132" y2="136" stroke="#b5532a" stroke-width="8"/>
+    <line x1="118" y1="128" x2="132" y2="136"/>
+    <line x1="146" y1="158" x2="158" y2="168" stroke="#d6402f" stroke-width="8"/>
+    <line x1="146" y1="158" x2="158" y2="168"/>
+  </g>
+  <!-- fine flecks -->
+  <circle cx="108" cy="148" r="2.2" fill="#5a2f15"/>
+  <circle cx="140" cy="146" r="2.2" fill="#5a2f15"/>
+  <circle cx="128" cy="142" r="2" fill="#7a1f12"/>
+</svg>

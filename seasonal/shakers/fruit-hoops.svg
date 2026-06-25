@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <radialGradient id="fruithoops-pile" cx="50%" cy="40%" r="65%">
+      <stop offset="0%" stop-color="#fff6e0"/>
+      <stop offset="100%" stop-color="#f3d99a"/>
+    </radialGradient>
+  </defs>
+  <ellipse cx="128" cy="224" rx="62" ry="11" fill="#000" opacity="0.12"/>
+  <path d="M58 150 C58 120 92 104 128 104 C168 104 200 122 200 150 C200 172 168 184 128 184 C90 184 58 174 58 150 Z" fill="url(#fruithoops-pile)" stroke="#43291a" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M70 138 C92 124 168 124 188 140 C170 130 96 130 70 138 Z" fill="#fff" opacity="0.4"/>
+  <!-- cereal rings -->
+  <g stroke="#3c2a1a" stroke-width="5">
+    <circle cx="94" cy="132" r="11" fill="#ff5a5a"/>
+    <circle cx="94" cy="132" r="4" fill="none"/>
+    <circle cx="160" cy="130" r="11" fill="#ffc83d"/>
+    <circle cx="160" cy="130" r="4" fill="none"/>
+    <circle cx="127" cy="160" r="11" fill="#5fcf6e"/>
+    <circle cx="127" cy="160" r="4" fill="none"/>
+    <circle cx="80" cy="162" r="10" fill="#5aa9ff"/>
+    <circle cx="80" cy="162" r="3.5" fill="none"/>
+    <circle cx="176" cy="160" r="10" fill="#c46bff"/>
+    <circle cx="176" cy="160" r="3.5" fill="none"/>
+    <circle cx="127" cy="128" r="9" fill="#ff9f43"/>
+    <circle cx="127" cy="128" r="3.2" fill="none"/>
+  </g>
+  <!-- highlights -->
+  <path d="M88 126 a8 8 0 0 1 6 -3" stroke="#fff" stroke-width="2.5" fill="none" stroke-linecap="round" opacity="0.7"/>
+  <path d="M154 124 a8 8 0 0 1 6 -3" stroke="#fff" stroke-width="2.5" fill="none" stroke-linecap="round" opacity="0.7"/>
+</svg>
