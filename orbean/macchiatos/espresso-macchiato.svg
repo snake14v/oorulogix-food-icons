@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <ellipse cx="128" cy="226" rx="54" ry="10" fill="#000" opacity="0.12"/>
+  <defs>
+    <clipPath id="espmac_c">
+      <path d="M92 104 L164 104 L158 192 Q156 206 142 206 L114 206 Q100 206 98 192 Z"/>
+    </clipPath>
+    <linearGradient id="espmac_g" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#6b462b"/>
+      <stop offset="1" stop-color="#5C3A23"/>
+    </linearGradient>
+  </defs>
+  <!-- glass liquid layers -->
+  <g clip-path="url(#espmac_c)">
+    <rect x="88" y="104" width="80" height="34" fill="#FBF6EA"/>
+    <rect x="88" y="138" width="80" height="74" fill="url(#espmac_g)"/>
+    <!-- foam dollop swell over espresso -->
+    <ellipse cx="128" cy="138" rx="34" ry="13" fill="#FBF6EA"/>
+    <!-- highlight stripe -->
+    <path d="M104 116 L100 196" fill="none" stroke="#ffffff" stroke-width="6" stroke-linecap="round" opacity="0.4"/>
+  </g>
+  <!-- foam mound peeking above rim -->
+  <path d="M98 104 Q108 90 128 90 Q148 90 158 104 Z" fill="#FBF6EA" stroke="#5a4a35" stroke-width="5" stroke-linejoin="round"/>
+  <ellipse cx="118" cy="98" rx="6" ry="3.5" fill="#ffffff" opacity="0.7"/>
+  <!-- glass outline -->
+  <path d="M92 104 L164 104 L158 192 Q156 206 142 206 L114 206 Q100 206 98 192 Z" fill="none" stroke="#43291a" stroke-width="6" stroke-linejoin="round"/>
+  <line x1="98" y1="104" x2="158" y2="104" stroke="#43291a" stroke-width="6" stroke-linecap="round"/>
+</svg>

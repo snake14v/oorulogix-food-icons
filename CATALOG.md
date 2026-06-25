@@ -1,6 +1,6 @@
 # Asset Catalog
 
-372 flat-cartoon food icons (SVG, 256×256). All names are generic.
+380 flat-cartoon food icons (SVG, 256×256). All names are generic.
 
 ## Bakery (27)
 
@@ -277,7 +277,7 @@
 | Gummy Rings | `freezer/toppers/gummy-rings.svg` |
 | Waffle Cone | `freezer/toppers/waffle-cone.svg` |
 
-## Orbean (35)
+## Orbean (43)
 
 ### Bases
 
@@ -310,6 +310,24 @@
 | Roasted Hazelnut Crumble | `orbean/garnishes/roasted-hazelnut-crumble.svg` |
 | Strawberry Crumble | `orbean/garnishes/strawberry-crumble.svg` |
 | Toasted Coconut Flakes | `orbean/garnishes/toasted-coconut-flakes.svg` |
+
+### Lattes
+
+| Label | File |
+|---|---|
+| Caramel Latte | `orbean/lattes/caramel-latte.svg` |
+| Classic Latte | `orbean/lattes/classic-latte.svg` |
+| Hazelnut Latte | `orbean/lattes/hazelnut-latte.svg` |
+| Irish Cream Latte | `orbean/lattes/irish-cream-latte.svg` |
+
+### Macchiatos
+
+| Label | File |
+|---|---|
+| Caramel Macchiato | `orbean/macchiatos/caramel-macchiato.svg` |
+| Espresso Macchiato | `orbean/macchiatos/espresso-macchiato.svg` |
+| Hazelnut Macchiato | `orbean/macchiatos/hazelnut-macchiato.svg` |
+| Irish Macchiato | `orbean/macchiatos/irish-macchiato.svg` |
 
 ### Milks
 

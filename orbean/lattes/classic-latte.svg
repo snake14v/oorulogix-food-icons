@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <ellipse cx="128" cy="226" rx="54" ry="10" fill="#000" opacity="0.12"/>
+  <defs>
+    <clipPath id="classiclatte_cup">
+      <path d="M74 92 L174 92 L166 192 Q163 210 144 210 L104 210 Q85 210 82 192 Z"/>
+    </clipPath>
+    <linearGradient id="classiclatte_foam" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFDF6"/>
+      <stop offset="1" stop-color="#FBF6EA"/>
+    </linearGradient>
+  </defs>
+  <!-- handle -->
+  <path d="M174 112 Q204 114 202 144 Q200 170 172 166" fill="none" stroke="#43291a" stroke-width="6" stroke-linecap="round"/>
+  <!-- layered liquid -->
+  <g clip-path="url(#classiclatte_cup)">
+    <rect x="74" y="92" width="100" height="34" fill="url(#classiclatte_foam)"/>
+    <rect x="74" y="126" width="100" height="56" fill="#F4ECDD"/>
+    <rect x="74" y="182" width="100" height="34" fill="#5C3A23"/>
+    <!-- milk side shade -->
+    <rect x="150" y="126" width="24" height="56" fill="#000" opacity="0.06"/>
+    <!-- white highlight stripe -->
+    <path d="M90 100 L92 200" fill="none" stroke="#FFFFFF" stroke-width="7" stroke-linecap="round" opacity="0.5"/>
+  </g>
+  <!-- foam cap rim -->
+  <path d="M74 92 L174 92" fill="none" stroke="#43291a" stroke-width="6" stroke-linecap="round"/>
+  <!-- foam swirl detail -->
+  <path d="M104 108 Q124 100 144 108" fill="none" stroke="#E7D9BF" stroke-width="4" stroke-linecap="round"/>
+  <!-- cup outline -->
+  <path d="M74 92 L174 92 L166 192 Q163 210 144 210 L104 210 Q85 210 82 192 Z" fill="none" stroke="#43291a" stroke-width="6" stroke-linejoin="round"/>
+</svg>

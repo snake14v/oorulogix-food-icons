@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <ellipse cx="128" cy="226" rx="54" ry="10" fill="#000" opacity="0.12"/>
+  <defs>
+    <clipPath id="irimac_c">
+      <path d="M92 104 L164 104 L158 192 Q156 206 142 206 L114 206 Q100 206 98 192 Z"/>
+    </clipPath>
+    <linearGradient id="irimac_g" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#6b462b"/>
+      <stop offset="1" stop-color="#5C3A23"/>
+    </linearGradient>
+  </defs>
+  <!-- glass liquid layers -->
+  <g clip-path="url(#irimac_c)">
+    <rect x="88" y="104" width="80" height="42" fill="#FBF6EA"/>
+    <rect x="88" y="146" width="80" height="66" fill="url(#irimac_g)"/>
+    <!-- foam cap swell -->
+    <ellipse cx="128" cy="146" rx="36" ry="14" fill="#FBF6EA"/>
+    <!-- irish-cream swirl sinking in -->
+    <path d="M106 122 Q128 112 150 122 Q132 132 150 142 Q128 150 106 142 Q124 132 106 122 Z" fill="#C7A06B" opacity="0.9"/>
+    <!-- highlight stripe -->
+    <path d="M102 116 L98 196" fill="none" stroke="#ffffff" stroke-width="6" stroke-linecap="round" opacity="0.4"/>
+  </g>
+  <!-- foam mound -->
+  <path d="M98 104 Q108 90 128 90 Q148 90 158 104 Z" fill="#FBF6EA" stroke="#5a4a35" stroke-width="5" stroke-linejoin="round"/>
+  <!-- irish-cream swirl over foam -->
+  <path d="M108 100 Q128 92 148 100 Q132 106 144 110 Q126 104 112 110 Q124 104 108 100 Z" fill="#C7A06B"/>
+  <ellipse cx="117" cy="98" rx="5" ry="3" fill="#ffffff" opacity="0.7"/>
+  <!-- glass outline -->
+  <path d="M92 104 L164 104 L158 192 Q156 206 142 206 L114 206 Q100 206 98 192 Z" fill="none" stroke="#43291a" stroke-width="6" stroke-linejoin="round"/>
+  <line x1="98" y1="104" x2="158" y2="104" stroke="#43291a" stroke-width="6" stroke-linecap="round"/>
+</svg>

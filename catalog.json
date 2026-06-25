@@ -3,7 +3,7 @@
   "style": "flat-cartoon",
   "viewBox": "0 0 256 256",
   "license": "MIT",
-  "count": 372,
+  "count": 380,
   "assets": [
     {
       "id": "bakery-crusts-chocolate-crust",
@@ -1117,6 +1117,62 @@
       "category": "garnishes",
       "file": "orbean/garnishes/toasted-coconut-flakes.svg",
       "name": "Toasted Coconut Flakes"
+    },
+    {
+      "id": "orbean-lattes-caramel-latte",
+      "theme": "orbean",
+      "category": "lattes",
+      "file": "orbean/lattes/caramel-latte.svg",
+      "name": "Caramel Latte"
+    },
+    {
+      "id": "orbean-lattes-classic-latte",
+      "theme": "orbean",
+      "category": "lattes",
+      "file": "orbean/lattes/classic-latte.svg",
+      "name": "Classic Latte"
+    },
+    {
+      "id": "orbean-lattes-hazelnut-latte",
+      "theme": "orbean",
+      "category": "lattes",
+      "file": "orbean/lattes/hazelnut-latte.svg",
+      "name": "Hazelnut Latte"
+    },
+    {
+      "id": "orbean-lattes-irish-cream-latte",
+      "theme": "orbean",
+      "category": "lattes",
+      "file": "orbean/lattes/irish-cream-latte.svg",
+      "name": "Irish Cream Latte"
+    },
+    {
+      "id": "orbean-macchiatos-caramel-macchiato",
+      "theme": "orbean",
+      "category": "macchiatos",
+      "file": "orbean/macchiatos/caramel-macchiato.svg",
+      "name": "Caramel Macchiato"
+    },
+    {
+      "id": "orbean-macchiatos-espresso-macchiato",
+      "theme": "orbean",
+      "category": "macchiatos",
+      "file": "orbean/macchiatos/espresso-macchiato.svg",
+      "name": "Espresso Macchiato"
+    },
+    {
+      "id": "orbean-macchiatos-hazelnut-macchiato",
+      "theme": "orbean",
+      "category": "macchiatos",
+      "file": "orbean/macchiatos/hazelnut-macchiato.svg",
+      "name": "Hazelnut Macchiato"
+    },
+    {
+      "id": "orbean-macchiatos-irish-macchiato",
+      "theme": "orbean",
+      "category": "macchiatos",
+      "file": "orbean/macchiatos/irish-macchiato.svg",
+      "name": "Irish Macchiato"
     },
     {
       "id": "orbean-milks-coconut-milk",
