@@ -81,7 +81,7 @@ h3{font-size:12px;text-transform:uppercase;letter-spacing:1px;opacity:.5;margin:
 @keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-6px)}}
 .pill{display:inline-block;background:var(--accent);color:#fff;border-radius:20px;font-size:12px;padding:2px 12px;margin-left:8px}
 </style></head><body>
-<header><h1>🍱 Flat Food Icons</h1><p id="sub"></p></header>
+<header><img src="banner.svg" alt="Oorulogix — Flat Food Icons" style="max-width:680px;width:100%;height:auto;display:block;margin:0 auto"/><p id="sub"></p></header>
 <div class="wrap" id="wrap"></div>
 <script>
 const ASSETS = ${JSON.stringify(catalog)};

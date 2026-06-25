@@ -1,0 +1,18 @@
+# Normalize all text files to LF in the repo (silences CRLF warnings, keeps the
+# pack consistent across Windows / macOS / Linux).
+* text=auto eol=lf
+
+# Explicit text types
+*.svg  text eol=lf
+*.json text eol=lf
+*.md   text eol=lf
+*.js   text eol=lf
+*.html text eol=lf
+
+# Future binary assets (none yet) shouldn't be line-ending munged
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.gif  binary
+*.webp binary
+*.ico  binary
