@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <ellipse cx="128" cy="224" rx="60" ry="11" fill="#000" opacity="0.11"/>
+  <defs>
+    <linearGradient id="brownie-bite_side" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5a3722"/>
+      <stop offset="1" stop-color="#3a2210"/>
+    </linearGradient>
+    <linearGradient id="brownie-bite_top" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#6b4226"/>
+      <stop offset="0.55" stop-color="#4a2c17"/>
+      <stop offset="1" stop-color="#37200f"/>
+    </linearGradient>
+  </defs>
+  <!-- front face -->
+  <path d="M72 116 L72 184 Q72 196 84 200 L128 212 L128 138 Z" fill="url(#brownie-bite_side)" stroke="#2c1809" stroke-width="6" stroke-linejoin="round"/>
+  <!-- right face -->
+  <path d="M184 116 L184 184 Q184 196 172 200 L128 212 L128 138 Z" fill="#43291a" stroke="#2c1809" stroke-width="6" stroke-linejoin="round"/>
+  <!-- glossy top -->
+  <path d="M128 70 L184 116 L128 138 L72 116 Z" fill="url(#brownie-bite_top)" stroke="#2c1809" stroke-width="6" stroke-linejoin="round"/>
+  <!-- top gloss highlight -->
+  <path d="M128 82 L168 116 L128 130 L90 116 Z" fill="#7a4e2c" opacity="0.55"/>
+  <path d="M108 100 Q128 92 150 104" fill="none" stroke="#fff" stroke-width="5" stroke-linecap="round" opacity="0.45"/>
+  <!-- crackly edge dots -->
+  <circle cx="104" cy="160" r="3" fill="#2c1809" opacity="0.5"/>
+  <circle cx="150" cy="168" r="3" fill="#2c1809" opacity="0.5"/>
+  <circle cx="120" cy="186" r="3" fill="#2c1809" opacity="0.5"/>
+</svg>

@@ -1,6 +1,6 @@
 # Asset Catalog
 
-291 flat-cartoon food icons (SVG, 256×256). All names are generic.
+337 flat-cartoon food icons (SVG, 256×256). All names are generic.
 
 ## Bakery (27)
 
@@ -51,15 +51,23 @@
 | Sprinkles | `bakery/toppers/sprinkles.svg` |
 | Whipped Cream | `bakery/toppers/whipped-cream.svg` |
 
-## Burger (12)
+## Burger (21)
 
-### Base
+### Buns
 
 | Label | File |
 |---|---|
-| Bottom Bun | `burger/base/bun-bottom.svg` |
-| Patty | `burger/base/patty.svg` |
-| Top Bun | `burger/base/bun-top.svg` |
+| Bottom Bun | `burger/buns/bun-bottom.svg` |
+| Top Bun | `burger/buns/bun-top.svg` |
+
+### Patties
+
+| Label | File |
+|---|---|
+| Rare Patty | `burger/patties/rare-patty.svg` |
+| Raw Patty | `burger/patties/raw-patty.svg` |
+| Regular Patty | `burger/patties/regular-patty.svg` |
+| Well Done Patty | `burger/patties/well-done-patty.svg` |
 
 ### Sauces
 
@@ -69,16 +77,22 @@
 | Ketchup Sauce | `burger/sauces/sauce-ketchup.svg` |
 | Mayo Sauce | `burger/sauces/sauce-mayo.svg` |
 | Mustard Sauce | `burger/sauces/sauce-mustard.svg` |
+| Special Sauce | `burger/sauces/sauce-special.svg` |
 
 ### Toppings
 
 | Label | File |
 |---|---|
-| Cheese | `burger/toppings/cheese.svg` |
-| Lettuce | `burger/toppings/lettuce.svg` |
-| Onion | `burger/toppings/onion.svg` |
-| Pickle | `burger/toppings/pickle.svg` |
-| Tomato | `burger/toppings/tomato.svg` |
+| American Cheese | `burger/toppings/top-american-cheese.svg` |
+| Bacon | `burger/toppings/top-bacon.svg` |
+| Lettuce | `burger/toppings/top-lettuce.svg` |
+| Mushrooms | `burger/toppings/top-mushrooms.svg` |
+| Onion | `burger/toppings/top-onion.svg` |
+| Onion Ring | `burger/toppings/top-onion-ring.svg` |
+| Pepperjack Cheese | `burger/toppings/top-pepperjack-cheese.svg` |
+| Pickle | `burger/toppings/top-pickle.svg` |
+| Swiss Cheese | `burger/toppings/top-swiss-cheese.svg` |
+| Tomato | `burger/toppings/top-tomato.svg` |
 
 ## Coffee (57)
 
@@ -188,6 +202,80 @@
 | Rainbow Sprinkles | `coffee/toppings/topping-rainbow-sprinkles.svg` |
 | Shaved Chocolate | `coffee/toppings/topping-shaved-chocolate.svg` |
 | Toasted Coconut | `coffee/toppings/topping-toasted-coconut.svg` |
+
+## Freezer (37)
+
+### Creams
+
+| Label | File |
+|---|---|
+| Chocolate Cream | `freezer/creams/cream-chocolate.svg` |
+| Whipped Cream | `freezer/creams/cream-whipped.svg` |
+
+### Cups
+
+| Label | File |
+|---|---|
+| Large Cup | `freezer/cups/cup-large.svg` |
+| Medium Cup | `freezer/cups/cup-medium.svg` |
+| Small Cup | `freezer/cups/cup-small.svg` |
+
+### Mixables
+
+| Label | File |
+|---|---|
+| Blueberries | `freezer/mixables/blueberries.svg` |
+| Candy Buttons | `freezer/mixables/candy-buttons.svg` |
+| Cookie Crumble | `freezer/mixables/cookie-crumble.svg` |
+| Cookie Dough | `freezer/mixables/cookie-dough.svg` |
+| Fudge Brownie | `freezer/mixables/fudge-brownie.svg` |
+| Marshmallows | `freezer/mixables/marshmallows.svg` |
+| Peanut Butter Cups | `freezer/mixables/peanut-butter-cups.svg` |
+| Strawberries | `freezer/mixables/strawberries.svg` |
+
+### Sauces
+
+| Label | File |
+|---|---|
+| Blueberry Sauce | `freezer/sauces/sauce-blueberry.svg` |
+| Butterscotch Sauce | `freezer/sauces/sauce-butterscotch.svg` |
+| Chocolate Sauce | `freezer/sauces/sauce-chocolate.svg` |
+| Strawberry Sauce | `freezer/sauces/sauce-strawberry.svg` |
+
+### Shakers
+
+| Label | File |
+|---|---|
+| Berry Bits | `freezer/shakers/berry-bits.svg` |
+| Chocolate Chips | `freezer/shakers/chocolate-chips.svg` |
+| Chopped Nuts | `freezer/shakers/chopped-nuts.svg` |
+| Shaved Coconut | `freezer/shakers/shaved-coconut.svg` |
+| Shaved Mint | `freezer/shakers/shaved-mint.svg` |
+| Sprinkles | `freezer/shakers/sprinkles.svg` |
+
+### Syrups
+
+| Label | File |
+|---|---|
+| Banana Syrup | `freezer/syrups/syrup-banana.svg` |
+| Chocolate Syrup | `freezer/syrups/syrup-chocolate.svg` |
+| Grape Syrup | `freezer/syrups/syrup-grape.svg` |
+| Mint Syrup | `freezer/syrups/syrup-mint.svg` |
+| Rainbow Syrup | `freezer/syrups/syrup-rainbow.svg` |
+| Red Velvet Syrup | `freezer/syrups/syrup-red-velvet.svg` |
+| Strawberry Syrup | `freezer/syrups/syrup-strawberry.svg` |
+| Vanilla Syrup | `freezer/syrups/syrup-vanilla.svg` |
+
+### Toppers
+
+| Label | File |
+|---|---|
+| Banana Slices | `freezer/toppers/banana-slices.svg` |
+| Brownie Bite | `freezer/toppers/brownie-bite.svg` |
+| Cherry | `freezer/toppers/cherry.svg` |
+| Cookie | `freezer/toppers/cookie.svg` |
+| Gummy Rings | `freezer/toppers/gummy-rings.svg` |
+| Waffle Cone | `freezer/toppers/waffle-cone.svg` |
 
 ## Pizza (13)
 

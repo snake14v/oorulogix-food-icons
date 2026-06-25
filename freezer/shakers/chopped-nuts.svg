@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <ellipse cx="128" cy="222" rx="74" ry="13" fill="#000" opacity="0.11"/>
+  <defs>
+    <linearGradient id="nuts_a" x1="0" y1="0" x2="0.6" y2="1">
+      <stop offset="0" stop-color="#dcb478"/>
+      <stop offset="1" stop-color="#bd8c48"/>
+    </linearGradient>
+    <linearGradient id="nuts_b" x1="0" y1="0" x2="0.5" y2="1">
+      <stop offset="0" stop-color="#d4aa6c"/>
+      <stop offset="1" stop-color="#b3823e"/>
+    </linearGradient>
+  </defs>
+  <!-- nut chunk 1 -->
+  <path d="M70 96 L104 84 L120 110 L98 134 L66 124 Z" fill="url(#nuts_a)" stroke="#7a5223" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M80 98 L100 92 L108 110 L92 122 Z" fill="#eed09a" opacity="0.55"/>
+  <!-- nut chunk 2 -->
+  <path d="M138 72 L176 78 L182 110 L154 124 L130 102 Z" fill="url(#nuts_b)" stroke="#7a5223" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M146 84 L168 88 L170 104 L152 110 Z" fill="#eed09a" opacity="0.5"/>
+  <!-- nut chunk 3 -->
+  <path d="M100 150 L138 144 L156 172 L132 196 L98 184 Z" fill="url(#nuts_a)" stroke="#7a5223" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M110 158 L134 154 L144 172 L122 182 Z" fill="#eed09a" opacity="0.5"/>
+  <!-- nut chunk 4 (small) -->
+  <path d="M178 140 L204 146 L202 172 L176 174 L168 152 Z" fill="url(#nuts_b)" stroke="#7a5223" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M182 150 L196 152 L196 164 L182 164 Z" fill="#eed09a" opacity="0.5"/>
+  <!-- nut chunk 5 (small) -->
+  <path d="M52 158 L76 154 L84 176 L62 188 L46 172 Z" fill="url(#nuts_a)" stroke="#7a5223" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M58 164 L72 162 L74 176 L60 178 Z" fill="#eed09a" opacity="0.5"/>
+</svg>

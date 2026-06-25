@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <ellipse cx="128" cy="222" rx="66" ry="12" fill="#000" opacity="0.11"/>
+  <defs>
+    <linearGradient id="creamChocolate_body" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7d5234"/>
+      <stop offset="0.55" stop-color="#6b4429"/>
+      <stop offset="1" stop-color="#54341e"/>
+    </linearGradient>
+  </defs>
+  <!-- swirl body: stacked dollops tapering to a peaked top -->
+  <path d="M70 206
+           Q60 206 60 196
+           Q60 178 78 174
+           Q66 166 70 152
+           Q74 138 92 140
+           Q82 128 90 116
+           Q98 104 114 110
+           Q110 94 124 88
+           Q138 82 146 98
+           Q152 82 168 86
+           Q184 90 180 108
+           Q196 110 196 128
+           Q196 144 180 148
+           Q196 154 192 172
+           Q188 188 170 184
+           Q176 198 162 204
+           L162 206 Z"
+        fill="url(#creamChocolate_body)" stroke="#3c2a1a" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+  <!-- peaked tip -->
+  <path d="M138 98 Q140 78 150 66 Q156 80 150 96" fill="#7d5234" stroke="#3c2a1a" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+  <!-- swirl ridge highlights -->
+  <path d="M104 122 Q116 116 128 122" fill="none" stroke="#a06d44" stroke-width="7" stroke-linecap="round" opacity="0.85"/>
+  <path d="M92 150 Q108 142 124 150" fill="none" stroke="#a06d44" stroke-width="7" stroke-linecap="round" opacity="0.8"/>
+  <path d="M84 178 Q104 170 124 178" fill="none" stroke="#a06d44" stroke-width="7" stroke-linecap="round" opacity="0.7"/>
+  <!-- soft side shading -->
+  <path d="M176 132 Q190 138 184 158" fill="none" stroke="#4a2f1b" stroke-width="6" stroke-linecap="round" opacity="0.6"/>
+</svg>

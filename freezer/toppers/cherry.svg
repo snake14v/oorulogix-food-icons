@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <ellipse cx="128" cy="222" rx="64" ry="11" fill="#000" opacity="0.11"/>
+  <defs>
+    <radialGradient id="cherry_b" cx="0.38" cy="0.34" r="0.75">
+      <stop offset="0" stop-color="#f24a3e"/>
+      <stop offset="0.6" stop-color="#d2241f"/>
+      <stop offset="1" stop-color="#9c1410"/>
+    </radialGradient>
+    <linearGradient id="cherry_stem" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#6fae3c"/>
+      <stop offset="1" stop-color="#3f7a22"/>
+    </linearGradient>
+  </defs>
+  <!-- stem -->
+  <path d="M129 168 Q120 110 134 70 Q142 48 168 44" fill="none" stroke="url(#cherry_stem)" stroke-width="9" stroke-linecap="round"/>
+  <!-- leaf -->
+  <path d="M168 44 Q196 30 214 50 Q190 66 168 56 Q162 50 168 44 Z" fill="#5b9c34" stroke="#3c2a1a" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M174 49 Q190 50 206 52" fill="none" stroke="#3f7a22" stroke-width="3" stroke-linecap="round"/>
+  <!-- cherry body -->
+  <circle cx="120" cy="172" r="48" fill="url(#cherry_b)" stroke="#7e0f0c" stroke-width="6"/>
+  <!-- highlight -->
+  <ellipse cx="104" cy="152" rx="16" ry="22" fill="#fff" opacity="0.55" transform="rotate(-22 104 152)"/>
+  <circle cx="138" cy="150" r="5" fill="#fff" opacity="0.4"/>
+</svg>

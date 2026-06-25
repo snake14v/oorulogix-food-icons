@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <ellipse cx="128" cy="184" rx="82" ry="12" fill="#000" opacity="0.11"/>
+  <defs><linearGradient id="top-bacon_s" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#b5492a"/><stop offset="1" stop-color="#9a3a20"/></linearGradient></defs>
+  <path d="M40 128 Q70 110 100 128 Q130 146 160 128 Q190 110 216 130 L210 158 Q186 140 158 156 Q128 174 98 156 Q70 140 44 154 Z" fill="url(#top-bacon_s)" stroke="#4a2f1a" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M52 136 Q78 122 104 136" stroke="#f3ddc4" stroke-width="6" stroke-linecap="round" fill="none" opacity="0.9"/>
+  <path d="M118 148 Q146 136 172 148" stroke="#f3ddc4" stroke-width="6" stroke-linecap="round" fill="none" opacity="0.85"/>
+  <path d="M44 158 Q74 142 102 158 Q132 176 160 158 Q188 142 212 162 L206 184 Q184 168 158 182 Q130 198 102 182 Q76 168 50 180 Z" fill="#a8421f" stroke="#4a2f1a" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M54 166 Q80 152 106 166" stroke="#f6e4cd" stroke-width="6" stroke-linecap="round" fill="none"/>
+  <path d="M120 178 Q146 166 174 178" stroke="#f3ddc4" stroke-width="6" stroke-linecap="round" fill="none" opacity="0.85"/>
+</svg>

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <ellipse cx="128" cy="222" rx="72" ry="13" fill="#000" opacity="0.11"/>
+  <defs>
+    <linearGradient id="strawberries_g" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f0697c"/>
+      <stop offset="0.5" stop-color="#e2455a"/>
+      <stop offset="1" stop-color="#c22a40"/>
+    </linearGradient>
+  </defs>
+  <!-- chunk back left (cut wedge) -->
+  <path d="M70 110 Q92 96 110 116 L96 178 Q72 188 60 162 Q56 132 70 110 Z" fill="url(#strawberries_g)" stroke="#9c2030" stroke-width="6" stroke-linejoin="round"/>
+  <!-- chunk back right -->
+  <path d="M150 102 Q176 100 188 124 Q192 152 174 172 L148 162 Q138 130 150 102 Z" fill="url(#strawberries_g)" stroke="#9c2030" stroke-width="6" stroke-linejoin="round"/>
+  <!-- big front chunk -->
+  <path d="M104 116 Q132 100 160 122 Q172 150 158 182 Q130 200 100 184 Q86 150 104 116 Z" fill="url(#strawberries_g)" stroke="#9c2030" stroke-width="6" stroke-linejoin="round"/>
+  <!-- pale inner flesh on front chunk -->
+  <path d="M118 132 Q132 124 146 134 Q152 154 144 174 Q128 184 114 174 Q108 152 118 132 Z" fill="#ffd2d8" opacity="0.5"/>
+  <!-- seeds -->
+  <g fill="#fff3c4" stroke="#caa83a" stroke-width="1.5">
+    <ellipse cx="122" cy="140" rx="2.6" ry="4" transform="rotate(-18 122 140)"/>
+    <ellipse cx="140" cy="138" rx="2.6" ry="4" transform="rotate(14 140 138)"/>
+    <ellipse cx="115" cy="158" rx="2.6" ry="4" transform="rotate(-22 115 158)"/>
+    <ellipse cx="134" cy="160" rx="2.6" ry="4" transform="rotate(6 134 160)"/>
+    <ellipse cx="148" cy="156" rx="2.6" ry="4" transform="rotate(24 148 156)"/>
+    <ellipse cx="126" cy="174" rx="2.6" ry="4" transform="rotate(-6 126 174)"/>
+    <ellipse cx="78" cy="138" rx="2.4" ry="3.6" transform="rotate(-10 78 138)"/>
+    <ellipse cx="84" cy="158" rx="2.4" ry="3.6" transform="rotate(10 84 158)"/>
+    <ellipse cx="166" cy="132" rx="2.4" ry="3.6" transform="rotate(16 166 132)"/>
+    <ellipse cx="170" cy="152" rx="2.4" ry="3.6" transform="rotate(-8 170 152)"/>
+  </g>
+  <!-- highlight -->
+  <ellipse cx="120" cy="124" rx="14" ry="7" fill="#fff" opacity="0.4"/>
+</svg>

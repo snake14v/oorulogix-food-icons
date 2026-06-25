@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <ellipse cx="128" cy="210" rx="86" ry="12" fill="#000" opacity="0.11"/>
+  <defs>
+    <linearGradient id="lettuce_g" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a4d05e"/>
+      <stop offset="1" stop-color="#6fa033"/>
+    </linearGradient>
+  </defs>
+  <path d="M22 150
+    Q14 132 30 126
+    Q26 110 44 110
+    Q48 94 68 102
+    Q78 88 96 100
+    Q112 86 128 100
+    Q144 86 160 100
+    Q178 88 188 102
+    Q208 94 212 110
+    Q230 110 226 128
+    Q242 134 234 150
+    Q236 168 218 170
+    Q210 184 192 176
+    Q180 190 164 178
+    Q148 192 128 178
+    Q108 192 92 178
+    Q76 190 64 176
+    Q46 184 38 170
+    Q20 168 22 150 Z"
+    fill="url(#lettuce_g)" stroke="#3c5a1a" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M60 134 Q90 120 128 132 Q166 120 196 134" fill="none" stroke="#5d8a2a" stroke-width="5" stroke-linecap="round"/>
+  <path d="M50 124 Q70 116 88 124" fill="none" stroke="#c3e08a" stroke-width="5" stroke-linecap="round" opacity="0.7"/>
+  <path d="M150 122 Q172 114 196 124" fill="none" stroke="#c3e08a" stroke-width="5" stroke-linecap="round" opacity="0.7"/>
+</svg>

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <ellipse cx="128" cy="224" rx="58" ry="11" fill="#000" opacity="0.11"/>
+  <defs>
+    <clipPath id="syruprainbow_clip">
+      <path d="M98 58 L158 58 L168 100 L168 196 Q168 218 146 218 L110 218 Q88 218 88 196 L88 100 Z"/>
+    </clipPath>
+    <linearGradient id="syruprainbow_hl" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#fff" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect x="108" y="34" width="40" height="24" rx="5" fill="#5a3a1f" stroke="#43291a" stroke-width="6" stroke-linejoin="round"/>
+  <rect x="118" y="22" width="20" height="16" rx="4" fill="#6e4a28"/>
+  <g clip-path="url(#syruprainbow_clip)">
+    <rect x="84" y="54" width="92" height="32" fill="#e2455a"/>
+    <rect x="84" y="86" width="92" height="30" fill="#f08a3a"/>
+    <rect x="84" y="116" width="92" height="30" fill="#f2d23a"/>
+    <rect x="84" y="146" width="92" height="30" fill="#5fbf78"/>
+    <rect x="84" y="176" width="92" height="46" fill="#4a8fd6"/>
+    <rect x="92" y="58" width="14" height="160" fill="url(#syruprainbow_hl)"/>
+  </g>
+  <path d="M98 58 L158 58 L168 100 L168 196 Q168 218 146 218 L110 218 Q88 218 88 196 L88 100 Z" fill="none" stroke="#3c2a1a" stroke-width="6" stroke-linejoin="round"/>
+  <rect x="106" y="120" width="44" height="40" rx="7" fill="#fff" opacity="0.95" stroke="#3c2a1a" stroke-width="4"/>
+  <circle cx="128" cy="140" r="8" fill="#7b3f9e"/>
+</svg>

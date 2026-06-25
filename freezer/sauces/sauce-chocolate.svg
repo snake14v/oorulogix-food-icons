@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <ellipse cx="128" cy="222" rx="72" ry="12" fill="#000" opacity="0.11"/>
+  <defs>
+    <linearGradient id="choc_pool" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5a3318"/>
+      <stop offset="1" stop-color="#3a2010"/>
+    </linearGradient>
+    <linearGradient id="choc_ribbon" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#5e3719"/>
+      <stop offset="1" stop-color="#4a2c17"/>
+    </linearGradient>
+  </defs>
+  <!-- glossy pool -->
+  <path d="M52 158 Q44 132 74 124 Q92 118 110 128 Q128 110 156 120 Q198 110 206 144 Q214 176 184 190 Q158 202 128 196 Q92 204 68 190 Q50 180 52 158 Z" fill="url(#choc_pool)" stroke="#3c2a1a" stroke-width="6" stroke-linejoin="round"/>
+  <!-- drizzle ribbon -->
+  <path d="M70 96 Q102 70 128 92 Q154 114 184 88 Q210 66 196 110" fill="none" stroke="url(#choc_ribbon)" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M70 96 Q102 70 128 92 Q154 114 184 88 Q210 66 196 110" fill="none" stroke="#3c2a1a" stroke-width="22" stroke-linecap="round" stroke-linejoin="round" opacity="0"/>
+  <path d="M70 96 Q102 70 128 92 Q154 114 184 88 Q210 66 196 110" fill="none" stroke="#3c2a1a" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" opacity="0.25"/>
+  <!-- highlight on pool -->
+  <path d="M78 150 Q98 138 122 144 Q108 156 86 156 Q78 154 78 150 Z" fill="#fff" opacity="0.34"/>
+  <ellipse cx="170" cy="158" rx="12" ry="6" fill="#fff" opacity="0.22"/>
+  <!-- ribbon highlight -->
+  <path d="M82 92 Q104 76 124 90" fill="none" stroke="#fff" stroke-width="5" stroke-linecap="round" opacity="0.3"/>
+</svg>

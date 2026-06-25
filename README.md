@@ -2,14 +2,15 @@
 
 # 🍱 Flat Food Icons
 
-An open-source pack of **291 original flat-cartoon icons** — food items **and** restaurant POS / management UI — for food-ordering apps, cooking games, dashboards, kiosks, and prototypes. Hand-built SVG — scalable, tiny, and easy to animate.
+An open-source pack of **337 original flat-cartoon icons** — food items **and** restaurant POS / management UI — for food-ordering apps, cooking games, dashboards, kiosks, and prototypes. Hand-built SVG — scalable, tiny, and easy to animate.
 
 All artwork is original and all names are generic. Licensed under the **MIT License** (see `LICENSE`).
 
 ## Contents
 - **Bakery** — 27 icons
-- **Burger** — 12 icons
+- **Burger** — 21 icons
 - **Coffee** — 57 icons
+- **Freezer** — 37 icons
 - **Pizza** — 13 icons
 - **Pos** — 40 icons
 - **Sandwich** — 70 icons

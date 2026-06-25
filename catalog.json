@@ -3,7 +3,7 @@
   "style": "flat-cartoon",
   "viewBox": "0 0 256 256",
   "license": "MIT",
-  "count": 291,
+  "count": 337,
   "assets": [
     {
       "id": "bakery-crusts-chocolate-crust",
@@ -195,25 +195,46 @@
       "name": "Whipped Cream"
     },
     {
-      "id": "burger-base-bun-bottom",
+      "id": "burger-buns-bun-bottom",
       "theme": "burger",
-      "category": "base",
-      "file": "burger/base/bun-bottom.svg",
+      "category": "buns",
+      "file": "burger/buns/bun-bottom.svg",
       "name": "Bottom Bun"
     },
     {
-      "id": "burger-base-patty",
+      "id": "burger-buns-bun-top",
       "theme": "burger",
-      "category": "base",
-      "file": "burger/base/patty.svg",
-      "name": "Patty"
+      "category": "buns",
+      "file": "burger/buns/bun-top.svg",
+      "name": "Top Bun"
     },
     {
-      "id": "burger-base-bun-top",
+      "id": "burger-patties-rare-patty",
       "theme": "burger",
-      "category": "base",
-      "file": "burger/base/bun-top.svg",
-      "name": "Top Bun"
+      "category": "patties",
+      "file": "burger/patties/rare-patty.svg",
+      "name": "Rare Patty"
+    },
+    {
+      "id": "burger-patties-raw-patty",
+      "theme": "burger",
+      "category": "patties",
+      "file": "burger/patties/raw-patty.svg",
+      "name": "Raw Patty"
+    },
+    {
+      "id": "burger-patties-regular-patty",
+      "theme": "burger",
+      "category": "patties",
+      "file": "burger/patties/regular-patty.svg",
+      "name": "Regular Patty"
+    },
+    {
+      "id": "burger-patties-well-done-patty",
+      "theme": "burger",
+      "category": "patties",
+      "file": "burger/patties/well-done-patty.svg",
+      "name": "Well Done Patty"
     },
     {
       "id": "burger-sauces-sauce-bbq",
@@ -244,38 +265,80 @@
       "name": "Mustard Sauce"
     },
     {
-      "id": "burger-toppings-cheese",
+      "id": "burger-sauces-sauce-special",
       "theme": "burger",
-      "category": "toppings",
-      "file": "burger/toppings/cheese.svg",
-      "name": "Cheese"
+      "category": "sauces",
+      "file": "burger/sauces/sauce-special.svg",
+      "name": "Special Sauce"
     },
     {
-      "id": "burger-toppings-lettuce",
+      "id": "burger-toppings-top-american-cheese",
       "theme": "burger",
       "category": "toppings",
-      "file": "burger/toppings/lettuce.svg",
+      "file": "burger/toppings/top-american-cheese.svg",
+      "name": "American Cheese"
+    },
+    {
+      "id": "burger-toppings-top-bacon",
+      "theme": "burger",
+      "category": "toppings",
+      "file": "burger/toppings/top-bacon.svg",
+      "name": "Bacon"
+    },
+    {
+      "id": "burger-toppings-top-lettuce",
+      "theme": "burger",
+      "category": "toppings",
+      "file": "burger/toppings/top-lettuce.svg",
       "name": "Lettuce"
     },
     {
-      "id": "burger-toppings-onion",
+      "id": "burger-toppings-top-mushrooms",
       "theme": "burger",
       "category": "toppings",
-      "file": "burger/toppings/onion.svg",
+      "file": "burger/toppings/top-mushrooms.svg",
+      "name": "Mushrooms"
+    },
+    {
+      "id": "burger-toppings-top-onion",
+      "theme": "burger",
+      "category": "toppings",
+      "file": "burger/toppings/top-onion.svg",
       "name": "Onion"
     },
     {
-      "id": "burger-toppings-pickle",
+      "id": "burger-toppings-top-onion-ring",
       "theme": "burger",
       "category": "toppings",
-      "file": "burger/toppings/pickle.svg",
+      "file": "burger/toppings/top-onion-ring.svg",
+      "name": "Onion Ring"
+    },
+    {
+      "id": "burger-toppings-top-pepperjack-cheese",
+      "theme": "burger",
+      "category": "toppings",
+      "file": "burger/toppings/top-pepperjack-cheese.svg",
+      "name": "Pepperjack Cheese"
+    },
+    {
+      "id": "burger-toppings-top-pickle",
+      "theme": "burger",
+      "category": "toppings",
+      "file": "burger/toppings/top-pickle.svg",
       "name": "Pickle"
     },
     {
-      "id": "burger-toppings-tomato",
+      "id": "burger-toppings-top-swiss-cheese",
       "theme": "burger",
       "category": "toppings",
-      "file": "burger/toppings/tomato.svg",
+      "file": "burger/toppings/top-swiss-cheese.svg",
+      "name": "Swiss Cheese"
+    },
+    {
+      "id": "burger-toppings-top-tomato",
+      "theme": "burger",
+      "category": "toppings",
+      "file": "burger/toppings/top-tomato.svg",
       "name": "Tomato"
     },
     {
@@ -676,6 +739,265 @@
       "category": "toppings",
       "file": "coffee/toppings/topping-toasted-coconut.svg",
       "name": "Toasted Coconut"
+    },
+    {
+      "id": "freezer-creams-cream-chocolate",
+      "theme": "freezer",
+      "category": "creams",
+      "file": "freezer/creams/cream-chocolate.svg",
+      "name": "Chocolate Cream"
+    },
+    {
+      "id": "freezer-creams-cream-whipped",
+      "theme": "freezer",
+      "category": "creams",
+      "file": "freezer/creams/cream-whipped.svg",
+      "name": "Whipped Cream"
+    },
+    {
+      "id": "freezer-cups-cup-large",
+      "theme": "freezer",
+      "category": "cups",
+      "file": "freezer/cups/cup-large.svg",
+      "name": "Large Cup"
+    },
+    {
+      "id": "freezer-cups-cup-medium",
+      "theme": "freezer",
+      "category": "cups",
+      "file": "freezer/cups/cup-medium.svg",
+      "name": "Medium Cup"
+    },
+    {
+      "id": "freezer-cups-cup-small",
+      "theme": "freezer",
+      "category": "cups",
+      "file": "freezer/cups/cup-small.svg",
+      "name": "Small Cup"
+    },
+    {
+      "id": "freezer-mixables-blueberries",
+      "theme": "freezer",
+      "category": "mixables",
+      "file": "freezer/mixables/blueberries.svg",
+      "name": "Blueberries"
+    },
+    {
+      "id": "freezer-mixables-candy-buttons",
+      "theme": "freezer",
+      "category": "mixables",
+      "file": "freezer/mixables/candy-buttons.svg",
+      "name": "Candy Buttons"
+    },
+    {
+      "id": "freezer-mixables-cookie-crumble",
+      "theme": "freezer",
+      "category": "mixables",
+      "file": "freezer/mixables/cookie-crumble.svg",
+      "name": "Cookie Crumble"
+    },
+    {
+      "id": "freezer-mixables-cookie-dough",
+      "theme": "freezer",
+      "category": "mixables",
+      "file": "freezer/mixables/cookie-dough.svg",
+      "name": "Cookie Dough"
+    },
+    {
+      "id": "freezer-mixables-fudge-brownie",
+      "theme": "freezer",
+      "category": "mixables",
+      "file": "freezer/mixables/fudge-brownie.svg",
+      "name": "Fudge Brownie"
+    },
+    {
+      "id": "freezer-mixables-marshmallows",
+      "theme": "freezer",
+      "category": "mixables",
+      "file": "freezer/mixables/marshmallows.svg",
+      "name": "Marshmallows"
+    },
+    {
+      "id": "freezer-mixables-peanut-butter-cups",
+      "theme": "freezer",
+      "category": "mixables",
+      "file": "freezer/mixables/peanut-butter-cups.svg",
+      "name": "Peanut Butter Cups"
+    },
+    {
+      "id": "freezer-mixables-strawberries",
+      "theme": "freezer",
+      "category": "mixables",
+      "file": "freezer/mixables/strawberries.svg",
+      "name": "Strawberries"
+    },
+    {
+      "id": "freezer-sauces-sauce-blueberry",
+      "theme": "freezer",
+      "category": "sauces",
+      "file": "freezer/sauces/sauce-blueberry.svg",
+      "name": "Blueberry Sauce"
+    },
+    {
+      "id": "freezer-sauces-sauce-butterscotch",
+      "theme": "freezer",
+      "category": "sauces",
+      "file": "freezer/sauces/sauce-butterscotch.svg",
+      "name": "Butterscotch Sauce"
+    },
+    {
+      "id": "freezer-sauces-sauce-chocolate",
+      "theme": "freezer",
+      "category": "sauces",
+      "file": "freezer/sauces/sauce-chocolate.svg",
+      "name": "Chocolate Sauce"
+    },
+    {
+      "id": "freezer-sauces-sauce-strawberry",
+      "theme": "freezer",
+      "category": "sauces",
+      "file": "freezer/sauces/sauce-strawberry.svg",
+      "name": "Strawberry Sauce"
+    },
+    {
+      "id": "freezer-shakers-berry-bits",
+      "theme": "freezer",
+      "category": "shakers",
+      "file": "freezer/shakers/berry-bits.svg",
+      "name": "Berry Bits"
+    },
+    {
+      "id": "freezer-shakers-chocolate-chips",
+      "theme": "freezer",
+      "category": "shakers",
+      "file": "freezer/shakers/chocolate-chips.svg",
+      "name": "Chocolate Chips"
+    },
+    {
+      "id": "freezer-shakers-chopped-nuts",
+      "theme": "freezer",
+      "category": "shakers",
+      "file": "freezer/shakers/chopped-nuts.svg",
+      "name": "Chopped Nuts"
+    },
+    {
+      "id": "freezer-shakers-shaved-coconut",
+      "theme": "freezer",
+      "category": "shakers",
+      "file": "freezer/shakers/shaved-coconut.svg",
+      "name": "Shaved Coconut"
+    },
+    {
+      "id": "freezer-shakers-shaved-mint",
+      "theme": "freezer",
+      "category": "shakers",
+      "file": "freezer/shakers/shaved-mint.svg",
+      "name": "Shaved Mint"
+    },
+    {
+      "id": "freezer-shakers-sprinkles",
+      "theme": "freezer",
+      "category": "shakers",
+      "file": "freezer/shakers/sprinkles.svg",
+      "name": "Sprinkles"
+    },
+    {
+      "id": "freezer-syrups-syrup-banana",
+      "theme": "freezer",
+      "category": "syrups",
+      "file": "freezer/syrups/syrup-banana.svg",
+      "name": "Banana Syrup"
+    },
+    {
+      "id": "freezer-syrups-syrup-chocolate",
+      "theme": "freezer",
+      "category": "syrups",
+      "file": "freezer/syrups/syrup-chocolate.svg",
+      "name": "Chocolate Syrup"
+    },
+    {
+      "id": "freezer-syrups-syrup-grape",
+      "theme": "freezer",
+      "category": "syrups",
+      "file": "freezer/syrups/syrup-grape.svg",
+      "name": "Grape Syrup"
+    },
+    {
+      "id": "freezer-syrups-syrup-mint",
+      "theme": "freezer",
+      "category": "syrups",
+      "file": "freezer/syrups/syrup-mint.svg",
+      "name": "Mint Syrup"
+    },
+    {
+      "id": "freezer-syrups-syrup-rainbow",
+      "theme": "freezer",
+      "category": "syrups",
+      "file": "freezer/syrups/syrup-rainbow.svg",
+      "name": "Rainbow Syrup"
+    },
+    {
+      "id": "freezer-syrups-syrup-red-velvet",
+      "theme": "freezer",
+      "category": "syrups",
+      "file": "freezer/syrups/syrup-red-velvet.svg",
+      "name": "Red Velvet Syrup"
+    },
+    {
+      "id": "freezer-syrups-syrup-strawberry",
+      "theme": "freezer",
+      "category": "syrups",
+      "file": "freezer/syrups/syrup-strawberry.svg",
+      "name": "Strawberry Syrup"
+    },
+    {
+      "id": "freezer-syrups-syrup-vanilla",
+      "theme": "freezer",
+      "category": "syrups",
+      "file": "freezer/syrups/syrup-vanilla.svg",
+      "name": "Vanilla Syrup"
+    },
+    {
+      "id": "freezer-toppers-banana-slices",
+      "theme": "freezer",
+      "category": "toppers",
+      "file": "freezer/toppers/banana-slices.svg",
+      "name": "Banana Slices"
+    },
+    {
+      "id": "freezer-toppers-brownie-bite",
+      "theme": "freezer",
+      "category": "toppers",
+      "file": "freezer/toppers/brownie-bite.svg",
+      "name": "Brownie Bite"
+    },
+    {
+      "id": "freezer-toppers-cherry",
+      "theme": "freezer",
+      "category": "toppers",
+      "file": "freezer/toppers/cherry.svg",
+      "name": "Cherry"
+    },
+    {
+      "id": "freezer-toppers-cookie",
+      "theme": "freezer",
+      "category": "toppers",
+      "file": "freezer/toppers/cookie.svg",
+      "name": "Cookie"
+    },
+    {
+      "id": "freezer-toppers-gummy-rings",
+      "theme": "freezer",
+      "category": "toppers",
+      "file": "freezer/toppers/gummy-rings.svg",
+      "name": "Gummy Rings"
+    },
+    {
+      "id": "freezer-toppers-waffle-cone",
+      "theme": "freezer",
+      "category": "toppers",
+      "file": "freezer/toppers/waffle-cone.svg",
+      "name": "Waffle Cone"
     },
     {
       "id": "pizza-base-pizza-baked",

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <ellipse cx="128" cy="222" rx="72" ry="12" fill="#000" opacity="0.11"/>
+  <defs>
+    <linearGradient id="straw_pool" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ee5b70"/>
+      <stop offset="1" stop-color="#cc384e"/>
+    </linearGradient>
+    <linearGradient id="straw_ribbon" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f06a7d"/>
+      <stop offset="1" stop-color="#e2455a"/>
+    </linearGradient>
+  </defs>
+  <!-- glossy pool -->
+  <path d="M52 158 Q44 132 74 124 Q92 118 110 128 Q128 110 156 120 Q198 110 206 144 Q214 176 184 190 Q158 202 128 196 Q92 204 68 190 Q50 180 52 158 Z" fill="url(#straw_pool)" stroke="#a52c40" stroke-width="6" stroke-linejoin="round"/>
+  <!-- drizzle ribbon -->
+  <path d="M70 96 Q102 70 128 92 Q154 114 184 88 Q210 66 196 110" fill="none" stroke="url(#straw_ribbon)" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M70 96 Q102 70 128 92 Q154 114 184 88 Q210 66 196 110" fill="none" stroke="#a52c40" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" opacity="0.25"/>
+  <!-- seed dots -->
+  <ellipse cx="100" cy="150" rx="3.4" ry="5" fill="#7d1f30" opacity="0.55"/>
+  <ellipse cx="138" cy="162" rx="3.4" ry="5" fill="#7d1f30" opacity="0.55"/>
+  <ellipse cx="164" cy="146" rx="3.4" ry="5" fill="#7d1f30" opacity="0.55"/>
+  <ellipse cx="118" cy="176" rx="3.4" ry="5" fill="#7d1f30" opacity="0.5"/>
+  <!-- highlight on pool -->
+  <path d="M78 150 Q98 138 122 144 Q108 156 86 156 Q78 154 78 150 Z" fill="#fff" opacity="0.4"/>
+  <ellipse cx="170" cy="158" rx="12" ry="6" fill="#fff" opacity="0.26"/>
+  <!-- ribbon highlight -->
+  <path d="M82 92 Q104 76 124 90" fill="none" stroke="#fff" stroke-width="5" stroke-linecap="round" opacity="0.38"/>
+</svg>

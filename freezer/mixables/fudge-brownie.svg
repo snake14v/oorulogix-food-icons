@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <ellipse cx="128" cy="222" rx="70" ry="13" fill="#000" opacity="0.11"/>
+  <defs>
+    <linearGradient id="fudgebrownie_top" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#6b3f22"/>
+      <stop offset="1" stop-color="#4a2c17"/>
+    </linearGradient>
+    <linearGradient id="fudgebrownie_side" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3c2415"/>
+      <stop offset="1" stop-color="#2a190d"/>
+    </linearGradient>
+  </defs>
+  <!-- back cube -->
+  <g stroke="#241407" stroke-width="6" stroke-linejoin="round">
+    <path d="M150 92 L196 104 L196 132 L150 122 Z" fill="url(#fudgebrownie_top)"/>
+    <path d="M150 122 L196 132 L196 162 L150 152 Z" fill="url(#fudgebrownie_side)"/>
+    <path d="M150 92 L150 122 L150 152 L122 146 L122 100 Z" fill="#33200f"/>
+  </g>
+  <!-- front big cube -->
+  <g stroke="#241407" stroke-width="6" stroke-linejoin="round">
+    <path d="M70 116 L124 102 L168 116 L114 132 Z" fill="url(#fudgebrownie_top)"/>
+    <path d="M70 116 L114 132 L114 188 L70 172 Z" fill="url(#fudgebrownie_side)"/>
+    <path d="M114 132 L168 116 L168 172 L114 188 Z" fill="#3a2415"/>
+  </g>
+  <!-- crumb pieces -->
+  <g stroke="#241407" stroke-width="4" stroke-linejoin="round">
+    <path d="M178 168 l22 -4 l4 18 l-22 6 z" fill="url(#fudgebrownie_side)"/>
+    <path d="M58 176 l20 2 l2 16 l-20 2 z" fill="url(#fudgebrownie_side)"/>
+  </g>
+  <!-- moist fudge sheen on top faces -->
+  <path d="M78 116 L122 106 L158 116 L116 128 Z" fill="#8a5430" opacity="0.45"/>
+  <ellipse cx="106" cy="116" rx="16" ry="5" fill="#fff" opacity="0.2"/>
+  <!-- chocolate chunk specks -->
+  <g fill="#1e0f06">
+    <circle cx="100" cy="150" r="4"/>
+    <circle cx="132" cy="160" r="4.5"/>
+    <circle cx="148" cy="140" r="3.4"/>
+    <circle cx="88" cy="160" r="3"/>
+    <circle cx="170" cy="110" r="3.4"/>
+  </g>
+</svg>

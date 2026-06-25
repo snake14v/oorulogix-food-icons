@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <ellipse cx="128" cy="226" rx="66" ry="12" fill="#000" opacity="0.11"/>
+  <defs>
+    <linearGradient id="cuplarge_body" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#cfe4ee"/>
+      <stop offset=".42" stop-color="#eef8fc"/>
+      <stop offset=".62" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#c2dbe8"/>
+    </linearGradient>
+    <linearGradient id="cuplarge_rim" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#c9e0ec"/>
+    </linearGradient>
+    <clipPath id="cuplarge_clip">
+      <path d="M76 62 L180 62 L166 210 Q166 214 162 214 L94 214 Q90 214 90 210 Z"/>
+    </clipPath>
+  </defs>
+  <!-- cup body (tall + wide) -->
+  <path d="M74 58 L182 58 L167 212 Q166 218 160 218 L96 218 Q90 218 89 212 Z"
+        fill="url(#cuplarge_body)" stroke="#5a3a1f" stroke-width="6" stroke-linejoin="round"/>
+  <!-- inner clipped soft shade on the right -->
+  <g clip-path="url(#cuplarge_clip)">
+    <path d="M146 62 L182 62 L168 214 L136 214 Z" fill="#9fc4d6" opacity="0.35"/>
+  </g>
+  <!-- vertical highlight streak -->
+  <path d="M104 72 L114 72 L107 204 L98 204 Z" fill="#ffffff" opacity="0.85"/>
+  <!-- subtle plastic seam line -->
+  <path d="M128 66 L128 210" stroke="#bcd6e3" stroke-width="3" stroke-linecap="round" opacity="0.55"/>
+  <!-- rolled rim -->
+  <ellipse cx="128" cy="58" rx="56" ry="15" fill="url(#cuplarge_rim)" stroke="#5a3a1f" stroke-width="6"/>
+  <!-- rim inner opening -->
+  <ellipse cx="128" cy="58" rx="44" ry="9" fill="#dcecf4" stroke="#7aa6bd" stroke-width="3"/>
+  <ellipse cx="128" cy="58" rx="44" ry="9" fill="#bcd9e8" opacity="0.5"/>
+  <!-- rim highlight -->
+  <path d="M90 51 Q104 44 122 45" stroke="#ffffff" stroke-width="4" stroke-linecap="round" fill="none" opacity="0.9"/>
+</svg>

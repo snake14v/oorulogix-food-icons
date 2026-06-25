@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <ellipse cx="128" cy="222" rx="74" ry="13" fill="#000" opacity="0.11"/>
+  <defs>
+    <linearGradient id="chips_a" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5a3a26"/>
+      <stop offset="1" stop-color="#33200f"/>
+    </linearGradient>
+    <linearGradient id="chips_b" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#4d3120"/>
+      <stop offset="1" stop-color="#2a1a0d"/>
+    </linearGradient>
+  </defs>
+  <!-- chip 1 (teardrop / classic chip) -->
+  <path d="M84 76 C84 76 116 130 116 146 C116 164 100 176 84 176 C68 176 52 164 52 146 C52 130 84 76 84 76 Z" fill="url(#chips_a)" stroke="#3a2418" stroke-width="6" stroke-linejoin="round"/>
+  <ellipse cx="72" cy="150" rx="12" ry="16" fill="#7a5236" opacity="0.5"/>
+  <!-- chip 2 -->
+  <path d="M168 64 C168 64 198 112 198 128 C198 145 183 156 168 156 C153 156 138 145 138 128 C138 112 168 64 168 64 Z" fill="url(#chips_b)" stroke="#3a2418" stroke-width="6" stroke-linejoin="round"/>
+  <ellipse cx="157" cy="132" rx="11" ry="14" fill="#7a5236" opacity="0.45"/>
+  <!-- chip 3 -->
+  <path d="M140 130 C140 130 168 174 168 188 C168 203 155 213 140 213 C125 213 112 203 112 188 C112 174 140 130 140 130 Z" fill="url(#chips_a)" stroke="#3a2418" stroke-width="6" stroke-linejoin="round"/>
+  <ellipse cx="130" cy="191" rx="10" ry="13" fill="#7a5236" opacity="0.45"/>
+  <!-- chip 4 (small) -->
+  <path d="M196 150 C196 150 216 184 216 195 C216 206 207 213 196 213 C185 213 176 206 176 195 C176 184 196 150 196 150 Z" fill="url(#chips_b)" stroke="#3a2418" stroke-width="5" stroke-linejoin="round"/>
+  <ellipse cx="188" cy="197" rx="8" ry="10" fill="#7a5236" opacity="0.4"/>
+</svg>

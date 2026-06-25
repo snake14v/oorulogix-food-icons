@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <ellipse cx="128" cy="222" rx="72" ry="13" fill="#000" opacity="0.11"/>
+  <defs>
+    <linearGradient id="cookiecrumble_g" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#4a3636"/>
+      <stop offset="1" stop-color="#2c1f1f"/>
+    </linearGradient>
+  </defs>
+  <!-- large angular crumbs -->
+  <path d="M86 110 L122 102 L132 134 L104 154 L78 138 Z" fill="url(#cookiecrumble_g)" stroke="#211616" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M138 100 L176 110 L182 142 L150 152 L132 126 Z" fill="url(#cookiecrumble_g)" stroke="#211616" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M92 150 L130 146 L146 176 L118 192 L84 178 Z" fill="url(#cookiecrumble_g)" stroke="#211616" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M150 156 L184 158 L186 182 L160 192 L142 176 Z" fill="url(#cookiecrumble_g)" stroke="#211616" stroke-width="6" stroke-linejoin="round"/>
+  <!-- small scattered crumbs -->
+  <path d="M66 158 l16 -4 l6 14 l-12 8 z" fill="#3a2a2a" stroke="#211616" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M188 130 l14 2 l1 14 l-13 3 z" fill="#3a2a2a" stroke="#211616" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M120 184 l14 0 l3 12 l-14 4 z" fill="#3a2a2a" stroke="#211616" stroke-width="4" stroke-linejoin="round"/>
+  <!-- white cream flecks -->
+  <g fill="#fdf6ec">
+    <circle cx="100" cy="124" r="4.5"/>
+    <circle cx="113" cy="140" r="3.2"/>
+    <circle cx="158" cy="122" r="4.5"/>
+    <circle cx="168" cy="136" r="3"/>
+    <circle cx="108" cy="166" r="4.5"/>
+    <circle cx="124" cy="178" r="3"/>
+    <circle cx="166" cy="172" r="4"/>
+    <circle cx="90" cy="170" r="2.8"/>
+    <circle cx="146" cy="160" r="3.4"/>
+  </g>
+  <!-- crumb dust -->
+  <g fill="#5a4242">
+    <circle cx="74" cy="186" r="3"/>
+    <circle cx="196" cy="170" r="2.6"/>
+    <circle cx="140" cy="96" r="2.6"/>
+  </g>
+  <!-- highlights -->
+  <path d="M90 112 l24 -5 l3 9 l-22 6 z" fill="#fff" opacity="0.16"/>
+  <path d="M142 104 l28 7 l-2 8 l-26 -6 z" fill="#fff" opacity="0.14"/>
+</svg>

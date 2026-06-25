@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <ellipse cx="128" cy="210" rx="84" ry="13" fill="#000" opacity="0.11"/>
+  <defs>
+    <linearGradient id="buntop_dome" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f0bd6c"/>
+      <stop offset="0.55" stop-color="#e3a854"/>
+      <stop offset="1" stop-color="#d89a44"/>
+    </linearGradient>
+    <linearGradient id="buntop_base" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e7ad58"/>
+      <stop offset="1" stop-color="#cf8f3c"/>
+    </linearGradient>
+    <radialGradient id="buntop_shine" cx="0.4" cy="0.3" r="0.5">
+      <stop offset="0" stop-color="#fff4d8" stop-opacity="0.85"/>
+      <stop offset="1" stop-color="#fff4d8" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <!-- bottom rim of the bun where it sits on the patty -->
+  <path d="M40 168 Q40 158 52 156 L204 156 Q216 158 216 168 L216 176 Q216 190 200 190 L56 190 Q40 190 40 176 Z" fill="url(#buntop_base)" stroke="#5a3418" stroke-width="6" stroke-linejoin="round"/>
+  <!-- main sesame dome -->
+  <path d="M44 166 Q44 78 128 64 Q212 78 212 166 Q212 172 204 172 L52 172 Q44 172 44 166 Z" fill="url(#buntop_dome)" stroke="#5a3418" stroke-width="6" stroke-linejoin="round"/>
+  <!-- glaze highlight on the dome -->
+  <path d="M70 150 Q66 96 122 82 Q104 92 96 124 Q90 142 86 150 Z" fill="url(#buntop_shine)"/>
+  <ellipse cx="104" cy="104" rx="20" ry="9" fill="#fff4d8" opacity="0.55" transform="rotate(-28 104 104)"/>
+  <!-- scattered cream sesame seeds -->
+  <g fill="#f7e7c4" stroke="#cf9a4c" stroke-width="1.6">
+    <ellipse cx="100" cy="118" rx="6.5" ry="3.4" transform="rotate(-24 100 118)"/>
+    <ellipse cx="132" cy="104" rx="6.5" ry="3.4" transform="rotate(14 132 104)"/>
+    <ellipse cx="160" cy="120" rx="6.5" ry="3.4" transform="rotate(-12 160 120)"/>
+    <ellipse cx="84" cy="142" rx="6.5" ry="3.4" transform="rotate(30 84 142)"/>
+    <ellipse cx="118" cy="138" rx="6.5" ry="3.4" transform="rotate(-8 118 138)"/>
+    <ellipse cx="150" cy="146" rx="6.5" ry="3.4" transform="rotate(22 150 146)"/>
+    <ellipse cx="178" cy="142" rx="6.5" ry="3.4" transform="rotate(-30 178 142)"/>
+    <ellipse cx="128" cy="86" rx="6" ry="3.2" transform="rotate(6 128 86)"/>
+    <ellipse cx="68" cy="156" rx="6" ry="3.2" transform="rotate(38 68 156)"/>
+  </g>
+</svg>

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <ellipse cx="128" cy="214" rx="84" ry="13" fill="#000" opacity="0.11"/>
+  <defs>
+    <linearGradient id="bunbot_side" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e2a04e"/>
+      <stop offset="1" stop-color="#c4842f"/>
+    </linearGradient>
+    <linearGradient id="bunbot_crumb" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f6e3bd"/>
+      <stop offset="1" stop-color="#ecd09a"/>
+    </linearGradient>
+  </defs>
+  <!-- main bun base body, side profile -->
+  <path d="M40 110 Q40 96 56 94 L200 94 Q216 96 216 110 L216 172 Q216 196 188 196 L68 196 Q40 196 40 172 Z" fill="url(#bunbot_side)" stroke="#5a3418" stroke-width="6" stroke-linejoin="round"/>
+  <!-- lighter cut crumb face on top -->
+  <path d="M48 104 Q48 88 70 86 L186 86 Q208 88 208 104 Q208 118 186 120 L70 120 Q48 118 48 104 Z" fill="url(#bunbot_crumb)" stroke="#5a3418" stroke-width="6" stroke-linejoin="round"/>
+  <!-- crumb air pockets -->
+  <g fill="#dcbd84" opacity="0.8">
+    <ellipse cx="84" cy="103" rx="7" ry="3.4"/>
+    <ellipse cx="120" cy="100" rx="5.5" ry="2.8"/>
+    <ellipse cx="152" cy="104" rx="6.5" ry="3.2"/>
+    <ellipse cx="180" cy="101" rx="5" ry="2.6"/>
+    <ellipse cx="104" cy="108" rx="4.5" ry="2.4"/>
+  </g>
+  <!-- highlight on side of base -->
+  <path d="M56 134 Q54 150 60 178 Q66 184 72 178 Q66 152 70 134 Z" fill="#f4cd84" opacity="0.6"/>
+</svg>

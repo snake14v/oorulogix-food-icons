@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <ellipse cx="128" cy="210" rx="82" ry="12" fill="#000" opacity="0.11"/>
+  <defs>
+    <linearGradient id="swiss_g" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f8ecaf"/>
+      <stop offset="1" stop-color="#ecd16e"/>
+    </linearGradient>
+  </defs>
+  <path d="M34 120
+    Q30 110 40 108
+    L88 104 Q108 102 128 104 Q150 102 170 106 L214 112
+    Q226 114 222 126
+    L218 150 Q214 168 196 176
+    Q150 156 110 178
+    Q72 158 44 170
+    Q34 162 34 146 Z"
+    fill="url(#swiss_g)" stroke="#5a3418" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M196 176 Q200 192 190 200 Q182 196 184 178 Z" fill="#ecd16e" stroke="#5a3418" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M44 170 Q42 186 52 192 Q60 186 56 168 Z" fill="#ecd16e" stroke="#5a3418" stroke-width="5" stroke-linejoin="round"/>
+  <ellipse cx="92" cy="134" rx="13" ry="11" fill="#e0bf52" stroke="#5a3418" stroke-width="4"/>
+  <ellipse cx="150" cy="128" rx="10" ry="8" fill="#e0bf52" stroke="#5a3418" stroke-width="4"/>
+  <ellipse cx="180" cy="146" rx="8" ry="7" fill="#e0bf52" stroke="#5a3418" stroke-width="4"/>
+  <path d="M50 118 L120 112 Q140 111 160 114 L198 119" fill="none" stroke="#fff" stroke-width="6" stroke-linecap="round" opacity="0.5"/>
+</svg>

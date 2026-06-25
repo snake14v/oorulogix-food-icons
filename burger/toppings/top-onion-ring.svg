@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <ellipse cx="128" cy="186" rx="62" ry="11" fill="#000" opacity="0.11"/>
+  <defs><radialGradient id="top-onion-ring_g" cx="0.42" cy="0.4" r="0.62"><stop offset="0.6" stop-color="#efc173"/><stop offset="1" stop-color="#d89a48"/></radialGradient></defs>
+  <path d="M188 140 A60 60 0 1 1 68 140 A60 60 0 1 1 188 140 Z M156 140 A28 28 0 1 0 100 140 A28 28 0 1 0 156 140 Z" fill="url(#top-onion-ring_g)" fill-rule="evenodd"/>
+  <circle cx="128" cy="140" r="60" fill="none" stroke="#9a5f25" stroke-width="6"/>
+  <circle cx="128" cy="140" r="28" fill="none" stroke="#9a5f25" stroke-width="6"/>
+  <g fill="#f7e2b2" opacity="0.7"><circle cx="100" cy="98" r="4"/><circle cx="156" cy="100" r="3.6"/><circle cx="180" cy="138" r="4"/><circle cx="96" cy="176" r="3.6"/><circle cx="150" cy="178" r="4"/><circle cx="74" cy="132" r="3.4"/></g>
+  <path d="M92 104 Q108 90 130 88" fill="none" stroke="#fbe8c0" stroke-width="5" stroke-linecap="round" opacity="0.6"/>
+</svg>

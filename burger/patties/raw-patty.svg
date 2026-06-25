@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <ellipse cx="128" cy="210" rx="80" ry="12" fill="#000" opacity="0.11"/>
+  <defs>
+    <linearGradient id="rawpatty_body" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d98577"/>
+      <stop offset="1" stop-color="#b85948"/>
+    </linearGradient>
+    <radialGradient id="rawpatty_top" cx="0.4" cy="0.35" r="0.8">
+      <stop offset="0" stop-color="#d77a6a"/>
+      <stop offset="1" stop-color="#c46a5a"/>
+    </radialGradient>
+  </defs>
+  <!-- patty disc side profile: wide lumpy puck -->
+  <path d="M44 120
+           Q40 108 56 102
+           Q72 92 128 92
+           Q184 92 200 102
+           Q216 108 212 120
+           L212 150
+           Q212 166 196 172
+           Q170 182 128 182
+           Q86 182 60 172
+           Q44 166 44 150
+           Z"
+        fill="url(#rawpatty_body)" stroke="#5a3418" stroke-width="6" stroke-linejoin="round"/>
+  <!-- top surface lumpy meat -->
+  <path d="M48 120
+           Q44 110 58 104
+           Q74 95 128 95
+           Q182 95 198 104
+           Q212 110 208 120
+           Q200 134 170 138
+           Q150 141 128 141
+           Q106 141 86 138
+           Q56 134 48 120
+           Z"
+        fill="url(#rawpatty_top)" stroke="#5a3418" stroke-width="5" stroke-linejoin="round"/>
+  <!-- lumpy ground-meat texture dots -->
+  <circle cx="92" cy="116" r="6" fill="#b85948" opacity="0.7"/>
+  <circle cx="128" cy="122" r="7" fill="#b85948" opacity="0.7"/>
+  <circle cx="166" cy="115" r="5" fill="#b85948" opacity="0.7"/>
+  <circle cx="110" cy="128" r="4" fill="#cf7264" opacity="0.8"/>
+  <circle cx="148" cy="129" r="5" fill="#cf7264" opacity="0.8"/>
+  <!-- soft top highlight -->
+  <path d="M70 108 Q96 100 128 100 Q150 100 168 104"
+        fill="none" stroke="#eaa498" stroke-width="6" stroke-linecap="round" opacity="0.75"/>
+  <!-- side shading lumps -->
+  <path d="M60 168 Q90 178 128 178 Q166 178 196 168"
+        fill="none" stroke="#9e4a3a" stroke-width="5" stroke-linecap="round" opacity="0.5"/>
+</svg>

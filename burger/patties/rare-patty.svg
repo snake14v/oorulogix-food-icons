@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <ellipse cx="128" cy="210" rx="80" ry="12" fill="#000" opacity="0.11"/>
+  <defs>
+    <linearGradient id="rarepatty_body" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a8694c"/>
+      <stop offset="1" stop-color="#84492f"/>
+    </linearGradient>
+    <radialGradient id="rarepatty_top" cx="0.4" cy="0.35" r="0.8">
+      <stop offset="0" stop-color="#a96849"/>
+      <stop offset="1" stop-color="#9a5a40"/>
+    </radialGradient>
+  </defs>
+  <path d="M44 120
+           Q40 108 56 102
+           Q72 92 128 92
+           Q184 92 200 102
+           Q216 108 212 120
+           L212 150
+           Q212 166 196 172
+           Q170 182 128 182
+           Q86 182 60 172
+           Q44 166 44 150
+           Z"
+        fill="url(#rarepatty_body)" stroke="#5a3418" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M48 120
+           Q44 110 58 104
+           Q74 95 128 95
+           Q182 95 198 104
+           Q212 110 208 120
+           Q200 134 170 138
+           Q150 141 128 141
+           Q106 141 86 138
+           Q56 134 48 120
+           Z"
+        fill="url(#rarepatty_top)" stroke="#5a3418" stroke-width="5" stroke-linejoin="round"/>
+  <!-- faint grill marks on top -->
+  <path d="M84 105 L78 134" stroke="#5e3320" stroke-width="5" stroke-linecap="round" opacity="0.55"/>
+  <path d="M118 100 L112 137" stroke="#5e3320" stroke-width="5" stroke-linecap="round" opacity="0.55"/>
+  <path d="M152 101 L146 136" stroke="#5e3320" stroke-width="5" stroke-linecap="round" opacity="0.55"/>
+  <path d="M182 107 L176 132" stroke="#5e3320" stroke-width="5" stroke-linecap="round" opacity="0.45"/>
+  <!-- meat lumps -->
+  <circle cx="100" cy="120" r="5" fill="#8a4e34" opacity="0.6"/>
+  <circle cx="138" cy="124" r="6" fill="#8a4e34" opacity="0.6"/>
+  <circle cx="166" cy="119" r="4" fill="#b07a5c" opacity="0.7"/>
+  <!-- top highlight -->
+  <path d="M70 108 Q96 101 128 101 Q150 101 168 105"
+        fill="none" stroke="#c08a6a" stroke-width="6" stroke-linecap="round" opacity="0.7"/>
+  <!-- side shading -->
+  <path d="M60 168 Q90 178 128 178 Q166 178 196 168"
+        fill="none" stroke="#6e3c26" stroke-width="5" stroke-linecap="round" opacity="0.5"/>
+</svg>

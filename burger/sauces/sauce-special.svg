@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <ellipse cx="128" cy="226" rx="44" ry="9" fill="#000" opacity="0.12"/>
+  <defs>
+    <linearGradient id="special_body" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#c93570"/>
+      <stop offset=".5" stop-color="#e84d8a"/>
+      <stop offset="1" stop-color="#b32c63"/>
+    </linearGradient>
+    <linearGradient id="special_cap" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#4a3325"/>
+      <stop offset="1" stop-color="#2e1d12"/>
+    </linearGradient>
+  </defs>
+  <path d="M120 32 L136 32 L136 42 L120 42 Z" fill="#3c2a1a"/>
+  <rect x="111" y="40" width="34" height="22" rx="5" fill="url(#special_cap)" stroke="#3c2a1a" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M104 62 L152 62 L160 100 L160 206 Q160 222 144 222 L112 222 Q96 222 96 206 L96 100 Z" fill="url(#special_body)" stroke="#7a234d" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M102 104 Q108 96 108 130 L108 200 Q108 210 102 208 Z" fill="#fff" opacity="0.24"/>
+  <rect x="110" y="118" width="36" height="50" rx="7" fill="#fff" opacity="0.95" stroke="#7a234d" stroke-width="3"/>
+  <path d="M128 134 L131 141 L139 141 L132 146 L135 154 L128 149 L121 154 L124 146 L117 141 L125 141 Z" fill="#e84d8a"/>
+</svg>

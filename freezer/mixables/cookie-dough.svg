@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <ellipse cx="128" cy="222" rx="70" ry="13" fill="#000" opacity="0.11"/>
+  <defs>
+    <radialGradient id="cookiedough_g" cx="0.4" cy="0.3" r="0.8">
+      <stop offset="0" stop-color="#f0d6a4"/>
+      <stop offset="0.6" stop-color="#e3c48a"/>
+      <stop offset="1" stop-color="#c9a566"/>
+    </radialGradient>
+  </defs>
+  <!-- back chunk -->
+  <path d="M150 104 Q186 102 192 132 Q194 160 168 168 Q140 166 138 138 Q138 112 150 104 Z" fill="url(#cookiedough_g)" stroke="#a07c3e" stroke-width="6" stroke-linejoin="round"/>
+  <!-- left small chunk -->
+  <path d="M64 130 Q88 118 102 138 Q106 162 86 176 Q62 176 56 154 Q56 138 64 130 Z" fill="url(#cookiedough_g)" stroke="#a07c3e" stroke-width="6" stroke-linejoin="round"/>
+  <!-- front big lumpy chunk -->
+  <path d="M96 120 Q124 100 154 116 Q176 134 168 166 Q150 196 116 192 Q82 184 82 150 Q84 130 96 120 Z" fill="url(#cookiedough_g)" stroke="#a07c3e" stroke-width="6" stroke-linejoin="round"/>
+  <!-- choc chips front -->
+  <g fill="#3a2414" stroke="#241407" stroke-width="2">
+    <ellipse cx="116" cy="138" rx="9" ry="7" transform="rotate(-12 116 138)"/>
+    <ellipse cx="144" cy="150" rx="8" ry="6.5" transform="rotate(10 144 150)"/>
+    <ellipse cx="106" cy="164" rx="8.5" ry="6.5" transform="rotate(6 106 164)"/>
+    <ellipse cx="138" cy="176" rx="7.5" ry="6" transform="rotate(-8 138 176)"/>
+    <ellipse cx="128" cy="124" rx="6.5" ry="5" transform="rotate(4 128 124)"/>
+  </g>
+  <!-- choc chips side chunks -->
+  <g fill="#3a2414" stroke="#241407" stroke-width="2">
+    <ellipse cx="78" cy="148" rx="7" ry="5.5" transform="rotate(-10 78 148)"/>
+    <ellipse cx="88" cy="166" rx="6" ry="5" transform="rotate(8 88 166)"/>
+    <ellipse cx="166" cy="130" rx="7" ry="5.5" transform="rotate(12 166 130)"/>
+    <ellipse cx="160" cy="152" rx="6.5" ry="5" transform="rotate(-6 160 152)"/>
+  </g>
+  <!-- highlights -->
+  <ellipse cx="108" cy="126" rx="16" ry="8" fill="#fff" opacity="0.42"/>
+  <ellipse cx="74" cy="136" rx="9" ry="5" fill="#fff" opacity="0.35"/>
+  <ellipse cx="160" cy="116" rx="9" ry="5" fill="#fff" opacity="0.35"/>
+</svg>

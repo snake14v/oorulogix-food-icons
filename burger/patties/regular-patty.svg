@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <ellipse cx="128" cy="210" rx="80" ry="12" fill="#000" opacity="0.11"/>
+  <defs>
+    <linearGradient id="regpatty_body" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#825030"/>
+      <stop offset="1" stop-color="#5c331d"/>
+    </linearGradient>
+    <radialGradient id="regpatty_top" cx="0.4" cy="0.35" r="0.85">
+      <stop offset="0" stop-color="#7e4a2c"/>
+      <stop offset="1" stop-color="#6e4026"/>
+    </radialGradient>
+  </defs>
+  <path d="M44 120
+           Q40 108 56 102
+           Q72 92 128 92
+           Q184 92 200 102
+           Q216 108 212 120
+           L212 150
+           Q212 166 196 172
+           Q170 182 128 182
+           Q86 182 60 172
+           Q44 166 44 150
+           Z"
+        fill="url(#regpatty_body)" stroke="#43291a" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M48 120
+           Q44 110 58 104
+           Q74 95 128 95
+           Q182 95 198 104
+           Q212 110 208 120
+           Q200 134 170 138
+           Q150 141 128 141
+           Q106 141 86 138
+           Q56 134 48 120
+           Z"
+        fill="url(#regpatty_top)" stroke="#43291a" stroke-width="5" stroke-linejoin="round"/>
+  <!-- grill marks on top -->
+  <path d="M84 104 L78 134" stroke="#3c2415" stroke-width="6" stroke-linecap="round" opacity="0.7"/>
+  <path d="M118 99 L112 138" stroke="#3c2415" stroke-width="6" stroke-linecap="round" opacity="0.7"/>
+  <path d="M152 100 L146 137" stroke="#3c2415" stroke-width="6" stroke-linecap="round" opacity="0.7"/>
+  <path d="M182 106 L176 132" stroke="#3c2415" stroke-width="6" stroke-linecap="round" opacity="0.6"/>
+  <!-- char spots -->
+  <circle cx="100" cy="121" r="5" fill="#2e1c10" opacity="0.7"/>
+  <circle cx="160" cy="124" r="4" fill="#2e1c10" opacity="0.7"/>
+  <circle cx="132" cy="116" r="3.5" fill="#2e1c10" opacity="0.65"/>
+  <!-- top highlight -->
+  <path d="M70 108 Q96 101 128 101 Q150 101 168 105"
+        fill="none" stroke="#9c6440" stroke-width="6" stroke-linecap="round" opacity="0.7"/>
+  <!-- side shading -->
+  <path d="M60 168 Q90 178 128 178 Q166 178 196 168"
+        fill="none" stroke="#4a2a18" stroke-width="5" stroke-linecap="round" opacity="0.55"/>
+</svg>
