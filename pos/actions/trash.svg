@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <linearGradient id="trash-body" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#e9edf3"/>
+    </linearGradient>
+  </defs>
+  <ellipse cx="128" cy="222" rx="58" ry="10" fill="#000" opacity="0.10"/>
+  <!-- can body -->
+  <path d="M78 84 L178 84 L168 206 Q167 214 159 214 L97 214 Q89 214 88 206 Z"
+        fill="url(#trash-body)" stroke="#2f3138" stroke-width="6" stroke-linejoin="round"/>
+  <!-- vertical slits -->
+  <line x1="110" y1="108" x2="108" y2="190" stroke="#2f3138" stroke-width="8" stroke-linecap="round"/>
+  <line x1="128" y1="108" x2="128" y2="190" stroke="#2f3138" stroke-width="8" stroke-linecap="round"/>
+  <line x1="146" y1="108" x2="148" y2="190" stroke="#2f3138" stroke-width="8" stroke-linecap="round"/>
+  <!-- lid -->
+  <rect x="64" y="62" width="128" height="22" rx="11" fill="#e23b30" stroke="#2f3138" stroke-width="6"/>
+  <!-- handle -->
+  <path d="M110 62 L110 50 Q110 44 116 44 L140 44 Q146 44 146 50 L146 62"
+        fill="none" stroke="#2f3138" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

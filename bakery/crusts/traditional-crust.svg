@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <radialGradient id="traditional-crust-bowl" cx="50%" cy="42%" r="62%">
+      <stop offset="0%" stop-color="#f4cd84"/>
+      <stop offset="60%" stop-color="#e2b260"/>
+      <stop offset="100%" stop-color="#c4913e"/>
+    </radialGradient>
+    <linearGradient id="traditional-crust-rim" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#eec078"/>
+      <stop offset="100%" stop-color="#c4923f"/>
+    </linearGradient>
+    <radialGradient id="traditional-crust-hollow" cx="50%" cy="46%" r="55%">
+      <stop offset="0%" stop-color="#b88336"/>
+      <stop offset="100%" stop-color="#9c6c28"/>
+    </radialGradient>
+  </defs>
+
+  <ellipse cx="128" cy="220" rx="84" ry="13" fill="#000" opacity="0.11"/>
+
+  <!-- outer shell body -->
+  <path d="M40 124
+           C40 96 80 80 128 80
+           C176 80 216 96 216 124
+           C216 156 176 184 128 184
+           C80 184 40 156 40 124 Z"
+        fill="url(#traditional-crust-bowl)" stroke="#9a5f25" stroke-width="6" stroke-linejoin="round"/>
+
+  <!-- crimped fluted rim: deeper V crimps -->
+  <path d="M44 116
+           q5 -18 10 0 q5 -18 10 0 q5 -18 10 0 q5 -18 10 0 q5 -18 10 0 q5 -18 10 0
+           q5 -18 10 0 q5 -18 10 0 q5 -18 10 0 q5 -18 10 0 q5 -18 10 0 q5 -18 10 0
+           q5 -18 10 0 q5 -18 10 0 q5 -18 10 0 q5 -18 10 0
+           q9 16 0 22 q-86 26 -180 0 q-9 -6 0 -22 Z"
+        fill="url(#traditional-crust-rim)" stroke="#9a5f25" stroke-width="5" stroke-linejoin="round"/>
+
+  <!-- crimp shading lines on the rim ridges -->
+  <g stroke="#b27e34" stroke-width="3" stroke-linecap="round" opacity="0.5" fill="none">
+    <path d="M62 100 l3 12"/><path d="M82 99 l3 12"/><path d="M102 98 l3 13"/>
+    <path d="M124 98 l2 13"/><path d="M146 98 l3 13"/><path d="M168 99 l3 12"/>
+    <path d="M188 101 l3 11"/>
+  </g>
+
+  <!-- hollow interior -->
+  <ellipse cx="128" cy="120" rx="68" ry="34" fill="url(#traditional-crust-hollow)" stroke="#86601f" stroke-width="5"/>
+  <ellipse cx="128" cy="116" rx="56" ry="27" fill="#a3711f" opacity="0.5"/>
+
+  <!-- highlight on rim -->
+  <path d="M60 102 q26 -12 50 -12" fill="none" stroke="#fbe6ad" stroke-width="7" stroke-linecap="round" opacity="0.65"/>
+  <!-- interior gloss highlight -->
+  <ellipse cx="108" cy="110" rx="20" ry="8" fill="#cf9a4a" opacity="0.6"/>
+</svg>

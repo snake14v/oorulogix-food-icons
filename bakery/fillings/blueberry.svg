@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <radialGradient id="blueberry-pool" cx="42%" cy="38%" r="68%">
+      <stop offset="0%" stop-color="#565da0"/>
+      <stop offset="55%" stop-color="#3a3f7a"/>
+      <stop offset="100%" stop-color="#262a55"/>
+    </radialGradient>
+    <radialGradient id="blueberry-berry" cx="36%" cy="32%" r="72%">
+      <stop offset="0%" stop-color="#5b62a8"/>
+      <stop offset="100%" stop-color="#2c3066"/>
+    </radialGradient>
+    <clipPath id="blueberry-clip"><circle cx="128" cy="124" r="86"/></clipPath>
+  </defs>
+  <ellipse cx="128" cy="220" rx="84" ry="13" fill="#000" opacity="0.11"/>
+  <circle cx="128" cy="124" r="86" fill="url(#blueberry-pool)" stroke="#43291a" stroke-width="6"/>
+  <g clip-path="url(#blueberry-clip)">
+    <path d="M44 84 Q90 72 128 90 T214 82 L214 58 L44 58 Z" fill="#6a71b8" opacity="0.45"/>
+    <circle cx="94" cy="104" r="20" fill="url(#blueberry-berry)" stroke="#20244c" stroke-width="4"/>
+    <circle cx="152" cy="100" r="17" fill="url(#blueberry-berry)" stroke="#20244c" stroke-width="4"/>
+    <circle cx="158" cy="152" r="21" fill="url(#blueberry-berry)" stroke="#20244c" stroke-width="4"/>
+    <circle cx="100" cy="156" r="18" fill="url(#blueberry-berry)" stroke="#20244c" stroke-width="4"/>
+    <circle cx="128" cy="126" r="14" fill="url(#blueberry-berry)" stroke="#20244c" stroke-width="4"/>
+    <g fill="none" stroke="#1a1d40" stroke-width="3" stroke-linecap="round">
+      <path d="M88 100 l4 4 m4 0 l4 -4 m4 4 l4 -4"/>
+      <path d="M147 97 l3 3 m3 0 l3 -3"/>
+      <path d="M151 148 l4 4 m4 0 l4 -4"/>
+    </g>
+    <circle cx="86" cy="96" r="5" fill="#b6bbe8" opacity="0.8"/>
+    <circle cx="145" cy="93" r="4" fill="#b6bbe8" opacity="0.8"/>
+    <circle cx="150" cy="145" r="5" fill="#b6bbe8" opacity="0.8"/>
+    <circle cx="122" cy="120" r="4" fill="#b6bbe8" opacity="0.8"/>
+  </g>
+  <path d="M70 92 Q96 64 138 70" fill="none" stroke="#ffffff" stroke-width="9" stroke-linecap="round" opacity="0.28"/>
+</svg>

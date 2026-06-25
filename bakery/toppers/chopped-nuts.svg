@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <linearGradient id="choppednuts-mound" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e0b87c"/>
+      <stop offset="1" stop-color="#bd8c4c"/>
+    </linearGradient>
+  </defs>
+  <ellipse cx="128" cy="222" rx="80" ry="12" fill="#000" opacity="0.11"/>
+  <!-- soft pile base -->
+  <path d="M58 178 C66 148 96 132 128 132 C160 132 190 148 198 178 C200 190 184 198 128 198 C72 198 56 190 58 178 Z"
+        fill="url(#choppednuts-mound)" stroke="#8a5e2a" stroke-width="6" stroke-linejoin="round"/>
+  <!-- individual chopped nut chunks -->
+  <g stroke="#8a5e2a" stroke-width="5" stroke-linejoin="round">
+    <path d="M78 168 l16 -6 8 14 -14 8 -12 -8 Z" fill="#d2a566"/>
+    <path d="M108 158 l18 -4 6 16 -16 8 -10 -12 Z" fill="#e0b87c"/>
+    <path d="M142 162 l16 -8 12 10 -8 16 -16 -6 Z" fill="#cf9f5e"/>
+    <path d="M168 172 l14 -2 4 14 -14 6 -8 -10 Z" fill="#d8ad6c"/>
+    <path d="M92 184 l14 -4 6 12 -12 8 -10 -8 Z" fill="#c79a5a"/>
+    <path d="M124 182 l16 -2 4 12 -14 8 -10 -10 Z" fill="#dcb370"/>
+    <path d="M152 184 l14 -4 8 10 -10 12 -14 -6 Z" fill="#c79a5a"/>
+  </g>
+  <!-- highlights on chunks -->
+  <g fill="#fff" opacity="0.55">
+    <circle cx="86" cy="166" r="3"/>
+    <circle cx="118" cy="158" r="3.4"/>
+    <circle cx="152" cy="166" r="3.2"/>
+    <circle cx="130" cy="184" r="3"/>
+  </g>
+</svg>

@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <radialGradient id="ladyfinger-crust-base" cx="50%" cy="46%" r="60%">
+      <stop offset="0%" stop-color="#f3e0b4"/>
+      <stop offset="60%" stop-color="#e9cf94"/>
+      <stop offset="100%" stop-color="#cfae6a"/>
+    </radialGradient>
+    <linearGradient id="ladyfinger-crust-finger" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f6e6bc"/>
+      <stop offset="100%" stop-color="#dcbd80"/>
+    </linearGradient>
+    <radialGradient id="ladyfinger-crust-hollow" cx="50%" cy="46%" r="55%">
+      <stop offset="0%" stop-color="#c8a766"/>
+      <stop offset="100%" stop-color="#ad8b4c"/>
+    </radialGradient>
+  </defs>
+
+  <ellipse cx="128" cy="220" rx="84" ry="13" fill="#000" opacity="0.11"/>
+
+  <!-- inner base shell (the floor of the pie that fingers stand on) -->
+  <ellipse cx="128" cy="138" rx="80" ry="44" fill="url(#ladyfinger-crust-base)" stroke="#a47e3c" stroke-width="6"/>
+
+  <!-- hollow interior -->
+  <ellipse cx="128" cy="128" rx="60" ry="30" fill="url(#ladyfinger-crust-hollow)" stroke="#90702f" stroke-width="5"/>
+  <ellipse cx="128" cy="124" rx="48" ry="23" fill="#b8965a" opacity="0.5"/>
+
+  <!-- standing ladyfinger biscuits around the rim -->
+  <!-- Each finger: rounded vertical capsule with a sugar-dusted top stripe -->
+  <g stroke="#a47e3c" stroke-width="5" stroke-linejoin="round">
+    <!-- back row (drawn first, behind) -->
+    <g transform="translate(70,96) rotate(-10)"><rect x="-9" y="-30" width="18" height="56" rx="9" fill="url(#ladyfinger-crust-finger)"/></g>
+    <g transform="translate(94,90) rotate(-5)"><rect x="-9" y="-32" width="18" height="58" rx="9" fill="url(#ladyfinger-crust-finger)"/></g>
+    <g transform="translate(118,88)"><rect x="-9" y="-33" width="18" height="59" rx="9" fill="url(#ladyfinger-crust-finger)"/></g>
+    <g transform="translate(142,89) rotate(4)"><rect x="-9" y="-32" width="18" height="58" rx="9" fill="url(#ladyfinger-crust-finger)"/></g>
+    <g transform="translate(166,93) rotate(9)"><rect x="-9" y="-31" width="18" height="57" rx="9" fill="url(#ladyfinger-crust-finger)"/></g>
+    <!-- front row -->
+    <g transform="translate(58,118) rotate(-12)"><rect x="-9" y="-26" width="18" height="52" rx="9" fill="url(#ladyfinger-crust-finger)"/></g>
+    <g transform="translate(82,128) rotate(-6)"><rect x="-9" y="-24" width="18" height="50" rx="9" fill="url(#ladyfinger-crust-finger)"/></g>
+    <g transform="translate(108,132) rotate(-2)"><rect x="-9" y="-23" width="18" height="49" rx="9" fill="url(#ladyfinger-crust-finger)"/></g>
+    <g transform="translate(134,132) rotate(2)"><rect x="-9" y="-23" width="18" height="49" rx="9" fill="url(#ladyfinger-crust-finger)"/></g>
+    <g transform="translate(160,128) rotate(7)"><rect x="-9" y="-24" width="18" height="50" rx="9" fill="url(#ladyfinger-crust-finger)"/></g>
+    <g transform="translate(186,116) rotate(13)"><rect x="-9" y="-26" width="18" height="52" rx="9" fill="url(#ladyfinger-crust-finger)"/></g>
+  </g>
+
+  <!-- sugar/highlight stripe on each finger top -->
+  <g stroke="#fbf2d6" stroke-width="4" stroke-linecap="round" opacity="0.7" fill="none">
+    <path d="M64 72 q6 -3 12 0"/><path d="M88 64 q6 -3 12 0"/><path d="M112 60 q6 -3 12 0"/>
+    <path d="M137 62 q6 -3 12 0"/><path d="M162 68 q6 -3 12 0"/>
+    <path d="M50 98 q6 -3 12 0"/><path d="M76 108 q6 -3 12 0"/><path d="M101 113 q6 -3 12 0"/>
+    <path d="M127 113 q6 -3 12 0"/><path d="M153 108 q6 -3 12 0"/><path d="M178 98 q6 -3 12 0"/>
+  </g>
+</svg>

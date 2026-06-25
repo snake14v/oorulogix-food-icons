@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <radialGradient id="cookies-cream-crust-bowl" cx="50%" cy="42%" r="62%">
+      <stop offset="0%" stop-color="#574040"/>
+      <stop offset="60%" stop-color="#3a2a2a"/>
+      <stop offset="100%" stop-color="#271c1c"/>
+    </radialGradient>
+    <linearGradient id="cookies-cream-crust-rim" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#473333"/>
+      <stop offset="100%" stop-color="#281d1d"/>
+    </linearGradient>
+    <radialGradient id="cookies-cream-crust-hollow" cx="50%" cy="46%" r="55%">
+      <stop offset="0%" stop-color="#221919"/>
+      <stop offset="100%" stop-color="#171010"/>
+    </radialGradient>
+    <clipPath id="cookies-cream-crust-clip">
+      <path d="M40 124 C40 96 80 80 128 80 C176 80 216 96 216 124 C216 156 176 184 128 184 C80 184 40 156 40 124 Z"/>
+    </clipPath>
+  </defs>
+
+  <ellipse cx="128" cy="220" rx="84" ry="13" fill="#000" opacity="0.11"/>
+
+  <!-- outer shell body -->
+  <path d="M40 124
+           C40 96 80 80 128 80
+           C176 80 216 96 216 124
+           C216 156 176 184 128 184
+           C80 184 40 156 40 124 Z"
+        fill="url(#cookies-cream-crust-bowl)" stroke="#1f1414" stroke-width="6" stroke-linejoin="round"/>
+
+  <!-- white cream flecks on body -->
+  <g clip-path="url(#cookies-cream-crust-clip)" fill="#f4ede4">
+    <circle cx="64" cy="148" r="4"/><circle cx="92" cy="166" r="3.2"/><circle cx="124" cy="172" r="4.4"/>
+    <circle cx="156" cy="168" r="3"/><circle cx="186" cy="154" r="3.8"/><circle cx="202" cy="134" r="2.8"/>
+    <circle cx="50" cy="130" r="2.6"/><circle cx="108" cy="160" r="2.6"/><circle cx="172" cy="164" r="3"/>
+    <rect x="76" y="152" width="6" height="5" rx="1.5"/><rect x="138" y="160" width="7" height="5" rx="1.5"/>
+    <rect x="190" y="142" width="6" height="5" rx="1.5"/>
+  </g>
+  <g clip-path="url(#cookies-cream-crust-clip)" fill="#cfc6bc" opacity="0.7">
+    <circle cx="80" cy="160" r="1.8"/><circle cx="146" cy="172" r="1.8"/><circle cx="166" cy="150" r="1.6"/>
+  </g>
+
+  <!-- fluted rim -->
+  <path d="M44 116
+           q9 -16 18 0 q9 -16 18 0 q9 -16 18 0 q9 -16 18 0 q9 -16 18 0
+           q9 -16 18 0 q9 -16 18 0 q9 -16 18 0 q9 -16 18 0
+           q9 16 0 22 q-86 26 -180 0 q-9 -6 0 -22 Z"
+        fill="url(#cookies-cream-crust-rim)" stroke="#1f1414" stroke-width="6" stroke-linejoin="round"/>
+
+  <!-- cream flecks on rim -->
+  <g fill="#f4ede4">
+    <circle cx="70" cy="110" r="3"/><circle cx="108" cy="108" r="2.6"/><circle cx="148" cy="108" r="3"/>
+    <circle cx="184" cy="112" r="2.6"/><circle cx="88" cy="116" r="2.2"/><circle cx="166" cy="116" r="2.2"/>
+  </g>
+
+  <!-- hollow interior -->
+  <ellipse cx="128" cy="120" rx="68" ry="34" fill="url(#cookies-cream-crust-hollow)" stroke="#140d0d" stroke-width="5"/>
+  <ellipse cx="128" cy="116" rx="56" ry="27" fill="#241a1a" opacity="0.5"/>
+  <!-- a couple of flecks inside the hollow -->
+  <circle cx="118" cy="128" r="3" fill="#e8e0d6" opacity="0.85"/>
+  <circle cx="142" cy="120" r="2.4" fill="#e8e0d6" opacity="0.8"/>
+
+  <!-- highlight on rim -->
+  <path d="M62 102 q24 -12 48 -12" fill="none" stroke="#6a5050" stroke-width="7" stroke-linecap="round" opacity="0.6"/>
+  <!-- interior gloss highlight -->
+  <ellipse cx="108" cy="110" rx="20" ry="8" fill="#3a2b2b" opacity="0.6"/>
+</svg>

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <linearGradient id="order-ticket-paper" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#eef1f4"/>
+    </linearGradient>
+  </defs>
+  <ellipse cx="128" cy="222" rx="60" ry="10" fill="#000" opacity="0.10"/>
+  <!-- spike -->
+  <rect x="123" y="22" width="10" height="50" rx="5" fill="#9aa3ad" stroke="#2f3138" stroke-width="6" stroke-linejoin="round"/>
+  <circle cx="128" cy="22" r="9" fill="#c3cad2" stroke="#2f3138" stroke-width="6"/>
+  <!-- ticket body with torn bottom -->
+  <path d="M70 56 h116 v118 l-13 -10 -13 10 -13 -10 -13 10 -13 -10 -13 10 -13 -10 -13 10 -12 -10 v-108 z"
+        fill="url(#order-ticket-paper)" stroke="#2f3138" stroke-width="6" stroke-linejoin="round"/>
+  <!-- spike hole -->
+  <circle cx="128" cy="70" r="7" fill="#dfe4e9" stroke="#2f3138" stroke-width="5"/>
+  <!-- line marks -->
+  <line x1="92" y1="98" x2="164" y2="98" stroke="#2f3138" stroke-width="6" stroke-linecap="round"/>
+  <line x1="92" y1="120" x2="164" y2="120" stroke="#3a7de0" stroke-width="6" stroke-linecap="round"/>
+  <line x1="92" y1="142" x2="140" y2="142" stroke="#2f3138" stroke-width="6" stroke-linecap="round"/>
+</svg>

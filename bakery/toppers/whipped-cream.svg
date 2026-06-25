@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <linearGradient id="whippedcream-body" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#fdeede"/>
+    </linearGradient>
+    <radialGradient id="whippedcream-hi" cx="0.38" cy="0.32" r="0.7">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <ellipse cx="128" cy="220" rx="74" ry="12" fill="#000" opacity="0.11"/>
+  <!-- piped swirl base to tip -->
+  <path d="M70 196
+           C66 176 78 168 96 168
+           C78 156 86 140 106 140
+           C92 128 100 114 118 116
+           C108 102 118 88 134 92
+           C126 76 140 66 154 74
+           C150 60 164 54 174 66
+           C190 78 184 100 168 104
+           C184 110 184 132 166 134
+           C180 144 174 164 156 162
+           C168 176 156 192 140 188
+           C146 202 130 210 116 204
+           C104 212 84 210 70 196 Z"
+        fill="url(#whippedcream-body)" stroke="#9a5f25" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+  <!-- swirl ridges -->
+  <path d="M96 178 C112 174 126 174 140 180" fill="none" stroke="#e9cfa8" stroke-width="5" stroke-linecap="round" opacity="0.7"/>
+  <path d="M104 150 C118 146 132 148 146 156" fill="none" stroke="#e9cfa8" stroke-width="5" stroke-linecap="round" opacity="0.7"/>
+  <path d="M118 122 C130 120 144 124 154 132" fill="none" stroke="#e9cfa8" stroke-width="4.5" stroke-linecap="round" opacity="0.7"/>
+  <path d="M136 98 C148 98 158 104 164 112" fill="none" stroke="#e9cfa8" stroke-width="4.5" stroke-linecap="round" opacity="0.7"/>
+  <!-- highlight -->
+  <ellipse cx="108" cy="150" rx="34" ry="42" fill="url(#whippedcream-hi)"/>
+  <circle cx="160" cy="80" r="7" fill="#ffffff" opacity="0.9"/>
+</svg>

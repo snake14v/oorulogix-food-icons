@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <linearGradient id="pricetag-body" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f7bf52"/>
+      <stop offset="1" stop-color="#f0a830"/>
+    </linearGradient>
+  </defs>
+  <ellipse cx="132" cy="214" rx="64" ry="11" fill="#000" opacity="0.10"/>
+  <path d="M104 56
+           h96
+           a14 14 0 0 1 14 14
+           v116
+           a14 14 0 0 1 -14 14
+           h-96
+           l-56 -72
+           z"
+        fill="url(#pricetag-body)" stroke="#2f3138" stroke-width="6"
+        stroke-linejoin="round" stroke-linecap="round"/>
+  <circle cx="96" cy="128" r="17" fill="#ffffff" stroke="#2f3138" stroke-width="6"/>
+  <circle cx="172" cy="100" r="7" fill="#ffffff" opacity="0.7"/>
+</svg>

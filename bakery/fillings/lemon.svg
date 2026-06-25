@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <radialGradient id="lemon-pool" cx="42%" cy="36%" r="70%">
+      <stop offset="0%" stop-color="#fbe680"/>
+      <stop offset="55%" stop-color="#f4cf3a"/>
+      <stop offset="100%" stop-color="#d6a91c"/>
+    </radialGradient>
+    <linearGradient id="lemon-wedge" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fff3b0"/>
+      <stop offset="100%" stop-color="#f6dc6a"/>
+    </linearGradient>
+    <clipPath id="lemon-clip"><circle cx="128" cy="124" r="86"/></clipPath>
+  </defs>
+  <ellipse cx="128" cy="220" rx="84" ry="13" fill="#000" opacity="0.11"/>
+  <circle cx="128" cy="124" r="86" fill="url(#lemon-pool)" stroke="#9a5f25" stroke-width="6"/>
+  <g clip-path="url(#lemon-clip)">
+    <path d="M44 86 Q92 72 128 90 T214 84 L214 60 L44 60 Z" fill="#fdee9c" opacity="0.55"/>
+    <g stroke="#cda82a" stroke-width="4" stroke-linejoin="round">
+      <path d="M98 138 L150 100 A64 64 0 0 1 98 138 Z" fill="url(#lemon-wedge)"/>
+    </g>
+    <g stroke="#d8b73a" stroke-width="2.5" opacity="0.8">
+      <path d="M104 132 L142 106"/>
+      <path d="M108 138 L150 112"/>
+      <path d="M99 126 L135 102"/>
+    </g>
+    <circle cx="158" cy="150" r="13" fill="url(#lemon-wedge)" stroke="#cda82a" stroke-width="4"/>
+    <path d="M158 137 L158 163 M145 150 L171 150 M149 141 L167 159 M167 141 L149 159" stroke="#d8b73a" stroke-width="2" opacity="0.7"/>
+  </g>
+  <path d="M70 92 Q96 64 138 70" fill="none" stroke="#ffffff" stroke-width="10" stroke-linecap="round" opacity="0.45"/>
+  <circle cx="100" cy="158" r="8" fill="#ffffff" opacity="0.3"/>
+</svg>

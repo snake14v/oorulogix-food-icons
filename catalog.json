@@ -3,8 +3,197 @@
   "style": "flat-cartoon",
   "viewBox": "0 0 256 256",
   "license": "MIT",
-  "count": 156,
+  "count": 223,
   "assets": [
+    {
+      "id": "bakery-crusts-chocolate-crust",
+      "theme": "bakery",
+      "category": "crusts",
+      "file": "bakery/crusts/chocolate-crust.svg",
+      "name": "Chocolate Crust"
+    },
+    {
+      "id": "bakery-crusts-cookies-cream-crust",
+      "theme": "bakery",
+      "category": "crusts",
+      "file": "bakery/crusts/cookies-cream-crust.svg",
+      "name": "Cookies Cream Crust"
+    },
+    {
+      "id": "bakery-crusts-graham-crust",
+      "theme": "bakery",
+      "category": "crusts",
+      "file": "bakery/crusts/graham-crust.svg",
+      "name": "Graham Crust"
+    },
+    {
+      "id": "bakery-crusts-ladyfinger-crust",
+      "theme": "bakery",
+      "category": "crusts",
+      "file": "bakery/crusts/ladyfinger-crust.svg",
+      "name": "Ladyfinger Crust"
+    },
+    {
+      "id": "bakery-crusts-shortbread-crust",
+      "theme": "bakery",
+      "category": "crusts",
+      "file": "bakery/crusts/shortbread-crust.svg",
+      "name": "Shortbread Crust"
+    },
+    {
+      "id": "bakery-crusts-traditional-crust",
+      "theme": "bakery",
+      "category": "crusts",
+      "file": "bakery/crusts/traditional-crust.svg",
+      "name": "Traditional Crust"
+    },
+    {
+      "id": "bakery-fillings-apple",
+      "theme": "bakery",
+      "category": "fillings",
+      "file": "bakery/fillings/apple.svg",
+      "name": "Apple"
+    },
+    {
+      "id": "bakery-fillings-blueberry",
+      "theme": "bakery",
+      "category": "fillings",
+      "file": "bakery/fillings/blueberry.svg",
+      "name": "Blueberry"
+    },
+    {
+      "id": "bakery-fillings-cherry",
+      "theme": "bakery",
+      "category": "fillings",
+      "file": "bakery/fillings/cherry.svg",
+      "name": "Cherry"
+    },
+    {
+      "id": "bakery-fillings-chocolate",
+      "theme": "bakery",
+      "category": "fillings",
+      "file": "bakery/fillings/chocolate.svg",
+      "name": "Chocolate"
+    },
+    {
+      "id": "bakery-fillings-key-lime",
+      "theme": "bakery",
+      "category": "fillings",
+      "file": "bakery/fillings/key-lime.svg",
+      "name": "Key Lime"
+    },
+    {
+      "id": "bakery-fillings-lemon",
+      "theme": "bakery",
+      "category": "fillings",
+      "file": "bakery/fillings/lemon.svg",
+      "name": "Lemon"
+    },
+    {
+      "id": "bakery-fillings-pumpkin",
+      "theme": "bakery",
+      "category": "fillings",
+      "file": "bakery/fillings/pumpkin.svg",
+      "name": "Pumpkin"
+    },
+    {
+      "id": "bakery-fillings-strawberry",
+      "theme": "bakery",
+      "category": "fillings",
+      "file": "bakery/fillings/strawberry.svg",
+      "name": "Strawberry"
+    },
+    {
+      "id": "bakery-top-crusts-crumb-topping",
+      "theme": "bakery",
+      "category": "top-crusts",
+      "file": "bakery/top-crusts/crumb-topping.svg",
+      "name": "Crumb Topping"
+    },
+    {
+      "id": "bakery-top-crusts-cutout-crust",
+      "theme": "bakery",
+      "category": "top-crusts",
+      "file": "bakery/top-crusts/cutout-crust.svg",
+      "name": "Cutout Crust"
+    },
+    {
+      "id": "bakery-top-crusts-full-crust",
+      "theme": "bakery",
+      "category": "top-crusts",
+      "file": "bakery/top-crusts/full-crust.svg",
+      "name": "Full Crust"
+    },
+    {
+      "id": "bakery-top-crusts-lattice",
+      "theme": "bakery",
+      "category": "top-crusts",
+      "file": "bakery/top-crusts/lattice.svg",
+      "name": "Lattice"
+    },
+    {
+      "id": "bakery-top-crusts-whipped-top",
+      "theme": "bakery",
+      "category": "top-crusts",
+      "file": "bakery/top-crusts/whipped-top.svg",
+      "name": "Whipped Top"
+    },
+    {
+      "id": "bakery-toppers-cherry-topper",
+      "theme": "bakery",
+      "category": "toppers",
+      "file": "bakery/toppers/cherry-topper.svg",
+      "name": "Cherry Topper"
+    },
+    {
+      "id": "bakery-toppers-chocolate-drizzle",
+      "theme": "bakery",
+      "category": "toppers",
+      "file": "bakery/toppers/chocolate-drizzle.svg",
+      "name": "Chocolate Drizzle"
+    },
+    {
+      "id": "bakery-toppers-chopped-nuts",
+      "theme": "bakery",
+      "category": "toppers",
+      "file": "bakery/toppers/chopped-nuts.svg",
+      "name": "Chopped Nuts"
+    },
+    {
+      "id": "bakery-toppers-fruit-slices",
+      "theme": "bakery",
+      "category": "toppers",
+      "file": "bakery/toppers/fruit-slices.svg",
+      "name": "Fruit Slices"
+    },
+    {
+      "id": "bakery-toppers-meringue",
+      "theme": "bakery",
+      "category": "toppers",
+      "file": "bakery/toppers/meringue.svg",
+      "name": "Meringue"
+    },
+    {
+      "id": "bakery-toppers-powdered-sugar",
+      "theme": "bakery",
+      "category": "toppers",
+      "file": "bakery/toppers/powdered-sugar.svg",
+      "name": "Powdered Sugar"
+    },
+    {
+      "id": "bakery-toppers-sprinkles",
+      "theme": "bakery",
+      "category": "toppers",
+      "file": "bakery/toppers/sprinkles.svg",
+      "name": "Sprinkles"
+    },
+    {
+      "id": "bakery-toppers-whipped-cream",
+      "theme": "bakery",
+      "category": "toppers",
+      "file": "bakery/toppers/whipped-cream.svg",
+      "name": "Whipped Cream"
+    },
     {
       "id": "burger-base-bun-bottom",
       "theme": "burger",
@@ -641,6 +830,286 @@
       "category": "toppings",
       "file": "pizza/toppings/topping-sausage.svg",
       "name": "Sausage"
+    },
+    {
+      "id": "pos-actions-check",
+      "theme": "pos",
+      "category": "actions",
+      "file": "pos/actions/check.svg",
+      "name": "Check"
+    },
+    {
+      "id": "pos-actions-close-x",
+      "theme": "pos",
+      "category": "actions",
+      "file": "pos/actions/close-x.svg",
+      "name": "Close X"
+    },
+    {
+      "id": "pos-actions-edit-pencil",
+      "theme": "pos",
+      "category": "actions",
+      "file": "pos/actions/edit-pencil.svg",
+      "name": "Edit Pencil"
+    },
+    {
+      "id": "pos-actions-minus",
+      "theme": "pos",
+      "category": "actions",
+      "file": "pos/actions/minus.svg",
+      "name": "Minus"
+    },
+    {
+      "id": "pos-actions-plus",
+      "theme": "pos",
+      "category": "actions",
+      "file": "pos/actions/plus.svg",
+      "name": "Plus"
+    },
+    {
+      "id": "pos-actions-printer",
+      "theme": "pos",
+      "category": "actions",
+      "file": "pos/actions/printer.svg",
+      "name": "Printer"
+    },
+    {
+      "id": "pos-actions-refresh",
+      "theme": "pos",
+      "category": "actions",
+      "file": "pos/actions/refresh.svg",
+      "name": "Refresh"
+    },
+    {
+      "id": "pos-actions-search",
+      "theme": "pos",
+      "category": "actions",
+      "file": "pos/actions/search.svg",
+      "name": "Search"
+    },
+    {
+      "id": "pos-actions-settings-gear",
+      "theme": "pos",
+      "category": "actions",
+      "file": "pos/actions/settings-gear.svg",
+      "name": "Settings Gear"
+    },
+    {
+      "id": "pos-actions-trash",
+      "theme": "pos",
+      "category": "actions",
+      "file": "pos/actions/trash.svg",
+      "name": "Trash"
+    },
+    {
+      "id": "pos-dashboard-bar-chart",
+      "theme": "pos",
+      "category": "dashboard",
+      "file": "pos/dashboard/bar-chart.svg",
+      "name": "Bar Chart"
+    },
+    {
+      "id": "pos-dashboard-coin-stack",
+      "theme": "pos",
+      "category": "dashboard",
+      "file": "pos/dashboard/coin-stack.svg",
+      "name": "Coin Stack"
+    },
+    {
+      "id": "pos-dashboard-notification-bell",
+      "theme": "pos",
+      "category": "dashboard",
+      "file": "pos/dashboard/notification-bell.svg",
+      "name": "Notification Bell"
+    },
+    {
+      "id": "pos-dashboard-pie-chart",
+      "theme": "pos",
+      "category": "dashboard",
+      "file": "pos/dashboard/pie-chart.svg",
+      "name": "Pie Chart"
+    },
+    {
+      "id": "pos-dashboard-trend-up",
+      "theme": "pos",
+      "category": "dashboard",
+      "file": "pos/dashboard/trend-up.svg",
+      "name": "Trend Up"
+    },
+    {
+      "id": "pos-dashboard-wall-clock",
+      "theme": "pos",
+      "category": "dashboard",
+      "file": "pos/dashboard/wall-clock.svg",
+      "name": "Wall Clock"
+    },
+    {
+      "id": "pos-orders-food-tray",
+      "theme": "pos",
+      "category": "orders",
+      "file": "pos/orders/food-tray.svg",
+      "name": "Food Tray"
+    },
+    {
+      "id": "pos-orders-kitchen-ticket",
+      "theme": "pos",
+      "category": "orders",
+      "file": "pos/orders/kitchen-ticket.svg",
+      "name": "Kitchen Ticket"
+    },
+    {
+      "id": "pos-orders-order-ticket",
+      "theme": "pos",
+      "category": "orders",
+      "file": "pos/orders/order-ticket.svg",
+      "name": "Order Ticket"
+    },
+    {
+      "id": "pos-orders-plate-cloche",
+      "theme": "pos",
+      "category": "orders",
+      "file": "pos/orders/plate-cloche.svg",
+      "name": "Plate Cloche"
+    },
+    {
+      "id": "pos-orders-service-bell",
+      "theme": "pos",
+      "category": "orders",
+      "file": "pos/orders/service-bell.svg",
+      "name": "Service Bell"
+    },
+    {
+      "id": "pos-orders-shopping-cart",
+      "theme": "pos",
+      "category": "orders",
+      "file": "pos/orders/shopping-cart.svg",
+      "name": "Shopping Cart"
+    },
+    {
+      "id": "pos-orders-takeout-bag",
+      "theme": "pos",
+      "category": "orders",
+      "file": "pos/orders/takeout-bag.svg",
+      "name": "Takeout Bag"
+    },
+    {
+      "id": "pos-orders-timer",
+      "theme": "pos",
+      "category": "orders",
+      "file": "pos/orders/timer.svg",
+      "name": "Timer"
+    },
+    {
+      "id": "pos-payment-cash",
+      "theme": "pos",
+      "category": "payment",
+      "file": "pos/payment/cash.svg",
+      "name": "Cash"
+    },
+    {
+      "id": "pos-payment-cash-register",
+      "theme": "pos",
+      "category": "payment",
+      "file": "pos/payment/cash-register.svg",
+      "name": "Cash Register"
+    },
+    {
+      "id": "pos-payment-coins",
+      "theme": "pos",
+      "category": "payment",
+      "file": "pos/payment/coins.svg",
+      "name": "Coins"
+    },
+    {
+      "id": "pos-payment-credit-card",
+      "theme": "pos",
+      "category": "payment",
+      "file": "pos/payment/credit-card.svg",
+      "name": "Credit Card"
+    },
+    {
+      "id": "pos-payment-price-tag",
+      "theme": "pos",
+      "category": "payment",
+      "file": "pos/payment/price-tag.svg",
+      "name": "Price Tag"
+    },
+    {
+      "id": "pos-payment-qr-code",
+      "theme": "pos",
+      "category": "payment",
+      "file": "pos/payment/qr-code.svg",
+      "name": "Qr Code"
+    },
+    {
+      "id": "pos-payment-receipt",
+      "theme": "pos",
+      "category": "payment",
+      "file": "pos/payment/receipt.svg",
+      "name": "Receipt"
+    },
+    {
+      "id": "pos-payment-wallet",
+      "theme": "pos",
+      "category": "payment",
+      "file": "pos/payment/wallet.svg",
+      "name": "Wallet"
+    },
+    {
+      "id": "pos-restaurant-chair",
+      "theme": "pos",
+      "category": "restaurant",
+      "file": "pos/restaurant/chair.svg",
+      "name": "Chair"
+    },
+    {
+      "id": "pos-restaurant-chef-hat",
+      "theme": "pos",
+      "category": "restaurant",
+      "file": "pos/restaurant/chef-hat.svg",
+      "name": "Chef Hat"
+    },
+    {
+      "id": "pos-restaurant-closed-sign",
+      "theme": "pos",
+      "category": "restaurant",
+      "file": "pos/restaurant/closed-sign.svg",
+      "name": "Closed Sign"
+    },
+    {
+      "id": "pos-restaurant-delivery-scooter",
+      "theme": "pos",
+      "category": "restaurant",
+      "file": "pos/restaurant/delivery-scooter.svg",
+      "name": "Delivery Scooter"
+    },
+    {
+      "id": "pos-restaurant-menu-board",
+      "theme": "pos",
+      "category": "restaurant",
+      "file": "pos/restaurant/menu-board.svg",
+      "name": "Menu Board"
+    },
+    {
+      "id": "pos-restaurant-open-sign",
+      "theme": "pos",
+      "category": "restaurant",
+      "file": "pos/restaurant/open-sign.svg",
+      "name": "Open Sign"
+    },
+    {
+      "id": "pos-restaurant-star-rating",
+      "theme": "pos",
+      "category": "restaurant",
+      "file": "pos/restaurant/star-rating.svg",
+      "name": "Star Rating"
+    },
+    {
+      "id": "pos-restaurant-table",
+      "theme": "pos",
+      "category": "restaurant",
+      "file": "pos/restaurant/table.svg",
+      "name": "Table"
     },
     {
       "id": "sandwich-breads-bread-ciabatta",

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <radialGradient id="pumpkin-pool" cx="42%" cy="38%" r="70%">
+      <stop offset="0%" stop-color="#ed9a4a"/>
+      <stop offset="55%" stop-color="#d98028"/>
+      <stop offset="100%" stop-color="#b1611a"/>
+    </radialGradient>
+    <clipPath id="pumpkin-clip"><circle cx="128" cy="124" r="86"/></clipPath>
+  </defs>
+  <ellipse cx="128" cy="220" rx="84" ry="13" fill="#000" opacity="0.11"/>
+  <circle cx="128" cy="124" r="86" fill="url(#pumpkin-pool)" stroke="#9a5f25" stroke-width="6"/>
+  <g clip-path="url(#pumpkin-clip)">
+    <path d="M44 88 Q92 74 128 92 T214 86 L214 62 L44 62 Z" fill="#f1ad62" opacity="0.5"/>
+    <ellipse cx="108" cy="116" rx="40" ry="26" fill="#e89248" opacity="0.55"/>
+    <path d="M150 150 Q176 138 192 158" fill="none" stroke="#c4711d" stroke-width="5" stroke-linecap="round" opacity="0.6"/>
+    <path d="M80 150 Q102 162 96 184" fill="none" stroke="#c4711d" stroke-width="5" stroke-linecap="round" opacity="0.6"/>
+    <g fill="#7a4513">
+      <ellipse cx="100" cy="104" rx="3.5" ry="3.5"/>
+      <ellipse cx="150" cy="118" rx="3.5" ry="3.5"/>
+      <ellipse cx="124" cy="148" rx="3.5" ry="3.5"/>
+      <ellipse cx="168" cy="100" rx="3" ry="3"/>
+      <ellipse cx="92" cy="146" rx="3" ry="3"/>
+    </g>
+  </g>
+  <path d="M70 94 Q96 66 138 72" fill="none" stroke="#ffffff" stroke-width="10" stroke-linecap="round" opacity="0.35"/>
+  <circle cx="158" cy="160" r="7" fill="#ffffff" opacity="0.22"/>
+</svg>

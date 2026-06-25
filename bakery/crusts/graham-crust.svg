@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <radialGradient id="graham-crust-bowl" cx="50%" cy="42%" r="62%">
+      <stop offset="0%" stop-color="#e0b478"/>
+      <stop offset="60%" stop-color="#c79a5a"/>
+      <stop offset="100%" stop-color="#a87a3c"/>
+    </radialGradient>
+    <linearGradient id="graham-crust-rim" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#cda063"/>
+      <stop offset="100%" stop-color="#a67a3a"/>
+    </linearGradient>
+    <radialGradient id="graham-crust-hollow" cx="50%" cy="46%" r="55%">
+      <stop offset="0%" stop-color="#9a6e34"/>
+      <stop offset="100%" stop-color="#7d5526"/>
+    </radialGradient>
+    <clipPath id="graham-crust-clip">
+      <path d="M40 124 C40 96 80 80 128 80 C176 80 216 96 216 124 C216 156 176 184 128 184 C80 184 40 156 40 124 Z"/>
+    </clipPath>
+  </defs>
+
+  <ellipse cx="128" cy="220" rx="84" ry="13" fill="#000" opacity="0.11"/>
+
+  <!-- outer shell body -->
+  <path d="M40 124
+           C40 96 80 80 128 80
+           C176 80 216 96 216 124
+           C216 156 176 184 128 184
+           C80 184 40 156 40 124 Z"
+        fill="url(#graham-crust-bowl)" stroke="#8a5e28" stroke-width="6" stroke-linejoin="round"/>
+
+  <!-- crumb speckle texture on body -->
+  <g clip-path="url(#graham-crust-clip)" fill="#8a5e2c" opacity="0.55">
+    <circle cx="62" cy="150" r="3"/><circle cx="86" cy="166" r="2.4"/><circle cx="118" cy="172" r="3.2"/>
+    <circle cx="150" cy="170" r="2.6"/><circle cx="182" cy="158" r="3"/><circle cx="200" cy="138" r="2.4"/>
+    <circle cx="54" cy="132" r="2.4"/><circle cx="100" cy="160" r="2"/><circle cx="166" cy="166" r="2.2"/>
+    <circle cx="74" cy="156" r="2"/><circle cx="134" cy="174" r="2.4"/><circle cx="196" cy="150" r="2.2"/>
+  </g>
+  <g clip-path="url(#graham-crust-clip)" fill="#f0d6a2" opacity="0.5">
+    <circle cx="70" cy="142" r="2.2"/><circle cx="112" cy="158" r="2"/><circle cx="158" cy="156" r="2.4"/>
+    <circle cx="92" cy="150" r="1.8"/><circle cx="178" cy="146" r="2"/><circle cx="48" cy="142" r="1.8"/>
+  </g>
+
+  <!-- fluted rim -->
+  <path d="M44 116
+           q9 -16 18 0 q9 -16 18 0 q9 -16 18 0 q9 -16 18 0 q9 -16 18 0
+           q9 -16 18 0 q9 -16 18 0 q9 -16 18 0 q9 -16 18 0
+           q9 16 0 22 q-86 26 -180 0 q-9 -6 0 -22 Z"
+        fill="url(#graham-crust-rim)" stroke="#8a5e28" stroke-width="6" stroke-linejoin="round"/>
+
+  <!-- rim speckles -->
+  <g fill="#8a5e2c" opacity="0.5">
+    <circle cx="68" cy="112" r="2.2"/><circle cx="104" cy="110" r="2"/><circle cx="146" cy="110" r="2.2"/>
+    <circle cx="186" cy="114" r="2"/><circle cx="86" cy="118" r="1.8"/><circle cx="166" cy="118" r="1.8"/>
+  </g>
+
+  <!-- hollow interior -->
+  <ellipse cx="128" cy="120" rx="68" ry="34" fill="url(#graham-crust-hollow)" stroke="#6e4a20" stroke-width="5"/>
+  <ellipse cx="128" cy="116" rx="56" ry="27" fill="#85591f" opacity="0.5"/>
+
+  <!-- highlight on rim -->
+  <path d="M62 102 q24 -12 48 -12" fill="none" stroke="#f4dca8" stroke-width="7" stroke-linecap="round" opacity="0.6"/>
+  <!-- interior gloss highlight -->
+  <ellipse cx="108" cy="110" rx="20" ry="8" fill="#b08542" opacity="0.55"/>
+</svg>

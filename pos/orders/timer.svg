@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <linearGradient id="timer-face" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#e9edf1"/>
+    </linearGradient>
+  </defs>
+  <ellipse cx="128" cy="224" rx="56" ry="9" fill="#000" opacity="0.10"/>
+  <!-- top button -->
+  <rect x="112" y="30" width="32" height="18" rx="6" fill="#e23b30" stroke="#2f3138" stroke-width="6"/>
+  <rect x="120" y="46" width="16" height="14" rx="4" fill="#9aa3ad" stroke="#2f3138" stroke-width="6"/>
+  <!-- outer ring -->
+  <circle cx="128" cy="140" r="78" fill="#2f3138"/>
+  <circle cx="128" cy="140" r="78" fill="none" stroke="#2f3138" stroke-width="6"/>
+  <!-- face -->
+  <circle cx="128" cy="140" r="62" fill="url(#timer-face)" stroke="#2f3138" stroke-width="6"/>
+  <!-- tick marks -->
+  <line x1="128" y1="86" x2="128" y2="98" stroke="#2f3138" stroke-width="6" stroke-linecap="round"/>
+  <line x1="182" y1="140" x2="170" y2="140" stroke="#2f3138" stroke-width="6" stroke-linecap="round"/>
+  <line x1="128" y1="194" x2="128" y2="182" stroke="#2f3138" stroke-width="6" stroke-linecap="round"/>
+  <line x1="74" y1="140" x2="86" y2="140" stroke="#2f3138" stroke-width="6" stroke-linecap="round"/>
+  <!-- red pointer -->
+  <line x1="128" y1="140" x2="158" y2="108" stroke="#e23b30" stroke-width="7" stroke-linecap="round"/>
+  <circle cx="128" cy="140" r="8" fill="#2f3138"/>
+</svg>

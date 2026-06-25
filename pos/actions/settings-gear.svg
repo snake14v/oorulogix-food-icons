@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <linearGradient id="gear-grad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5a5e68"/>
+      <stop offset="1" stop-color="#3a3d45"/>
+    </linearGradient>
+  </defs>
+  <ellipse cx="128" cy="222" rx="60" ry="10" fill="#000" opacity="0.10"/>
+  <path d="M128 38
+           L141 38 L147 62
+           A66 66 0 0 1 167 73
+           L190 64 L199 76
+           L185 96
+           A66 66 0 0 1 192 116
+           L216 122 L216 134 L192 140
+           A66 66 0 0 1 185 160
+           L199 180 L190 192 L167 183
+           A66 66 0 0 1 147 194
+           L141 218 L128 218 L115 218 L109 194
+           A66 66 0 0 1 89 183
+           L66 192 L57 180 L71 160
+           A66 66 0 0 1 64 140
+           L40 134 L40 122 L64 116
+           A66 66 0 0 1 71 96
+           L57 76 L66 64 L89 73
+           A66 66 0 0 1 109 62
+           L115 38 Z"
+        fill="url(#gear-grad)" stroke="#2f3138" stroke-width="6" stroke-linejoin="round"/>
+  <circle cx="128" cy="128" r="30" fill="#ffffff" stroke="#2f3138" stroke-width="6"/>
+  <path d="M108 122 A22 22 0 0 1 128 108" fill="none" stroke="#c7cdd6" stroke-width="6" stroke-linecap="round"/>
+</svg>

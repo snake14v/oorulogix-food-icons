@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <linearGradient id="meringue-body" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fdf6e6"/>
+      <stop offset="1" stop-color="#f0e1c0"/>
+    </linearGradient>
+    <linearGradient id="meringue-toast" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d99a4e"/>
+      <stop offset="1" stop-color="#c47e34" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <ellipse cx="128" cy="222" rx="68" ry="12" fill="#000" opacity="0.11"/>
+  <!-- swirled meringue peak -->
+  <path d="M74 200
+           C66 176 84 170 98 174
+           C84 160 92 144 110 148
+           C96 134 106 118 124 122
+           C112 106 124 90 140 96
+           C130 78 148 66 162 80
+           C176 94 166 112 152 114
+           C168 122 166 142 150 144
+           C166 154 160 174 144 172
+           C158 186 146 202 130 198
+           C122 206 90 210 74 200 Z"
+        fill="url(#meringue-body)" stroke="#b88a3e" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+  <!-- toasted golden tips -->
+  <path d="M150 86 C162 80 170 90 162 102 C156 96 150 92 144 94 Z" fill="#c47e34"/>
+  <path d="M134 110 C146 106 152 116 144 124 C140 118 134 116 128 118 Z" fill="#d18f44" opacity="0.9"/>
+  <path d="M120 138 C132 134 138 142 132 150 C128 145 122 144 116 146 Z" fill="#d99a4e" opacity="0.85"/>
+  <path d="M104 166 C116 162 122 170 116 178 C112 173 106 172 100 174 Z" fill="#e0a85c" opacity="0.8"/>
+  <!-- soft toast wash over upper ridges -->
+  <path d="M120 96 C140 84 160 88 158 108 C144 100 130 100 120 110 Z" fill="url(#meringue-toast)" opacity="0.6"/>
+  <!-- ridge highlights -->
+  <path d="M98 176 C108 172 120 174 128 180" fill="none" stroke="#fffaf0" stroke-width="4.5" stroke-linecap="round" opacity="0.8"/>
+  <path d="M108 148 C118 144 126 146 134 152" fill="none" stroke="#fffaf0" stroke-width="4" stroke-linecap="round" opacity="0.75"/>
+</svg>

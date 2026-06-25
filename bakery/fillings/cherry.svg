@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <radialGradient id="cherry-pool" cx="42%" cy="38%" r="68%">
+      <stop offset="0%" stop-color="#e0444c"/>
+      <stop offset="55%" stop-color="#c0202a"/>
+      <stop offset="100%" stop-color="#971018"/>
+    </radialGradient>
+    <radialGradient id="cherry-berry" cx="38%" cy="34%" r="70%">
+      <stop offset="0%" stop-color="#d8313a"/>
+      <stop offset="100%" stop-color="#8c0f17"/>
+    </radialGradient>
+    <clipPath id="cherry-clip"><circle cx="128" cy="124" r="86"/></clipPath>
+  </defs>
+  <ellipse cx="128" cy="220" rx="84" ry="13" fill="#000" opacity="0.11"/>
+  <circle cx="128" cy="124" r="86" fill="url(#cherry-pool)" stroke="#5a3418" stroke-width="6"/>
+  <g clip-path="url(#cherry-clip)">
+    <path d="M44 86 Q92 70 128 92 T214 84 L214 60 L44 60 Z" fill="#e85059" opacity="0.5"/>
+    <circle cx="96" cy="106" r="22" fill="url(#cherry-berry)" stroke="#7a0d14" stroke-width="4"/>
+    <circle cx="150" cy="96" r="19" fill="url(#cherry-berry)" stroke="#7a0d14" stroke-width="4"/>
+    <circle cx="160" cy="150" r="23" fill="url(#cherry-berry)" stroke="#7a0d14" stroke-width="4"/>
+    <circle cx="102" cy="158" r="18" fill="url(#cherry-berry)" stroke="#7a0d14" stroke-width="4"/>
+    <path d="M96 92 Q104 80 118 80" fill="none" stroke="#4a7a2a" stroke-width="5" stroke-linecap="round"/>
+    <path d="M150 84 Q158 74 170 76" fill="none" stroke="#4a7a2a" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="88" cy="98" r="6" fill="#ff9298" opacity="0.85"/>
+    <circle cx="143" cy="90" r="5" fill="#ff9298" opacity="0.85"/>
+    <circle cx="153" cy="142" r="6" fill="#ff9298" opacity="0.85"/>
+  </g>
+  <path d="M70 92 Q96 64 138 70" fill="none" stroke="#ffffff" stroke-width="9" stroke-linecap="round" opacity="0.32"/>
+</svg>

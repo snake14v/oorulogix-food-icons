@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <linearGradient id="cash-note" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5bc06b"/>
+      <stop offset="1" stop-color="#3fb04f"/>
+    </linearGradient>
+  </defs>
+  <ellipse cx="128" cy="210" rx="74" ry="11" fill="#000" opacity="0.10"/>
+  <rect x="44" y="92" width="168" height="96" rx="12"
+        fill="#2e8c3c" stroke="#2f3138" stroke-width="6"
+        transform="rotate(-9 128 140)"/>
+  <rect x="44" y="78" width="168" height="96" rx="12"
+        fill="url(#cash-note)" stroke="#2f3138" stroke-width="6"/>
+  <circle cx="128" cy="126" r="26" fill="#ffffff" stroke="#2f3138" stroke-width="6"/>
+  <circle cx="128" cy="126" r="12" fill="#2e8c3c"/>
+  <circle cx="68" cy="100" r="7" fill="#ffffff" opacity="0.85"/>
+  <circle cx="188" cy="152" r="7" fill="#ffffff" opacity="0.85"/>
+</svg>

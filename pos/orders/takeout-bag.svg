@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <linearGradient id="takeout-bag-body" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d99a5e"/>
+      <stop offset="1" stop-color="#c98a4b"/>
+    </linearGradient>
+  </defs>
+  <ellipse cx="128" cy="222" rx="58" ry="10" fill="#000" opacity="0.10"/>
+  <!-- folded top flap -->
+  <path d="M72 64 h112 v22 l-12 8 h-88 l-12 -8 z"
+        fill="#e0a96b" stroke="#43291a" stroke-width="6" stroke-linejoin="round"/>
+  <line x1="128" y1="64" x2="128" y2="94" stroke="#43291a" stroke-width="5" stroke-linecap="round"/>
+  <!-- bag body -->
+  <path d="M72 94 h112 v100 a10 10 0 0 1 -10 10 h-92 a10 10 0 0 1 -10 -10 z"
+        fill="url(#takeout-bag-body)" stroke="#43291a" stroke-width="6" stroke-linejoin="round"/>
+  <!-- crease -->
+  <line x1="128" y1="94" x2="128" y2="204" stroke="#43291a" stroke-width="4" opacity="0.45" stroke-linecap="round"/>
+  <!-- small food icon: burger -->
+  <g>
+    <path d="M97 138 a31 14 0 0 1 62 0 z" fill="#f0a830" stroke="#43291a" stroke-width="5" stroke-linejoin="round"/>
+    <rect x="95" y="146" width="66" height="12" rx="4" fill="#3fb04f" stroke="#43291a" stroke-width="5"/>
+    <rect x="97" y="158" width="62" height="14" rx="6" fill="#fff" stroke="#43291a" stroke-width="5"/>
+  </g>
+</svg>

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <radialGradient id="strawberry-pool" cx="42%" cy="38%" r="68%">
+      <stop offset="0%" stop-color="#ef6a7c"/>
+      <stop offset="55%" stop-color="#e2455a"/>
+      <stop offset="100%" stop-color="#b62a3d"/>
+    </radialGradient>
+    <linearGradient id="strawberry-chunk" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f06b7a"/>
+      <stop offset="100%" stop-color="#c8344a"/>
+    </linearGradient>
+    <clipPath id="strawberry-clip"><circle cx="128" cy="124" r="86"/></clipPath>
+  </defs>
+  <ellipse cx="128" cy="220" rx="84" ry="13" fill="#000" opacity="0.11"/>
+  <circle cx="128" cy="124" r="86" fill="url(#strawberry-pool)" stroke="#5a3418" stroke-width="6"/>
+  <g clip-path="url(#strawberry-clip)">
+    <path d="M44 86 Q92 72 128 90 T214 84 L214 60 L44 60 Z" fill="#f4889a" opacity="0.5"/>
+    <g stroke="#a82639" stroke-width="4" stroke-linejoin="round">
+      <path d="M92 96 Q112 92 116 112 Q108 130 88 124 Q78 108 92 96 Z" fill="url(#strawberry-chunk)"/>
+      <path d="M150 104 Q170 102 172 122 Q162 138 144 130 Q138 114 150 104 Z" fill="url(#strawberry-chunk)"/>
+      <path d="M112 144 Q134 140 140 160 Q130 178 108 170 Q100 154 112 144 Z" fill="url(#strawberry-chunk)"/>
+    </g>
+    <g fill="#ffe9a0">
+      <ellipse cx="98" cy="106" rx="2.5" ry="3.5"/>
+      <ellipse cx="106" cy="116" rx="2.5" ry="3.5"/>
+      <ellipse cx="156" cy="114" rx="2.5" ry="3.5"/>
+      <ellipse cx="162" cy="124" rx="2.5" ry="3.5"/>
+      <ellipse cx="120" cy="154" rx="2.5" ry="3.5"/>
+      <ellipse cx="126" cy="164" rx="2.5" ry="3.5"/>
+    </g>
+  </g>
+  <path d="M70 92 Q96 64 138 70" fill="none" stroke="#ffffff" stroke-width="9" stroke-linecap="round" opacity="0.34"/>
+</svg>

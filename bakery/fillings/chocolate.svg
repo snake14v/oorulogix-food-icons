@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <radialGradient id="chocolate-pool" cx="42%" cy="36%" r="70%">
+      <stop offset="0%" stop-color="#6b4226"/>
+      <stop offset="55%" stop-color="#4a2c17"/>
+      <stop offset="100%" stop-color="#311a0d"/>
+    </radialGradient>
+    <radialGradient id="chocolate-swirl" cx="40%" cy="36%" r="70%">
+      <stop offset="0%" stop-color="#7c4e2c"/>
+      <stop offset="100%" stop-color="#3d2412"/>
+    </radialGradient>
+    <clipPath id="chocolate-clip"><circle cx="128" cy="124" r="86"/></clipPath>
+  </defs>
+  <ellipse cx="128" cy="220" rx="84" ry="13" fill="#000" opacity="0.11"/>
+  <circle cx="128" cy="124" r="86" fill="url(#chocolate-pool)" stroke="#2a1609" stroke-width="6"/>
+  <g clip-path="url(#chocolate-clip)">
+    <path d="M44 86 Q92 72 128 90 T214 84 L214 60 L44 60 Z" fill="#6e4527" opacity="0.5"/>
+    <path d="M80 150 Q108 110 150 124 Q186 134 168 168" fill="none" stroke="url(#chocolate-swirl)" stroke-width="14" stroke-linecap="round"/>
+    <path d="M88 144 Q112 116 146 126" fill="none" stroke="#8a5a34" stroke-width="4" stroke-linecap="round" opacity="0.6"/>
+    <ellipse cx="118" cy="112" rx="40" ry="22" fill="#5f3a20" opacity="0.5"/>
+  </g>
+  <path d="M72 96 Q98 66 140 74" fill="none" stroke="#c79a6a" stroke-width="10" stroke-linecap="round" opacity="0.35"/>
+  <circle cx="156" cy="158" r="8" fill="#d3a878" opacity="0.3"/>
+</svg>

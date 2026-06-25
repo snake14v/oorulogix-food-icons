@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <linearGradient id="closex-grad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ec5a50"/>
+      <stop offset="1" stop-color="#e23b30"/>
+    </linearGradient>
+  </defs>
+  <ellipse cx="128" cy="222" rx="62" ry="10" fill="#000" opacity="0.10"/>
+  <circle cx="128" cy="124" r="78" fill="url(#closex-grad)" stroke="#2f3138" stroke-width="6"/>
+  <path d="M96 116 A70 70 0 0 1 150 70" fill="none" stroke="#ffffff" stroke-width="9" stroke-linecap="round" opacity="0.40"/>
+  <path d="M100 96 L156 152 M156 96 L100 152" fill="none" stroke="#ffffff" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

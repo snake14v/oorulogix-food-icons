@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <radialGradient id="keylime-pool" cx="42%" cy="36%" r="70%">
+      <stop offset="0%" stop-color="#dcec96"/>
+      <stop offset="55%" stop-color="#c3d96a"/>
+      <stop offset="100%" stop-color="#9bb645"/>
+    </radialGradient>
+    <linearGradient id="keylime-wedge" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#eaf4ad"/>
+      <stop offset="100%" stop-color="#cbe07e"/>
+    </linearGradient>
+    <clipPath id="keylime-clip"><circle cx="128" cy="124" r="86"/></clipPath>
+  </defs>
+  <ellipse cx="128" cy="220" rx="84" ry="13" fill="#000" opacity="0.11"/>
+  <circle cx="128" cy="124" r="86" fill="url(#keylime-pool)" stroke="#9a5f25" stroke-width="6"/>
+  <g clip-path="url(#keylime-clip)">
+    <path d="M44 86 Q92 72 128 90 T214 84 L214 60 L44 60 Z" fill="#e3efaa" opacity="0.55"/>
+    <circle cx="104" cy="116" r="22" fill="url(#keylime-wedge)" stroke="#86a23c" stroke-width="4"/>
+    <g stroke="#9bb84a" stroke-width="2.5" opacity="0.85">
+      <path d="M104 96 L104 136 M84 116 L124 116 M90 102 L118 130 M118 102 L90 130"/>
+    </g>
+    <circle cx="104" cy="116" r="6" fill="#bcd066" opacity="0.7"/>
+    <path d="M152 142 A20 20 0 0 1 178 168 L152 168 Z" fill="url(#keylime-wedge)" stroke="#86a23c" stroke-width="4" stroke-linejoin="round"/>
+    <g fill="#7e9636">
+      <circle cx="148" cy="104" r="3"/>
+      <circle cx="160" cy="120" r="3"/>
+      <circle cx="132" cy="156" r="3"/>
+    </g>
+  </g>
+  <path d="M70 92 Q96 64 138 70" fill="none" stroke="#ffffff" stroke-width="10" stroke-linecap="round" opacity="0.4"/>
+  <circle cx="158" cy="156" r="7" fill="#ffffff" opacity="0.28"/>
+</svg>

@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <radialGradient id="fruitslices-kiwi" cx="0.5" cy="0.5" r="0.55">
+      <stop offset="0" stop-color="#eef4d6"/>
+      <stop offset="0.45" stop-color="#a7cf5c"/>
+      <stop offset="1" stop-color="#7eb13a"/>
+    </radialGradient>
+    <radialGradient id="fruitslices-straw" cx="0.5" cy="0.4" r="0.7">
+      <stop offset="0" stop-color="#ff8a7a"/>
+      <stop offset="0.5" stop-color="#ec3b35"/>
+      <stop offset="1" stop-color="#c21d1a"/>
+    </radialGradient>
+  </defs>
+  <ellipse cx="128" cy="222" rx="82" ry="12" fill="#000" opacity="0.11"/>
+  <!-- KIWI slice (left, behind) -->
+  <g transform="rotate(-16 92 138)">
+    <circle cx="92" cy="138" r="52" fill="url(#fruitslices-kiwi)" stroke="#5f8f2c" stroke-width="6"/>
+    <circle cx="92" cy="138" r="14" fill="#f3f6e3" stroke="#cfe09a" stroke-width="4"/>
+    <g fill="#2c2417">
+      <ellipse cx="92" cy="106" rx="2.6" ry="5"/>
+      <ellipse cx="114" cy="116" rx="2.6" ry="5" transform="rotate(40 114 116)"/>
+      <ellipse cx="124" cy="138" rx="2.6" ry="5" transform="rotate(90 124 138)"/>
+      <ellipse cx="114" cy="160" rx="2.6" ry="5" transform="rotate(140 114 160)"/>
+      <ellipse cx="92" cy="170" rx="2.6" ry="5"/>
+      <ellipse cx="70" cy="160" rx="2.6" ry="5" transform="rotate(40 70 160)"/>
+      <ellipse cx="60" cy="138" rx="2.6" ry="5" transform="rotate(90 60 138)"/>
+      <ellipse cx="70" cy="116" rx="2.6" ry="5" transform="rotate(140 70 116)"/>
+    </g>
+    <ellipse cx="74" cy="118" rx="14" ry="10" fill="#fff" opacity="0.3" transform="rotate(-20 74 118)"/>
+  </g>
+  <!-- STRAWBERRY slice (right, front, heart-ish) -->
+  <g transform="rotate(14 168 142)">
+    <path d="M168 88
+             C198 88 218 112 218 142
+             C218 176 190 196 168 196
+             C146 196 118 176 118 142
+             C118 112 138 88 168 88 Z"
+          fill="url(#fruitslices-straw)" stroke="#a8181a" stroke-width="6" stroke-linejoin="round"/>
+    <!-- pale inner core -->
+    <path d="M168 104 C190 104 204 122 204 144 C204 168 184 182 168 182 C152 182 132 168 132 144 C132 122 146 104 168 104 Z"
+          fill="#ff9f93" opacity="0.55"/>
+    <!-- seeds -->
+    <g fill="#ffe9a8">
+      <ellipse cx="150" cy="120" rx="2.6" ry="5" transform="rotate(-25 150 120)"/>
+      <ellipse cx="186" cy="120" rx="2.6" ry="5" transform="rotate(25 186 120)"/>
+      <ellipse cx="138" cy="148" rx="2.6" ry="5" transform="rotate(-50 138 148)"/>
+      <ellipse cx="198" cy="148" rx="2.6" ry="5" transform="rotate(50 198 148)"/>
+      <ellipse cx="156" cy="166" rx="2.6" ry="5" transform="rotate(-15 156 166)"/>
+      <ellipse cx="182" cy="166" rx="2.6" ry="5" transform="rotate(15 182 166)"/>
+      <ellipse cx="168" cy="140" rx="2.6" ry="5"/>
+    </g>
+    <ellipse cx="150" cy="116" rx="14" ry="9" fill="#fff" opacity="0.32" transform="rotate(-24 150 116)"/>
+  </g>
+</svg>

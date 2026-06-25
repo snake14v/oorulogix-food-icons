@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <radialGradient id="crumb-base" cx="48%" cy="42%" r="64%">
+      <stop offset="0%" stop-color="#e6bf78"/>
+      <stop offset="100%" stop-color="#c79347"/>
+    </radialGradient>
+    <linearGradient id="crumb-rim" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#eac177"/>
+      <stop offset="100%" stop-color="#bd8537"/>
+    </linearGradient>
+    <linearGradient id="crumb-piece" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#e7bd76"/>
+      <stop offset="100%" stop-color="#cf9a4f"/>
+    </linearGradient>
+    <clipPath id="crumb-clip">
+      <circle cx="128" cy="120" r="80"/>
+    </clipPath>
+  </defs>
+  <ellipse cx="128" cy="220" rx="84" ry="13" fill="#000" opacity="0.11"/>
+  <!-- pie crust rim -->
+  <circle cx="128" cy="120" r="92" fill="url(#crumb-rim)" stroke="#9a5f25" stroke-width="6"/>
+  <!-- streusel base -->
+  <circle cx="128" cy="120" r="80" fill="url(#crumb-base)" stroke="#9a5f25" stroke-width="5"/>
+  <g clip-path="url(#crumb-clip)">
+    <!-- scattered streusel crumbs, irregular rounded blobs -->
+    <g fill="url(#crumb-piece)" stroke="#a86f2d" stroke-width="4" stroke-linejoin="round">
+      <path d="M84 70 q10 -6 16 2 q6 8 -2 14 q-10 6 -16 -2 q-5 -8 2 -14 z"/>
+      <path d="M126 64 q12 -4 16 6 q3 10 -7 13 q-12 3 -16 -6 q-2 -9 7 -13 z"/>
+      <path d="M166 78 q11 -2 13 8 q1 9 -9 11 q-11 1 -13 -8 q-1 -8 9 -11 z"/>
+      <path d="M70 108 q11 -5 16 4 q4 9 -5 13 q-11 5 -15 -4 q-3 -9 4 -13 z"/>
+      <path d="M108 102 q11 -3 14 6 q3 9 -6 12 q-11 3 -14 -6 q-2 -9 6 -12 z"/>
+      <path d="M150 110 q12 -3 15 6 q3 9 -7 12 q-12 2 -15 -7 q-2 -8 7 -11 z"/>
+      <path d="M186 110 q10 -2 12 7 q1 8 -8 10 q-10 1 -12 -7 q0 -8 8 -10 z"/>
+      <path d="M84 150 q11 -4 15 5 q3 9 -6 12 q-11 3 -14 -6 q-3 -8 5 -11 z"/>
+      <path d="M122 146 q12 -3 15 7 q2 9 -8 11 q-11 2 -14 -7 q-2 -8 7 -11 z"/>
+      <path d="M160 148 q11 -3 14 6 q3 9 -7 12 q-11 2 -14 -7 q-2 -8 7 -11 z"/>
+      <path d="M100 178 q11 -4 15 5 q3 9 -6 12 q-11 3 -15 -6 q-2 -8 6 -11 z"/>
+      <path d="M142 178 q11 -3 14 6 q2 9 -7 11 q-11 2 -14 -6 q-2 -8 7 -11 z"/>
+    </g>
+    <!-- crumb highlights -->
+    <g fill="#fbe6bd" opacity="0.7">
+      <circle cx="90" cy="74" r="3"/>
+      <circle cx="131" cy="68" r="3"/>
+      <circle cx="113" cy="106" r="3"/>
+      <circle cx="155" cy="114" r="3"/>
+      <circle cx="89" cy="154" r="3"/>
+      <circle cx="127" cy="150" r="3"/>
+      <circle cx="105" cy="182" r="3"/>
+      <circle cx="147" cy="182" r="3"/>
+      <circle cx="171" cy="82" r="3"/>
+    </g>
+  </g>
+  <!-- soft top shine -->
+  <path d="M80 76 q26 -26 62 -20" fill="none" stroke="#fff" stroke-width="7" stroke-linecap="round" opacity="0.3"/>
+</svg>

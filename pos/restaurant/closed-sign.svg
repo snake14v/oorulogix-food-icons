@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <linearGradient id="closedsign-plate" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ec4b40"/>
+      <stop offset="1" stop-color="#e23b30"/>
+    </linearGradient>
+  </defs>
+  <!-- chain -->
+  <line x1="100" y1="20" x2="100" y2="58" stroke="#2f3138" stroke-width="6" stroke-linecap="round"/>
+  <line x1="156" y1="20" x2="156" y2="58" stroke="#2f3138" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="128" cy="20" r="9" fill="none" stroke="#2f3138" stroke-width="6"/>
+  <!-- sign plate -->
+  <rect x="44" y="58" width="168" height="104" rx="22" fill="url(#closedsign-plate)" stroke="#2f3138" stroke-width="6"/>
+  <!-- inner border -->
+  <rect x="62" y="76" width="132" height="68" rx="12" fill="none" stroke="#ffffff" stroke-width="5" opacity="0.7"/>
+  <!-- lights off (dim/empty) -->
+  <circle cx="86" cy="110" r="11" fill="#b22a21" stroke="#8f2019" stroke-width="4"/>
+  <circle cx="128" cy="110" r="11" fill="#b22a21" stroke="#8f2019" stroke-width="4"/>
+  <circle cx="170" cy="110" r="11" fill="#b22a21" stroke="#8f2019" stroke-width="4"/>
+  <!-- highlight -->
+  <rect x="60" y="68" width="60" height="9" rx="4" fill="#fff" opacity="0.30"/>
+</svg>

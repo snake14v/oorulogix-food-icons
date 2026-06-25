@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <ellipse cx="128" cy="216" rx="64" ry="11" fill="#000" opacity="0.10"/>
+  <!-- faint axis -->
+  <path d="M52 52 L52 196 L208 196" fill="none" stroke="#2f3138" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" opacity="0.22"/>
+  <!-- faint axis ticks -->
+  <line x1="44" y1="120" x2="52" y2="120" stroke="#2f3138" stroke-width="5" stroke-linecap="round" opacity="0.18"/>
+  <line x1="128" y1="196" x2="128" y2="204" stroke="#2f3138" stroke-width="5" stroke-linecap="round" opacity="0.18"/>
+  <!-- upward zigzag trend line, green -->
+  <polyline points="64,168 104,128 136,150 192,80" fill="none" stroke="#2f3138" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+  <polyline points="64,168 104,128 136,150 192,80" fill="none" stroke="#3fb04f" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- arrowhead at top-right -->
+  <path d="M168 74 L196 70 L194 100" fill="none" stroke="#2f3138" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M168 74 L196 70 L194 100" fill="none" stroke="#3fb04f" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- vertex dots -->
+  <circle cx="104" cy="128" r="5" fill="#ffffff" stroke="#2f3138" stroke-width="4"/>
+  <circle cx="136" cy="150" r="5" fill="#ffffff" stroke="#2f3138" stroke-width="4"/>
+</svg>

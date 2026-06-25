@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <radialGradient id="apple-pool" cx="42%" cy="38%" r="68%">
+      <stop offset="0%" stop-color="#eab256"/>
+      <stop offset="55%" stop-color="#d99a3a"/>
+      <stop offset="100%" stop-color="#b27822"/>
+    </radialGradient>
+    <linearGradient id="apple-slice" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fbe7b8"/>
+      <stop offset="100%" stop-color="#f0cf86"/>
+    </linearGradient>
+    <clipPath id="apple-clip"><circle cx="128" cy="124" r="86"/></clipPath>
+  </defs>
+  <ellipse cx="128" cy="220" rx="84" ry="13" fill="#000" opacity="0.11"/>
+  <circle cx="128" cy="124" r="86" fill="url(#apple-pool)" stroke="#9a5f25" stroke-width="6"/>
+  <g clip-path="url(#apple-clip)">
+    <path d="M44 86 Q92 72 128 90 T214 84 L214 60 L44 60 Z" fill="#f3c870" opacity="0.5"/>
+    <g stroke="#b9842f" stroke-width="4" stroke-linejoin="round">
+      <path d="M70 110 Q108 96 132 120 Q108 134 70 122 Z" fill="url(#apple-slice)"/>
+      <path d="M150 92 Q186 100 188 134 Q166 132 150 110 Z" fill="url(#apple-slice)"/>
+      <path d="M104 150 Q142 142 168 162 Q140 178 100 168 Z" fill="url(#apple-slice)"/>
+    </g>
+    <path d="M72 116 Q102 108 126 120" fill="none" stroke="#caa04e" stroke-width="3" stroke-linecap="round" opacity="0.7"/>
+    <g fill="#7a4a1c">
+      <ellipse cx="92" cy="118" rx="4" ry="6"/>
+      <ellipse cx="168" cy="116" rx="4" ry="6"/>
+      <ellipse cx="132" cy="160" rx="4" ry="6"/>
+    </g>
+    <g fill="#915c24">
+      <rect x="78" y="138" width="26" height="6" rx="3" transform="rotate(18 91 141)"/>
+      <rect x="150" y="148" width="22" height="6" rx="3" transform="rotate(-22 161 151)"/>
+      <rect x="120" y="100" width="20" height="6" rx="3" transform="rotate(-8 130 103)"/>
+    </g>
+  </g>
+  <path d="M70 92 Q96 64 138 70" fill="none" stroke="#ffffff" stroke-width="9" stroke-linecap="round" opacity="0.34"/>
+</svg>

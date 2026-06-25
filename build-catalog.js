@@ -109,7 +109,7 @@ fs.writeFileSync(path.join(OUT,'README.md'),
 
 # 🍱 Flat Food Icons
 
-An open-source pack of **${catalog.length} original flat-cartoon food icons** for food-ordering apps, cooking games, menus, and prototypes. Hand-built SVG — scalable, tiny, and easy to animate.
+An open-source pack of **${catalog.length} original flat-cartoon icons** — food items **and** restaurant POS / management UI — for food-ordering apps, cooking games, dashboards, kiosks, and prototypes. Hand-built SVG — scalable, tiny, and easy to animate.
 
 All artwork is original and all names are generic. Licensed under the **MIT License** (see \`LICENSE\`).
 
@@ -123,7 +123,9 @@ food-assets/
 ├── sandwich/    breads, cheeses, toppings, sauces, fries, fry-toppings
 ├── pizza/       base, toppings
 ├── burger/      base, toppings, sauces
+├── bakery/      crusts, fillings, top-crusts, toppers
 ├── classics/    burger, drinks, pizza, sandwich, fries  (composed / finished items)
+├── pos/         payment, orders, restaurant, actions, dashboard  (POS / management UI icons)
 ├── catalog.json   machine-readable index (id, label, path) of every asset
 ├── CATALOG.md      human-readable catalog
 ├── gallery.html    open in a browser to see every icon labelled

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <linearGradient id="notifbell-body" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f6bd54"/>
+      <stop offset="1" stop-color="#e8a022"/>
+    </linearGradient>
+  </defs>
+  <ellipse cx="128" cy="222" rx="58" ry="10" fill="#000" opacity="0.10"/>
+  <!-- top knob -->
+  <circle cx="128" cy="46" r="12" fill="#2f3138"/>
+  <!-- bell body -->
+  <path d="M128 56
+           C92 56 78 86 78 120
+           C78 150 70 168 56 182
+           L200 182
+           C186 168 178 150 178 120
+           C178 86 164 56 128 56 Z"
+        fill="url(#notifbell-body)" stroke="#2f3138" stroke-width="6" stroke-linejoin="round"/>
+  <!-- highlight on bell -->
+  <path d="M104 80 C94 92 92 108 92 124" fill="none" stroke="#ffffff" stroke-width="7" stroke-linecap="round" opacity="0.45"/>
+  <!-- rim -->
+  <rect x="50" y="180" width="156" height="14" rx="7" fill="#f0a830" stroke="#2f3138" stroke-width="6"/>
+  <!-- clapper -->
+  <path d="M112 198 a16 14 0 0 0 32 0 Z" fill="#2f3138"/>
+  <!-- red notification badge top-right -->
+  <circle cx="190" cy="64" r="22" fill="#e23b30" stroke="#ffffff" stroke-width="6"/>
+  <circle cx="183" cy="57" r="5" fill="#ffffff" opacity="0.55"/>
+</svg>

@@ -1,6 +1,55 @@
 # Asset Catalog
 
-156 flat-cartoon food icons (SVG, 256×256). All names are generic.
+223 flat-cartoon food icons (SVG, 256×256). All names are generic.
+
+## Bakery (27)
+
+### Crusts
+
+| Label | File |
+|---|---|
+| Chocolate Crust | `bakery/crusts/chocolate-crust.svg` |
+| Cookies Cream Crust | `bakery/crusts/cookies-cream-crust.svg` |
+| Graham Crust | `bakery/crusts/graham-crust.svg` |
+| Ladyfinger Crust | `bakery/crusts/ladyfinger-crust.svg` |
+| Shortbread Crust | `bakery/crusts/shortbread-crust.svg` |
+| Traditional Crust | `bakery/crusts/traditional-crust.svg` |
+
+### Fillings
+
+| Label | File |
+|---|---|
+| Apple | `bakery/fillings/apple.svg` |
+| Blueberry | `bakery/fillings/blueberry.svg` |
+| Cherry | `bakery/fillings/cherry.svg` |
+| Chocolate | `bakery/fillings/chocolate.svg` |
+| Key Lime | `bakery/fillings/key-lime.svg` |
+| Lemon | `bakery/fillings/lemon.svg` |
+| Pumpkin | `bakery/fillings/pumpkin.svg` |
+| Strawberry | `bakery/fillings/strawberry.svg` |
+
+### Top Crusts
+
+| Label | File |
+|---|---|
+| Crumb Topping | `bakery/top-crusts/crumb-topping.svg` |
+| Cutout Crust | `bakery/top-crusts/cutout-crust.svg` |
+| Full Crust | `bakery/top-crusts/full-crust.svg` |
+| Lattice | `bakery/top-crusts/lattice.svg` |
+| Whipped Top | `bakery/top-crusts/whipped-top.svg` |
+
+### Toppers
+
+| Label | File |
+|---|---|
+| Cherry Topper | `bakery/toppers/cherry-topper.svg` |
+| Chocolate Drizzle | `bakery/toppers/chocolate-drizzle.svg` |
+| Chopped Nuts | `bakery/toppers/chopped-nuts.svg` |
+| Fruit Slices | `bakery/toppers/fruit-slices.svg` |
+| Meringue | `bakery/toppers/meringue.svg` |
+| Powdered Sugar | `bakery/toppers/powdered-sugar.svg` |
+| Sprinkles | `bakery/toppers/sprinkles.svg` |
+| Whipped Cream | `bakery/toppers/whipped-cream.svg` |
 
 ## Burger (12)
 
@@ -195,6 +244,73 @@
 | Onions | `pizza/toppings/topping-onions.svg` |
 | Pepperoni | `pizza/toppings/topping-pepperoni.svg` |
 | Sausage | `pizza/toppings/topping-sausage.svg` |
+
+## Pos (40)
+
+### Actions
+
+| Label | File |
+|---|---|
+| Check | `pos/actions/check.svg` |
+| Close X | `pos/actions/close-x.svg` |
+| Edit Pencil | `pos/actions/edit-pencil.svg` |
+| Minus | `pos/actions/minus.svg` |
+| Plus | `pos/actions/plus.svg` |
+| Printer | `pos/actions/printer.svg` |
+| Refresh | `pos/actions/refresh.svg` |
+| Search | `pos/actions/search.svg` |
+| Settings Gear | `pos/actions/settings-gear.svg` |
+| Trash | `pos/actions/trash.svg` |
+
+### Dashboard
+
+| Label | File |
+|---|---|
+| Bar Chart | `pos/dashboard/bar-chart.svg` |
+| Coin Stack | `pos/dashboard/coin-stack.svg` |
+| Notification Bell | `pos/dashboard/notification-bell.svg` |
+| Pie Chart | `pos/dashboard/pie-chart.svg` |
+| Trend Up | `pos/dashboard/trend-up.svg` |
+| Wall Clock | `pos/dashboard/wall-clock.svg` |
+
+### Orders
+
+| Label | File |
+|---|---|
+| Food Tray | `pos/orders/food-tray.svg` |
+| Kitchen Ticket | `pos/orders/kitchen-ticket.svg` |
+| Order Ticket | `pos/orders/order-ticket.svg` |
+| Plate Cloche | `pos/orders/plate-cloche.svg` |
+| Service Bell | `pos/orders/service-bell.svg` |
+| Shopping Cart | `pos/orders/shopping-cart.svg` |
+| Takeout Bag | `pos/orders/takeout-bag.svg` |
+| Timer | `pos/orders/timer.svg` |
+
+### Payment
+
+| Label | File |
+|---|---|
+| Cash | `pos/payment/cash.svg` |
+| Cash Register | `pos/payment/cash-register.svg` |
+| Coins | `pos/payment/coins.svg` |
+| Credit Card | `pos/payment/credit-card.svg` |
+| Price Tag | `pos/payment/price-tag.svg` |
+| Qr Code | `pos/payment/qr-code.svg` |
+| Receipt | `pos/payment/receipt.svg` |
+| Wallet | `pos/payment/wallet.svg` |
+
+### Restaurant
+
+| Label | File |
+|---|---|
+| Chair | `pos/restaurant/chair.svg` |
+| Chef Hat | `pos/restaurant/chef-hat.svg` |
+| Closed Sign | `pos/restaurant/closed-sign.svg` |
+| Delivery Scooter | `pos/restaurant/delivery-scooter.svg` |
+| Menu Board | `pos/restaurant/menu-board.svg` |
+| Open Sign | `pos/restaurant/open-sign.svg` |
+| Star Rating | `pos/restaurant/star-rating.svg` |
+| Table | `pos/restaurant/table.svg` |
 
 ## Sandwich (65)
 

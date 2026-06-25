@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <radialGradient id="fullcrust-top" cx="46%" cy="40%" r="64%">
+      <stop offset="0%" stop-color="#f3d294"/>
+      <stop offset="60%" stop-color="#e2b260"/>
+      <stop offset="100%" stop-color="#c98f3c"/>
+    </radialGradient>
+    <linearGradient id="fullcrust-rim" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#eac177"/>
+      <stop offset="100%" stop-color="#bd8537"/>
+    </linearGradient>
+  </defs>
+  <ellipse cx="128" cy="220" rx="84" ry="13" fill="#000" opacity="0.11"/>
+  <!-- crimped edge: scalloped ring made of bumps -->
+  <g fill="url(#fullcrust-rim)" stroke="#9a5f25" stroke-width="6" stroke-linejoin="round">
+    <circle cx="128" cy="122" r="94"/>
+  </g>
+  <g fill="url(#fullcrust-rim)" stroke="#9a5f25" stroke-width="4">
+    <!-- crimp bumps around the rim -->
+    <g>
+      <circle cx="128" cy="28" r="11"/>
+      <circle cx="160" cy="33" r="11"/>
+      <circle cx="189" cy="50" r="11"/>
+      <circle cx="210" cy="77" r="11"/>
+      <circle cx="221" cy="110" r="11"/>
+      <circle cx="221" cy="144" r="11"/>
+      <circle cx="210" cy="177" r="11"/>
+      <circle cx="189" cy="204" r="11"/>
+      <circle cx="96" cy="33" r="11"/>
+      <circle cx="67" cy="50" r="11"/>
+      <circle cx="46" cy="77" r="11"/>
+      <circle cx="35" cy="110" r="11"/>
+      <circle cx="35" cy="144" r="11"/>
+      <circle cx="46" cy="177" r="11"/>
+      <circle cx="67" cy="204" r="11"/>
+      <circle cx="128" cy="214" r="11"/>
+      <circle cx="160" cy="211" r="11"/>
+      <circle cx="96" cy="211" r="11"/>
+    </g>
+  </g>
+  <!-- solid golden top crust -->
+  <circle cx="128" cy="122" r="78" fill="url(#fullcrust-top)" stroke="#9a5f25" stroke-width="6"/>
+  <!-- inner crimp ring shadow -->
+  <circle cx="128" cy="122" r="78" fill="none" stroke="#c98f3c" stroke-width="4" opacity="0.5"/>
+  <!-- steam vent slits radiating from center -->
+  <g stroke="#9a5f25" stroke-width="6" stroke-linecap="round">
+    <line x1="128" y1="96" x2="128" y2="76"/>
+    <line x1="148" y1="108" x2="165" y2="98"/>
+    <line x1="152" y1="132" x2="172" y2="138"/>
+    <line x1="132" y1="150" x2="138" y2="170"/>
+    <line x1="108" y1="146" x2="92" y2="158"/>
+    <line x1="104" y1="120" x2="84" y2="116"/>
+    <line x1="118" y1="104" x2="106" y2="88"/>
+  </g>
+  <!-- top crust shine -->
+  <path d="M82 86 q26 -28 62 -22" fill="none" stroke="#fff" stroke-width="8" stroke-linecap="round" opacity="0.45"/>
+  <ellipse cx="100" cy="100" rx="14" ry="9" fill="#fff" opacity="0.3" transform="rotate(-28 100 100)"/>
+</svg>

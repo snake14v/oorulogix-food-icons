@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <linearGradient id="coinstack-edge" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f6bd54"/>
+      <stop offset="1" stop-color="#e0941f"/>
+    </linearGradient>
+  </defs>
+  <ellipse cx="118" cy="218" rx="62" ry="11" fill="#000" opacity="0.10"/>
+  <!-- stack of coins (bottom to top). Each coin: side band + elliptical top -->
+  <!-- coin 1 (bottom) -->
+  <path d="M58 178 a52 18 0 0 0 104 0 v-18 a52 18 0 0 1 -104 0 Z" fill="url(#coinstack-edge)" stroke="#43291a" stroke-width="6" stroke-linejoin="round"/>
+  <!-- coin 2 -->
+  <path d="M58 150 a52 18 0 0 0 104 0 v-18 a52 18 0 0 1 -104 0 Z" fill="url(#coinstack-edge)" stroke="#43291a" stroke-width="6" stroke-linejoin="round"/>
+  <!-- coin 3 (top) -->
+  <path d="M58 122 a52 18 0 0 0 104 0 v-18 a52 18 0 0 1 -104 0 Z" fill="url(#coinstack-edge)" stroke="#43291a" stroke-width="6" stroke-linejoin="round"/>
+  <!-- top face -->
+  <ellipse cx="110" cy="104" rx="52" ry="18" fill="#f0a830" stroke="#43291a" stroke-width="6"/>
+  <ellipse cx="110" cy="104" rx="34" ry="11" fill="none" stroke="#43291a" stroke-width="5" opacity="0.55"/>
+  <!-- highlight on top face -->
+  <ellipse cx="96" cy="99" rx="16" ry="5" fill="#ffffff" opacity="0.45"/>
+  <!-- small upward sales arrow at top-right -->
+  <path d="M196 158 L196 86" fill="none" stroke="#2f3138" stroke-width="13" stroke-linecap="round"/>
+  <path d="M196 158 L196 86" fill="none" stroke="#3fb04f" stroke-width="6" stroke-linecap="round"/>
+  <path d="M176 108 L196 84 L216 108" fill="none" stroke="#2f3138" stroke-width="13" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M176 108 L196 84 L216 108" fill="none" stroke="#3fb04f" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

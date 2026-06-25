@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <linearGradient id="check-grad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#56c267"/>
+      <stop offset="1" stop-color="#3fb04f"/>
+    </linearGradient>
+  </defs>
+  <ellipse cx="128" cy="222" rx="62" ry="10" fill="#000" opacity="0.10"/>
+  <circle cx="128" cy="124" r="78" fill="url(#check-grad)" stroke="#2f3138" stroke-width="6"/>
+  <path d="M96 116 A70 70 0 0 1 150 70" fill="none" stroke="#ffffff" stroke-width="9" stroke-linecap="round" opacity="0.45"/>
+  <path d="M92 126 L118 152 L168 96" fill="none" stroke="#ffffff" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

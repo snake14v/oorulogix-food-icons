@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <radialGradient id="cherrytopper-body" cx="0.38" cy="0.34" r="0.75">
+      <stop offset="0" stop-color="#f0524d"/>
+      <stop offset="0.55" stop-color="#d2241f"/>
+      <stop offset="1" stop-color="#9c130f"/>
+    </radialGradient>
+    <linearGradient id="cherrytopper-stem" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#6fae3c"/>
+      <stop offset="1" stop-color="#3e7a23"/>
+    </linearGradient>
+  </defs>
+  <ellipse cx="128" cy="222" rx="66" ry="11" fill="#000" opacity="0.11"/>
+  <!-- stem -->
+  <path d="M132 96 C130 70 142 52 168 44" fill="none" stroke="url(#cherrytopper-stem)" stroke-width="9" stroke-linecap="round"/>
+  <path d="M132 96 C130 72 140 56 162 47" fill="none" stroke="#8cc857" stroke-width="3" stroke-linecap="round" opacity="0.8"/>
+  <!-- cherry body -->
+  <circle cx="124" cy="150" r="62" fill="url(#cherrytopper-body)" stroke="#7d0f0c" stroke-width="6"/>
+  <!-- dimple at stem -->
+  <path d="M118 92 C124 102 130 102 136 94" fill="none" stroke="#7d0f0c" stroke-width="5" stroke-linecap="round"/>
+  <!-- glossy highlight -->
+  <ellipse cx="104" cy="128" rx="22" ry="30" fill="#ffffff" opacity="0.55" transform="rotate(-22 104 128)"/>
+  <circle cx="148" cy="170" r="9" fill="#ffffff" opacity="0.25"/>
+</svg>

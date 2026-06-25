@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <linearGradient id="receipt-paper" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#eef0f4"/>
+    </linearGradient>
+  </defs>
+  <ellipse cx="128" cy="222" rx="60" ry="10" fill="#000" opacity="0.10"/>
+  <path d="M76 40
+           h104
+           v150
+           l-13 -10 -13 10 -13 -10 -13 10 -13 -10 -13 10 -13 -10 -13 10
+           z"
+        fill="url(#receipt-paper)" stroke="#2f3138" stroke-width="6"
+        stroke-linejoin="round" stroke-linecap="round"/>
+  <line x1="98" y1="96" x2="158" y2="96" stroke="#2f3138" stroke-width="6" stroke-linecap="round"/>
+  <line x1="98" y1="118" x2="158" y2="118" stroke="#2f3138" stroke-width="6" stroke-linecap="round"/>
+  <line x1="98" y1="140" x2="138" y2="140" stroke="#2f3138" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="159" cy="62" r="20" fill="#3fb04f" stroke="#2f3138" stroke-width="6"/>
+  <path d="M150 62 l7 7 12 -14" fill="none" stroke="#ffffff" stroke-width="6"
+        stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

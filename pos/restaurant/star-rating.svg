@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <linearGradient id="starrating-fill" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f7bb4f"/>
+      <stop offset="1" stop-color="#f0a830"/>
+    </linearGradient>
+  </defs>
+  <ellipse cx="128" cy="222" rx="60" ry="10" fill="#000" opacity="0.10"/>
+  <!-- bold rounded 5-point star -->
+  <path d="M128 34
+           l24 49
+           l54 8
+           l-39 38
+           l9 54
+           l-48 -25
+           l-48 25
+           l9 -54
+           l-39 -38
+           l54 -8
+           z"
+        fill="url(#starrating-fill)"
+        stroke="#43291a"
+        stroke-width="6"
+        stroke-linejoin="round"/>
+  <!-- highlight -->
+  <path d="M128 56 l14 30 l-28 0 z" fill="#fff" opacity="0.45"/>
+</svg>

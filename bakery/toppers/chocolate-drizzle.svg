@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <linearGradient id="chocolatedrizzle-stroke" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#6b3f22"/>
+      <stop offset="1" stop-color="#3a2010"/>
+    </linearGradient>
+  </defs>
+  <ellipse cx="128" cy="222" rx="78" ry="12" fill="#000" opacity="0.11"/>
+  <!-- main zigzag drizzle ribbon -->
+  <path d="M52 78
+           C78 70 70 100 96 96
+           C124 92 110 132 138 130
+           C168 128 152 168 182 168
+           C196 168 204 158 206 150"
+        fill="none" stroke="#2c1709" stroke-width="22" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M52 78
+           C78 70 70 100 96 96
+           C124 92 110 132 138 130
+           C168 128 152 168 182 168
+           C196 168 204 158 206 150"
+        fill="none" stroke="url(#chocolatedrizzle-stroke)" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- glossy top highlight on ribbon -->
+  <path d="M58 76
+           C80 70 72 98 96 94
+           C122 90 110 128 138 126
+           C166 124 152 162 180 162"
+        fill="none" stroke="#a06a3c" stroke-width="5" stroke-linecap="round" opacity="0.8"/>
+  <!-- end drips -->
+  <circle cx="206" cy="156" r="11" fill="url(#chocolatedrizzle-stroke)" stroke="#2c1709" stroke-width="4"/>
+  <ellipse cx="50" cy="82" rx="10" ry="11" fill="url(#chocolatedrizzle-stroke)" stroke="#2c1709" stroke-width="4"/>
+  <!-- little fallen droplets -->
+  <circle cx="118" cy="184" r="7" fill="#4a2c17" stroke="#2c1709" stroke-width="4"/>
+  <circle cx="84" cy="138" r="5" fill="#4a2c17" stroke="#2c1709" stroke-width="3.5"/>
+  <circle cx="201" cy="151" r="3" fill="#caa173" opacity="0.85"/>
+</svg>

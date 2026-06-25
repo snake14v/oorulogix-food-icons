@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <linearGradient id="kitchen-ticket-paper" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#eef1f4"/>
+    </linearGradient>
+  </defs>
+  <ellipse cx="128" cy="224" rx="58" ry="9" fill="#000" opacity="0.10"/>
+  <!-- ticket body with torn bottom -->
+  <path d="M66 78 h124 v122 l-14 -10 -14 10 -14 -10 -13 10 -14 -10 -14 10 -14 -10 v-112 z"
+        fill="url(#kitchen-ticket-paper)" stroke="#2f3138" stroke-width="6" stroke-linejoin="round"/>
+  <!-- chef hat mark at top -->
+  <g>
+    <path d="M104 84 a16 16 0 0 1 11 -28 a17 17 0 0 1 26 0 a16 16 0 0 1 11 28 z"
+          fill="#ffffff" stroke="#43291a" stroke-width="5" stroke-linejoin="round"/>
+    <rect x="106" y="82" width="44" height="12" rx="3" fill="#f0a830" stroke="#43291a" stroke-width="5"/>
+  </g>
+  <!-- line marks -->
+  <line x1="92" y1="120" x2="164" y2="120" stroke="#2f3138" stroke-width="6" stroke-linecap="round"/>
+  <line x1="92" y1="142" x2="164" y2="142" stroke="#2f3138" stroke-width="6" stroke-linecap="round"/>
+  <line x1="92" y1="164" x2="138" y2="164" stroke="#3a7de0" stroke-width="6" stroke-linecap="round"/>
+</svg>

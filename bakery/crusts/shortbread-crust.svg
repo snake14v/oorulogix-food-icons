@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <radialGradient id="shortbread-crust-bowl" cx="50%" cy="42%" r="62%">
+      <stop offset="0%" stop-color="#f7e6bb"/>
+      <stop offset="60%" stop-color="#ecd29a"/>
+      <stop offset="100%" stop-color="#d4b573"/>
+    </radialGradient>
+    <linearGradient id="shortbread-crust-rim" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f2dcab"/>
+      <stop offset="100%" stop-color="#d6b975"/>
+    </linearGradient>
+    <radialGradient id="shortbread-crust-hollow" cx="50%" cy="46%" r="55%">
+      <stop offset="0%" stop-color="#cbab68"/>
+      <stop offset="100%" stop-color="#b1914e"/>
+    </radialGradient>
+    <clipPath id="shortbread-crust-clip">
+      <path d="M40 124 C40 96 80 80 128 80 C176 80 216 96 216 124 C216 156 176 184 128 184 C80 184 40 156 40 124 Z"/>
+    </clipPath>
+  </defs>
+
+  <ellipse cx="128" cy="220" rx="84" ry="13" fill="#000" opacity="0.11"/>
+
+  <!-- outer shell body -->
+  <path d="M40 124
+           C40 96 80 80 128 80
+           C176 80 216 96 216 124
+           C216 156 176 184 128 184
+           C80 184 40 156 40 124 Z"
+        fill="url(#shortbread-crust-bowl)" stroke="#b08c44" stroke-width="6" stroke-linejoin="round"/>
+
+  <!-- soft crumb shading on body -->
+  <g clip-path="url(#shortbread-crust-clip)" fill="#c9a865" opacity="0.4">
+    <circle cx="66" cy="152" r="3"/><circle cx="100" cy="166" r="2.6"/><circle cx="136" cy="170" r="3"/>
+    <circle cx="170" cy="162" r="2.6"/><circle cx="196" cy="144" r="2.6"/><circle cx="84" cy="160" r="2"/>
+    <circle cx="154" cy="166" r="2.2"/><circle cx="116" cy="160" r="2"/>
+  </g>
+  <g clip-path="url(#shortbread-crust-clip)" fill="#fbeec6" opacity="0.55">
+    <circle cx="78" cy="146" r="2.2"/><circle cx="120" cy="154" r="2"/><circle cx="164" cy="150" r="2.2"/>
+  </g>
+
+  <!-- slightly crumbly rim: soft uneven bumps -->
+  <path d="M44 116
+           q8 -13 16 0 q8 -14 17 0 q8 -13 16 0 q8 -14 16 0 q8 -13 16 0
+           q8 -14 16 0 q8 -13 16 0 q8 -14 16 0 q8 -13 16 0 q8 -14 17 0
+           q9 16 0 22 q-86 26 -180 0 q-9 -6 0 -22 Z"
+        fill="url(#shortbread-crust-rim)" stroke="#b08c44" stroke-width="5" stroke-linejoin="round"/>
+
+  <!-- loose crumbs scattered on the rim edge -->
+  <g fill="#e2c47e" stroke="#b08c44" stroke-width="2">
+    <circle cx="58" cy="100" r="3.4"/><circle cx="128" cy="92" r="3"/><circle cx="198" cy="100" r="3.2"/>
+  </g>
+  <g fill="#cdab66" opacity="0.5">
+    <circle cx="92" cy="114" r="1.8"/><circle cx="160" cy="114" r="1.8"/><circle cx="124" cy="116" r="1.6"/>
+  </g>
+
+  <!-- hollow interior -->
+  <ellipse cx="128" cy="120" rx="68" ry="34" fill="url(#shortbread-crust-hollow)" stroke="#9a7c3a" stroke-width="5"/>
+  <ellipse cx="128" cy="116" rx="56" ry="27" fill="#bd9c56" opacity="0.5"/>
+
+  <!-- highlight on rim -->
+  <path d="M60 102 q26 -12 50 -12" fill="none" stroke="#fdf2cf" stroke-width="7" stroke-linecap="round" opacity="0.7"/>
+  <!-- interior gloss highlight -->
+  <ellipse cx="108" cy="110" rx="20" ry="8" fill="#dabd72" opacity="0.6"/>
+</svg>

@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <linearGradient id="wallclock-face" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#eef1f5"/>
+    </linearGradient>
+  </defs>
+  <ellipse cx="128" cy="220" rx="60" ry="10" fill="#000" opacity="0.10"/>
+  <!-- top hanger lug -->
+  <rect x="118" y="30" width="20" height="16" rx="6" fill="#2f3138"/>
+  <!-- outer slate ring -->
+  <circle cx="128" cy="132" r="84" fill="#2f3138"/>
+  <!-- inner face -->
+  <circle cx="128" cy="132" r="68" fill="url(#wallclock-face)" stroke="#2f3138" stroke-width="6"/>
+  <!-- hour tick marks -->
+  <g stroke="#2f3138" stroke-width="6" stroke-linecap="round">
+    <line x1="128" y1="74" x2="128" y2="86"/>
+    <line x1="128" y1="178" x2="128" y2="190"/>
+    <line x1="70" y1="132" x2="82" y2="132"/>
+    <line x1="174" y1="132" x2="186" y2="132"/>
+  </g>
+  <g stroke="#2f3138" stroke-width="4" stroke-linecap="round" opacity="0.55">
+    <line x1="156" y1="83" x2="151" y2="92"/>
+    <line x1="177" y1="104" x2="168" y2="109"/>
+    <line x1="177" y1="160" x2="168" y2="155"/>
+    <line x1="156" y1="181" x2="151" y2="172"/>
+    <line x1="100" y1="181" x2="105" y2="172"/>
+    <line x1="79" y1="160" x2="88" y2="155"/>
+    <line x1="79" y1="104" x2="88" y2="109"/>
+    <line x1="100" y1="83" x2="105" y2="92"/>
+  </g>
+  <!-- hour hand (accent blue) -->
+  <line x1="128" y1="132" x2="128" y2="96" stroke="#3a7de0" stroke-width="9" stroke-linecap="round"/>
+  <!-- minute hand (slate) -->
+  <line x1="128" y1="132" x2="166" y2="146" stroke="#2f3138" stroke-width="7" stroke-linecap="round"/>
+  <!-- center cap -->
+  <circle cx="128" cy="132" r="8" fill="#2f3138"/>
+  <circle cx="128" cy="132" r="3" fill="#ffffff"/>
+</svg>

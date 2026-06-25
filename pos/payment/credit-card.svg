@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <linearGradient id="creditcard-body" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5a96e8"/>
+      <stop offset="1" stop-color="#3a7de0"/>
+    </linearGradient>
+  </defs>
+  <ellipse cx="128" cy="206" rx="72" ry="11" fill="#000" opacity="0.10"/>
+  <rect x="40" y="68" width="176" height="116" rx="18"
+        fill="url(#creditcard-body)" stroke="#2f3138" stroke-width="6"/>
+  <rect x="40" y="92" width="176" height="26" fill="#2f3138"/>
+  <rect x="64" y="138" width="40" height="30" rx="6"
+        fill="#f0a830" stroke="#2f3138" stroke-width="5"/>
+  <line x1="84" y1="138" x2="84" y2="168" stroke="#2f3138" stroke-width="4"/>
+  <line x1="64" y1="153" x2="104" y2="153" stroke="#2f3138" stroke-width="4"/>
+  <line x1="138" y1="158" x2="192" y2="158" stroke="#ffffff" stroke-width="6" stroke-linecap="round" opacity="0.85"/>
+</svg>
