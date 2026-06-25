@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <ellipse cx="128" cy="216" rx="76" ry="13" fill="#000" opacity="0.12"/>
+  <defs>
+    <linearGradient id="chili_pile" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8e4d2a"/>
+      <stop offset="1" stop-color="#642f1a"/>
+    </linearGradient>
+  </defs>
+  <!-- chunky chili mound -->
+  <path d="M58 150
+    q-12 -30 18 -42 q26 -10 36 6
+    q14 -16 36 -8 q22 8 16 30
+    q24 0 20 26 q-4 22 -34 24
+    q-10 18 -40 14 q-28 -2 -34 -24
+    q-26 -2 -18 -26 Z"
+    fill="url(#chili_pile)" stroke="#4a2810" stroke-width="6" stroke-linejoin="round"/>
+  <!-- meat/tomato chunks -->
+  <g stroke="#4a2810" stroke-width="4" stroke-linejoin="round">
+    <path d="M84 118 q12 -6 20 2 q4 10 -6 14 q-12 4 -18 -6 q-2 -7 4 -10 Z" fill="#a8512c"/>
+    <path d="M132 110 q12 -4 18 4 q2 10 -8 12 q-12 2 -16 -8 q0 -6 6 -8 Z" fill="#9e4626"/>
+    <path d="M108 150 q14 -6 22 4 q2 10 -10 12 q-12 0 -16 -10 q0 -4 4 -6 Z" fill="#b05a30"/>
+  </g>
+  <!-- bean specks -->
+  <g stroke="#4a2810" stroke-width="3" stroke-linejoin="round">
+    <ellipse cx="78" cy="148" rx="9" ry="6" fill="#7a4426" transform="rotate(-20 78 148)"/>
+    <ellipse cx="150" cy="146" rx="9" ry="6" fill="#7a4426" transform="rotate(15 150 146)"/>
+    <ellipse cx="116" cy="178" rx="9" ry="6" fill="#7a4426" transform="rotate(-8 116 178)"/>
+    <ellipse cx="128" cy="132" rx="8" ry="5.5" fill="#6e3a20" transform="rotate(25 128 132)"/>
+  </g>
+  <!-- highlight -->
+  <path d="M86 104 q22 -12 44 -4" stroke="#c98a5c" stroke-width="6" stroke-linecap="round" opacity="0.6" fill="none"/>
+</svg>

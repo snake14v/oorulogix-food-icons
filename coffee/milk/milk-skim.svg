@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <ellipse cx="128" cy="226" rx="52" ry="11" fill="#000" opacity="0.12"/>
+  <defs>
+    <linearGradient id="milk-skim_body" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#e6e6df"/>
+      <stop offset=".45" stop-color="#f4f4ef"/>
+      <stop offset="1" stop-color="#d9d9d0"/>
+    </linearGradient>
+    <linearGradient id="milk-skim_roof" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fcfcf8"/>
+      <stop offset="1" stop-color="#e1e1d8"/>
+    </linearGradient>
+  </defs>
+  <!-- gable roof -->
+  <path d="M88 76 L128 50 L168 76 L168 92 L88 92 Z" fill="url(#milk-skim_roof)" stroke="#43291a" stroke-width="6" stroke-linejoin="round"/>
+  <!-- top crimp/spout -->
+  <path d="M118 50 L138 50 L138 62 L118 62 Z" fill="#cfcfc6" stroke="#43291a" stroke-width="5" stroke-linejoin="round"/>
+  <!-- carton body -->
+  <path d="M88 92 L168 92 L168 204 Q168 216 156 216 L100 216 Q88 216 88 204 Z" fill="url(#milk-skim_body)" stroke="#43291a" stroke-width="6" stroke-linejoin="round"/>
+  <!-- roof fold line -->
+  <path d="M128 50 L128 92" stroke="#43291a" stroke-width="5" stroke-linecap="round" opacity="0.55"/>
+  <!-- label panel -->
+  <rect x="104" y="120" width="48" height="58" rx="6" fill="#fff" opacity="0.95" stroke="#43291a" stroke-width="4"/>
+  <!-- blue accent band -->
+  <rect x="104" y="120" width="48" height="16" rx="6" fill="#5b9bd5" stroke="#43291a" stroke-width="4"/>
+  <!-- blue flavor dab (droplet) -->
+  <path d="M128 146 C122 154 119 159 119 164 a9 9 0 0 0 18 0 c0-5-3-10-9-18 Z" fill="#5b9bd5" stroke="#3c5d80" stroke-width="3" stroke-linejoin="round"/>
+  <!-- highlight -->
+  <path d="M98 100 L98 198" stroke="#fff" stroke-width="6" stroke-linecap="round" opacity="0.5"/>
+</svg>

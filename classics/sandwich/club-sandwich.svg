@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <!-- stacked club sandwich triangle with toothpick + olive -->
+  <ellipse cx="128" cy="214" rx="92" ry="13" fill="#000" opacity="0.12"/>
+  <path d="M36 196 L220 196 L210 176 L46 176 Z" fill="#E7B96A" stroke="#a9763a" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M44 176 q10 -12 20 0 q10 -12 20 0 q10 -12 20 0 q10 -12 20 0 q10 -12 20 0 q10 -12 20 0 q10 -12 20 0 q10 -12 20 0 l-4 12 -184 0 z"
+        fill="#7FB23E" stroke="#4f7d22" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M54 164 L202 164 L196 152 L60 152 Z" fill="#E8473B" stroke="#B22E26" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M58 152 L198 152 L206 140 L50 140 Z" fill="#F8BE3C" stroke="#C8841A" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M52 140 q12 -10 24 0 q12 -10 24 0 q12 -10 24 0 q12 -10 24 0 q12 -10 24 0 q12 -10 24 0 l4 8 -176 0 z"
+        fill="#EE9C9C" stroke="#c46b6b" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M40 130 L216 130 L128 58 Z" fill="#EEC177" stroke="#a9763a" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M52 124 L204 124 L128 72 Z" fill="#F6D9A6" opacity="0.55"/>
+  <rect x="124" y="40" width="6" height="40" rx="3" fill="#b98a52"/>
+  <circle cx="127" cy="44" r="9" fill="#5a7a2a" stroke="#3f5a1c" stroke-width="3"/>
+  <circle cx="127" cy="44" r="3" fill="#c0392b"/>
+</svg>

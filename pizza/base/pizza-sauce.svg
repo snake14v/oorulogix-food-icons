@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <radialGradient id="sauce-crust" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0.78" stop-color="#f0d49a"/>
+      <stop offset="1" stop-color="#e3bd7d"/>
+    </radialGradient>
+    <radialGradient id="sauce-fill" cx="0.42" cy="0.4" r="0.7">
+      <stop offset="0" stop-color="#e2503d"/>
+      <stop offset="1" stop-color="#d63a2a"/>
+    </radialGradient>
+  </defs>
+  <ellipse cx="128" cy="222" rx="90" ry="13" fill="#000" opacity="0.10"/>
+  <!-- crust ring -->
+  <circle cx="128" cy="118" r="92" fill="url(#sauce-crust)" stroke="#9a5f25" stroke-width="6"/>
+  <!-- tomato sauce, wavy spread edge -->
+  <path d="M128 44
+    Q150 45 161 56 Q176 60 180 76 Q193 88 189 108 Q198 124 188 140
+    Q190 160 174 168 Q166 184 148 184 Q134 194 116 186 Q98 188 88 174
+    Q72 168 70 150 Q56 138 62 120 Q54 102 68 90 Q70 72 88 68
+    Q98 52 120 52 Q124 46 128 44 Z"
+    fill="url(#sauce-fill)" stroke="#a8281c" stroke-width="5" stroke-linejoin="round"/>
+  <!-- spread swirl texture -->
+  <g fill="none" stroke="#b62e20" stroke-width="4" stroke-linecap="round" opacity="0.55">
+    <path d="M104 96 Q126 86 150 100"/>
+    <path d="M92 124 Q126 112 162 128"/>
+    <path d="M100 152 Q128 142 156 156"/>
+  </g>
+  <!-- glossy highlight -->
+  <path d="M88 80 Q108 66 134 70 Q114 80 100 98 Q92 90 88 80 Z" fill="#fff" opacity="0.22"/>
+  <circle cx="150" cy="108" r="5" fill="#fff" opacity="0.18"/>
+</svg>

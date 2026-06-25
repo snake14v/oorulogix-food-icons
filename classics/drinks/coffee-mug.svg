@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <!-- ceramic coffee mug with foam + rising steam (id=steam) -->
+  <ellipse cx="124" cy="226" rx="62" ry="11" fill="#000" opacity="0.12"/>
+  <g id="steam" fill="none" stroke="#CBB89B" stroke-width="6" stroke-linecap="round" opacity="0.7">
+    <path d="M104 72 q-10 -14 0 -28 q10 -14 0 -28"/>
+    <path d="M144 72 q10 -14 0 -28 q-10 -14 0 -28"/>
+  </g>
+  <path d="M182 116 q40 0 40 36 q0 36 -40 36" fill="none" stroke="#3c2a1a" stroke-width="18" stroke-linecap="round"/>
+  <path d="M182 116 q40 0 40 36 q0 36 -40 36" fill="none" stroke="#9c6a3c" stroke-width="9" stroke-linecap="round"/>
+  <path d="M58 104 L190 104 L178 200 Q174 216 156 216 L92 216 Q74 216 70 200 Z"
+        fill="#B5703A" stroke="#3c2a1a" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M70 120 L80 196" stroke="#D79A5C" stroke-width="6" stroke-linecap="round" opacity="0.6"/>
+  <ellipse cx="124" cy="106" rx="66" ry="15" fill="#4a2c17" stroke="#3c2a1a" stroke-width="6"/>
+  <ellipse cx="124" cy="104" rx="50" ry="9" fill="#C8A36F" opacity="0.85"/>
+</svg>

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <ellipse cx="128" cy="226" rx="56" ry="11" fill="#000" opacity="0.12"/>
+  <defs>
+    <linearGradient id="cream-chocolate-mousse_body" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#54341f"/>
+      <stop offset=".5" stop-color="#7e5234"/>
+      <stop offset="1" stop-color="#4c2f1c"/>
+    </linearGradient>
+    <linearGradient id="cream-chocolate-mousse_base" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7e5234"/>
+      <stop offset="1" stop-color="#4c2f1c"/>
+    </linearGradient>
+  </defs>
+  <path d="M72 200 Q72 178 128 178 Q184 178 184 200 Q184 222 128 222 Q72 222 72 200 Z" fill="url(#cream-chocolate-mousse_base)" stroke="#3c2a1a" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M82 196
+           Q70 182 88 176 Q72 162 92 152 Q78 138 100 130 Q88 116 110 110
+           Q102 96 122 92 Q116 78 128 56
+           Q140 78 134 92 Q154 96 146 110 Q168 116 156 130
+           Q178 138 164 152 Q184 162 168 176 Q186 182 174 196
+           Q150 206 128 206 Q106 206 82 196 Z"
+        fill="url(#cream-chocolate-mousse_body)" stroke="#3c2a1a" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M96 172 Q128 162 160 172" stroke="#321f12" stroke-width="4" fill="none" opacity="0.5" stroke-linecap="round"/>
+  <path d="M104 148 Q128 140 152 148" stroke="#321f12" stroke-width="4" fill="none" opacity="0.5" stroke-linecap="round"/>
+  <path d="M112 124 Q128 118 144 124" stroke="#321f12" stroke-width="4" fill="none" opacity="0.5" stroke-linecap="round"/>
+  <path d="M100 188 Q98 150 116 108 Q124 90 128 70" stroke="#b48055" stroke-width="6" fill="none" stroke-linecap="round" opacity="0.6"/>
+</svg>

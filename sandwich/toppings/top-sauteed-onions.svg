@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <ellipse cx="128" cy="216" rx="78" ry="13" fill="#000" opacity="0.12"/>
+  <defs>
+    <linearGradient id="top-sauteed-onions_strand" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e0b06a"/>
+      <stop offset="1" stop-color="#cf9a52"/>
+    </linearGradient>
+  </defs>
+  <!-- tangle of golden caramelized onion strands -->
+  <g fill="none" stroke-linecap="round">
+    <!-- darker caramelized base strands -->
+    <path d="M52 158 q34 -30 76 -14 q34 12 74 -4" stroke="#a06a2e" stroke-width="14"/>
+    <path d="M58 184 q40 -22 84 -8 q30 10 62 -6" stroke="#a06a2e" stroke-width="14"/>
+    <!-- main golden strands -->
+    <path d="M50 150 q30 -24 64 -12 q36 12 80 -6" stroke="url(#top-sauteed-onions_strand)" stroke-width="13"/>
+    <path d="M62 170 q34 -20 74 -8 q30 10 60 -4" stroke="url(#top-sauteed-onions_strand)" stroke-width="13"/>
+    <path d="M54 190 q36 -16 78 -4 q26 8 56 -8" stroke="url(#top-sauteed-onions_strand)" stroke-width="13"/>
+    <path d="M78 140 q20 30 50 30 q34 0 64 -16" stroke="#d8a45e" stroke-width="11"/>
+    <path d="M70 200 q30 8 64 4 q30 -4 56 -16" stroke="#d8a45e" stroke-width="11"/>
+    <!-- highlight wisps -->
+    <path d="M70 148 q28 -16 58 -8" stroke="#f2cf92" stroke-width="4" opacity="0.85"/>
+    <path d="M76 172 q28 -14 58 -6" stroke="#f2cf92" stroke-width="4" opacity="0.85"/>
+    <path d="M82 192 q26 -12 56 -4" stroke="#f2cf92" stroke-width="4" opacity="0.8"/>
+    <!-- darker browned bits -->
+    <path d="M120 162 q14 6 30 2" stroke="#7d4e1f" stroke-width="5" opacity="0.7"/>
+    <path d="M88 182 q12 6 26 2" stroke="#7d4e1f" stroke-width="5" opacity="0.7"/>
+  </g>
+</svg>

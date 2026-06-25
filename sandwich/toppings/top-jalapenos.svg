@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <ellipse cx="128" cy="214" rx="72" ry="13" fill="#000" opacity="0.12"/>
+  <defs>
+    <radialGradient id="top-jalapenos_ring" cx="0.4" cy="0.35" r="0.8">
+      <stop offset="0" stop-color="#7fb84a"/>
+      <stop offset="1" stop-color="#5f9a2e"/>
+    </radialGradient>
+  </defs>
+  <!-- jalapeno rings: outer green ring + inner pale flesh + seeds -->
+  <g stroke="#3c5a1a" stroke-width="6">
+    <!-- back row -->
+    <ellipse cx="92" cy="120" rx="26" ry="14" fill="url(#top-jalapenos_ring)"/>
+    <ellipse cx="92" cy="120" rx="13" ry="6.5" fill="#e3f0c0"/>
+    <ellipse cx="160" cy="116" rx="26" ry="14" fill="url(#top-jalapenos_ring)"/>
+    <ellipse cx="160" cy="116" rx="13" ry="6.5" fill="#e3f0c0"/>
+    <!-- middle row -->
+    <ellipse cx="70" cy="152" rx="28" ry="15" fill="url(#top-jalapenos_ring)"/>
+    <ellipse cx="70" cy="152" rx="14" ry="7" fill="#e3f0c0"/>
+    <ellipse cx="128" cy="148" rx="29" ry="15" fill="url(#top-jalapenos_ring)"/>
+    <ellipse cx="128" cy="148" rx="15" ry="7.5" fill="#e3f0c0"/>
+    <ellipse cx="186" cy="152" rx="27" ry="14" fill="url(#top-jalapenos_ring)"/>
+    <ellipse cx="186" cy="152" rx="13" ry="6.5" fill="#e3f0c0"/>
+    <!-- front row -->
+    <ellipse cx="98" cy="184" rx="28" ry="15" fill="url(#top-jalapenos_ring)"/>
+    <ellipse cx="98" cy="184" rx="14" ry="7" fill="#e3f0c0"/>
+    <ellipse cx="160" cy="186" rx="27" ry="14" fill="url(#top-jalapenos_ring)"/>
+    <ellipse cx="160" cy="186" rx="13" ry="6.5" fill="#e3f0c0"/>
+  </g>
+  <!-- tiny seeds -->
+  <g fill="#fbe6a0">
+    <circle cx="66" cy="151" r="2.2"/>
+    <circle cx="74" cy="153" r="2.2"/>
+    <circle cx="124" cy="147" r="2.2"/>
+    <circle cx="133" cy="150" r="2.2"/>
+    <circle cx="94" cy="183" r="2.2"/>
+    <circle cx="102" cy="186" r="2.2"/>
+    <circle cx="157" cy="185" r="2.2"/>
+  </g>
+  <!-- highlights -->
+  <path d="M74 112 q12 -7 26 -3" stroke="#bfe07a" stroke-width="4" stroke-linecap="round" fill="none" opacity="0.85"/>
+  <path d="M52 144 q12 -7 26 -3" stroke="#bfe07a" stroke-width="4" stroke-linecap="round" fill="none" opacity="0.85"/>
+  <path d="M110 140 q12 -7 26 -3" stroke="#bfe07a" stroke-width="4" stroke-linecap="round" fill="none" opacity="0.85"/>
+</svg>

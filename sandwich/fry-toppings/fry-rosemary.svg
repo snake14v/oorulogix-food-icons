@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <ellipse cx="128" cy="214" rx="62" ry="11" fill="#000" opacity="0.12"/>
+  <defs>
+    <linearGradient id="rosemary_stem" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#6aa03a"/>
+      <stop offset="1" stop-color="#477427"/>
+    </linearGradient>
+  </defs>
+  <!-- sprig group -->
+  <g stroke="#33531c" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <!-- sprig 1 -->
+    <path d="M78 196 Q92 130 132 70" fill="none" stroke="url(#rosemary_stem)"/>
+    <!-- sprig 2 -->
+    <path d="M120 200 Q140 134 184 92" fill="none" stroke="url(#rosemary_stem)"/>
+  </g>
+  <!-- needles sprig 1 -->
+  <g stroke="#4f7d2a" stroke-width="5" stroke-linecap="round">
+    <path d="M85 178 l-16 6 M89 166 l16 0 M82 158 l-16 2 M93 146 l15 -4 M86 138 l-15 -2 M99 124 l13 -8 M90 116 l-14 -6 M106 100 l11 -10 M97 92 l-12 -8 M114 80 l9 -12"/>
+  </g>
+  <!-- needles sprig 2 -->
+  <g stroke="#4f7d2a" stroke-width="5" stroke-linecap="round">
+    <path d="M128 184 l-16 4 M132 172 l16 -2 M124 162 l-16 0 M138 150 l15 -6 M130 140 l-15 -4 M146 126 l13 -10 M138 116 l-15 -4 M155 106 l11 -12 M148 96 l-13 -8 M164 86 l8 -12"/>
+  </g>
+  <!-- needle highlights -->
+  <g stroke="#86b955" stroke-width="3" stroke-linecap="round" opacity="0.7">
+    <path d="M89 166 l8 0 M99 124 l7 -4 M132 172 l8 -1 M146 126 l7 -5"/>
+  </g>
+</svg>

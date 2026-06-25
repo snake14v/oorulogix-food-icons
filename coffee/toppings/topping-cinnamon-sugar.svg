@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <ellipse cx="128" cy="226" rx="58" ry="11" fill="#000" opacity="0.12"/>
+  <defs>
+    <linearGradient id="cinnamon-sugar_body" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#d8aa6a"/><stop offset=".5" stop-color="#eecd9a"/><stop offset="1" stop-color="#c79352"/>
+    </linearGradient>
+    <linearGradient id="cinnamon-sugar_cap" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f4f7fa"/><stop offset="1" stop-color="#c4cdd6"/>
+    </linearGradient>
+  </defs>
+  <!-- tilted shaker can -->
+  <g transform="rotate(28 132 96)">
+    <rect x="98" y="64" width="68" height="96" rx="14" fill="url(#cinnamon-sugar_body)" stroke="#5a3a1f" stroke-width="6" stroke-linejoin="round"/>
+    <path d="M112 78 L112 150" stroke="#fff" stroke-width="6" stroke-linecap="round" opacity="0.4"/>
+    <rect x="100" y="100" width="64" height="26" rx="4" fill="#fff" opacity="0.85" stroke="#5a3a1f" stroke-width="3"/>
+    <!-- perforated cap -->
+    <rect x="94" y="44" width="76" height="26" rx="10" fill="url(#cinnamon-sugar_cap)" stroke="#5a3a1f" stroke-width="6" stroke-linejoin="round"/>
+    <circle cx="112" cy="57" r="3" fill="#5a3a1f"/><circle cx="126" cy="57" r="3" fill="#5a3a1f"/><circle cx="140" cy="57" r="3" fill="#5a3a1f"/><circle cx="154" cy="57" r="3" fill="#5a3a1f"/>
+  </g>
+  <!-- falling cinnamon-sugar: mix of fine tan granules + a tiny stick fleck -->
+  <circle cx="150" cy="150" r="4" fill="#c79a5a" stroke="#5a3a1f" stroke-width="2"/>
+  <circle cx="168" cy="170" r="3.5" fill="#d8aa6a"/>
+  <rect x="158" y="184" width="9" height="4" rx="2" fill="#a9763e" transform="rotate(30 162 186)"/>
+  <circle cx="178" cy="158" r="3" fill="#c79a5a"/>
+  <circle cx="142" cy="178" r="3" fill="#d8aa6a"/>
+  <!-- pile below -->
+  <path d="M96 210 Q128 192 160 210 Q128 218 96 210 Z" fill="#c79a5a" stroke="#5a3a1f" stroke-width="5" stroke-linejoin="round"/>
+  <circle cx="116" cy="205" r="2.5" fill="#a9763e"/><circle cx="140" cy="206" r="2.5" fill="#eecd9a"/><circle cx="128" cy="203" r="2.5" fill="#a9763e"/>
+</svg>

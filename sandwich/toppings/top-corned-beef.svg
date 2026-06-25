@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <ellipse cx="128" cy="216" rx="70" ry="13" fill="#000" opacity="0.12"/>
+  <defs>
+    <linearGradient id="cornedbeef_slice" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d06868"/>
+      <stop offset="1" stop-color="#c05050"/>
+    </linearGradient>
+  </defs>
+  <!-- stacked slices, each a thin wavy layer with fat edge -->
+  <!-- slice 1 (bottom) -->
+  <path d="M50 178 Q58 164 90 166 Q128 162 166 166 Q198 164 206 178 Q200 192 168 192 Q128 196 88 192 Q56 192 50 178 Z"
+        fill="url(#cornedbeef_slice)" stroke="#5a2a1f" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M56 178 Q90 174 128 176 Q166 174 200 178" stroke="#f0d9c4" stroke-width="4" stroke-linecap="round" fill="none"/>
+  <!-- slice 2 -->
+  <path d="M48 156 Q56 142 88 144 Q128 140 168 144 Q200 142 208 156 Q202 170 170 170 Q128 174 86 170 Q54 170 48 156 Z"
+        fill="url(#cornedbeef_slice)" stroke="#5a2a1f" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M54 156 Q90 152 128 154 Q166 152 202 156" stroke="#f0d9c4" stroke-width="4" stroke-linecap="round" fill="none"/>
+  <path d="M90 150 Q120 146 150 150" stroke="#a83e3e" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.6"/>
+  <!-- slice 3 (top) -->
+  <path d="M50 134 Q58 118 90 120 Q128 116 166 120 Q200 118 206 134 Q200 150 168 150 Q128 154 88 150 Q56 150 50 134 Z"
+        fill="url(#cornedbeef_slice)" stroke="#5a2a1f" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M56 134 Q90 130 128 132 Q166 130 200 134" stroke="#f3ddc9" stroke-width="4" stroke-linecap="round" fill="none"/>
+  <path d="M82 126 Q112 122 144 126" stroke="#ffffff" stroke-width="4" stroke-linecap="round" fill="none" opacity="0.4"/>
+  <path d="M96 142 Q124 138 154 142" stroke="#a83e3e" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.6"/>
+</svg>

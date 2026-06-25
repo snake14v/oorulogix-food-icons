@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <!-- fries : red carton, individual fry id's for pop animation -->
+  <ellipse cx="128" cy="232" rx="62" ry="10" fill="#000" opacity="0.12"/>
+  <!-- back fries (behind carton) -->
+  <g id="fries-back" fill="#F2C84B" stroke="#c89322" stroke-width="4" stroke-linejoin="round">
+    <rect x="92"  y="48"  width="15" height="120" rx="6" transform="rotate(-9 99 108)"/>
+    <rect x="150" y="44"  width="15" height="124" rx="6" transform="rotate(8 157 106)"/>
+    <rect x="120" y="36"  width="15" height="130" rx="6" transform="rotate(-1 127 101)"/>
+  </g>
+  <!-- carton -->
+  <path d="M74 150 L182 150 L168 232 Q166 240 156 240 L100 240 Q90 240 88 232 Z"
+        fill="#E23B30" stroke="#9c241c" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M74 150 L182 150 L178 172 L78 172 Z" fill="#FFFFFF" opacity="0.9"/>
+  <rect x="116" y="178" width="24" height="44" rx="4" fill="#FFFFFF" opacity="0.85"/>
+  <path d="M122 184 l6 8 8 -14" fill="none" stroke="#E23B30" stroke-width="4" stroke-linecap="round"/>
+  <!-- front fries -->
+  <g id="fries-front" fill="#FBD45E" stroke="#c89322" stroke-width="4" stroke-linejoin="round">
+    <rect x="100" y="92" width="15" height="74" rx="6" transform="rotate(-12 107 129)"/>
+    <rect x="138" y="90" width="15" height="76" rx="6" transform="rotate(10 145 128)"/>
+    <rect x="120" y="84" width="15" height="82" rx="6" transform="rotate(-2 127 125)"/>
+    <rect x="84"  y="118" width="15" height="50" rx="6" transform="rotate(-20 91 143)"/>
+    <rect x="158" y="116" width="15" height="52" rx="6" transform="rotate(18 165 142)"/>
+  </g>
+</svg>

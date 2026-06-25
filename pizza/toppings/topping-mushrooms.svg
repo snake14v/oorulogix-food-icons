@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <linearGradient id="mushrooms-grad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#e6d4b8"/>
+      <stop offset="100%" stop-color="#d8c2a0"/>
+    </linearGradient>
+  </defs>
+  <ellipse cx="128" cy="222" rx="88" ry="13" fill="#000" opacity="0.10"/>
+
+  <!-- slice 1: classic mushroom cross-section (back-left) -->
+  <g>
+    <path d="M58 118 Q58 76 100 76 Q142 76 142 118 Q142 124 134 124 L120 124 L120 152 Q120 160 110 160 L90 160 Q80 160 80 152 L80 124 L66 124 Q58 124 58 118 Z"
+          fill="url(#mushrooms-grad)" stroke="#9a7a4e" stroke-width="6" stroke-linejoin="round"/>
+    <!-- gills under cap -->
+    <path d="M70 110 Q100 96 130 110" fill="none" stroke="#a98a5c" stroke-width="4" stroke-linecap="round" opacity="0.7"/>
+    <path d="M74 118 L78 124 M88 120 L90 124 M100 120 L100 124 M112 120 L114 124 M126 118 L122 124"
+          stroke="#a98a5c" stroke-width="3" stroke-linecap="round" opacity="0.6"/>
+    <!-- stem shading -->
+    <path d="M92 130 L92 152 M108 130 L108 152" stroke="#c2a878" stroke-width="3" stroke-linecap="round" opacity="0.6"/>
+    <path d="M68 90 Q90 80 110 86" fill="none" stroke="#fff" stroke-width="6" stroke-linecap="round" opacity="0.5"/>
+  </g>
+
+  <!-- slice 2: smaller cross-section (front-right) -->
+  <g>
+    <path d="M126 156 Q126 124 158 124 Q190 124 190 156 Q190 160 184 160 L172 160 L172 182 Q172 188 164 188 L150 188 Q142 188 142 182 L142 160 L132 160 Q126 160 126 156 Z"
+          fill="url(#mushrooms-grad)" stroke="#9a7a4e" stroke-width="6" stroke-linejoin="round"/>
+    <path d="M136 150 Q158 140 180 150" fill="none" stroke="#a98a5c" stroke-width="4" stroke-linecap="round" opacity="0.7"/>
+    <path d="M140 155 L143 160 M152 156 L153 160 M164 156 L164 160 M176 154 L172 160"
+          stroke="#a98a5c" stroke-width="3" stroke-linecap="round" opacity="0.6"/>
+    <path d="M152 164 L152 182 M164 164 L164 182" stroke="#c2a878" stroke-width="3" stroke-linecap="round" opacity="0.6"/>
+    <path d="M136 134 Q154 126 170 132" fill="none" stroke="#fff" stroke-width="5" stroke-linecap="round" opacity="0.5"/>
+  </g>
+</svg>

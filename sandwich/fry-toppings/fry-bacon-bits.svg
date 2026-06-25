@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <ellipse cx="128" cy="216" rx="74" ry="13" fill="#000" opacity="0.12"/>
+  <defs>
+    <linearGradient id="bacobites_bit" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c0512f"/>
+      <stop offset="1" stop-color="#9a3520"/>
+    </linearGradient>
+  </defs>
+  <!-- scattered bacon bits -->
+  <g stroke="#4a2f1a" stroke-width="5" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M70 96 q14 -8 28 2 q6 12 -6 18 q-16 8 -26 -4 q-6 -10 4 -16 Z" fill="url(#bacobites_bit)"/>
+    <path d="M150 80 q18 -4 24 8 q4 12 -10 16 q-16 4 -22 -8 q-2 -12 8 -16 Z" fill="url(#bacobites_bit)"/>
+    <path d="M104 128 q16 -10 30 0 q8 12 -4 20 q-18 8 -30 -4 q-6 -10 4 -16 Z" fill="url(#bacobites_bit)"/>
+    <path d="M62 150 q14 -6 22 4 q4 12 -8 16 q-14 4 -20 -8 q-2 -8 6 -12 Z" fill="url(#bacobites_bit)"/>
+    <path d="M158 138 q16 -6 24 6 q4 12 -10 16 q-15 3 -20 -10 q-1 -8 6 -12 Z" fill="url(#bacobites_bit)"/>
+    <path d="M120 172 q16 -8 26 2 q6 12 -6 18 q-16 6 -26 -6 q-4 -8 6 -14 Z" fill="url(#bacobites_bit)"/>
+    <path d="M78 178 q12 -4 18 6 q2 10 -8 12 q-12 2 -16 -8 q-2 -6 6 -10 Z" fill="url(#bacobites_bit)"/>
+  </g>
+  <!-- fatty marble highlights -->
+  <g fill="#f3c9a0" opacity="0.75">
+    <path d="M80 102 q8 -2 14 2 q-2 6 -10 6 q-6 -2 -4 -8 Z"/>
+    <path d="M156 86 q8 -1 12 4 q-3 5 -10 4 q-5 -2 -2 -8 Z"/>
+    <path d="M112 134 q9 -2 16 2 q-2 7 -11 6 q-6 -2 -5 -8 Z"/>
+    <path d="M126 178 q8 -2 14 2 q-2 6 -10 6 q-6 -2 -4 -8 Z"/>
+  </g>
+</svg>

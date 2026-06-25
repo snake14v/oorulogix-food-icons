@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <ellipse cx="128" cy="214" rx="74" ry="13" fill="#000" opacity="0.12"/>
+  <defs>
+    <radialGradient id="top-fried-pickles_bread" cx="0.4" cy="0.35" r="0.85">
+      <stop offset="0" stop-color="#edc684"/>
+      <stop offset="1" stop-color="#e0b46a"/>
+    </radialGradient>
+    <radialGradient id="top-fried-pickles_center" cx="0.4" cy="0.4" r="0.8">
+      <stop offset="0" stop-color="#9ec85a"/>
+      <stop offset="1" stop-color="#6f9e3a"/>
+    </radialGradient>
+  </defs>
+  <!-- breaded golden pickle chips with green centers -->
+  <g stroke="#a9711f" stroke-width="6">
+    <!-- back -->
+    <ellipse cx="96" cy="120" rx="30" ry="20" fill="url(#top-fried-pickles_bread)"/>
+    <ellipse cx="166" cy="116" rx="30" ry="20" fill="url(#top-fried-pickles_bread)"/>
+    <!-- middle -->
+    <ellipse cx="72" cy="154" rx="32" ry="21" fill="url(#top-fried-pickles_bread)"/>
+    <ellipse cx="134" cy="150" rx="33" ry="22" fill="url(#top-fried-pickles_bread)"/>
+    <ellipse cx="192" cy="156" rx="29" ry="19" fill="url(#top-fried-pickles_bread)"/>
+    <!-- front -->
+    <ellipse cx="100" cy="186" rx="32" ry="21" fill="url(#top-fried-pickles_bread)"/>
+    <ellipse cx="162" cy="188" rx="31" ry="20" fill="url(#top-fried-pickles_bread)"/>
+  </g>
+  <!-- green centers peeking with seed pips -->
+  <g>
+    <ellipse cx="96" cy="120" rx="13" ry="8" fill="url(#top-fried-pickles_center)"/>
+    <ellipse cx="166" cy="116" rx="13" ry="8" fill="url(#top-fried-pickles_center)"/>
+    <ellipse cx="72" cy="154" rx="14" ry="9" fill="url(#top-fried-pickles_center)"/>
+    <ellipse cx="134" cy="150" rx="15" ry="9" fill="url(#top-fried-pickles_center)"/>
+    <ellipse cx="192" cy="156" rx="12" ry="8" fill="url(#top-fried-pickles_center)"/>
+    <ellipse cx="100" cy="186" rx="14" ry="9" fill="url(#top-fried-pickles_center)"/>
+    <ellipse cx="162" cy="188" rx="13" ry="8" fill="url(#top-fried-pickles_center)"/>
+  </g>
+  <g fill="#dff0b0">
+    <circle cx="94" cy="120" r="2"/><circle cx="100" cy="122" r="2"/>
+    <circle cx="164" cy="116" r="2"/><circle cx="170" cy="118" r="2"/>
+    <circle cx="70" cy="154" r="2"/><circle cx="76" cy="156" r="2"/>
+    <circle cx="131" cy="150" r="2.2"/><circle cx="139" cy="152" r="2.2"/>
+    <circle cx="98" cy="186" r="2"/><circle cx="104" cy="188" r="2"/>
+    <circle cx="160" cy="188" r="2"/><circle cx="166" cy="190" r="2"/>
+  </g>
+  <!-- crumb speckles + highlights on breading -->
+  <g fill="#c8902f" opacity="0.6">
+    <circle cx="80" cy="110" r="2"/><circle cx="112" cy="128" r="2"/>
+    <circle cx="156" cy="106" r="2"/><circle cx="58" cy="146" r="2"/>
+    <circle cx="118" cy="160" r="2"/><circle cx="184" cy="148" r="2"/>
+    <circle cx="88" cy="196" r="2"/><circle cx="176" cy="180" r="2"/>
+  </g>
+  <path d="M58 112 q14 -10 32 -8" stroke="#f7e0ad" stroke-width="4" stroke-linecap="round" fill="none" opacity="0.85"/>
+  <path d="M44 148 q14 -10 32 -8" stroke="#f7e0ad" stroke-width="4" stroke-linecap="round" fill="none" opacity="0.85"/>
+</svg>

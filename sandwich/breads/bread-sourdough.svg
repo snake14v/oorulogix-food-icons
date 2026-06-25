@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <ellipse cx="128" cy="218" rx="72" ry="13" fill="#000" opacity="0.12"/>
+  <defs>
+    <radialGradient id="bread-sourdough_crust" cx="0.4" cy="0.35" r="0.8">
+      <stop offset="0" stop-color="#f4dca8"/>
+      <stop offset="1" stop-color="#dcb877"/>
+    </radialGradient>
+    <radialGradient id="bread-sourdough_crumb" cx="0.45" cy="0.4" r="0.75">
+      <stop offset="0" stop-color="#fbeece"/>
+      <stop offset="1" stop-color="#f0d49c"/>
+    </radialGradient>
+  </defs>
+  <!-- round rustic boule -->
+  <circle cx="128" cy="128" r="72" fill="url(#bread-sourdough_crust)" stroke="#5a3a1f" stroke-width="6"/>
+  <!-- floury inner round -->
+  <circle cx="128" cy="128" r="56" fill="url(#bread-sourdough_crumb)" stroke="#dcb877" stroke-width="4"/>
+  <!-- flour dusting specks -->
+  <circle cx="104" cy="100" r="2" fill="#fff" opacity="0.7"/>
+  <circle cx="150" cy="106" r="2.4" fill="#fff" opacity="0.7"/>
+  <circle cx="160" cy="140" r="2" fill="#fff" opacity="0.7"/>
+  <circle cx="98" cy="150" r="2.2" fill="#fff" opacity="0.7"/>
+  <circle cx="132" cy="168" r="2" fill="#fff" opacity="0.7"/>
+  <!-- scoring slashes -->
+  <path d="M104 108 Q128 122 152 108" stroke="#b88a4a" stroke-width="5" stroke-linecap="round" fill="none"/>
+  <path d="M100 132 Q128 148 156 132" stroke="#b88a4a" stroke-width="5" stroke-linecap="round" fill="none"/>
+  <path d="M106 154 Q128 168 150 154" stroke="#b88a4a" stroke-width="5" stroke-linecap="round" fill="none"/>
+  <!-- highlight -->
+  <path d="M92 92 Q108 80 128 80" stroke="#fff" stroke-width="6" stroke-linecap="round" fill="none" opacity="0.4"/>
+</svg>

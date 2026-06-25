@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <ellipse cx="128" cy="218" rx="74" ry="12" fill="#000" opacity="0.12"/>
+  <defs>
+    <linearGradient id="cheese-american_body" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f9c15c"/>
+      <stop offset=".5" stop-color="#f4a93c"/>
+      <stop offset="1" stop-color="#e0902a"/>
+    </linearGradient>
+  </defs>
+  <!-- main square slice with slight 3/4 thickness -->
+  <path d="M58 66 L198 66 L198 178 L58 178 Z" fill="#cf7e22" stroke="#4a2f1a" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M58 60 L198 60 L198 172 L58 172 Z" fill="url(#cheese-american_body)" stroke="#4a2f1a" stroke-width="6" stroke-linejoin="round"/>
+  <!-- inner soft sheen -->
+  <path d="M74 76 L150 76 L96 156 L74 156 Z" fill="#fff" opacity="0.22"/>
+  <path d="M78 80 L132 80" stroke="#fff" stroke-width="7" stroke-linecap="round" opacity="0.45"/>
+  <path d="M180 92 L180 156" stroke="#c9781f" stroke-width="5" stroke-linecap="round" opacity="0.55"/>
+</svg>

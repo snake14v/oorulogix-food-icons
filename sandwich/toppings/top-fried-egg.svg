@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <ellipse cx="128" cy="216" rx="76" ry="13" fill="#000" opacity="0.12"/>
+  <defs>
+    <radialGradient id="top-fried-egg_yolk" cx="0.4" cy="0.35" r="0.75">
+      <stop offset="0" stop-color="#ffd24a"/>
+      <stop offset="1" stop-color="#f4b400"/>
+    </radialGradient>
+    <linearGradient id="top-fried-egg_white" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#fff5e0"/>
+    </linearGradient>
+  </defs>
+  <!-- wobbly egg white -->
+  <path d="M70 96
+           Q48 92 46 116
+           Q30 130 42 150
+           Q34 176 60 184
+           Q70 206 100 198
+           Q124 212 150 196
+           Q186 204 196 174
+           Q216 158 200 136
+           Q210 110 184 100
+           Q176 78 148 86
+           Q120 72 96 88
+           Q82 84 70 96 Z"
+        fill="url(#top-fried-egg_white)" stroke="#caa55f" stroke-width="6" stroke-linejoin="round"/>
+  <!-- inner white shading ring -->
+  <ellipse cx="124" cy="142" rx="60" ry="46" fill="#fffdf6" opacity="0.6"/>
+  <!-- yolk -->
+  <circle cx="128" cy="138" r="34" fill="url(#top-fried-egg_yolk)" stroke="#cf8f0c" stroke-width="6"/>
+  <!-- yolk highlight -->
+  <ellipse cx="116" cy="126" rx="13" ry="9" fill="#fff0b0" opacity="0.85"/>
+  <!-- white sheen -->
+  <path d="M64 116 q-8 16 4 30" stroke="#fff" stroke-width="5" stroke-linecap="round" fill="none" opacity="0.6"/>
+  <path d="M178 116 q14 14 6 34" stroke="#fff" stroke-width="5" stroke-linecap="round" fill="none" opacity="0.5"/>
+</svg>

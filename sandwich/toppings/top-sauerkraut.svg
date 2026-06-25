@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <ellipse cx="128" cy="216" rx="78" ry="13" fill="#000" opacity="0.12"/>
+  <defs>
+    <linearGradient id="top-sauerkraut_strand" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f3edcf"/>
+      <stop offset="1" stop-color="#e8e0bc"/>
+    </linearGradient>
+  </defs>
+  <!-- pile of pale stringy pickled cabbage strands -->
+  <g fill="none" stroke-linecap="round">
+    <!-- shadowed base strands -->
+    <path d="M52 158 q34 -28 78 -12 q34 12 72 -6" stroke="#cfc592" stroke-width="13"/>
+    <path d="M58 186 q40 -20 84 -8 q30 10 60 -6" stroke="#cfc592" stroke-width="13"/>
+    <!-- main pale strands -->
+    <path d="M50 150 q30 -22 64 -10 q36 12 80 -8" stroke="url(#top-sauerkraut_strand)" stroke-width="12"/>
+    <path d="M60 168 q34 -18 74 -6 q30 10 60 -6" stroke="url(#top-sauerkraut_strand)" stroke-width="12"/>
+    <path d="M54 192 q36 -14 78 -2 q26 8 56 -8" stroke="url(#top-sauerkraut_strand)" stroke-width="12"/>
+    <path d="M80 140 q18 28 48 28 q34 0 64 -14" stroke="#ede5c2" stroke-width="10"/>
+    <path d="M70 202 q30 8 64 4 q30 -4 54 -14" stroke="#ede5c2" stroke-width="10"/>
+    <!-- thin wispy shreds -->
+    <path d="M68 146 q30 -16 62 -6" stroke="#fbf6e2" stroke-width="3.5" opacity="0.9"/>
+    <path d="M74 174 q30 -14 62 -4" stroke="#fbf6e2" stroke-width="3.5" opacity="0.9"/>
+    <path d="M80 194 q28 -12 60 -2" stroke="#fbf6e2" stroke-width="3.5" opacity="0.85"/>
+    <!-- faint amber pickled tints -->
+    <path d="M118 160 q14 5 30 1" stroke="#d6c886" stroke-width="4" opacity="0.6"/>
+    <path d="M90 184 q12 5 26 1" stroke="#d6c886" stroke-width="4" opacity="0.6"/>
+  </g>
+</svg>

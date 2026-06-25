@@ -1,0 +1,13 @@
+# OS cruft
+.DS_Store
+Thumbs.db
+desktop.ini
+*~
+
+# Editor / IDE
+.vscode/
+.idea/
+
+# Node (build-catalog.js needs none, but just in case)
+node_modules/
+npm-debug.log*

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <!-- patty : grilled beef -->
+  <ellipse cx="128" cy="160" rx="82" ry="14" fill="#000" opacity="0.12"/>
+  <path d="M50 132 Q46 112 70 110 Q90 100 110 110 Q128 102 146 110 Q166 100 186 110 Q210 112 206 132
+           Q210 152 186 156 L70 156 Q46 152 50 132 Z"
+        fill="#6E4026" stroke="#3c2113" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M62 124 Q128 116 194 124" fill="none" stroke="#8A5535" stroke-width="6" stroke-linecap="round" opacity="0.8"/>
+  <circle cx="92" cy="132" r="4" fill="#4a2916"/>
+  <circle cx="132" cy="128" r="4" fill="#4a2916"/>
+  <circle cx="168" cy="134" r="4" fill="#4a2916"/>
+  <circle cx="112" cy="142" r="3" fill="#4a2916"/>
+</svg>

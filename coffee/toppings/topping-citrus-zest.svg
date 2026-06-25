@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <ellipse cx="128" cy="226" rx="58" ry="11" fill="#000" opacity="0.12"/>
+  <defs>
+    <linearGradient id="citrus-zest_body" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#f6c14a"/><stop offset=".5" stop-color="#ffdd7a"/><stop offset="1" stop-color="#eaa42f"/>
+    </linearGradient>
+    <linearGradient id="citrus-zest_cap" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f4f7fa"/><stop offset="1" stop-color="#c4cdd6"/>
+    </linearGradient>
+  </defs>
+  <g transform="rotate(28 132 96)">
+    <rect x="98" y="64" width="68" height="96" rx="14" fill="url(#citrus-zest_body)" stroke="#5a3a1f" stroke-width="6" stroke-linejoin="round"/>
+    <path d="M112 78 L112 150" stroke="#fff" stroke-width="6" stroke-linecap="round" opacity="0.45"/>
+    <rect x="100" y="100" width="64" height="26" rx="4" fill="#fff" opacity="0.8" stroke="#5a3a1f" stroke-width="3"/>
+    <rect x="94" y="44" width="76" height="26" rx="10" fill="url(#citrus-zest_cap)" stroke="#5a3a1f" stroke-width="6" stroke-linejoin="round"/>
+    <circle cx="112" cy="57" r="3" fill="#5a3a1f"/><circle cx="126" cy="57" r="3" fill="#5a3a1f"/><circle cx="140" cy="57" r="3" fill="#5a3a1f"/><circle cx="154" cy="57" r="3" fill="#5a3a1f"/>
+  </g>
+  <!-- falling: thin curled zest ribbons, orange and yellow -->
+  <path d="M144 144 q14 -2 12 9 q-3 4 -7 1 q4 -6 -1 -8 q-3 -1 -4 -2 z" fill="#f0a830" stroke="#5a3a1f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M166 164 q13 0 10 11 q-3 3 -6 1 q5 -6 0 -9 q-2 -1 -4 -3 z" fill="#ffd24a" stroke="#5a3a1f" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M150 178 q12 1 9 12 q-3 3 -6 0 q5 -6 1 -9 q-2 -1 -4 -3 z" fill="#f0a830" stroke="#5a3a1f" stroke-width="2.5" stroke-linejoin="round"/>
+  <!-- pile of zest curls -->
+  <path d="M94 211 Q128 191 162 211 Q128 219 94 211 Z" fill="#f0a830" stroke="#5a3a1f" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M104 205 q11 -2 9 6 q-6 1 -9 -6 z" fill="#ffd24a" stroke="#5a3a1f" stroke-width="2"/>
+  <path d="M128 204 q10 -1 9 6 q-6 1 -9 -6 z" fill="#e58f1f" stroke="#5a3a1f" stroke-width="2"/>
+  <path d="M146 206 q9 -1 8 5 q-5 1 -8 -5 z" fill="#ffd24a" stroke="#5a3a1f" stroke-width="2"/>
+</svg>

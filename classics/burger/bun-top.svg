@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <!-- bun-top : sesame dome -->
+  <ellipse cx="128" cy="178" rx="82" ry="13" fill="#000" opacity="0.12"/>
+  <defs>
+    <linearGradient id="btB" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F2BD6C"/>
+      <stop offset="1" stop-color="#DB9A44"/>
+    </linearGradient>
+  </defs>
+  <path d="M50 168 Q50 86 128 80 Q206 86 206 168 Q206 176 196 176 L60 176 Q50 176 50 168 Z"
+        fill="url(#btB)" stroke="#5a3418" stroke-width="6" stroke-linejoin="round"/>
+  <!-- glaze shine -->
+  <path d="M78 110 Q104 90 140 96" fill="none" stroke="#FBE0AE" stroke-width="9" stroke-linecap="round" opacity="0.7"/>
+  <!-- sesame seeds -->
+  <g fill="#FCEFD0" stroke="#C79A55" stroke-width="2">
+    <ellipse cx="108" cy="118" rx="6" ry="3.4" transform="rotate(-20 108 118)"/>
+    <ellipse cx="140" cy="112" rx="6" ry="3.4" transform="rotate(15 140 112)"/>
+    <ellipse cx="124" cy="134" rx="6" ry="3.4" transform="rotate(-8 124 134)"/>
+    <ellipse cx="92"  cy="138" rx="6" ry="3.4" transform="rotate(25 92 138)"/>
+    <ellipse cx="160" cy="136" rx="6" ry="3.4" transform="rotate(-25 160 136)"/>
+    <ellipse cx="128" cy="100" rx="6" ry="3.4" transform="rotate(5 128 100)"/>
+    <ellipse cx="74"  cy="156" rx="6" ry="3.4" transform="rotate(35 74 156)"/>
+    <ellipse cx="182" cy="156" rx="6" ry="3.4" transform="rotate(-35 182 156)"/>
+  </g>
+</svg>

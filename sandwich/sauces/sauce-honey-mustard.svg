@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <ellipse cx="128" cy="226" rx="42" ry="9" fill="#000" opacity="0.12"/>
+  <defs><linearGradient id="honeymustard_body" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#c8941f"/><stop offset=".5" stop-color="#e0a92a"/><stop offset="1" stop-color="#b8841a"/></linearGradient></defs>
+  <rect x="113" y="36" width="30" height="14" rx="3" fill="#2c1d12"/>
+  <rect x="110" y="46" width="36" height="18" rx="4" fill="#3c2a1a"/>
+  <path d="M104 64 L152 64 L160 100 L160 208 Q160 222 146 222 L110 222 Q96 222 96 208 L96 100 Z" fill="url(#honeymustard_body)" stroke="#5a3a14" stroke-width="6" stroke-linejoin="round"/>
+  <rect x="110" y="122" width="36" height="48" rx="6" fill="#fff" opacity="0.94" stroke="#5a3a14" stroke-width="3"/>
+  <circle cx="128" cy="146" r="9" fill="#e0a92a"/>
+  <path d="M124 142 l4 0 m-4 4 l4 0" stroke="#fff" stroke-width="1.6" stroke-linecap="round" opacity="0.7"/>
+  <path d="M106 82 L102 198" stroke="#fff" stroke-width="5" stroke-linecap="round" opacity="0.4"/>
+</svg>

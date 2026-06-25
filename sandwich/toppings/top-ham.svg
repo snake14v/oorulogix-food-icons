@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <ellipse cx="128" cy="216" rx="72" ry="13" fill="#000" opacity="0.12"/>
+  <defs>
+    <linearGradient id="ham_slice" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f4b3b3"/>
+      <stop offset="1" stop-color="#ec9494"/>
+    </linearGradient>
+    <linearGradient id="ham_fold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f0a6a6"/>
+      <stop offset="1" stop-color="#e58a8a"/>
+    </linearGradient>
+  </defs>
+  <!-- bottom folded layer -->
+  <path d="M48 150 Q40 120 70 110 Q100 100 128 108 Q156 100 186 110 Q216 120 208 150 Q214 178 184 188 Q156 198 128 190 Q100 198 72 188 Q42 178 48 150 Z"
+        fill="url(#ham_slice)" stroke="#5a2a2a" stroke-width="6" stroke-linejoin="round"/>
+  <!-- top folded ruffle layer -->
+  <path d="M62 138 Q72 116 100 124 Q120 130 128 118 Q136 130 156 124 Q184 116 194 138 Q200 158 176 166 Q150 174 128 166 Q106 174 80 166 Q56 158 62 138 Z"
+        fill="url(#ham_fold)" stroke="#5a2a2a" stroke-width="6" stroke-linejoin="round"/>
+  <!-- fold crease lines -->
+  <path d="M90 132 Q100 152 92 168" stroke="#d97b7b" stroke-width="5" stroke-linecap="round" fill="none"/>
+  <path d="M128 122 Q132 146 126 166" stroke="#d97b7b" stroke-width="5" stroke-linecap="round" fill="none"/>
+  <path d="M166 132 Q160 152 168 168" stroke="#d97b7b" stroke-width="5" stroke-linecap="round" fill="none"/>
+  <!-- highlight -->
+  <path d="M78 130 Q104 120 126 128" stroke="#ffffff" stroke-width="6" stroke-linecap="round" fill="none" opacity="0.45"/>
+  <ellipse cx="150" cy="150" rx="14" ry="7" fill="#ffffff" opacity="0.3"/>
+</svg>

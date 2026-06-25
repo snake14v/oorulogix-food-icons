@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <ellipse cx="128" cy="226" rx="58" ry="11" fill="#000" opacity="0.12"/>
+  <defs>
+    <linearGradient id="mini-mallows_body" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#f7c9d8"/><stop offset=".5" stop-color="#ffe3ec"/><stop offset="1" stop-color="#f0b4c8"/>
+    </linearGradient>
+    <linearGradient id="mini-mallows_cap" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f4f7fa"/><stop offset="1" stop-color="#c4cdd6"/>
+    </linearGradient>
+  </defs>
+  <g transform="rotate(28 132 96)">
+    <rect x="98" y="64" width="68" height="96" rx="14" fill="url(#mini-mallows_body)" stroke="#5a3a1f" stroke-width="6" stroke-linejoin="round"/>
+    <path d="M112 78 L112 150" stroke="#fff" stroke-width="6" stroke-linecap="round" opacity="0.5"/>
+    <rect x="100" y="100" width="64" height="26" rx="4" fill="#fff" opacity="0.75" stroke="#5a3a1f" stroke-width="3"/>
+    <rect x="94" y="44" width="76" height="26" rx="10" fill="url(#mini-mallows_cap)" stroke="#5a3a1f" stroke-width="6" stroke-linejoin="round"/>
+    <circle cx="112" cy="57" r="3" fill="#5a3a1f"/><circle cx="126" cy="57" r="3" fill="#5a3a1f"/><circle cx="140" cy="57" r="3" fill="#5a3a1f"/><circle cx="154" cy="57" r="3" fill="#5a3a1f"/>
+  </g>
+  <!-- falling: tiny rounded marshmallow pills (white + pink) -->
+  <rect x="144" y="143" width="13" height="9" rx="4.5" fill="#fff" stroke="#5a3a1f" stroke-width="2.5"/>
+  <rect x="164" y="162" width="13" height="9" rx="4.5" fill="#f7c9d8" stroke="#5a3a1f" stroke-width="2.5" transform="rotate(20 170 166)"/>
+  <rect x="148" y="176" width="13" height="9" rx="4.5" fill="#fff" stroke="#5a3a1f" stroke-width="2.5" transform="rotate(-15 154 180)"/>
+  <rect x="174" y="150" width="11" height="8" rx="4" fill="#f7c9d8" stroke="#5a3a1f" stroke-width="2.5"/>
+  <!-- pile of mallow pills -->
+  <path d="M94 211 Q128 192 162 211 Q128 219 94 211 Z" fill="#ffe3ec" stroke="#5a3a1f" stroke-width="5" stroke-linejoin="round"/>
+  <rect x="104" y="200" width="13" height="9" rx="4.5" fill="#fff" stroke="#5a3a1f" stroke-width="2.5"/>
+  <rect x="120" y="199" width="13" height="9" rx="4.5" fill="#f7c9d8" stroke="#5a3a1f" stroke-width="2.5"/>
+  <rect x="137" y="201" width="13" height="9" rx="4.5" fill="#fff" stroke="#5a3a1f" stroke-width="2.5"/>
+</svg>

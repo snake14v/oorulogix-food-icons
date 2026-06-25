@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <ellipse cx="128" cy="220" rx="76" ry="13" fill="#000" opacity="0.12"/>
+  <defs>
+    <linearGradient id="fries-curly_carton" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ef4136"/>
+      <stop offset="1" stop-color="#c5221b"/>
+    </linearGradient>
+  </defs>
+  <!-- carton back -->
+  <path d="M64 150 L192 150 L184 206 Q182 218 169 218 L87 218 Q74 218 72 206 Z" fill="url(#fries-curly_carton)" stroke="#5a2a1f" stroke-width="6" stroke-linejoin="round"/>
+  <!-- curly fries: spiral spring shapes -->
+  <g fill="none" stroke="#8a5a1a" stroke-width="13" stroke-linecap="round">
+    <path d="M70 168 C66 132 96 132 92 100 C88 72 116 72 112 48"/>
+    <path d="M118 170 C114 130 146 134 142 96 C138 64 168 70 162 44"/>
+    <path d="M170 172 C168 138 196 142 192 110 C188 82 210 84 206 60"/>
+  </g>
+  <g fill="none" stroke="#efb937" stroke-width="9" stroke-linecap="round">
+    <path d="M70 168 C66 132 96 132 92 100 C88 72 116 72 112 48"/>
+    <path d="M118 170 C114 130 146 134 142 96 C138 64 168 70 162 44"/>
+    <path d="M170 172 C168 138 196 142 192 110 C188 82 210 84 206 60"/>
+  </g>
+  <!-- highlight strands -->
+  <g fill="none" stroke="#fbe08a" stroke-width="3.5" stroke-linecap="round" opacity="0.7">
+    <path d="M70 166 C66 132 95 133 91 101 C87 73 114 73 110 50"/>
+    <path d="M119 168 C115 130 145 134 141 97 C137 66 166 71 161 47"/>
+  </g>
+  <!-- carton front -->
+  <path d="M68 148 L188 148 Q200 148 198 160 L190 200 Q188 214 174 214 L82 214 Q68 214 66 200 L58 160 Q56 148 68 148 Z" fill="url(#fries-curly_carton)" stroke="#5a2a1f" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M74 162 L182 162" stroke="#fff" stroke-width="6" stroke-linecap="round" opacity="0.55"/>
+  <rect x="108" y="172" width="40" height="26" rx="6" fill="#fff" opacity="0.9" stroke="#c5221b" stroke-width="4"/>
+</svg>

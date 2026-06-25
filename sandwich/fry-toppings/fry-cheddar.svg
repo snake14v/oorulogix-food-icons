@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <ellipse cx="128" cy="214" rx="78" ry="14" fill="#000" opacity="0.12"/>
+  <defs>
+    <linearGradient id="cheddar_pool" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffb53e"/>
+      <stop offset="1" stop-color="#e88c16"/>
+    </linearGradient>
+    <radialGradient id="cheddar_gloss" cx="0.4" cy="0.35" r="0.6">
+      <stop offset="0" stop-color="#ffe39c" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#ffe39c" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <!-- molten cheese pool with drips -->
+  <path d="M64 120
+    q-14 -22 8 -34 q18 -10 30 4
+    q12 -18 34 -12 q16 5 16 22
+    q22 -6 28 14 q6 18 -10 26
+    q14 14 -2 30 q-12 12 -30 6
+    q-6 22 -30 18 q-20 -4 -20 -22
+    q-22 6 -30 -12 q-6 -16 8 -26
+    q-12 -10 0 -22 Z"
+    fill="url(#cheddar_pool)" stroke="#5a3a1f" stroke-width="6" stroke-linejoin="round"/>
+  <!-- bottom drips -->
+  <path d="M96 178 q-2 16 4 24 q6 -8 4 -24 Z" fill="url(#cheddar_pool)" stroke="#5a3a1f" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M150 176 q4 14 -2 22 q-8 -6 -6 -22 Z" fill="url(#cheddar_pool)" stroke="#5a3a1f" stroke-width="5" stroke-linejoin="round"/>
+  <!-- glossy highlight -->
+  <ellipse cx="108" cy="104" rx="40" ry="26" fill="url(#cheddar_gloss)"/>
+  <path d="M88 92 q18 -10 38 -2" stroke="#fff" stroke-width="6" stroke-linecap="round" opacity="0.6" fill="none"/>
+</svg>

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <linearGradient id="anchovies-grad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#cdc7bb"/>
+      <stop offset="100%" stop-color="#b9b3a6"/>
+    </linearGradient>
+  </defs>
+  <ellipse cx="128" cy="222" rx="86" ry="13" fill="#000" opacity="0.10"/>
+
+  <!-- fillet 1 (back, curved) -->
+  <g>
+    <path d="M62 88 Q104 60 150 78 Q176 90 168 110 Q156 130 116 124 Q78 118 62 100 Q56 92 62 88 Z"
+          fill="url(#anchovies-grad)" stroke="#7e7868" stroke-width="6" stroke-linejoin="round"/>
+    <path d="M70 92 Q108 76 152 92" fill="none" stroke="#8a6a4a" stroke-width="5" stroke-linecap="round" opacity="0.85"/>
+    <path d="M74 84 Q108 70 144 82" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round" opacity="0.6"/>
+  </g>
+
+  <!-- fillet 2 (front, curved opposite) -->
+  <g>
+    <path d="M88 150 Q132 130 184 152 Q204 162 196 180 Q182 198 138 190 Q98 184 88 164 Q84 154 88 150 Z"
+          fill="url(#anchovies-grad)" stroke="#7e7868" stroke-width="6" stroke-linejoin="round"/>
+    <path d="M96 158 Q138 142 186 160" fill="none" stroke="#8a6a4a" stroke-width="5" stroke-linecap="round" opacity="0.85"/>
+    <path d="M100 150 Q138 136 178 152" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round" opacity="0.6"/>
+  </g>
+
+  <!-- fillet 3 (left, smaller) -->
+  <g>
+    <path d="M50 130 Q78 118 108 132 Q120 140 114 152 Q104 164 76 158 Q54 152 48 140 Q46 132 50 130 Z"
+          fill="url(#anchovies-grad)" stroke="#7e7868" stroke-width="6" stroke-linejoin="round"/>
+    <path d="M56 134 Q82 124 108 136" fill="none" stroke="#8a6a4a" stroke-width="4.5" stroke-linecap="round" opacity="0.85"/>
+    <path d="M58 128 Q82 120 104 130" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" opacity="0.6"/>
+  </g>
+</svg>

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <ellipse cx="128" cy="212" rx="68" ry="12" fill="#000" opacity="0.12"/>
+  <defs>
+    <radialGradient id="sourcream_body" cx="0.42" cy="0.34" r="0.72">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.7" stop-color="#fbfaf4"/>
+      <stop offset="1" stop-color="#e6e3d4"/>
+    </radialGradient>
+  </defs>
+  <!-- soft dollop with swirl peak -->
+  <path d="M62 168
+    q-16 -16 0 -34 q-10 -22 14 -30 q4 -20 28 -18
+    q14 -14 32 -2 q22 -6 30 16 q22 6 14 30
+    q14 16 -4 32 q4 18 -22 22
+    q-12 14 -32 8 q-18 12 -38 -2
+    q-24 0 -22 -22 Z"
+    fill="url(#sourcream_body)" stroke="#54596b" stroke-width="6" stroke-linejoin="round"/>
+  <!-- swirl peak in center -->
+  <path d="M104 110 q24 -22 48 -2 q-10 8 -24 6 q-14 -2 -24 -4 Z" fill="#ffffff" stroke="#54596b" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M120 96 q8 -10 20 -2" stroke="#cfcabb" stroke-width="4" stroke-linecap="round" fill="none"/>
+  <!-- highlight -->
+  <ellipse cx="100" cy="118" rx="26" ry="14" fill="#ffffff" opacity="0.7"/>
+  <path d="M78 142 q20 -10 40 -4" stroke="#ffffff" stroke-width="5" stroke-linecap="round" opacity="0.8" fill="none"/>
+</svg>

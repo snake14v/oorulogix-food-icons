@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <ellipse cx="128" cy="218" rx="72" ry="13" fill="#000" opacity="0.12"/>
+  <defs>
+    <radialGradient id="salami_round" cx="0.4" cy="0.35" r="0.75">
+      <stop offset="0" stop-color="#cf5750"/>
+      <stop offset="1" stop-color="#b53e37"/>
+    </radialGradient>
+  </defs>
+  <!-- round 1 (back left) -->
+  <circle cx="92" cy="116" r="46" fill="url(#salami_round)" stroke="#5a2a1f" stroke-width="6"/>
+  <circle cx="78" cy="104" r="4" fill="#f3e7df"/>
+  <circle cx="104" cy="118" r="3.5" fill="#f3e7df"/>
+  <circle cx="88" cy="132" r="3" fill="#f3e7df"/>
+  <circle cx="110" cy="98" r="3" fill="#f3e7df"/>
+  <!-- round 2 (back right) -->
+  <circle cx="166" cy="120" r="46" fill="url(#salami_round)" stroke="#5a2a1f" stroke-width="6"/>
+  <circle cx="154" cy="108" r="4" fill="#f3e7df"/>
+  <circle cx="180" cy="122" r="3.5" fill="#f3e7df"/>
+  <circle cx="162" cy="138" r="3" fill="#f3e7df"/>
+  <circle cx="184" cy="100" r="3" fill="#f3e7df"/>
+  <!-- round 3 (front center) -->
+  <circle cx="128" cy="158" r="48" fill="url(#salami_round)" stroke="#5a2a1f" stroke-width="6"/>
+  <circle cx="112" cy="146" r="4.5" fill="#f5ebe3"/>
+  <circle cx="142" cy="152" r="4" fill="#f5ebe3"/>
+  <circle cx="124" cy="172" r="3.5" fill="#f5ebe3"/>
+  <circle cx="150" cy="174" r="3" fill="#f5ebe3"/>
+  <circle cx="108" cy="170" r="3" fill="#f5ebe3"/>
+  <circle cx="138" cy="134" r="3" fill="#f5ebe3"/>
+  <path d="M104 134 Q120 124 140 130" stroke="#ffffff" stroke-width="5" stroke-linecap="round" fill="none" opacity="0.35"/>
+</svg>

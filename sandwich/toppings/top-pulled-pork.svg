@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <ellipse cx="128" cy="216" rx="72" ry="13" fill="#000" opacity="0.12"/>
+  <defs>
+    <radialGradient id="pulledpork_pile" cx="0.45" cy="0.35" r="0.75">
+      <stop offset="0" stop-color="#a05a32"/>
+      <stop offset="1" stop-color="#7c3e21"/>
+    </radialGradient>
+  </defs>
+  <!-- pile base -->
+  <path d="M46 158 Q44 118 90 106 Q128 96 166 106 Q212 118 210 158 Q212 192 168 200 Q128 208 88 200 Q44 192 46 158 Z"
+        fill="url(#pulledpork_pile)" stroke="#4a2f1a" stroke-width="6" stroke-linejoin="round"/>
+  <!-- shredded strands -->
+  <path d="M64 146 Q92 134 120 144" stroke="#8a4a28" stroke-width="6" stroke-linecap="round" fill="none"/>
+  <path d="M130 140 Q160 132 188 146" stroke="#8a4a28" stroke-width="6" stroke-linecap="round" fill="none"/>
+  <path d="M58 166 Q90 158 116 170" stroke="#693418" stroke-width="6" stroke-linecap="round" fill="none"/>
+  <path d="M126 168 Q156 158 192 168" stroke="#693418" stroke-width="6" stroke-linecap="round" fill="none"/>
+  <path d="M72 184 Q104 176 132 186" stroke="#8a4a28" stroke-width="6" stroke-linecap="round" fill="none"/>
+  <path d="M140 184 Q166 178 186 186" stroke="#8a4a28" stroke-width="6" stroke-linecap="round" fill="none"/>
+  <path d="M84 124 Q112 116 140 124" stroke="#a96138" stroke-width="6" stroke-linecap="round" fill="none"/>
+  <!-- saucy sheen highlights -->
+  <path d="M76 134 Q100 126 118 132" stroke="#c47a44" stroke-width="4" stroke-linecap="round" fill="none" opacity="0.6"/>
+  <ellipse cx="150" cy="128" rx="11" ry="5" fill="#c47a44" opacity="0.45"/>
+  <circle cx="96" cy="156" r="3" fill="#5a3015"/>
+  <circle cx="170" cy="180" r="3" fill="#5a3015"/>
+</svg>

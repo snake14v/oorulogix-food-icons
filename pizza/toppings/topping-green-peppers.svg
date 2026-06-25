@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <linearGradient id="greenpeppers-grad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#74b53a"/>
+      <stop offset="100%" stop-color="#5f9a2e"/>
+    </linearGradient>
+  </defs>
+  <ellipse cx="128" cy="222" rx="88" ry="13" fill="#000" opacity="0.10"/>
+
+  <!-- ring 1 (back-left, full ring) -->
+  <g>
+    <path d="M68 102 Q62 70 96 66 Q132 64 134 98 Q134 130 100 134 Q72 134 68 102 Z"
+          fill="none" stroke="url(#greenpeppers-grad)" stroke-width="20" stroke-linejoin="round"/>
+    <path d="M68 102 Q62 70 96 66 Q132 64 134 98 Q134 130 100 134 Q72 134 68 102 Z"
+          fill="none" stroke="#4a7d22" stroke-width="6" stroke-linejoin="round" opacity="0.9" transform="scale(1.045) translate(-4.5,-4.5)"/>
+    <path d="M82 80 Q96 72 112 78" fill="none" stroke="#a8d96e" stroke-width="6" stroke-linecap="round" opacity="0.6"/>
+  </g>
+
+  <!-- ring 2 (right, full ring) -->
+  <g>
+    <path d="M138 138 Q132 110 162 106 Q194 104 196 134 Q196 164 166 168 Q142 168 138 138 Z"
+          fill="none" stroke="url(#greenpeppers-grad)" stroke-width="19" stroke-linejoin="round"/>
+    <path d="M152 120 Q166 112 180 118" fill="none" stroke="#a8d96e" stroke-width="5" stroke-linecap="round" opacity="0.6"/>
+  </g>
+
+  <!-- strip (front-left, C-shaped slice) -->
+  <g>
+    <path d="M58 150 Q54 178 78 188 Q98 194 112 182"
+          fill="none" stroke="url(#greenpeppers-grad)" stroke-width="20" stroke-linecap="round"/>
+    <path d="M62 158 Q60 176 76 182" fill="none" stroke="#a8d96e" stroke-width="5" stroke-linecap="round" opacity="0.55"/>
+  </g>
+
+  <!-- short strip (top-right) -->
+  <g>
+    <path d="M150 72 Q172 60 192 72"
+          fill="none" stroke="url(#greenpeppers-grad)" stroke-width="18" stroke-linecap="round"/>
+    <path d="M156 70 Q172 62 184 70" fill="none" stroke="#a8d96e" stroke-width="5" stroke-linecap="round" opacity="0.55"/>
+  </g>
+</svg>

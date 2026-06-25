@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <ellipse cx="128" cy="208" rx="84" ry="13" fill="#000" opacity="0.11"/>
+  <defs>
+    <linearGradient id="patty_top" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#824e2f"/>
+      <stop offset="1" stop-color="#6e4026"/>
+    </linearGradient>
+    <linearGradient id="patty_side" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5a311c"/>
+      <stop offset="1" stop-color="#46220f"/>
+    </linearGradient>
+    <clipPath id="patty_topclip">
+      <ellipse cx="128" cy="118" rx="92" ry="30"/>
+    </clipPath>
+  </defs>
+  <!-- thick side of patty -->
+  <path d="M36 118 Q36 100 128 100 Q220 100 220 118 L220 152 Q220 174 128 174 Q36 174 36 152 Z" fill="url(#patty_side)" stroke="#3c2a1a" stroke-width="6" stroke-linejoin="round"/>
+  <!-- lumpy top disc -->
+  <path d="M40 118 Q44 96 70 92 Q96 86 128 88 Q166 86 192 94 Q216 100 216 118 Q216 140 128 144 Q40 140 40 118 Z" fill="url(#patty_top)" stroke="#3c2a1a" stroke-width="6" stroke-linejoin="round"/>
+  <!-- char texture spots -->
+  <g fill="#3c2110" clip-path="url(#patty_topclip)">
+    <ellipse cx="84" cy="116" rx="9" ry="5"/>
+    <ellipse cx="128" cy="124" rx="11" ry="6"/>
+    <ellipse cx="172" cy="114" rx="8" ry="4.5"/>
+    <ellipse cx="106" cy="106" rx="6" ry="3.4"/>
+    <ellipse cx="152" cy="128" rx="7" ry="4"/>
+    <ellipse cx="64" cy="122" rx="6" ry="3.4"/>
+    <ellipse cx="194" cy="124" rx="6" ry="3.4"/>
+  </g>
+  <!-- highlight sheen -->
+  <path d="M66 106 Q96 96 132 100 Q104 104 90 112 Q76 110 66 106 Z" fill="#fff" opacity="0.22" clip-path="url(#patty_topclip)"/>
+</svg>

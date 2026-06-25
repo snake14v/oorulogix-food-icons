@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <ellipse cx="128" cy="226" rx="44" ry="9" fill="#000" opacity="0.12"/>
+  <defs>
+    <linearGradient id="cup-small_body" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#D8B27E"/>
+      <stop offset=".45" stop-color="#E7CFA6"/>
+      <stop offset="1" stop-color="#CFA468"/>
+    </linearGradient>
+    <linearGradient id="cup-small_lid" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#6e4f33"/>
+      <stop offset="1" stop-color="#5a3f28"/>
+    </linearGradient>
+  </defs>
+  <!-- domed lid -->
+  <path d="M88 96 Q128 70 168 96 L168 102 Q128 88 88 102 Z" fill="url(#cup-small_lid)" stroke="#3c2a1a" stroke-width="6" stroke-linejoin="round"/>
+  <!-- lid rim -->
+  <rect x="84" y="100" width="88" height="16" rx="7" fill="#4a3320" stroke="#3c2a1a" stroke-width="6" stroke-linejoin="round"/>
+  <!-- sip hole -->
+  <ellipse cx="128" cy="84" rx="9" ry="5" fill="#2e2013"/>
+  <!-- cup body (short, narrow): top half-width 41, bottom half-width 30 -->
+  <path d="M87 116 L169 116 L160 214 Q159 220 152 220 L104 220 Q97 220 96 214 Z" fill="url(#cup-small_body)" stroke="#4a2f1a" stroke-width="6" stroke-linejoin="round"/>
+  <!-- coffee sleeve band -->
+  <path d="M93 150 L163 150 L160 184 L96 184 Z" fill="#C98A4B" stroke="#4a2f1a" stroke-width="6" stroke-linejoin="round"/>
+  <!-- sleeve highlight ridge -->
+  <path d="M96 158 L160 158" stroke="#E2A968" stroke-width="4" stroke-linecap="round"/>
+  <!-- body highlight -->
+  <path d="M104 124 L101 212" stroke="#fff" stroke-width="5" stroke-linecap="round" opacity="0.4"/>
+</svg>

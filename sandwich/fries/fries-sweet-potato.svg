@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <ellipse cx="128" cy="220" rx="74" ry="13" fill="#000" opacity="0.12"/>
+  <defs>
+    <linearGradient id="fries-sweet-potato_carton" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ef4136"/>
+      <stop offset="1" stop-color="#c5221b"/>
+    </linearGradient>
+    <linearGradient id="fries-sweet-potato_wedge" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ef9c44"/>
+      <stop offset="1" stop-color="#e58a2c"/>
+    </linearGradient>
+  </defs>
+  <!-- carton back -->
+  <path d="M66 152 L190 152 L182 206 Q180 218 167 218 L89 218 Q76 218 74 206 Z" fill="url(#fries-sweet-potato_carton)" stroke="#5a2a1f" stroke-width="6" stroke-linejoin="round"/>
+  <!-- wedges: thicker, tapered, skin edge -->
+  <g stroke="#8a4a1a" stroke-width="5" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M74 60 L92 56 L96 174 L78 176 Z" fill="url(#fries-sweet-potato_wedge)" transform="rotate(-9 86 116)"/>
+    <path d="M100 48 L120 46 L122 176 L102 176 Z" fill="url(#fries-sweet-potato_wedge)" transform="rotate(-3 111 112)"/>
+    <path d="M126 44 L146 46 L148 176 L128 176 Z" fill="url(#fries-sweet-potato_wedge)" transform="rotate(3 137 110)"/>
+    <path d="M152 52 L172 58 L168 176 L150 174 Z" fill="url(#fries-sweet-potato_wedge)" transform="rotate(10 161 114)"/>
+  </g>
+  <!-- skin edges (russet) -->
+  <g stroke="#9c4f1a" stroke-width="6" stroke-linecap="round" fill="none" opacity="0.9">
+    <path d="M75 64 L80 172" transform="rotate(-9 86 116)"/>
+    <path d="M101 52 L104 172" transform="rotate(-3 111 112)"/>
+    <path d="M145 50 L147 172" transform="rotate(3 137 110)"/>
+    <path d="M170 64 L165 172" transform="rotate(10 161 114)"/>
+  </g>
+  <!-- highlights -->
+  <g stroke="#ffce8f" stroke-width="4" stroke-linecap="round" fill="none" opacity="0.7">
+    <path d="M88 60 L92 150" transform="rotate(-9 90 105)"/>
+    <path d="M116 52 L118 150" transform="rotate(-3 117 101)"/>
+  </g>
+  <!-- carton front -->
+  <path d="M70 150 L186 150 Q198 150 196 162 L188 200 Q186 214 172 214 L84 214 Q70 214 68 200 L60 162 Q58 150 70 150 Z" fill="url(#fries-sweet-potato_carton)" stroke="#5a2a1f" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M76 164 L180 164" stroke="#fff" stroke-width="6" stroke-linecap="round" opacity="0.55"/>
+  <rect x="108" y="174" width="40" height="26" rx="6" fill="#fff" opacity="0.9" stroke="#c5221b" stroke-width="4"/>
+</svg>

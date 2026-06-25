@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <ellipse cx="128" cy="226" rx="58" ry="11" fill="#000" opacity="0.12"/>
+  <defs>
+    <linearGradient id="espresso-city-roast_glass" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#eef4f6"/>
+      <stop offset=".5" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#cdd9de"/>
+    </linearGradient>
+    <linearGradient id="espresso-city-roast_liquid" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#6e4226"/>
+      <stop offset="1" stop-color="#4a2a18"/>
+    </linearGradient>
+    <linearGradient id="espresso-city-roast_saucer" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#d6dde0"/>
+    </linearGradient>
+  </defs>
+  <!-- Saucer -->
+  <ellipse cx="128" cy="200" rx="70" ry="18" fill="url(#espresso-city-roast_saucer)" stroke="#43291a" stroke-width="6" stroke-linejoin="round"/>
+  <ellipse cx="128" cy="196" rx="44" ry="10" fill="#c3ccd0" stroke="#43291a" stroke-width="4"/>
+  <!-- Glass body -->
+  <path d="M92 96 Q90 92 96 92 L160 92 Q166 92 164 96 L150 180 Q149 190 138 190 L118 190 Q107 190 106 180 Z" fill="url(#espresso-city-roast_glass)" stroke="#43291a" stroke-width="6" stroke-linejoin="round"/>
+  <!-- Espresso liquid -->
+  <path d="M101 120 L155 120 L147 178 Q146 186 137 186 L119 186 Q110 186 109 178 Z" fill="url(#espresso-city-roast_liquid)"/>
+  <!-- Crema layer -->
+  <path d="M101 120 Q128 110 155 120 Q128 130 101 120 Z" fill="#c89a6a"/>
+  <ellipse cx="128" cy="120" rx="27" ry="6" fill="#d8b187" opacity="0.7"/>
+  <!-- Glass rim -->
+  <ellipse cx="128" cy="93" rx="36" ry="7" fill="none" stroke="#43291a" stroke-width="6"/>
+  <!-- Highlight -->
+  <path d="M104 104 L116 168" stroke="#fff" stroke-width="6" stroke-linecap="round" opacity="0.75"/>
+  <path d="M112 102 L120 130" stroke="#fff" stroke-width="3.5" stroke-linecap="round" opacity="0.5"/>
+</svg>

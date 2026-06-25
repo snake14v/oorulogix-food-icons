@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <ellipse cx="128" cy="218" rx="68" ry="12" fill="#000" opacity="0.12"/>
+  <defs>
+    <linearGradient id="bread-multigrain_crust" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e0b577"/>
+      <stop offset="1" stop-color="#c79a58"/>
+    </linearGradient>
+    <linearGradient id="bread-multigrain_crumb" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#e6c184"/>
+      <stop offset="1" stop-color="#d3a865"/>
+    </linearGradient>
+  </defs>
+  <path d="M64 96 Q64 56 128 56 Q192 56 192 96 L192 192 Q192 202 182 202 L74 202 Q64 202 64 192 Z"
+        fill="url(#bread-multigrain_crust)" stroke="#4a2f1a" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M78 100 Q80 70 128 70 Q176 70 178 100 L178 184 Q178 190 172 190 L84 190 Q78 190 78 184 Z"
+        fill="url(#bread-multigrain_crumb)" stroke="#c79a58" stroke-width="4" stroke-linejoin="round"/>
+  <!-- oats (cream ovals) -->
+  <ellipse cx="106" cy="116" rx="6" ry="3.4" fill="#f3e3bd" stroke="#bd9255" stroke-width="1.4" transform="rotate(-18 106 116)"/>
+  <ellipse cx="142" cy="126" rx="6" ry="3.4" fill="#f3e3bd" stroke="#bd9255" stroke-width="1.4" transform="rotate(22 142 126)"/>
+  <ellipse cx="120" cy="158" rx="6" ry="3.4" fill="#f3e3bd" stroke="#bd9255" stroke-width="1.4" transform="rotate(8 120 158)"/>
+  <ellipse cx="152" cy="166" rx="5.5" ry="3.2" fill="#f3e3bd" stroke="#bd9255" stroke-width="1.4" transform="rotate(-12 152 166)"/>
+  <!-- dark seeds (flax/sunflower) -->
+  <ellipse cx="124" cy="120" rx="3.2" ry="1.8" fill="#4a3320" transform="rotate(30 124 120)"/>
+  <ellipse cx="100" cy="140" rx="3.2" ry="1.8" fill="#4a3320" transform="rotate(-25 100 140)"/>
+  <ellipse cx="148" cy="146" rx="3.2" ry="1.8" fill="#4a3320" transform="rotate(15 148 146)"/>
+  <ellipse cx="134" cy="172" rx="3.2" ry="1.8" fill="#4a3320" transform="rotate(-8 134 172)"/>
+  <!-- tiny millet specks -->
+  <circle cx="114" cy="138" r="1.8" fill="#7a5a32"/>
+  <circle cx="160" cy="130" r="1.8" fill="#7a5a32"/>
+  <circle cx="96" cy="160" r="1.8" fill="#7a5a32"/>
+  <circle cx="130" cy="148" r="1.6" fill="#7a5a32"/>
+  <path d="M92 82 Q116 68 142 76" stroke="#fff" stroke-width="6" stroke-linecap="round" fill="none" opacity="0.32"/>
+</svg>

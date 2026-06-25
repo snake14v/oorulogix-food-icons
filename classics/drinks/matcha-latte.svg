@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <!-- layered matcha latte glass (milk + matcha), mint leaf -->
+  <ellipse cx="128" cy="232" rx="52" ry="10" fill="#000" opacity="0.12"/>
+  <defs>
+    <clipPath id="mlatte_glass"><path d="M92 64 L164 64 L158 214 Q156 224 146 224 L110 224 Q100 224 98 214 Z"/></clipPath>
+  </defs>
+  <g clip-path="url(#mlatte_glass)">
+    <rect x="80" y="64" width="96" height="70" fill="#F3EEDD"/>
+    <rect x="80" y="128" width="96" height="40" fill="#A9C66B"/>
+    <rect x="80" y="160" width="96" height="80" fill="#7FA83C"/>
+    <ellipse cx="128" cy="128" rx="60" ry="10" fill="#CBD89A" opacity="0.7"/>
+  </g>
+  <path d="M92 64 L164 64 L158 214 Q156 224 146 224 L110 224 Q100 224 98 214 Z"
+        fill="none" stroke="#5a6b3a" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M104 80 L100 200" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" opacity="0.35"/>
+  <ellipse cx="128" cy="66" rx="34" ry="7" fill="#9DBF5A"/>
+  <g transform="rotate(-18 150 58)">
+    <path d="M150 58 Q172 44 186 58 Q172 72 150 58 Z" fill="#5C9A3A" stroke="#3f6b26" stroke-width="4"/>
+    <path d="M152 58 L184 58" stroke="#3f6b26" stroke-width="3"/>
+  </g>
+</svg>

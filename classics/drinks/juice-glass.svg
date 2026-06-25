@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <!-- orange juice glass with slice garnish -->
+  <ellipse cx="128" cy="230" rx="50" ry="9" fill="#000" opacity="0.12"/>
+  <defs>
+    <clipPath id="ojuice_in"><path d="M94 72 L162 72 L154 210 Q152 220 142 220 L114 220 Q104 220 102 210 Z"/></clipPath>
+  </defs>
+  <g clip-path="url(#ojuice_in)">
+    <rect x="90" y="92" width="80" height="140" fill="#F6A623"/>
+    <rect x="90" y="92" width="80" height="14" fill="#F8B94A"/>
+    <g fill="#FFFFFF" opacity="0.55"><circle cx="116" cy="120" r="4"/><circle cx="140" cy="150" r="3"/><circle cx="122" cy="180" r="3.5"/></g>
+  </g>
+  <path d="M94 72 L162 72 L154 210 Q152 220 142 220 L114 220 Q104 220 102 210 Z"
+        fill="none" stroke="#b8762a" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M106 86 L102 200" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round" opacity="0.4"/>
+  <g transform="translate(150 70)">
+    <circle r="20" fill="#F8A52A" stroke="#d07f1c" stroke-width="4"/>
+    <circle r="14" fill="#FCC65E"/>
+    <g stroke="#F8A52A" stroke-width="3"><line x1="0" y1="-13" x2="0" y2="13"/><line x1="-13" y1="0" x2="13" y2="0"/><line x1="-9" y1="-9" x2="9" y2="9"/><line x1="-9" y1="9" x2="9" y2="-9"/></g>
+  </g>
+</svg>

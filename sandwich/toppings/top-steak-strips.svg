@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <ellipse cx="128" cy="216" rx="72" ry="13" fill="#000" opacity="0.12"/>
+  <defs>
+    <radialGradient id="phillysteak_pile" cx="0.45" cy="0.35" r="0.78">
+      <stop offset="0" stop-color="#824c2c"/>
+      <stop offset="1" stop-color="#623620"/>
+    </radialGradient>
+  </defs>
+  <!-- chopped pile base -->
+  <path d="M48 156 Q46 116 92 106 Q128 98 164 106 Q210 116 208 156 Q210 190 166 198 Q128 206 90 198 Q46 190 48 156 Z"
+        fill="url(#phillysteak_pile)" stroke="#3c2a1a" stroke-width="6" stroke-linejoin="round"/>
+  <!-- chopped chunk facets -->
+  <path d="M70 128 L94 122 L100 144 L74 150 Z" fill="#6e3f24" stroke="#3c2a1a" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M108 116 L134 112 L140 134 L114 140 Z" fill="#8a5232" stroke="#3c2a1a" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M150 122 L176 120 L180 142 L154 146 Z" fill="#6e3f24" stroke="#3c2a1a" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M82 158 L108 154 L112 178 L86 182 Z" fill="#7a4628" stroke="#3c2a1a" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M122 156 L150 154 L154 178 L126 182 Z" fill="#5e3320" stroke="#3c2a1a" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M160 156 L184 156 L184 176 L162 178 Z" fill="#7a4628" stroke="#3c2a1a" stroke-width="4" stroke-linejoin="round"/>
+  <!-- charred + sheen specks -->
+  <circle cx="96" cy="134" r="3" fill="#3c2317"/>
+  <circle cx="168" cy="132" r="3" fill="#3c2317"/>
+  <path d="M114 122 Q126 118 134 124" stroke="#b07a4e" stroke-width="4" stroke-linecap="round" fill="none" opacity="0.6"/>
+  <ellipse cx="130" cy="166" rx="9" ry="4" fill="#9a6440" opacity="0.5"/>
+</svg>

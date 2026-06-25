@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <ellipse cx="128" cy="216" rx="74" ry="12" fill="#000" opacity="0.12"/>
+  <defs>
+    <linearGradient id="bread-focaccia_top" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#eec06a"/>
+      <stop offset="1" stop-color="#d6a14a"/>
+    </linearGradient>
+    <linearGradient id="bread-focaccia_side" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d09c48"/>
+      <stop offset="1" stop-color="#b07e33"/>
+    </linearGradient>
+  </defs>
+  <!-- side/thickness -->
+  <path d="M52 150 L52 168 Q52 184 72 188 L184 188 Q204 184 204 168 L204 150 Z"
+        fill="url(#bread-focaccia_side)" stroke="#5a3a1f" stroke-width="6" stroke-linejoin="round"/>
+  <!-- dimpled top (3/4 angle, rounded rectangle) -->
+  <path d="M52 116 Q52 92 80 92 L176 92 Q204 92 204 116 L204 150 Q204 168 176 168 L80 168 Q52 168 52 150 Z"
+        fill="url(#bread-focaccia_top)" stroke="#5a3a1f" stroke-width="6" stroke-linejoin="round"/>
+  <!-- dimples (pressed finger holes) -->
+  <g fill="#c69440" opacity="0.85">
+    <ellipse cx="80" cy="120" rx="6" ry="4"/><ellipse cx="120" cy="116" rx="6" ry="4"/>
+    <ellipse cx="160" cy="122" rx="6" ry="4"/><ellipse cx="98" cy="140" rx="6" ry="4"/>
+    <ellipse cx="140" cy="142" rx="6" ry="4"/><ellipse cx="178" cy="146" rx="6" ry="4"/>
+    <ellipse cx="74" cy="150" rx="5.5" ry="3.6"/>
+  </g>
+  <!-- oil sheen pools in dimples -->
+  <g fill="#f6dd8e" opacity="0.7">
+    <ellipse cx="120" cy="115" rx="3" ry="1.8"/><ellipse cx="98" cy="139" rx="3" ry="1.8"/>
+    <ellipse cx="160" cy="121" rx="3" ry="1.8"/>
+  </g>
+  <!-- rosemary sprigs -->
+  <g stroke="#3f7a35" stroke-width="2.4" stroke-linecap="round" fill="none">
+    <path d="M104 128 L116 134"/>
+    <path d="M106 126 l3 -3 M109 128 l4 -2 M112 131 l4 -2 M115 133 l3 -2"/>
+    <path d="M150 132 L162 128"/>
+    <path d="M152 134 l3 3 M155 132 l4 2 M158 131 l3 2"/>
+  </g>
+  <circle cx="86" cy="130" r="2" fill="#3f7a35"/>
+  <circle cx="170" cy="138" r="2" fill="#3f7a35"/>
+  <!-- highlight -->
+  <path d="M70 104 Q100 98 132 100" stroke="#fff" stroke-width="5" stroke-linecap="round" fill="none" opacity="0.4"/>
+</svg>

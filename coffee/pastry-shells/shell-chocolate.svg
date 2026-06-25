@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <ellipse cx="128" cy="226" rx="74" ry="12" fill="#000" opacity="0.12"/>
+  <defs>
+    <linearGradient id="cannoli-chocolate_body" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#6a3c1f"/>
+      <stop offset=".5" stop-color="#4a2c17"/>
+      <stop offset="1" stop-color="#341d0e"/>
+    </linearGradient>
+    <linearGradient id="cannoli-chocolate_cream" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fff8ec"/>
+      <stop offset="1" stop-color="#f3e3c4"/>
+    </linearGradient>
+  </defs>
+  <!-- curved tube shell at a slight angle -->
+  <path d="M58 168 Q52 110 100 86 L176 60 Q210 50 214 78 Q218 104 188 116 L112 144 Q70 158 76 198 Q80 222 56 218 Q40 214 42 188 Q44 174 58 168 Z"
+        fill="url(#cannoli-chocolate_body)" stroke="#341d0e" stroke-width="6" stroke-linejoin="round"/>
+  <!-- far open end (top-right) with cream -->
+  <ellipse cx="198" cy="92" rx="22" ry="26" transform="rotate(-20 198 92)" fill="#341d0e" stroke="#341d0e" stroke-width="6"/>
+  <ellipse cx="198" cy="92" rx="13" ry="17" transform="rotate(-20 198 92)" fill="url(#cannoli-chocolate_cream)" stroke="#3c2a1a" stroke-width="4"/>
+  <!-- near open end (bottom-left) with cream bulging out -->
+  <ellipse cx="56" cy="196" rx="24" ry="28" transform="rotate(-20 56 196)" fill="#341d0e" stroke="#341d0e" stroke-width="6"/>
+  <ellipse cx="56" cy="196" rx="15" ry="19" transform="rotate(-20 56 196)" fill="url(#cannoli-chocolate_cream)" stroke="#3c2a1a" stroke-width="4"/>
+  <circle cx="50" cy="190" r="4" fill="#fff" opacity="0.7"/>
+  <!-- diagonal ridge lines on the rolled shell -->
+  <path d="M96 96 L120 140" stroke="#2a1709" stroke-width="4" stroke-linecap="round" opacity="0.55"/>
+  <path d="M124 84 L150 130" stroke="#2a1709" stroke-width="4" stroke-linecap="round" opacity="0.55"/>
+  <path d="M152 73 L178 118" stroke="#2a1709" stroke-width="4" stroke-linecap="round" opacity="0.55"/>
+  <!-- highlight -->
+  <path d="M104 96 Q150 76 188 70" stroke="#b07a44" stroke-width="6" stroke-linecap="round" fill="none" opacity="0.45"/>
+  <!-- chocolate-chip sprinkles on cream ends -->
+  <circle cx="200" cy="88" r="2.6" fill="#2a1709"/>
+  <circle cx="194" cy="98" r="2.2" fill="#2a1709"/>
+  <circle cx="60" cy="200" r="2.8" fill="#2a1709"/>
+  <circle cx="52" cy="202" r="2.3" fill="#2a1709"/>
+</svg>

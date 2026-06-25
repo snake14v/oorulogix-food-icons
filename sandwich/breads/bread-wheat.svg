@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <ellipse cx="128" cy="218" rx="68" ry="12" fill="#000" opacity="0.12"/>
+  <defs>
+    <linearGradient id="bread-wheat_crust" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d6a767"/>
+      <stop offset="1" stop-color="#bd8a4d"/>
+    </linearGradient>
+    <linearGradient id="bread-wheat_crumb" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ecca90"/>
+      <stop offset="1" stop-color="#dab676"/>
+    </linearGradient>
+  </defs>
+  <path d="M64 96 Q64 56 128 56 Q192 56 192 96 L192 192 Q192 202 182 202 L74 202 Q64 202 64 192 Z"
+        fill="url(#bread-wheat_crust)" stroke="#4a2f1a" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M78 100 Q80 70 128 70 Q176 70 178 100 L178 184 Q178 190 172 190 L84 190 Q78 190 78 184 Z"
+        fill="url(#bread-wheat_crumb)" stroke="#c9985b" stroke-width="4" stroke-linejoin="round"/>
+  <!-- denser wheat crumb holes -->
+  <circle cx="104" cy="116" r="4" fill="#cfa86b" opacity="0.8"/>
+  <circle cx="140" cy="124" r="5" fill="#cfa86b" opacity="0.8"/>
+  <circle cx="118" cy="140" r="4.5" fill="#cfa86b" opacity="0.8"/>
+  <circle cx="152" cy="156" r="4" fill="#cfa86b" opacity="0.8"/>
+  <circle cx="96" cy="150" r="3.5" fill="#cfa86b" opacity="0.8"/>
+  <circle cx="128" cy="168" r="4.5" fill="#cfa86b" opacity="0.8"/>
+  <!-- speckle bran flecks -->
+  <circle cx="112" cy="158" r="1.6" fill="#8a5e30"/>
+  <circle cx="135" cy="142" r="1.6" fill="#8a5e30"/>
+  <circle cx="146" cy="134" r="1.4" fill="#8a5e30"/>
+  <circle cx="106" cy="132" r="1.4" fill="#8a5e30"/>
+  <path d="M92 82 Q116 68 142 76" stroke="#fff" stroke-width="6" stroke-linecap="round" fill="none" opacity="0.35"/>
+</svg>

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <ellipse cx="128" cy="210" rx="84" ry="13" fill="#000" opacity="0.11"/>
+  <defs>
+    <linearGradient id="cheese_body" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffd35e"/>
+      <stop offset=".55" stop-color="#f8be3c"/>
+      <stop offset="1" stop-color="#eaa322"/>
+    </linearGradient>
+  </defs>
+  <!-- draped slice: wide flat top edge with melty drippy corners hanging down -->
+  <path d="M40 96
+           Q128 78 216 96
+           L216 132
+           Q210 150 198 134
+           Q190 162 178 138
+           Q172 158 162 140
+           L162 168
+           Q156 186 148 166
+           L148 140
+           Q120 146 92 140
+           L92 174
+           Q86 192 78 172
+           L78 138
+           Q60 144 40 132
+           Z"
+        fill="url(#cheese_body)" stroke="#a86a14" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+  <!-- top highlight band -->
+  <path d="M52 98 Q128 84 204 98" fill="none" stroke="#fff3c6" stroke-width="7" stroke-linecap="round" opacity="0.85"/>
+  <!-- glossy highlight blob -->
+  <path d="M66 108 Q104 100 132 108 Q110 118 78 116 Z" fill="#fff" opacity="0.35"/>
+</svg>

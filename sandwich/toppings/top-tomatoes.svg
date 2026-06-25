@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <ellipse cx="128" cy="214" rx="74" ry="13" fill="#000" opacity="0.12"/>
+  <defs>
+    <linearGradient id="top-tomatoes_cube" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f0604f"/>
+      <stop offset="1" stop-color="#d33a2c"/>
+    </linearGradient>
+  </defs>
+  <!-- back row diced cubes -->
+  <path d="M70 132 l28 -12 l24 12 l-26 13 z" fill="#e34b3b" stroke="#4a2f1a" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M135 126 l27 -11 l25 12 l-25 13 z" fill="#e34b3b" stroke="#4a2f1a" stroke-width="6" stroke-linejoin="round"/>
+  <!-- middle cubes -->
+  <path d="M55 158 l30 -13 l26 13 l-28 14 z" fill="url(#top-tomatoes_cube)" stroke="#4a2f1a" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M118 152 l30 -13 l28 14 l-28 14 z" fill="url(#top-tomatoes_cube)" stroke="#4a2f1a" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M170 165 l24 -10 l22 11 l-23 12 z" fill="#e34b3b" stroke="#4a2f1a" stroke-width="6" stroke-linejoin="round"/>
+  <!-- front cubes -->
+  <path d="M78 182 l30 -13 l28 14 l-30 14 z" fill="url(#top-tomatoes_cube)" stroke="#4a2f1a" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M138 178 l27 -12 l25 13 l-26 13 z" fill="url(#top-tomatoes_cube)" stroke="#4a2f1a" stroke-width="6" stroke-linejoin="round"/>
+  <!-- seeds -->
+  <ellipse cx="90" cy="160" rx="2.6" ry="3.4" fill="#fbe6a0"/>
+  <ellipse cx="100" cy="167" rx="2.6" ry="3.4" fill="#fbe6a0"/>
+  <ellipse cx="138" cy="156" rx="2.6" ry="3.4" fill="#fbe6a0"/>
+  <ellipse cx="148" cy="162" rx="2.6" ry="3.4" fill="#fbe6a0"/>
+  <ellipse cx="103" cy="188" rx="2.6" ry="3.4" fill="#fbe6a0"/>
+  <ellipse cx="113" cy="194" rx="2.6" ry="3.4" fill="#fbe6a0"/>
+  <ellipse cx="156" cy="184" rx="2.6" ry="3.4" fill="#fbe6a0"/>
+  <!-- highlights -->
+  <path d="M64 153 l14 -6" stroke="#ffb3a3" stroke-width="4" stroke-linecap="round" opacity="0.8"/>
+  <path d="M86 177 l14 -6" stroke="#ffb3a3" stroke-width="4" stroke-linecap="round" opacity="0.8"/>
+  <path d="M125 147 l14 -6" stroke="#ffb3a3" stroke-width="4" stroke-linecap="round" opacity="0.8"/>
+</svg>

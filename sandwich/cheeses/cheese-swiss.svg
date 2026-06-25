@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <ellipse cx="128" cy="218" rx="74" ry="12" fill="#000" opacity="0.12"/>
+  <defs>
+    <linearGradient id="cheese-swiss_body" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f8ea9f"/>
+      <stop offset="1" stop-color="#ecd16f"/>
+    </linearGradient>
+  </defs>
+  <path d="M58 66 L198 66 L198 178 L58 178 Z" fill="#d9bb52" stroke="#4a2f1a" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M58 60 L198 60 L198 172 L58 172 Z" fill="url(#cheese-swiss_body)" stroke="#4a2f1a" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M76 78 L120 78" stroke="#fff" stroke-width="6" stroke-linecap="round" opacity="0.45"/>
+  <!-- round holes -->
+  <g fill="#d4b84e" stroke="#b89636" stroke-width="4">
+    <circle cx="96" cy="100" r="13"/>
+    <circle cx="150" cy="88" r="9"/>
+    <circle cx="170" cy="132" r="14"/>
+    <circle cx="108" cy="146" r="11"/>
+    <circle cx="138" cy="124" r="7"/>
+  </g>
+</svg>

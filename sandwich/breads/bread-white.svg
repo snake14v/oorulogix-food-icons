@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <ellipse cx="128" cy="218" rx="68" ry="12" fill="#000" opacity="0.12"/>
+  <defs>
+    <linearGradient id="bread-white_crust" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f0d8a4"/>
+      <stop offset="1" stop-color="#e0bd7c"/>
+    </linearGradient>
+    <linearGradient id="bread-white_crumb" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fbeecb"/>
+      <stop offset="1" stop-color="#f2dcae"/>
+    </linearGradient>
+  </defs>
+  <!-- outer crust slice: square with rounded humped top -->
+  <path d="M64 96 Q64 56 128 56 Q192 56 192 96 L192 192 Q192 202 182 202 L74 202 Q64 202 64 192 Z"
+        fill="url(#bread-white_crust)" stroke="#5a3a1f" stroke-width="6" stroke-linejoin="round"/>
+  <!-- inner crumb -->
+  <path d="M78 100 Q80 70 128 70 Q176 70 178 100 L178 184 Q178 190 172 190 L84 190 Q78 190 78 184 Z"
+        fill="url(#bread-white_crumb)" stroke="#e0bd7c" stroke-width="4" stroke-linejoin="round"/>
+  <!-- crumb air holes -->
+  <circle cx="108" cy="118" r="4.5" fill="#ecd6a8" opacity="0.85"/>
+  <circle cx="146" cy="132" r="5.5" fill="#ecd6a8" opacity="0.85"/>
+  <circle cx="120" cy="150" r="4" fill="#ecd6a8" opacity="0.85"/>
+  <circle cx="150" cy="166" r="4.5" fill="#ecd6a8" opacity="0.85"/>
+  <circle cx="98" cy="158" r="3.5" fill="#ecd6a8" opacity="0.85"/>
+  <!-- highlight -->
+  <path d="M92 82 Q116 68 142 76" stroke="#fff" stroke-width="6" stroke-linecap="round" fill="none" opacity="0.45"/>
+</svg>

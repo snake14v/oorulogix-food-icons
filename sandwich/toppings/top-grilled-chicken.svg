@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <ellipse cx="128" cy="216" rx="70" ry="13" fill="#000" opacity="0.12"/>
+  <defs>
+    <linearGradient id="grilledchicken_strip" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ecd09a"/>
+      <stop offset="1" stop-color="#dcbb7c"/>
+    </linearGradient>
+  </defs>
+  <!-- strip 1 (back) -->
+  <path d="M58 96 Q120 84 196 100 Q208 116 194 132 Q120 120 64 128 Q48 112 58 96 Z"
+        fill="url(#grilledchicken_strip)" stroke="#5a3a1f" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M88 92 L84 124" stroke="#8a5a30" stroke-width="5" stroke-linecap="round" opacity="0.75"/>
+  <path d="M128 90 L126 124" stroke="#8a5a30" stroke-width="5" stroke-linecap="round" opacity="0.75"/>
+  <path d="M168 94 L166 126" stroke="#8a5a30" stroke-width="5" stroke-linecap="round" opacity="0.75"/>
+  <!-- strip 2 (middle) -->
+  <path d="M46 130 Q116 116 204 134 Q216 152 200 168 Q120 154 52 162 Q36 146 46 130 Z"
+        fill="url(#grilledchicken_strip)" stroke="#5a3a1f" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M80 126 L76 160" stroke="#8a5a30" stroke-width="5" stroke-linecap="round" opacity="0.8"/>
+  <path d="M122 124 L120 160" stroke="#8a5a30" stroke-width="5" stroke-linecap="round" opacity="0.8"/>
+  <path d="M164 128 L162 162" stroke="#8a5a30" stroke-width="5" stroke-linecap="round" opacity="0.8"/>
+  <path d="M58 134 Q120 124 196 140" stroke="#ffffff" stroke-width="4" stroke-linecap="round" fill="none" opacity="0.4"/>
+  <!-- strip 3 (front) -->
+  <path d="M56 166 Q120 152 198 170 Q210 186 196 200 Q120 188 64 196 Q48 182 56 166 Z"
+        fill="url(#grilledchicken_strip)" stroke="#5a3a1f" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M90 162 L86 194" stroke="#8a5a30" stroke-width="5" stroke-linecap="round" opacity="0.75"/>
+  <path d="M130 160 L128 194" stroke="#8a5a30" stroke-width="5" stroke-linecap="round" opacity="0.75"/>
+  <path d="M168 164 L166 196" stroke="#8a5a30" stroke-width="5" stroke-linecap="round" opacity="0.75"/>
+</svg>

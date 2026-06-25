@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <ellipse cx="128" cy="226" rx="74" ry="13" fill="#000" opacity="0.12"/>
+  <defs>
+    <linearGradient id="ice-crushed_mound" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#dff1f7"/>
+    </linearGradient>
+    <linearGradient id="ice-crushed_shard" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f4fbfd"/>
+      <stop offset="1" stop-color="#cfe8f1"/>
+    </linearGradient>
+  </defs>
+
+  <!-- main rounded mound of crushed ice -->
+  <path d="M48 190
+           Q44 150 78 132
+           Q96 100 128 102
+           Q162 100 180 134
+           Q214 152 208 192
+           Q208 206 192 206
+           L64 206
+           Q48 206 48 190 Z"
+        fill="url(#ice-crushed_mound)" stroke="#43291a" stroke-width="6" stroke-linejoin="round"/>
+
+  <!-- individual shards / pebbles poking out of the pile -->
+  <g stroke="#43291a" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" fill="url(#ice-crushed_shard)">
+    <path d="M70 150 L86 142 L92 160 L76 168 Z"/>
+    <path d="M108 128 L126 122 L130 142 L112 148 Z"/>
+    <path d="M148 130 L166 138 L158 156 L142 150 Z"/>
+    <path d="M180 158 L196 156 L194 174 L178 174 Z"/>
+    <path d="M58 176 L74 174 L74 192 L58 192 Z"/>
+    <path d="M92 172 L110 168 L114 188 L96 192 Z"/>
+    <path d="M126 162 L146 162 L146 184 L126 186 Z"/>
+    <path d="M160 170 L178 174 L174 192 L156 190 Z"/>
+    <path d="M126 110 L140 106 L146 122 L130 126 Z"/>
+  </g>
+
+  <!-- white sparkle highlights -->
+  <path d="M80 148 L88 152" stroke="#ffffff" stroke-width="4" stroke-linecap="round" opacity="0.9"/>
+  <path d="M118 128 L124 132" stroke="#ffffff" stroke-width="4" stroke-linecap="round" opacity="0.9"/>
+  <path d="M152 138 L156 144" stroke="#ffffff" stroke-width="4" stroke-linecap="round" opacity="0.9"/>
+  <path d="M100 176 L108 180" stroke="#ffffff" stroke-width="4" stroke-linecap="round" opacity="0.85"/>
+  <path d="M134 168 L140 172" stroke="#ffffff" stroke-width="4" stroke-linecap="round" opacity="0.85"/>
+  <circle cx="186" cy="164" r="2.4" fill="#ffffff" opacity="0.9"/>
+  <circle cx="66" cy="182" r="2.4" fill="#ffffff" opacity="0.9"/>
+
+  <!-- subtle cool shadow tucks between pebbles -->
+  <path d="M92 192 Q108 188 124 192" stroke="#7fb8cc" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.55"/>
+  <path d="M148 190 Q162 186 174 190" stroke="#7fb8cc" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.55"/>
+</svg>

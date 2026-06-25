@@ -1,0 +1,294 @@
+# Asset Catalog
+
+156 flat-cartoon food icons (SVG, 256×256). All names are generic.
+
+## Burger (12)
+
+### Base
+
+| Label | File |
+|---|---|
+| Bottom Bun | `burger/base/bun-bottom.svg` |
+| Patty | `burger/base/patty.svg` |
+| Top Bun | `burger/base/bun-top.svg` |
+
+### Sauces
+
+| Label | File |
+|---|---|
+| BBQ Sauce | `burger/sauces/sauce-bbq.svg` |
+| Ketchup Sauce | `burger/sauces/sauce-ketchup.svg` |
+| Mayo Sauce | `burger/sauces/sauce-mayo.svg` |
+| Mustard Sauce | `burger/sauces/sauce-mustard.svg` |
+
+### Toppings
+
+| Label | File |
+|---|---|
+| Cheese | `burger/toppings/cheese.svg` |
+| Lettuce | `burger/toppings/lettuce.svg` |
+| Onion | `burger/toppings/onion.svg` |
+| Pickle | `burger/toppings/pickle.svg` |
+| Tomato | `burger/toppings/tomato.svg` |
+
+## Classics (15)
+
+### Burger
+
+| Label | File |
+|---|---|
+| Bottom Bun | `classics/burger/bun-bottom.svg` |
+| Cheese | `classics/burger/cheese.svg` |
+| Full Burger | `classics/burger/burger-full.svg` |
+| Lettuce | `classics/burger/lettuce.svg` |
+| Patty | `classics/burger/patty.svg` |
+| Tomato | `classics/burger/tomato.svg` |
+| Top Bun | `classics/burger/bun-top.svg` |
+
+### Drinks
+
+| Label | File |
+|---|---|
+| Coffee Cup | `classics/drinks/coffee-cup.svg` |
+| Coffee Mug | `classics/drinks/coffee-mug.svg` |
+| Juice Glass | `classics/drinks/juice-glass.svg` |
+| Matcha Latte | `classics/drinks/matcha-latte.svg` |
+| Soda Cup | `classics/drinks/soda-cup.svg` |
+
+### Fries
+
+| Label | File |
+|---|---|
+| Fries | `classics/fries/fries.svg` |
+
+### Pizza
+
+| Label | File |
+|---|---|
+| Whole Pizza | `classics/pizza/pizza-whole.svg` |
+
+### Sandwich
+
+| Label | File |
+|---|---|
+| Club Sandwich | `classics/sandwich/club-sandwich.svg` |
+
+## Coffee (52)
+
+### Creams
+
+| Label | File |
+|---|---|
+| Butterscotch Cream | `coffee/creams/cream-butterscotch.svg` |
+| Chocolate Mousse | `coffee/creams/cream-chocolate-mousse.svg` |
+| Cookies & Cream Swirl | `coffee/creams/cream-cookies-and-cream.svg` |
+| Lemon Chiffon | `coffee/creams/cream-lemon-chiffon.svg` |
+| Peach Cream | `coffee/creams/cream-peach.svg` |
+| Periwinkle Cream | `coffee/creams/cream-periwinkle.svg` |
+| Strawberry Cream | `coffee/creams/cream-strawberry.svg` |
+| Whipped Cream | `coffee/creams/cream-whipped.svg` |
+| Wildberry Cream | `coffee/creams/cream-wildberry.svg` |
+
+### Cups
+
+| Label | File |
+|---|---|
+| Large Cup | `coffee/cups/cup-large.svg` |
+| Medium Cup | `coffee/cups/cup-medium.svg` |
+| Small Cup | `coffee/cups/cup-small.svg` |
+
+### Espresso
+
+| Label | File |
+|---|---|
+| Dark Roast | `coffee/espresso/espresso-dark-roast.svg` |
+| Decaf Roast | `coffee/espresso/espresso-decaf.svg` |
+| Light Roast | `coffee/espresso/espresso-light-roast.svg` |
+| Medium Roast | `coffee/espresso/espresso-medium-roast.svg` |
+
+### Ice
+
+| Label | File |
+|---|---|
+| Crushed Ice | `coffee/ice/ice-crushed.svg` |
+| Ice Cubes | `coffee/ice/ice-cubes.svg` |
+
+### Milk
+
+| Label | File |
+|---|---|
+| Blueberry Milk | `coffee/milk/milk-blueberry.svg` |
+| Chocolate Milk | `coffee/milk/milk-chocolate.svg` |
+| Skim Milk | `coffee/milk/milk-skim.svg` |
+| Soy Milk | `coffee/milk/milk-soy.svg` |
+| Strawberry Milk | `coffee/milk/milk-strawberry.svg` |
+
+### Pastry Shells
+
+| Label | File |
+|---|---|
+| Caramel Apple Shell | `coffee/pastry-shells/shell-caramel-apple.svg` |
+| Checkerboard Shell | `coffee/pastry-shells/shell-checkerboard.svg` |
+| Chocolate Shell | `coffee/pastry-shells/shell-chocolate.svg` |
+| Classic Shell | `coffee/pastry-shells/shell-classic.svg` |
+| Pineapple Shell | `coffee/pastry-shells/shell-pineapple.svg` |
+| Pizzelle Shell | `coffee/pastry-shells/shell-pizzelle.svg` |
+
+### Powders
+
+| Label | File |
+|---|---|
+| Butterfly Pea Powder | `coffee/powders/powder-butterfly-pea.svg` |
+| Chai Powder | `coffee/powders/powder-chai.svg` |
+| Hibiscus Powder | `coffee/powders/powder-hibiscus.svg` |
+| Lavender Powder | `coffee/powders/powder-lavender.svg` |
+| Matcha Powder | `coffee/powders/powder-matcha.svg` |
+
+### Syrups
+
+| Label | File |
+|---|---|
+| Blue Raspberry Syrup | `coffee/syrups/syrup-blue-raspberry.svg` |
+| Chocolate Syrup | `coffee/syrups/syrup-chocolate.svg` |
+| Cinnamon Syrup | `coffee/syrups/syrup-cinnamon.svg` |
+| Honey Syrup | `coffee/syrups/syrup-honey.svg` |
+| Marshmallow Syrup | `coffee/syrups/syrup-marshmallow.svg` |
+| Orange Mocha Syrup | `coffee/syrups/syrup-orange-mocha.svg` |
+| Plum Syrup | `coffee/syrups/syrup-plum.svg` |
+| Red Velvet Syrup | `coffee/syrups/syrup-red-velvet.svg` |
+| Salted Caramel Syrup | `coffee/syrups/syrup-salted-caramel.svg` |
+
+### Toppings
+
+| Label | File |
+|---|---|
+| Cinnamon Sugar | `coffee/toppings/topping-cinnamon-sugar.svg` |
+| Citrus Zest | `coffee/toppings/topping-citrus-zest.svg` |
+| Cocoa Powder | `coffee/toppings/topping-cocoa-powder.svg` |
+| Crushed Pistachios | `coffee/toppings/topping-crushed-pistachios.svg` |
+| Ground Nutmeg | `coffee/toppings/topping-ground-nutmeg.svg` |
+| Mini Marshmallows | `coffee/toppings/topping-mini-marshmallows.svg` |
+| Rainbow Sprinkles | `coffee/toppings/topping-rainbow-sprinkles.svg` |
+| Shaved Chocolate | `coffee/toppings/topping-shaved-chocolate.svg` |
+| Toasted Coconut | `coffee/toppings/topping-toasted-coconut.svg` |
+
+## Pizza (12)
+
+### Base
+
+| Label | File |
+|---|---|
+| Baked Pizza | `pizza/base/pizza-baked.svg` |
+| Pizza Cheese | `pizza/base/pizza-cheese.svg` |
+| Pizza Dough | `pizza/base/pizza-dough.svg` |
+| Pizza Sauce | `pizza/base/pizza-sauce.svg` |
+| Pizza Slice | `pizza/base/pizza-slice.svg` |
+
+### Toppings
+
+| Label | File |
+|---|---|
+| Anchovies | `pizza/toppings/topping-anchovies.svg` |
+| Green Peppers | `pizza/toppings/topping-green-peppers.svg` |
+| Mushrooms | `pizza/toppings/topping-mushrooms.svg` |
+| Olives | `pizza/toppings/topping-olives.svg` |
+| Onions | `pizza/toppings/topping-onions.svg` |
+| Pepperoni | `pizza/toppings/topping-pepperoni.svg` |
+| Sausage | `pizza/toppings/topping-sausage.svg` |
+
+## Sandwich (65)
+
+### Breads
+
+| Label | File |
+|---|---|
+| Ciabatta Bread | `sandwich/breads/bread-ciabatta.svg` |
+| Flatbread Bread | `sandwich/breads/bread-flatbread.svg` |
+| Focaccia Bread | `sandwich/breads/bread-focaccia.svg` |
+| Marble Rye Bread | `sandwich/breads/bread-marble-rye.svg` |
+| Multigrain Bread | `sandwich/breads/bread-multigrain.svg` |
+| Pretzel Bread | `sandwich/breads/bread-pretzel.svg` |
+| Pumpernickel Bread | `sandwich/breads/bread-pumpernickel.svg` |
+| Sourdough Bread | `sandwich/breads/bread-sourdough.svg` |
+| Three Cheese Bread | `sandwich/breads/bread-three-cheese.svg` |
+| Wheat Bread | `sandwich/breads/bread-wheat.svg` |
+| White Bread | `sandwich/breads/bread-white.svg` |
+
+### Cheeses
+
+| Label | File |
+|---|---|
+| American Cheese | `sandwich/cheeses/cheese-american.svg` |
+| Asiago Cheese | `sandwich/cheeses/cheese-asiago.svg` |
+| Colby Cheese | `sandwich/cheeses/cheese-colby.svg` |
+| Gorgonzola Cheese | `sandwich/cheeses/cheese-gorgonzola.svg` |
+| Gouda Cheese | `sandwich/cheeses/cheese-gouda.svg` |
+| Havarti Cheese | `sandwich/cheeses/cheese-havarti.svg` |
+| Pepperjack Cheese | `sandwich/cheeses/cheese-pepperjack.svg` |
+| Provolone Cheese | `sandwich/cheeses/cheese-provolone.svg` |
+| Shredded Cheddar | `sandwich/cheeses/cheese-cheddar-shredded.svg` |
+| Shredded Mozzarella | `sandwich/cheeses/cheese-mozzarella-shredded.svg` |
+| Swiss Cheese | `sandwich/cheeses/cheese-swiss.svg` |
+
+### Fries
+
+| Label | File |
+|---|---|
+| Fries Crinkle | `sandwich/fries/fries-crinkle.svg` |
+| Fries Curly | `sandwich/fries/fries-curly.svg` |
+| Fries French | `sandwich/fries/fries-french.svg` |
+| Fries Sweet Potato | `sandwich/fries/fries-sweet-potato.svg` |
+| Fries Waffle | `sandwich/fries/fries-waffle.svg` |
+
+### Fry Toppings
+
+| Label | File |
+|---|---|
+| Bacon Bits | `sandwich/fry-toppings/fry-bacon-bits.svg` |
+| Cheddar | `sandwich/fry-toppings/fry-cheddar.svg` |
+| Chili | `sandwich/fry-toppings/fry-chili.svg` |
+| Chives | `sandwich/fry-toppings/fry-chives.svg` |
+| Nacho Cheese | `sandwich/fry-toppings/fry-nacho-cheese.svg` |
+| Poutine | `sandwich/fry-toppings/fry-poutine.svg` |
+| Rosemary | `sandwich/fry-toppings/fry-rosemary.svg` |
+| Seasoning | `sandwich/fry-toppings/fry-seasoning.svg` |
+| Sour Cream | `sandwich/fry-toppings/fry-sour-cream.svg` |
+
+### Sauces
+
+| Label | File |
+|---|---|
+| Balsamic Sauce | `sandwich/sauces/sauce-balsamic.svg` |
+| BBQ Sauce | `sandwich/sauces/sauce-bbq.svg` |
+| Buffalo Sauce | `sandwich/sauces/sauce-buffalo.svg` |
+| Honey Mustard Sauce | `sandwich/sauces/sauce-honey-mustard.svg` |
+| Ketchup Sauce | `sandwich/sauces/sauce-ketchup.svg` |
+| Mustard Sauce | `sandwich/sauces/sauce-mustard.svg` |
+| Onion Sauce | `sandwich/sauces/sauce-onion.svg` |
+| Ranch Sauce | `sandwich/sauces/sauce-ranch.svg` |
+| Southwest Sauce | `sandwich/sauces/sauce-southwest.svg` |
+| Special Sauce | `sandwich/sauces/sauce-special.svg` |
+
+### Toppings
+
+| Label | File |
+|---|---|
+| Bacon | `sandwich/toppings/top-bacon.svg` |
+| Corned Beef | `sandwich/toppings/top-corned-beef.svg` |
+| Fajita Peppers | `sandwich/toppings/top-fajita-peppers.svg` |
+| Fried Egg | `sandwich/toppings/top-fried-egg.svg` |
+| Fried Pickles | `sandwich/toppings/top-fried-pickles.svg` |
+| Grilled Chicken | `sandwich/toppings/top-grilled-chicken.svg` |
+| Ham | `sandwich/toppings/top-ham.svg` |
+| Jalapenos | `sandwich/toppings/top-jalapenos.svg` |
+| Lettuce | `sandwich/toppings/top-lettuce.svg` |
+| Lobster | `sandwich/toppings/top-lobster.svg` |
+| Mushrooms | `sandwich/toppings/top-mushrooms.svg` |
+| Olives | `sandwich/toppings/top-olives.svg` |
+| Pulled Pork | `sandwich/toppings/top-pulled-pork.svg` |
+| Salami | `sandwich/toppings/top-salami.svg` |
+| Sauerkraut | `sandwich/toppings/top-sauerkraut.svg` |
+| Sauteed Onions | `sandwich/toppings/top-sauteed-onions.svg` |
+| Steak Strips | `sandwich/toppings/top-steak-strips.svg` |
+| Tomatoes | `sandwich/toppings/top-tomatoes.svg` |
+| Turkey | `sandwich/toppings/top-turkey.svg` |

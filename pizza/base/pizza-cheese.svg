@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <radialGradient id="cheese-crust" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0.78" stop-color="#f0d49a"/>
+      <stop offset="1" stop-color="#e3bd7d"/>
+    </radialGradient>
+    <clipPath id="cheese-clip">
+      <circle cx="128" cy="118" r="74"/>
+    </clipPath>
+  </defs>
+  <ellipse cx="128" cy="222" rx="90" ry="13" fill="#000" opacity="0.10"/>
+  <!-- crust ring -->
+  <circle cx="128" cy="118" r="92" fill="url(#cheese-crust)" stroke="#9a5f25" stroke-width="6"/>
+  <!-- sauce base showing under cheese -->
+  <circle cx="128" cy="118" r="76" fill="#d63a2a" stroke="#a8281c" stroke-width="4"/>
+  <!-- shredded mozzarella strands -->
+  <g clip-path="url(#cheese-clip)" stroke="#f4e9c6" stroke-width="6" stroke-linecap="round" fill="none">
+    <path d="M70 80 Q92 90 78 112"/>
+    <path d="M100 70 Q112 92 96 108"/>
+    <path d="M130 66 Q140 88 126 104"/>
+    <path d="M160 74 Q166 96 150 110"/>
+    <path d="M182 96 Q176 116 158 118"/>
+    <path d="M76 120 Q98 124 86 144"/>
+    <path d="M112 116 Q126 132 110 150"/>
+    <path d="M144 118 Q158 132 142 150"/>
+    <path d="M176 124 Q176 146 158 150"/>
+    <path d="M88 156 Q108 158 100 178"/>
+    <path d="M126 156 Q140 170 124 184"/>
+    <path d="M158 156 Q166 172 150 182"/>
+    <path d="M64 104 Q80 110 72 128"/>
+    <path d="M118 88 Q132 102 116 116"/>
+    <path d="M150 96 Q160 110 146 124"/>
+  </g>
+  <g clip-path="url(#cheese-clip)" stroke="#fbf4dd" stroke-width="3.5" stroke-linecap="round" fill="none" opacity="0.9">
+    <path d="M84 86 Q100 96 90 112"/>
+    <path d="M138 78 Q148 96 134 110"/>
+    <path d="M104 130 Q118 142 104 158"/>
+    <path d="M150 134 Q160 148 146 162"/>
+  </g>
+  <!-- highlight -->
+  <path d="M84 84 Q104 70 130 74 Q110 84 96 102 Q90 92 84 84 Z" fill="#fff" opacity="0.20"/>
+</svg>

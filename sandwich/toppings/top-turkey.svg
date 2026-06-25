@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <ellipse cx="128" cy="216" rx="72" ry="13" fill="#000" opacity="0.12"/>
+  <defs>
+    <linearGradient id="turkey_slice" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f0dcbb"/>
+      <stop offset="1" stop-color="#e4c89e"/>
+    </linearGradient>
+    <linearGradient id="turkey_fold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#eed7b3"/>
+      <stop offset="1" stop-color="#dcbd90"/>
+    </linearGradient>
+  </defs>
+  <!-- bottom layer -->
+  <path d="M50 152 Q44 122 74 112 Q102 104 128 110 Q154 104 184 112 Q214 122 206 152 Q212 180 182 190 Q154 198 128 190 Q102 198 74 190 Q44 180 50 152 Z"
+        fill="url(#turkey_slice)" stroke="#5a3a1f" stroke-width="6" stroke-linejoin="round"/>
+  <!-- top ruffled fold -->
+  <path d="M64 140 Q76 118 102 126 Q122 132 128 120 Q134 132 154 126 Q182 118 192 140 Q198 160 174 168 Q150 174 128 166 Q104 174 82 168 Q58 160 64 140 Z"
+        fill="url(#turkey_fold)" stroke="#5a3a1f" stroke-width="6" stroke-linejoin="round"/>
+  <!-- subtle fold creases -->
+  <path d="M96 134 Q104 152 96 168" stroke="#cdab7d" stroke-width="5" stroke-linecap="round" fill="none"/>
+  <path d="M128 124 Q132 148 126 166" stroke="#cdab7d" stroke-width="5" stroke-linecap="round" fill="none"/>
+  <path d="M162 134 Q156 152 164 168" stroke="#cdab7d" stroke-width="5" stroke-linecap="round" fill="none"/>
+  <!-- highlight -->
+  <path d="M82 132 Q106 122 126 130" stroke="#ffffff" stroke-width="6" stroke-linecap="round" fill="none" opacity="0.45"/>
+  <ellipse cx="150" cy="150" rx="13" ry="6" fill="#ffffff" opacity="0.3"/>
+</svg>

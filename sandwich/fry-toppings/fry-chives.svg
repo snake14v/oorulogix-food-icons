@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <ellipse cx="128" cy="214" rx="72" ry="12" fill="#000" opacity="0.12"/>
+  <defs>
+    <linearGradient id="chives_bit" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#74b048"/>
+      <stop offset="1" stop-color="#4f8730"/>
+    </linearGradient>
+  </defs>
+  <!-- scattered chive rings & bits -->
+  <g stroke="#33531c" stroke-width="5" stroke-linejoin="round" stroke-linecap="round">
+    <!-- little hollow rings -->
+    <circle cx="84" cy="100" r="13" fill="url(#chives_bit)"/>
+    <circle cx="84" cy="100" r="5" fill="#dff0cc"/>
+    <circle cx="168" cy="116" r="12" fill="url(#chives_bit)"/>
+    <circle cx="168" cy="116" r="4.5" fill="#dff0cc"/>
+    <circle cx="118" cy="158" r="13" fill="url(#chives_bit)"/>
+    <circle cx="118" cy="158" r="5" fill="#dff0cc"/>
+    <!-- short stubs -->
+    <path d="M132 92 q14 -6 26 4 q4 8 -4 12 q-14 6 -26 -4 q-2 -8 4 -12 Z" fill="url(#chives_bit)"/>
+    <path d="M62 150 q12 -4 22 4 q2 8 -8 11 q-12 2 -18 -7 q0 -6 4 -8 Z" fill="url(#chives_bit)"/>
+    <path d="M150 168 q14 -4 22 6 q2 8 -8 11 q-13 1 -18 -9 q0 -6 4 -8 Z" fill="url(#chives_bit)"/>
+    <path d="M96 184 q12 -4 20 5 q2 8 -8 10 q-12 0 -16 -9 q0 -4 4 -6 Z" fill="url(#chives_bit)"/>
+  </g>
+  <!-- highlights -->
+  <g stroke="#9cd06e" stroke-width="3" stroke-linecap="round" opacity="0.75">
+    <path d="M74 92 a13 13 0 0 1 12 -4 M158 110 a12 12 0 0 1 11 -3 M108 150 a13 13 0 0 1 12 -4"/>
+  </g>
+</svg>

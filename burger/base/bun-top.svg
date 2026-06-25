@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <ellipse cx="128" cy="210" rx="80" ry="12" fill="#000" opacity="0.11"/>
+  <defs>
+    <linearGradient id="bunTop_dome" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f0bd6c"/>
+      <stop offset="1" stop-color="#d89a44"/>
+    </linearGradient>
+    <linearGradient id="bunTop_base" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e8a95c"/>
+      <stop offset="1" stop-color="#cf913e"/>
+    </linearGradient>
+    <clipPath id="bunTop_clip">
+      <path d="M38 132 Q38 62 128 56 Q218 62 218 132 Z"/>
+    </clipPath>
+  </defs>
+  <!-- bottom band of the bun -->
+  <path d="M40 134 L216 134 Q220 134 220 150 L220 162 Q220 178 200 180 L56 180 Q36 178 36 162 L36 150 Q36 134 40 134 Z" fill="url(#bunTop_base)" stroke="#5a3418" stroke-width="6" stroke-linejoin="round"/>
+  <!-- dome -->
+  <path d="M36 138 Q36 58 128 52 Q220 58 220 138 Z" fill="url(#bunTop_dome)" stroke="#5a3418" stroke-width="6" stroke-linejoin="round"/>
+  <!-- glaze shine highlight -->
+  <path d="M70 92 Q92 64 132 64 Q108 74 96 100 Q84 100 70 92 Z" fill="#fff" opacity="0.35" clip-path="url(#bunTop_clip)"/>
+  <!-- sesame seeds -->
+  <g fill="#fbf0d6" stroke="#caa05a" stroke-width="2">
+    <ellipse cx="96" cy="118" rx="6" ry="3.4" transform="rotate(-22 96 118)"/>
+    <ellipse cx="128" cy="106" rx="6" ry="3.4" transform="rotate(8 128 106)"/>
+    <ellipse cx="160" cy="120" rx="6" ry="3.4" transform="rotate(28 160 120)"/>
+    <ellipse cx="112" cy="88" rx="6" ry="3.4" transform="rotate(-12 112 88)"/>
+    <ellipse cx="146" cy="88" rx="6" ry="3.4" transform="rotate(18 146 88)"/>
+    <ellipse cx="78" cy="100" rx="5.6" ry="3.2" transform="rotate(-34 78 100)"/>
+    <ellipse cx="180" cy="104" rx="5.6" ry="3.2" transform="rotate(34 180 104)"/>
+    <ellipse cx="128" cy="74" rx="5.4" ry="3" transform="rotate(0 128 74)"/>
+  </g>
+</svg>

@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <radialGradient id="sausage-grad" cx="38%" cy="34%" r="78%">
+      <stop offset="0%" stop-color="#996036"/>
+      <stop offset="100%" stop-color="#7a4a2c"/>
+    </radialGradient>
+  </defs>
+  <ellipse cx="128" cy="222" rx="88" ry="13" fill="#000" opacity="0.10"/>
+
+  <!-- chunk 1 (big, back) -->
+  <g>
+    <path d="M82 74 Q108 58 134 72 Q150 84 144 108 Q150 128 124 134 Q96 140 80 122 Q66 102 82 74 Z"
+          fill="url(#sausage-grad)" stroke="#43291a" stroke-width="6" stroke-linejoin="round"/>
+    <circle cx="100" cy="86" r="5" fill="#5e3820"/>
+    <circle cx="120" cy="104" r="6" fill="#5e3820"/>
+    <circle cx="96" cy="112" r="4" fill="#5e3820"/>
+    <circle cx="128" cy="84" r="3.5" fill="#5e3820"/>
+    <path d="M92 78 Q108 70 124 76" fill="none" stroke="#c89067" stroke-width="6" stroke-linecap="round" opacity="0.55"/>
+  </g>
+
+  <!-- chunk 2 (right) -->
+  <g>
+    <path d="M152 116 Q176 104 196 120 Q206 136 196 154 Q180 170 158 162 Q140 152 142 132 Q144 122 152 116 Z"
+          fill="url(#sausage-grad)" stroke="#43291a" stroke-width="6" stroke-linejoin="round"/>
+    <circle cx="168" cy="128" r="5" fill="#5e3820"/>
+    <circle cx="182" cy="146" r="4.5" fill="#5e3820"/>
+    <circle cx="160" cy="148" r="3.5" fill="#5e3820"/>
+    <path d="M160 120 Q176 114 190 122" fill="none" stroke="#c89067" stroke-width="5" stroke-linecap="round" opacity="0.55"/>
+  </g>
+
+  <!-- chunk 3 (front-left) -->
+  <g>
+    <path d="M72 142 Q92 132 110 144 Q120 158 110 174 Q94 188 74 180 Q58 170 60 154 Q62 146 72 142 Z"
+          fill="url(#sausage-grad)" stroke="#43291a" stroke-width="6" stroke-linejoin="round"/>
+    <circle cx="86" cy="154" r="4.5" fill="#5e3820"/>
+    <circle cx="98" cy="168" r="4" fill="#5e3820"/>
+    <circle cx="78" cy="168" r="3.5" fill="#5e3820"/>
+    <path d="M78 146 Q92 140 104 148" fill="none" stroke="#c89067" stroke-width="5" stroke-linecap="round" opacity="0.55"/>
+  </g>
+
+  <!-- small crumble -->
+  <g>
+    <path d="M150 70 Q164 64 174 74 Q178 86 168 92 Q154 96 148 84 Q146 76 150 70 Z"
+          fill="url(#sausage-grad)" stroke="#43291a" stroke-width="5" stroke-linejoin="round"/>
+    <circle cx="160" cy="80" r="3.5" fill="#5e3820"/>
+  </g>
+</svg>

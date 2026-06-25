@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <ellipse cx="128" cy="200" rx="78" ry="14" fill="#000" opacity="0.12"/>
+  <defs>
+    <linearGradient id="cheese-mozzarella-shredded_str" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fbf6e6"/>
+      <stop offset="1" stop-color="#ece0bf"/>
+    </linearGradient>
+  </defs>
+  <!-- loose pile of mozzarella shreds -->
+  <g fill="url(#cheese-mozzarella-shredded_str)" stroke="#5a3a1f" stroke-width="5" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M52 168 Q72 150 104 156 Q88 176 60 178 Q50 176 52 168 Z"/>
+    <path d="M188 170 Q170 148 138 156 Q156 178 184 180 Q196 180 188 170 Z"/>
+    <path d="M70 150 Q96 120 122 140 Q104 164 78 162 Q64 160 70 150 Z"/>
+    <path d="M170 152 Q146 122 118 142 Q138 166 162 164 Q176 162 170 152 Z"/>
+    <path d="M92 130 Q120 100 150 122 Q128 150 102 146 Q86 142 92 130 Z"/>
+    <path d="M64 176 Q100 168 140 174 Q176 178 192 174 Q150 192 108 190 Q72 188 64 176 Z"/>
+  </g>
+  <!-- top highlight shreds -->
+  <g fill="#fffdf4" stroke="#5a3a1f" stroke-width="4.5" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M104 112 Q132 86 160 108 Q140 134 116 130 Q100 126 104 112 Z"/>
+    <path d="M120 150 Q150 130 176 148 Q156 170 132 166 Q116 162 120 150 Z"/>
+  </g>
+  <path d="M112 100 Q132 86 150 98" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round" opacity="0.7"/>
+</svg>

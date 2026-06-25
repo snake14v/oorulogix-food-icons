@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <linearGradient id="slice-cheese" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f6d985"/>
+      <stop offset="1" stop-color="#f2cd6e"/>
+    </linearGradient>
+    <linearGradient id="slice-crust" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e9b265"/>
+      <stop offset="1" stop-color="#e0a24b"/>
+    </linearGradient>
+    <clipPath id="slice-clip">
+      <path d="M128 40 L196 196 Q128 214 60 196 Z"/>
+    </clipPath>
+  </defs>
+  <ellipse cx="128" cy="216" rx="78" ry="13" fill="#000" opacity="0.10"/>
+  <!-- wedge body (cheese) -->
+  <path d="M128 40 L196 196 Q128 214 60 196 Z"
+    fill="url(#slice-cheese)" stroke="#9a5f25" stroke-width="6" stroke-linejoin="round"/>
+  <!-- crust at wide end -->
+  <path d="M60 196 Q128 214 196 196 Q190 182 128 184 Q66 182 60 196 Z"
+    fill="url(#slice-crust)" stroke="#9a5f25" stroke-width="6" stroke-linejoin="round"/>
+  <!-- browned cheese spots -->
+  <g clip-path="url(#slice-clip)">
+    <circle cx="128" cy="92" r="8" fill="#cf8a3a"/>
+    <circle cx="128" cy="92" r="4.5" fill="#e3a955"/>
+    <circle cx="108" cy="138" r="9" fill="#cf8a3a"/>
+    <circle cx="108" cy="138" r="5" fill="#e3a955"/>
+    <circle cx="152" cy="146" r="8" fill="#cf8a3a"/>
+    <circle cx="152" cy="146" r="4.5" fill="#e3a955"/>
+    <circle cx="128" cy="168" r="7" fill="#cf8a3a"/>
+    <circle cx="128" cy="168" r="4" fill="#e3a955"/>
+    <circle cx="138" cy="120" r="5.5" fill="#cf8a3a"/>
+    <circle cx="138" cy="120" r="3" fill="#e3a955"/>
+  </g>
+  <!-- cheese stretch strands from the tip -->
+  <g fill="none" stroke="#f4e3a0" stroke-width="6" stroke-linecap="round">
+    <path d="M120 44 Q112 24 100 14"/>
+    <path d="M132 44 Q132 22 138 10"/>
+    <path d="M126 46 Q124 26 120 12"/>
+  </g>
+  <circle cx="100" cy="13" r="4.5" fill="#f6d985" stroke="#dba93f" stroke-width="3"/>
+  <circle cx="138" cy="9" r="4" fill="#f6d985" stroke="#dba93f" stroke-width="3"/>
+  <!-- highlight -->
+  <path d="M118 70 Q128 60 140 70 Q130 86 124 104 Q116 86 118 70 Z" fill="#fff" opacity="0.25"/>
+</svg>

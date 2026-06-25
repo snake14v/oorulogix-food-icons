@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <radialGradient id="dough-fill" cx="0.42" cy="0.38" r="0.72">
+      <stop offset="0" stop-color="#f3d9a4"/>
+      <stop offset="1" stop-color="#ecc98c"/>
+    </radialGradient>
+    <radialGradient id="dough-rim" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0.78" stop-color="#f0d49a"/>
+      <stop offset="1" stop-color="#e3bd7d"/>
+    </radialGradient>
+  </defs>
+  <ellipse cx="128" cy="222" rx="90" ry="13" fill="#000" opacity="0.10"/>
+  <!-- raised rim -->
+  <circle cx="128" cy="118" r="92" fill="url(#dough-rim)" stroke="#9a5f25" stroke-width="6"/>
+  <!-- inner dough face -->
+  <circle cx="128" cy="118" r="78" fill="url(#dough-fill)" stroke="#cda05f" stroke-width="4"/>
+  <!-- flour dusting -->
+  <g fill="#fbf3df" opacity="0.85">
+    <circle cx="96" cy="92" r="4.4"/>
+    <circle cx="150" cy="84" r="3.4"/>
+    <circle cx="168" cy="128" r="4"/>
+    <circle cx="110" cy="150" r="3.6"/>
+    <circle cx="138" cy="160" r="3"/>
+    <circle cx="84" cy="128" r="3"/>
+    <circle cx="122" cy="108" r="2.6"/>
+    <circle cx="156" cy="150" r="2.8"/>
+    <circle cx="104" cy="120" r="2.2"/>
+    <circle cx="142" cy="130" r="2.2"/>
+  </g>
+  <!-- soft highlight -->
+  <path d="M84 78 Q108 60 140 66 Q120 74 104 92 Q92 84 84 78 Z" fill="#fff" opacity="0.30"/>
+</svg>

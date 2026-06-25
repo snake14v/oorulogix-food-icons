@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <ellipse cx="128" cy="226" rx="66" ry="12" fill="#000" opacity="0.12"/>
+  <defs>
+    <linearGradient id="ice-cubes_faceA" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#dff1f7"/>
+    </linearGradient>
+    <linearGradient id="ice-cubes_faceB" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#eaf7fb"/>
+      <stop offset="1" stop-color="#c9e6f0"/>
+    </linearGradient>
+    <linearGradient id="ice-cubes_top" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#eaf7fb"/>
+    </linearGradient>
+  </defs>
+
+  <!-- back cube -->
+  <g stroke="#43291a" stroke-width="6" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M120 70 L162 58 L196 78 L196 124 L154 136 L120 116 Z" fill="url(#ice-cubes_faceB)"/>
+    <path d="M120 70 L154 90 L154 136 L120 116 Z" fill="url(#ice-cubes_faceA)"/>
+    <path d="M154 90 L196 78 L196 124 L154 136 Z" fill="url(#ice-cubes_faceB)"/>
+  </g>
+
+  <!-- left front cube -->
+  <g stroke="#43291a" stroke-width="6" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M54 116 L96 104 L130 124 L130 170 L88 182 L54 162 Z" fill="url(#ice-cubes_top)"/>
+    <path d="M54 116 L88 136 L88 182 L54 162 Z" fill="url(#ice-cubes_faceA)"/>
+    <path d="M88 136 L130 124 L130 170 L88 182 Z" fill="url(#ice-cubes_faceB)"/>
+  </g>
+
+  <!-- right front cube -->
+  <g stroke="#43291a" stroke-width="6" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M126 124 L168 112 L202 132 L202 178 L160 190 L126 170 Z" fill="url(#ice-cubes_top)"/>
+    <path d="M126 124 L160 144 L160 190 L126 170 Z" fill="url(#ice-cubes_faceA)"/>
+    <path d="M160 144 L202 132 L202 178 L160 190 Z" fill="url(#ice-cubes_faceB)"/>
+  </g>
+
+  <!-- bright highlight glints -->
+  <path d="M64 126 L80 136" stroke="#ffffff" stroke-width="5" stroke-linecap="round" opacity="0.85"/>
+  <path d="M136 134 L152 144" stroke="#ffffff" stroke-width="5" stroke-linecap="round" opacity="0.85"/>
+  <path d="M128 80 L146 92" stroke="#ffffff" stroke-width="5" stroke-linecap="round" opacity="0.7"/>
+  <path d="M98 150 L98 172" stroke="#7fb8cc" stroke-width="3" stroke-linecap="round" opacity="0.6"/>
+  <path d="M170 158 L170 180" stroke="#7fb8cc" stroke-width="3" stroke-linecap="round" opacity="0.6"/>
+</svg>

@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <ellipse cx="128" cy="220" rx="74" ry="13" fill="#000" opacity="0.12"/>
+  <defs>
+    <linearGradient id="fries-french_carton" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ef4136"/>
+      <stop offset="1" stop-color="#c5221b"/>
+    </linearGradient>
+    <linearGradient id="fries-french_fry" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f7d873"/>
+      <stop offset="1" stop-color="#f2c84b"/>
+    </linearGradient>
+  </defs>
+  <!-- carton back -->
+  <path d="M66 150 L190 150 L182 206 Q180 218 167 218 L89 218 Q76 218 74 206 Z" fill="url(#fries-french_carton)" stroke="#5a2a1f" stroke-width="6" stroke-linejoin="round"/>
+  <!-- fries -->
+  <g stroke="#8a5a1a" stroke-width="5" stroke-linejoin="round" stroke-linecap="round">
+    <rect x="78" y="58" width="17" height="118" rx="6" fill="url(#fries-french_fry)" transform="rotate(-10 86 117)"/>
+    <rect x="100" y="46" width="17" height="130" rx="6" fill="url(#fries-french_fry)" transform="rotate(-4 108 111)"/>
+    <rect x="122" y="42" width="17" height="134" rx="6" fill="url(#fries-french_fry)"/>
+    <rect x="144" y="48" width="17" height="128" rx="6" fill="url(#fries-french_fry)" transform="rotate(5 152 112)"/>
+    <rect x="164" y="60" width="17" height="116" rx="6" fill="url(#fries-french_fry)" transform="rotate(11 172 118)"/>
+    <rect x="112" y="52" width="15" height="124" rx="6" fill="url(#fries-french_fry)" transform="rotate(2 119 114)"/>
+  </g>
+  <!-- highlights -->
+  <g stroke="none" fill="#fff" opacity="0.4">
+    <rect x="125" y="50" width="5" height="60" rx="2.5"/>
+    <rect x="147" y="58" width="5" height="56" rx="2.5" transform="rotate(5 149 86)"/>
+    <rect x="103" y="56" width="5" height="58" rx="2.5" transform="rotate(-4 105 85)"/>
+  </g>
+  <!-- carton front -->
+  <path d="M70 148 L186 148 Q198 148 196 160 L188 200 Q186 214 172 214 L84 214 Q70 214 68 200 L60 160 Q58 148 70 148 Z" fill="url(#fries-french_carton)" stroke="#5a2a1f" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M76 162 L180 162" stroke="#fff" stroke-width="6" stroke-linecap="round" opacity="0.55"/>
+  <rect x="108" y="172" width="40" height="26" rx="6" fill="#fff" opacity="0.9" stroke="#c5221b" stroke-width="4"/>
+</svg>

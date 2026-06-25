@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <ellipse cx="128" cy="218" rx="74" ry="12" fill="#000" opacity="0.12"/>
+  <defs>
+    <linearGradient id="cheese-colby_cream" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f8edc4"/>
+      <stop offset="1" stop-color="#eed79f"/>
+    </linearGradient>
+    <clipPath id="cheese-colby_clip">
+      <path d="M58 60 L198 60 L198 172 L58 172 Z"/>
+    </clipPath>
+  </defs>
+  <!-- thickness edge -->
+  <path d="M58 66 L198 66 L198 178 L58 178 Z" fill="#d9a64f" stroke="#4a2f1a" stroke-width="6" stroke-linejoin="round"/>
+  <!-- cream base -->
+  <path d="M58 60 L198 60 L198 172 L58 172 Z" fill="url(#cheese-colby_cream)" stroke="#4a2f1a" stroke-width="6" stroke-linejoin="round"/>
+  <!-- marbled orange swirls -->
+  <g clip-path="url(#cheese-colby_clip)">
+    <path d="M52 80 Q100 70 130 96 Q160 122 200 108 L200 134 Q150 150 118 124 Q88 100 52 116 Z" fill="#e89a3a" opacity="0.92"/>
+    <path d="M52 142 Q96 134 128 152 Q156 168 200 158 L200 176 L52 176 Z" fill="#e89a3a" opacity="0.85"/>
+    <path d="M70 60 Q92 78 86 100 Q80 120 100 138" fill="none" stroke="#e89a3a" stroke-width="9" stroke-linecap="round" opacity="0.7"/>
+  </g>
+  <path d="M76 78 L120 78" stroke="#fff" stroke-width="6" stroke-linecap="round" opacity="0.4"/>
+</svg>

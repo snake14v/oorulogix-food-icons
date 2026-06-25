@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <ellipse cx="128" cy="226" rx="42" ry="9" fill="#000" opacity="0.12"/>
+  <defs>
+    <linearGradient id="bbq_body" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#3f1d0e"/>
+      <stop offset=".5" stop-color="#6e3819"/>
+      <stop offset="1" stop-color="#3a1a0c"/>
+    </linearGradient>
+  </defs>
+  <rect x="113" y="40" width="30" height="22" rx="4" fill="#2a1a10"/>
+  <path d="M104 62 L152 62 L160 98 L160 208 Q160 222 146 222 L110 222 Q96 222 96 208 L96 98 Z" fill="url(#bbq_body)" stroke="#3c2a1a" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M104 62 L112 62 L106 98 L106 208 Q106 214 112 218 Q98 218 98 206 L98 98 Z" fill="#fff" opacity="0.18"/>
+  <rect x="110" y="120" width="36" height="46" rx="6" fill="#fff" opacity="0.92" stroke="#3c2a1a" stroke-width="3"/>
+  <circle cx="128" cy="143" r="9" fill="#6e3819"/>
+</svg>

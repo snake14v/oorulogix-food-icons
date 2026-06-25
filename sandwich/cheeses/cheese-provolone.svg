@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <ellipse cx="128" cy="216" rx="72" ry="12" fill="#000" opacity="0.12"/>
+  <defs>
+    <linearGradient id="cheese-provolone_body" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fbf2da"/>
+      <stop offset="1" stop-color="#ecdcb4"/>
+    </linearGradient>
+  </defs>
+  <!-- rounded slice thickness -->
+  <path d="M64 86 Q128 62 192 86 Q210 130 192 178 Q128 198 64 178 Q46 130 64 92 Z" fill="#d8c799" stroke="#5a3a1f" stroke-width="6" stroke-linejoin="round"/>
+  <!-- smooth rounded slice top -->
+  <path d="M64 80 Q128 56 192 80 Q210 124 192 172 Q128 192 64 172 Q46 124 64 86 Z" fill="url(#cheese-provolone_body)" stroke="#5a3a1f" stroke-width="6" stroke-linejoin="round"/>
+  <!-- soft sheen -->
+  <path d="M84 92 Q128 76 172 92" fill="none" stroke="#fff" stroke-width="8" stroke-linecap="round" opacity="0.55"/>
+  <path d="M80 110 Q104 100 120 108" fill="none" stroke="#fff" stroke-width="5" stroke-linecap="round" opacity="0.4"/>
+  <path d="M176 130 Q184 150 172 168" fill="none" stroke="#d8c799" stroke-width="5" stroke-linecap="round" opacity="0.6"/>
+</svg>

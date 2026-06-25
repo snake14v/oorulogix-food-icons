@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <ellipse cx="128" cy="220" rx="74" ry="13" fill="#000" opacity="0.12"/>
+  <defs>
+    <linearGradient id="fries-crinkle_carton" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ef4136"/>
+      <stop offset="1" stop-color="#c5221b"/>
+    </linearGradient>
+    <linearGradient id="fries-crinkle_fry" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f7d873"/>
+      <stop offset="1" stop-color="#f2c84b"/>
+    </linearGradient>
+  </defs>
+  <!-- carton back -->
+  <path d="M66 152 L190 152 L182 206 Q180 218 167 218 L89 218 Q76 218 74 206 Z" fill="url(#fries-crinkle_carton)" stroke="#5a2a1f" stroke-width="6" stroke-linejoin="round"/>
+  <!-- crinkle fries: wavy zig-zag thick strokes -->
+  <g fill="none" stroke="#8a5a1a" stroke-width="17" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M82 172 Q76 156 84 142 Q92 128 84 112 Q76 96 84 80 Q90 66 86 52" transform="rotate(-6 84 112)"/>
+    <path d="M114 174 Q108 156 116 142 Q124 126 116 110 Q108 94 116 78 Q122 62 118 46"/>
+    <path d="M148 172 Q142 156 150 142 Q158 128 150 112 Q142 96 150 80 Q156 66 152 50" transform="rotate(6 150 112)"/>
+  </g>
+  <g fill="none" stroke="url(#fries-crinkle_fry)" stroke-width="11" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M82 172 Q76 156 84 142 Q92 128 84 112 Q76 96 84 80 Q90 66 86 52" transform="rotate(-6 84 112)"/>
+    <path d="M114 174 Q108 156 116 142 Q124 126 116 110 Q108 94 116 78 Q122 62 118 46"/>
+    <path d="M148 172 Q142 156 150 142 Q158 128 150 112 Q142 96 150 80 Q156 66 152 50" transform="rotate(6 150 112)"/>
+  </g>
+  <!-- highlight ridges -->
+  <g fill="none" stroke="#fbe08a" stroke-width="3.5" stroke-linecap="round" opacity="0.7">
+    <path d="M114 170 Q108 154 116 140 Q124 124 116 108 Q108 92 116 76 Q122 62 118 48"/>
+    <path d="M82 168 Q76 154 84 140 Q92 126 84 110 Q76 94 84 78" transform="rotate(-6 84 112)"/>
+  </g>
+  <!-- carton front -->
+  <path d="M70 150 L186 150 Q198 150 196 162 L188 200 Q186 214 172 214 L84 214 Q70 214 68 200 L60 162 Q58 150 70 150 Z" fill="url(#fries-crinkle_carton)" stroke="#5a2a1f" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M76 164 L180 164" stroke="#fff" stroke-width="6" stroke-linecap="round" opacity="0.55"/>
+  <rect x="108" y="174" width="40" height="26" rx="6" fill="#fff" opacity="0.9" stroke="#c5221b" stroke-width="4"/>
+</svg>

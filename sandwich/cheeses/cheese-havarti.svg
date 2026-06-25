@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <ellipse cx="128" cy="218" rx="74" ry="12" fill="#000" opacity="0.12"/>
+  <defs>
+    <linearGradient id="cheese-havarti_body" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fcf4d6"/>
+      <stop offset="1" stop-color="#eee0b3"/>
+    </linearGradient>
+  </defs>
+  <path d="M58 66 L198 66 L198 178 L58 178 Z" fill="#dccd9a" stroke="#5a3a1f" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M58 60 L198 60 L198 172 L58 172 Z" fill="url(#cheese-havarti_body)" stroke="#5a3a1f" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M76 78 L122 78" stroke="#fff" stroke-width="6" stroke-linecap="round" opacity="0.5"/>
+  <!-- tiny irregular holes -->
+  <g fill="#d8c790" stroke="#bca96b" stroke-width="2.5">
+    <ellipse cx="92" cy="98" rx="6" ry="5"/>
+    <ellipse cx="128" cy="90" rx="4" ry="5"/>
+    <ellipse cx="160" cy="104" rx="5" ry="4"/>
+    <ellipse cx="104" cy="126" rx="4.5" ry="5"/>
+    <ellipse cx="142" cy="122" rx="5" ry="4"/>
+    <ellipse cx="176" cy="138" rx="4" ry="5"/>
+    <ellipse cx="84" cy="146" rx="5" ry="4"/>
+    <ellipse cx="120" cy="150" rx="4" ry="4.5"/>
+    <ellipse cx="158" cy="148" rx="4.5" ry="4"/>
+  </g>
+</svg>

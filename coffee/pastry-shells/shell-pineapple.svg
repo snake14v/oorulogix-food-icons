@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <ellipse cx="128" cy="226" rx="74" ry="12" fill="#000" opacity="0.12"/>
+  <defs>
+    <linearGradient id="cannoli-pineapple_body" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f4d06a"/>
+      <stop offset=".5" stop-color="#e8b94a"/>
+      <stop offset="1" stop-color="#c8942c"/>
+    </linearGradient>
+    <linearGradient id="cannoli-pineapple_cream" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fff8ec"/>
+      <stop offset="1" stop-color="#f3e3c4"/>
+    </linearGradient>
+  </defs>
+  <path d="M58 168 Q52 110 100 86 L176 60 Q210 50 214 78 Q218 104 188 116 L112 144 Q70 158 76 198 Q80 222 56 218 Q40 214 42 188 Q44 174 58 168 Z"
+        fill="url(#cannoli-pineapple_body)" stroke="#5a3a1f" stroke-width="6" stroke-linejoin="round"/>
+  <ellipse cx="198" cy="92" rx="22" ry="26" transform="rotate(-20 198 92)" fill="#b5851f" stroke="#5a3a1f" stroke-width="6"/>
+  <ellipse cx="198" cy="92" rx="13" ry="17" transform="rotate(-20 198 92)" fill="url(#cannoli-pineapple_cream)" stroke="#5a3a1f" stroke-width="4"/>
+  <ellipse cx="56" cy="196" rx="24" ry="28" transform="rotate(-20 56 196)" fill="#b5851f" stroke="#5a3a1f" stroke-width="6"/>
+  <ellipse cx="56" cy="196" rx="15" ry="19" transform="rotate(-20 56 196)" fill="url(#cannoli-pineapple_cream)" stroke="#5a3a1f" stroke-width="4"/>
+  <circle cx="50" cy="190" r="4" fill="#fff" opacity="0.7"/>
+  <!-- subtle ridge lines -->
+  <path d="M104 96 L128 140" stroke="#b88a28" stroke-width="4" stroke-linecap="round" opacity="0.5"/>
+  <path d="M134 80 L160 124" stroke="#b88a28" stroke-width="4" stroke-linecap="round" opacity="0.5"/>
+  <path d="M108 96 Q150 76 188 70" stroke="#fff0c4" stroke-width="6" stroke-linecap="round" fill="none" opacity="0.5"/>
+  <!-- pineapple-ring accent sitting on top of the shell -->
+  <g transform="rotate(-20 142 104)">
+    <circle cx="142" cy="104" r="20" fill="#f6c84a" stroke="#5a3a1f" stroke-width="5"/>
+    <circle cx="142" cy="104" r="7" fill="#f3e3c4" stroke="#5a3a1f" stroke-width="4"/>
+    <!-- ring wedge cuts -->
+    <path d="M142 86 L142 96 M142 112 L142 122 M124 104 L134 104 M150 104 L160 104
+             M129 91 L136 98 M148 110 L155 117 M155 91 L148 98 M136 110 L129 117"
+          stroke="#d99a2a" stroke-width="3" stroke-linecap="round" opacity="0.8"/>
+    <!-- maraschino cherry in the center -->
+    <circle cx="142" cy="104" r="5" fill="#c8303a" stroke="#5a3a1f" stroke-width="3"/>
+    <circle cx="140" cy="102" r="1.6" fill="#fff" opacity="0.7"/>
+  </g>
+</svg>

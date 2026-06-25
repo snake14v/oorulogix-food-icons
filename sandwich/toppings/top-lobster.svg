@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <ellipse cx="128" cy="216" rx="68" ry="13" fill="#000" opacity="0.12"/>
+  <defs>
+    <linearGradient id="lobster_chunk" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ef7458"/>
+      <stop offset="1" stop-color="#dc5840"/>
+    </linearGradient>
+  </defs>
+  <!-- chunk 1 (back left) -->
+  <path d="M58 124 Q74 102 100 112 Q120 120 114 144 Q108 168 82 166 Q56 162 54 140 Q54 130 58 124 Z"
+        fill="url(#lobster_chunk)" stroke="#5a2417" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M70 120 Q88 116 104 126" stroke="#f5e6dc" stroke-width="6" stroke-linecap="round" fill="none"/>
+  <path d="M66 142 Q84 138 100 148" stroke="#f5e6dc" stroke-width="5" stroke-linecap="round" fill="none" opacity="0.85"/>
+  <!-- chunk 2 (back right) -->
+  <path d="M150 116 Q168 98 192 110 Q210 120 202 144 Q194 166 168 164 Q144 160 142 138 Q142 124 150 116 Z"
+        fill="url(#lobster_chunk)" stroke="#5a2417" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M158 114 Q176 110 192 122" stroke="#f5e6dc" stroke-width="6" stroke-linecap="round" fill="none"/>
+  <path d="M152 138 Q172 134 190 144" stroke="#f5e6dc" stroke-width="5" stroke-linecap="round" fill="none" opacity="0.85"/>
+  <!-- chunk 3 (front center, biggest) -->
+  <path d="M96 150 Q116 128 144 138 Q170 148 166 178 Q162 204 128 204 Q94 204 88 176 Q84 160 96 150 Z"
+        fill="url(#lobster_chunk)" stroke="#5a2417" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M106 150 Q126 144 146 156" stroke="#f7ece4" stroke-width="7" stroke-linecap="round" fill="none"/>
+  <path d="M98 174 Q124 168 152 180" stroke="#f7ece4" stroke-width="6" stroke-linecap="round" fill="none" opacity="0.9"/>
+  <path d="M108 192 Q128 188 148 194" stroke="#f5e6dc" stroke-width="5" stroke-linecap="round" fill="none" opacity="0.8"/>
+  <!-- glossy highlights + flecks -->
+  <ellipse cx="120" cy="158" rx="9" ry="4" fill="#ffffff" opacity="0.4"/>
+  <circle cx="160" cy="190" r="3" fill="#c34a32"/>
+  <circle cx="74" cy="150" r="2.5" fill="#c34a32"/>
+</svg>

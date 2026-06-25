@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <ellipse cx="128" cy="218" rx="72" ry="13" fill="#000" opacity="0.12"/>
+  <defs>
+    <linearGradient id="fries-waffle_base" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f6d069"/>
+      <stop offset="1" stop-color="#f0c24a"/>
+    </linearGradient>
+    <clipPath id="fries-waffle_clipA"><path d="M52 96 L132 60 L156 132 L78 168 Z"/></clipPath>
+    <clipPath id="fries-waffle_clipB"><path d="M120 70 L196 96 L176 178 L100 152 Z"/></clipPath>
+  </defs>
+  <!-- back waffle piece -->
+  <path d="M120 70 L196 96 L176 178 L100 152 Z" fill="url(#fries-waffle_base)" stroke="#5a2a1f" stroke-width="6" stroke-linejoin="round"/>
+  <g clip-path="url(#fries-waffle_clipB)" stroke="#b9863a" stroke-width="5" opacity="0.85">
+    <path d="M118 84 L200 110 M112 106 L196 134 M106 128 L190 158 M100 150 L184 180"/>
+    <path d="M132 62 L108 156 M154 70 L130 164 M176 78 L152 172 M196 90 L172 184"/>
+  </g>
+  <!-- front waffle piece -->
+  <path d="M52 96 L132 60 L156 132 L78 168 Z" fill="url(#fries-waffle_base)" stroke="#5a2a1f" stroke-width="6" stroke-linejoin="round"/>
+  <g clip-path="url(#fries-waffle_clipA)" stroke="#b9863a" stroke-width="5" opacity="0.9">
+    <path d="M58 86 L150 50 M64 108 L156 72 M70 130 L162 94 M76 152 L168 116"/>
+    <path d="M120 56 L96 172 M98 64 L74 180 M76 72 L52 188 M142 50 L118 166"/>
+  </g>
+  <!-- highlight -->
+  <path d="M60 96 L120 72" stroke="#fdebb0" stroke-width="5" stroke-linecap="round" opacity="0.7"/>
+  <path d="M126 76 L186 100" stroke="#fdebb0" stroke-width="5" stroke-linecap="round" opacity="0.6"/>
+</svg>

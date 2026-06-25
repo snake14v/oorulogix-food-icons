@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <ellipse cx="128" cy="226" rx="52" ry="11" fill="#000" opacity="0.12"/>
+  <defs>
+    <linearGradient id="milk-chocolate_body" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#b6885a"/>
+      <stop offset=".45" stop-color="#c79a6a"/>
+      <stop offset="1" stop-color="#a87c4f"/>
+    </linearGradient>
+    <linearGradient id="milk-chocolate_roof" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d6ac7c"/>
+      <stop offset="1" stop-color="#b3855a"/>
+    </linearGradient>
+  </defs>
+  <path d="M88 76 L128 50 L168 76 L168 92 L88 92 Z" fill="url(#milk-chocolate_roof)" stroke="#3c2a1a" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M118 50 L138 50 L138 62 L118 62 Z" fill="#b3855a" stroke="#3c2a1a" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M88 92 L168 92 L168 204 Q168 216 156 216 L100 216 Q88 216 88 204 Z" fill="url(#milk-chocolate_body)" stroke="#3c2a1a" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M128 50 L128 92" stroke="#3c2a1a" stroke-width="5" stroke-linecap="round" opacity="0.55"/>
+  <rect x="104" y="120" width="48" height="58" rx="6" fill="#fff" opacity="0.95" stroke="#3c2a1a" stroke-width="4"/>
+  <rect x="104" y="120" width="48" height="16" rx="6" fill="#4a2c17" stroke="#3c2a1a" stroke-width="4"/>
+  <!-- cocoa flavor dab (chocolate square/dab) -->
+  <rect x="116" y="146" width="24" height="22" rx="4" fill="#4a2c17" stroke="#2e1b0e" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M128 146 L128 168 M116 157 L140 157" stroke="#6e4526" stroke-width="2.5" stroke-linecap="round"/>
+  <rect x="119" y="149" width="6" height="6" rx="1.5" fill="#fff" opacity="0.3"/>
+  <path d="M98 100 L98 198" stroke="#fff" stroke-width="6" stroke-linecap="round" opacity="0.4"/>
+</svg>

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <ellipse cx="128" cy="226" rx="52" ry="11" fill="#000" opacity="0.12"/>
+  <defs>
+    <linearGradient id="milk-soy_body" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ddcfa9"/>
+      <stop offset=".45" stop-color="#ecdfc4"/>
+      <stop offset="1" stop-color="#d3c39b"/>
+    </linearGradient>
+    <linearGradient id="milk-soy_roof" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f4ebd5"/>
+      <stop offset="1" stop-color="#dccca4"/>
+    </linearGradient>
+  </defs>
+  <path d="M88 76 L128 50 L168 76 L168 92 L88 92 Z" fill="url(#milk-soy_roof)" stroke="#4a2f1a" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M118 50 L138 50 L138 62 L118 62 Z" fill="#d6c69e" stroke="#4a2f1a" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M88 92 L168 92 L168 204 Q168 216 156 216 L100 216 Q88 216 88 204 Z" fill="url(#milk-soy_body)" stroke="#4a2f1a" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M128 50 L128 92" stroke="#4a2f1a" stroke-width="5" stroke-linecap="round" opacity="0.55"/>
+  <rect x="104" y="120" width="48" height="58" rx="6" fill="#fff" opacity="0.95" stroke="#4a2f1a" stroke-width="4"/>
+  <rect x="104" y="120" width="48" height="16" rx="6" fill="#7aa84a" stroke="#4a2f1a" stroke-width="4"/>
+  <!-- soy leaf flavor dab -->
+  <path d="M128 172 C128 160 132 150 144 145 C144 158 140 168 128 172 Z" fill="#7aa84a" stroke="#4d6b2c" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M128 172 C128 160 124 150 112 145 C112 158 116 168 128 172 Z" fill="#8fbb59" stroke="#4d6b2c" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M128 172 L128 150" stroke="#4d6b2c" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M98 100 L98 198" stroke="#fff" stroke-width="6" stroke-linecap="round" opacity="0.5"/>
+</svg>

@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <ellipse cx="128" cy="214" rx="72" ry="13" fill="#000" opacity="0.12"/>
+  <defs>
+    <radialGradient id="top-olives_ring" cx="0.38" cy="0.32" r="0.85">
+      <stop offset="0" stop-color="#4a4444"/>
+      <stop offset="1" stop-color="#2e2a2a"/>
+    </radialGradient>
+  </defs>
+  <!-- black olive rings: dark ring with open hole in the center -->
+  <g stroke="#171414" stroke-width="6">
+    <!-- back row -->
+    <ellipse cx="92" cy="118" rx="26" ry="15" fill="url(#top-olives_ring)"/>
+    <ellipse cx="92" cy="118" rx="11" ry="6.5" fill="none" stroke="#171414" stroke-width="6"/>
+    <ellipse cx="160" cy="114" rx="26" ry="15" fill="url(#top-olives_ring)"/>
+    <ellipse cx="160" cy="114" rx="11" ry="6.5" fill="none" stroke="#171414" stroke-width="6"/>
+    <!-- middle row -->
+    <ellipse cx="68" cy="152" rx="28" ry="16" fill="url(#top-olives_ring)"/>
+    <ellipse cx="68" cy="152" rx="12" ry="7" fill="none" stroke="#171414" stroke-width="6"/>
+    <ellipse cx="128" cy="148" rx="29" ry="16" fill="url(#top-olives_ring)"/>
+    <ellipse cx="128" cy="148" rx="13" ry="7.5" fill="none" stroke="#171414" stroke-width="6"/>
+    <ellipse cx="188" cy="152" rx="27" ry="15" fill="url(#top-olives_ring)"/>
+    <ellipse cx="188" cy="152" rx="11" ry="6.5" fill="none" stroke="#171414" stroke-width="6"/>
+    <!-- front row -->
+    <ellipse cx="98" cy="186" rx="28" ry="16" fill="url(#top-olives_ring)"/>
+    <ellipse cx="98" cy="186" rx="12" ry="7" fill="none" stroke="#171414" stroke-width="6"/>
+    <ellipse cx="160" cy="188" rx="27" ry="15" fill="url(#top-olives_ring)"/>
+    <ellipse cx="160" cy="188" rx="11" ry="6.5" fill="none" stroke="#171414" stroke-width="6"/>
+  </g>
+  <!-- glossy highlights on the rings -->
+  <g stroke="#7a7272" stroke-width="4" stroke-linecap="round" fill="none" opacity="0.8">
+    <path d="M74 110 q12 -7 26 -4"/>
+    <path d="M142 106 q12 -7 26 -4"/>
+    <path d="M48 144 q12 -7 26 -4"/>
+    <path d="M108 140 q12 -7 28 -4"/>
+    <path d="M170 144 q12 -7 26 -4"/>
+    <path d="M78 178 q12 -7 26 -4"/>
+    <path d="M140 180 q12 -7 26 -4"/>
+  </g>
+</svg>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <ellipse cx="128" cy="216" rx="72" ry="12" fill="#000" opacity="0.12"/>
+  <defs>
+    <linearGradient id="cheese-gouda_body" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#edb255"/>
+      <stop offset="1" stop-color="#d8942f"/>
+    </linearGradient>
+  </defs>
+  <!-- wedge front face thickness -->
+  <path d="M48 150 L210 122 L214 152 L60 188 Z" fill="#c07d23" stroke="#4a2f1a" stroke-width="6" stroke-linejoin="round"/>
+  <!-- wedge top -->
+  <path d="M48 150 L196 70 L210 122 Z" fill="url(#cheese-gouda_body)" stroke="#4a2f1a" stroke-width="6" stroke-linejoin="round"/>
+  <!-- darker waxy rind edge along the back -->
+  <path d="M196 70 L210 122" fill="none" stroke="#b5421f" stroke-width="11" stroke-linecap="round"/>
+  <path d="M196 70 L210 122" fill="none" stroke="#d4592b" stroke-width="5" stroke-linecap="round"/>
+  <!-- highlight on top -->
+  <path d="M72 144 L168 92" stroke="#fff" stroke-width="6" stroke-linecap="round" opacity="0.4"/>
+  <path d="M64 168 L196 138" stroke="#c9781f" stroke-width="4" stroke-linecap="round" opacity="0.5"/>
+</svg>

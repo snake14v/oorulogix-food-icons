@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <ellipse cx="128" cy="216" rx="78" ry="13" fill="#000" opacity="0.12"/>
+  <defs>
+    <linearGradient id="top-fajita-peppers_red" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#e6553f"/><stop offset="1" stop-color="#c12f24"/>
+    </linearGradient>
+    <linearGradient id="top-fajita-peppers_grn" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#74b53e"/><stop offset="1" stop-color="#4f8526"/>
+    </linearGradient>
+    <linearGradient id="top-fajita-peppers_yel" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffd84a"/><stop offset="1" stop-color="#e0aa12"/>
+    </linearGradient>
+  </defs>
+  <!-- curved pepper strips crossing in a pile -->
+  <g stroke="#5a3a1f" stroke-width="6" stroke-linejoin="round" stroke-linecap="round">
+    <!-- green back -->
+    <path d="M54 140 q40 -26 92 -10 q22 6 40 -4 l-6 16 q-20 8 -42 2 q-48 -14 -86 12 z" fill="url(#top-fajita-peppers_grn)"/>
+    <!-- yellow -->
+    <path d="M60 168 q44 24 96 8 q24 -8 44 2 l-2 -18 q-22 -8 -46 0 q-50 14 -94 -10 z" fill="url(#top-fajita-peppers_yel)"/>
+    <!-- red front -->
+    <path d="M50 184 q44 -28 100 -12 q26 8 46 -2 l-4 18 q-22 8 -46 0 q-52 -14 -94 14 z" fill="url(#top-fajita-peppers_red)"/>
+    <!-- short red strip -->
+    <path d="M108 124 q30 -6 56 6 l-6 15 q-26 -10 -54 -5 z" fill="url(#top-fajita-peppers_red)"/>
+    <!-- short green strip front -->
+    <path d="M64 200 q26 8 54 4 l-4 15 q-28 4 -52 -5 z" fill="url(#top-fajita-peppers_grn)"/>
+  </g>
+  <!-- glossy highlights -->
+  <path d="M70 134 q34 -16 70 -6" stroke="#fff" stroke-width="4" stroke-linecap="round" fill="none" opacity="0.4"/>
+  <path d="M72 188 q36 -18 76 -8" stroke="#fff" stroke-width="4" stroke-linecap="round" fill="none" opacity="0.4"/>
+  <path d="M74 160 q34 14 72 4" stroke="#fff" stroke-width="4" stroke-linecap="round" fill="none" opacity="0.35"/>
+</svg>

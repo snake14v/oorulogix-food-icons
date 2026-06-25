@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <ellipse cx="128" cy="216" rx="72" ry="12" fill="#000" opacity="0.12"/>
+  <defs>
+    <linearGradient id="cheese-gorgonzola_body" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f7f4ea"/>
+      <stop offset="1" stop-color="#e6e0cf"/>
+    </linearGradient>
+    <clipPath id="cheese-gorgonzola_topclip">
+      <path d="M48 150 L196 70 L210 122 Z"/>
+    </clipPath>
+    <clipPath id="cheese-gorgonzola_faceclip">
+      <path d="M48 150 L210 122 L214 152 L60 188 Z"/>
+    </clipPath>
+  </defs>
+  <!-- wedge front face thickness -->
+  <path d="M48 150 L210 122 L214 152 L60 188 Z" fill="#dcd6c4" stroke="#4a2f1a" stroke-width="6" stroke-linejoin="round"/>
+  <!-- veining on the face -->
+  <g clip-path="url(#cheese-gorgonzola_faceclip)" stroke="#6a7a8a" fill="none" stroke-linecap="round">
+    <path d="M70 150 Q84 158 96 152 Q110 146 122 156" stroke-width="4" opacity="0.8"/>
+    <path d="M120 142 Q138 150 156 144 Q172 138 188 146" stroke-width="3.5" opacity="0.7"/>
+    <path d="M88 172 Q104 166 120 174" stroke-width="3" opacity="0.65"/>
+    <circle cx="100" cy="166" r="2.5" fill="#6a7a8a" stroke="none"/>
+    <circle cx="150" cy="158" r="2" fill="#6a7a8a" stroke="none"/>
+    <circle cx="176" cy="134" r="2.5" fill="#6a7a8a" stroke="none"/>
+  </g>
+  <!-- wedge top -->
+  <path d="M48 150 L196 70 L210 122 Z" fill="url(#cheese-gorgonzola_body)" stroke="#4a2f1a" stroke-width="6" stroke-linejoin="round"/>
+  <!-- blue-grey veining on top -->
+  <g clip-path="url(#cheese-gorgonzola_topclip)" stroke="#6a7a8a" fill="none" stroke-linecap="round">
+    <path d="M72 142 Q92 124 110 130 Q128 136 146 118" stroke-width="4" opacity="0.85"/>
+    <path d="M96 150 Q120 132 140 138 Q162 144 184 120" stroke-width="3.5" opacity="0.75"/>
+    <path d="M120 116 Q134 108 150 112" stroke-width="3" opacity="0.7"/>
+    <circle cx="104" cy="132" r="3" fill="#6a7a8a" stroke="none"/>
+    <circle cx="150" cy="120" r="2.5" fill="#6a7a8a" stroke="none"/>
+    <circle cx="128" cy="138" r="2.5" fill="#6a7a8a" stroke="none"/>
+    <circle cx="174" cy="108" r="2" fill="#6a7a8a" stroke="none"/>
+  </g>
+  <path d="M72 144 L160 96" stroke="#fff" stroke-width="5" stroke-linecap="round" opacity="0.45"/>
+</svg>
