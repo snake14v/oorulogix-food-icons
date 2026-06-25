@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <linearGradient id="vanilla_cream_grad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFCF3"/>
+      <stop offset="1" stop-color="#F4E6C2"/>
+    </linearGradient>
+  </defs>
+  <ellipse cx="128" cy="226" rx="58" ry="11" fill="#000" opacity="0.12"/>
+  <!-- tall soft-serve style vanilla swirl -->
+  <path d="M70 184
+           Q60 158 84 148
+           Q74 124 102 118
+           Q96 96 120 90
+           Q116 70 132 68
+           Q146 76 138 90
+           Q166 96 158 120
+           Q186 128 178 152
+           Q200 162 190 184
+           Q190 200 168 200
+           L92 200
+           Q70 200 70 184 Z"
+        fill="url(#vanilla_cream_grad)" stroke="#5a4a35" stroke-width="6" stroke-linejoin="round"/>
+  <!-- swirl tier ridges -->
+  <path d="M88 176 Q110 162 134 166 Q158 170 170 182" fill="none" stroke="#5a4a35" stroke-width="5" stroke-linecap="round" opacity="0.5"/>
+  <path d="M100 150 Q120 138 142 144 Q156 148 162 158" fill="none" stroke="#5a4a35" stroke-width="5" stroke-linecap="round" opacity="0.5"/>
+  <path d="M110 122 Q124 112 142 120" fill="none" stroke="#5a4a35" stroke-width="5" stroke-linecap="round" opacity="0.5"/>
+  <!-- pointed tip -->
+  <path d="M132 68 Q140 80 132 92" fill="none" stroke="#5a4a35" stroke-width="5" stroke-linecap="round" opacity="0.5"/>
+  <!-- vanilla bean fleck accents -->
+  <circle cx="116" cy="160" r="3" fill="#C9A86A" opacity="0.7"/>
+  <circle cx="148" cy="172" r="2.6" fill="#C9A86A" opacity="0.7"/>
+  <circle cx="128" cy="138" r="2.4" fill="#C9A86A" opacity="0.7"/>
+  <!-- highlight -->
+  <path d="M100 120 Q92 146 100 176" fill="none" stroke="#fff" stroke-width="7" stroke-linecap="round" opacity="0.7"/>
+  <ellipse cx="118" cy="106" rx="6" ry="8" fill="#fff" opacity="0.6"/>
+</svg>

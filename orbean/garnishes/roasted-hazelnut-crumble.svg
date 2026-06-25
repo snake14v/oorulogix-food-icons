@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <radialGradient id="hazelnutcrumble_g" cx="42%" cy="36%" r="70%">
+      <stop offset="0%" stop-color="#A56C42"/>
+      <stop offset="100%" stop-color="#8A5A36"/>
+    </radialGradient>
+  </defs>
+  <ellipse cx="128" cy="226" rx="60" ry="11" fill="#000" opacity="0.12"/>
+  <!-- scattered roasted hazelnut crumble bits -->
+  <g stroke="#43291a" stroke-width="5" stroke-linejoin="round">
+    <path d="M84 70 q14 -10 24 2 q8 12 -4 22 q-16 8 -24 -6 q-6 -12 4 -18 Z" fill="url(#hazelnutcrumble_g)"/>
+    <path d="M150 58 q16 -6 22 8 q4 14 -10 20 q-16 4 -20 -10 q-2 -14 8 -18 Z" fill="url(#hazelnutcrumble_g)"/>
+    <path d="M108 118 q12 -8 22 0 q10 10 0 22 q-12 10 -24 0 q-8 -12 2 -22 Z" fill="url(#hazelnutcrumble_g)"/>
+    <path d="M64 138 q12 -8 20 2 q6 12 -6 19 q-14 6 -20 -7 q-3 -10 6 -14 Z" fill="url(#hazelnutcrumble_g)"/>
+    <path d="M170 120 q14 -6 20 6 q5 13 -8 19 q-15 5 -20 -8 q-3 -12 8 -17 Z" fill="url(#hazelnutcrumble_g)"/>
+    <path d="M126 176 q14 -8 23 3 q7 13 -6 21 q-16 6 -22 -8 q-3 -12 5 -16 Z" fill="url(#hazelnutcrumble_g)"/>
+    <path d="M76 188 q10 -6 17 2 q5 10 -5 16 q-12 5 -16 -6 q-2 -9 4 -12 Z" fill="url(#hazelnutcrumble_g)"/>
+  </g>
+  <!-- highlights -->
+  <g fill="#D6A878" opacity="0.55">
+    <ellipse cx="92" cy="76" rx="6" ry="4"/>
+    <ellipse cx="157" cy="64" rx="6" ry="4"/>
+    <ellipse cx="115" cy="124" rx="6" ry="4"/>
+    <ellipse cx="71" cy="143" rx="5" ry="3"/>
+    <ellipse cx="177" cy="126" rx="5" ry="3"/>
+    <ellipse cx="133" cy="182" rx="6" ry="4"/>
+    <ellipse cx="82" cy="192" rx="4" ry="3"/>
+  </g>
+</svg>

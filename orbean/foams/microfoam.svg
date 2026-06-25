@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <radialGradient id="microfoam_grad" cx="0.4" cy="0.35" r="0.8">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#F0E7D4"/>
+    </radialGradient>
+    <clipPath id="microfoam_clip">
+      <path d="M60 172
+               Q48 146 74 138
+               Q68 114 96 112
+               Q100 88 126 90
+               Q142 80 158 96
+               Q186 98 184 124
+               Q208 134 196 160
+               Q202 182 176 188
+               Q150 196 126 194
+               Q90 196 74 188
+               Q58 182 60 172 Z"/>
+    </clipPath>
+  </defs>
+  <ellipse cx="128" cy="226" rx="58" ry="11" fill="#000" opacity="0.12"/>
+  <!-- glossy microfoam dome -->
+  <path d="M60 172
+           Q48 146 74 138
+           Q68 114 96 112
+           Q100 88 126 90
+           Q142 80 158 96
+           Q186 98 184 124
+           Q208 134 196 160
+           Q202 182 176 188
+           Q150 196 126 194
+           Q90 196 74 188
+           Q58 182 60 172 Z"
+        fill="url(#microfoam_grad)" stroke="#5a4a35" stroke-width="6" stroke-linejoin="round"/>
+  <!-- fine bubbles clipped inside -->
+  <g clip-path="url(#microfoam_clip)" opacity="0.8">
+    <circle cx="96" cy="150" r="6" fill="none" stroke="#D8C9AC" stroke-width="2.5"/>
+    <circle cx="120" cy="166" r="5" fill="none" stroke="#D8C9AC" stroke-width="2.5"/>
+    <circle cx="148" cy="156" r="7" fill="none" stroke="#D8C9AC" stroke-width="2.5"/>
+    <circle cx="110" cy="132" r="4" fill="none" stroke="#D8C9AC" stroke-width="2.5"/>
+    <circle cx="138" cy="134" r="5" fill="none" stroke="#D8C9AC" stroke-width="2.5"/>
+    <circle cx="168" cy="142" r="4.5" fill="none" stroke="#D8C9AC" stroke-width="2.5"/>
+    <circle cx="84" cy="170" r="4" fill="none" stroke="#D8C9AC" stroke-width="2.5"/>
+    <circle cx="160" cy="172" r="4" fill="none" stroke="#D8C9AC" stroke-width="2.5"/>
+    <circle cx="128" cy="150" r="3" fill="#fff"/>
+    <circle cx="104" cy="166" r="2.5" fill="#fff"/>
+    <circle cx="154" cy="138" r="2.5" fill="#fff"/>
+  </g>
+  <!-- crisp glossy highlight sweep -->
+  <path d="M88 126 Q78 148 90 170" fill="none" stroke="#fff" stroke-width="8" stroke-linecap="round" opacity="0.8"/>
+  <ellipse cx="106" cy="118" rx="9" ry="6" fill="#fff" opacity="0.7" transform="rotate(-25 106 118)"/>
+</svg>

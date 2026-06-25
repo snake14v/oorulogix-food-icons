@@ -1,6 +1,6 @@
 # Asset Catalog
 
-337 flat-cartoon food icons (SVG, 256×256). All names are generic.
+372 flat-cartoon food icons (SVG, 256×256). All names are generic.
 
 ## Bakery (27)
 
@@ -276,6 +276,73 @@
 | Cookie | `freezer/toppers/cookie.svg` |
 | Gummy Rings | `freezer/toppers/gummy-rings.svg` |
 | Waffle Cone | `freezer/toppers/waffle-cone.svg` |
+
+## Orbean (35)
+
+### Bases
+
+| Label | File |
+|---|---|
+| Butterfly Pea Infusion | `orbean/bases/butterfly-pea-infusion.svg` |
+| Ceremonial Matcha | `orbean/bases/ceremonial-matcha.svg` |
+| Espresso | `orbean/bases/espresso.svg` |
+| Ice | `orbean/bases/ice.svg` |
+
+### Foams
+
+| Label | File |
+|---|---|
+| Cream Cheese Foam | `orbean/foams/cream-cheese-foam.svg` |
+| Microfoam | `orbean/foams/microfoam.svg` |
+| Milk Foam | `orbean/foams/milk-foam.svg` |
+| Sakura Cream Foam | `orbean/foams/sakura-cream-foam.svg` |
+| Vanilla Cream | `orbean/foams/vanilla-cream.svg` |
+
+### Garnishes
+
+| Label | File |
+|---|---|
+| Caramel Brittle | `orbean/garnishes/caramel-brittle.svg` |
+| Caramel Drizzle | `orbean/garnishes/caramel-drizzle.svg` |
+| Chocolate Shavings | `orbean/garnishes/chocolate-shavings.svg` |
+| Dried Rose Petals | `orbean/garnishes/dried-rose-petals.svg` |
+| Hazelnut Drizzle | `orbean/garnishes/hazelnut-drizzle.svg` |
+| Roasted Hazelnut Crumble | `orbean/garnishes/roasted-hazelnut-crumble.svg` |
+| Strawberry Crumble | `orbean/garnishes/strawberry-crumble.svg` |
+| Toasted Coconut Flakes | `orbean/garnishes/toasted-coconut-flakes.svg` |
+
+### Milks
+
+| Label | File |
+|---|---|
+| Coconut Milk | `orbean/milks/coconut-milk.svg` |
+| Regular Milk | `orbean/milks/regular-milk.svg` |
+| Steamed Milk | `orbean/milks/steamed-milk.svg` |
+
+### Signatures
+
+| Label | File |
+|---|---|
+| Blue Pea Tea Latte | `orbean/signatures/blue-pea-tea-latte.svg` |
+| Caramel Craze | `orbean/signatures/caramel-craze.svg` |
+| Cheesecake Latte | `orbean/signatures/cheesecake-latte.svg` |
+| Coco Verde | `orbean/signatures/coco-verde.svg` |
+| Cocomocha | `orbean/signatures/cocomocha.svg` |
+| Emerald Hazelnut Reserve | `orbean/signatures/emerald-hazelnut-reserve.svg` |
+| Iced Strawberry Latte | `orbean/signatures/iced-strawberry-latte.svg` |
+| Red Velvet Latte | `orbean/signatures/red-velvet-latte.svg` |
+| Rose Elixir | `orbean/signatures/rose-elixir.svg` |
+| Sakura Berry | `orbean/signatures/sakura-berry.svg` |
+| Velvet Vanilla | `orbean/signatures/velvet-vanilla.svg` |
+
+### Syrups
+
+| Label | File |
+|---|---|
+| Hazelnut Syrup | `orbean/syrups/syrup-hazelnut.svg` |
+| Irish Cream Syrup | `orbean/syrups/syrup-irish-cream.svg` |
+| Rose Syrup | `orbean/syrups/syrup-rose.svg` |
+| Vanilla Bean Syrup | `orbean/syrups/syrup-vanilla-bean.svg` |
 
 ## Pizza (13)
 

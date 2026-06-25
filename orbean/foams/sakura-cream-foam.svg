@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <linearGradient id="sakura_foam_grad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F8D2DD"/>
+      <stop offset="1" stop-color="#EFA4B7"/>
+    </linearGradient>
+  </defs>
+  <ellipse cx="128" cy="226" rx="58" ry="11" fill="#000" opacity="0.12"/>
+  <!-- piped microfoam dollop: tiered swirl building to a peak -->
+  <path d="M64 178
+           Q56 150 80 138
+           Q72 112 102 106
+           Q102 80 128 80
+           Q154 80 154 106
+           Q184 112 176 138
+           Q200 150 192 178
+           Q192 196 170 196
+           L86 196
+           Q64 196 64 178 Z"
+        fill="url(#sakura_foam_grad)" stroke="#43291a" stroke-width="6" stroke-linejoin="round"/>
+  <!-- inner swirl ridges -->
+  <path d="M96 168 Q108 150 128 152 Q150 154 160 170" fill="none" stroke="#43291a" stroke-width="5" stroke-linecap="round" opacity="0.55"/>
+  <path d="M110 138 Q124 124 144 134" fill="none" stroke="#43291a" stroke-width="5" stroke-linecap="round" opacity="0.55"/>
+  <!-- peak tip curl -->
+  <path d="M128 80 Q138 92 128 102" fill="none" stroke="#43291a" stroke-width="5" stroke-linecap="round" opacity="0.55"/>
+  <!-- soft shadow lobe -->
+  <path d="M176 138 Q196 150 188 176 Q186 192 168 193 L150 193 Q174 188 174 168 Q174 150 162 142 Z" fill="#E08DA3" opacity="0.45"/>
+  <!-- highlight -->
+  <path d="M96 116 Q90 132 96 150" fill="none" stroke="#fff" stroke-width="7" stroke-linecap="round" opacity="0.6"/>
+  <ellipse cx="112" cy="124" rx="7" ry="9" fill="#fff" opacity="0.55"/>
+</svg>

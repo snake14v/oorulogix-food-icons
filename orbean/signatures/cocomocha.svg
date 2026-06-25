@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <ellipse cx="128" cy="228" rx="54" ry="10" fill="#000" opacity="0.12"/>
+  <defs>
+    <clipPath id="cm_cup"><path d="M80 96 L176 96 L168 196 Q165 214 146 214 L110 214 Q91 214 88 196 Z"/></clipPath>
+  </defs>
+  <g clip-path="url(#cm_cup)">
+    <rect x="74" y="96" width="108" height="34" fill="#FBF7EE"/>
+    <rect x="74" y="130" width="108" height="40" fill="#4A2F1F"/>
+    <rect x="74" y="170" width="108" height="50" fill="#5C3A23"/>
+    <path d="M74 130 Q128 122 182 130 L182 144 Q128 136 74 144 Z" fill="#5C3A23" opacity="0.6"/>
+  </g>
+  <!-- coconut foam cap -->
+  <path d="M78 100 Q128 80 178 100 Q150 112 128 112 Q106 112 78 100 Z" fill="#FBF7EE"/>
+  <path d="M92 96 Q128 86 164 96" fill="none" stroke="#fff" stroke-width="5" stroke-linecap="round" opacity="0.6"/>
+  <!-- chocolate shavings on top -->
+  <g fill="#4A2F1F">
+    <path d="M110 92 q8 -2 12 4 q-8 2 -12 -4 Z"/>
+    <path d="M128 88 q9 -1 11 5 q-9 1 -11 -5 Z"/>
+    <path d="M142 93 q7 -2 11 3 q-7 3 -11 -3 Z"/>
+  </g>
+  <g fill="#6B4426">
+    <path d="M120 98 q7 -1 9 4 q-7 1 -9 -4 Z"/>
+  </g>
+  <!-- handle -->
+  <path d="M176 116 Q204 118 202 146 Q200 170 174 168" fill="none" stroke="#43291a" stroke-width="6" stroke-linecap="round"/>
+  <path d="M80 96 L176 96 L168 196 Q165 214 146 214 L110 214 Q91 214 88 196 Z" fill="none" stroke="#43291a" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M78 100 Q128 80 178 100" fill="none" stroke="#43291a" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M98 110 L92 192" stroke="#fff" stroke-width="6" stroke-linecap="round" opacity="0.28"/>
+</svg>

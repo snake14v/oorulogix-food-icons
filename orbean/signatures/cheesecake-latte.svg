@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <ellipse cx="128" cy="228" rx="54" ry="10" fill="#000" opacity="0.12"/>
+  <defs>
+    <clipPath id="cl_cup"><path d="M80 96 L176 96 L168 196 Q165 214 146 214 L110 214 Q91 214 88 196 Z"/></clipPath>
+  </defs>
+  <g clip-path="url(#cl_cup)">
+    <rect x="74" y="96" width="108" height="40" fill="#F7EFE2"/>
+    <rect x="74" y="136" width="108" height="34" fill="#F2E3C9"/>
+    <rect x="74" y="170" width="108" height="50" fill="#5C3A23"/>
+    <path d="M74 136 Q128 128 182 136 L182 150 Q128 142 74 150 Z" fill="#F7EFE2" opacity="0.5"/>
+  </g>
+  <!-- cream-cheese foam cap -->
+  <path d="M78 100 Q128 80 178 100 Q150 112 128 112 Q106 112 78 100 Z" fill="#F7EFE2"/>
+  <path d="M92 96 Q128 86 164 96" fill="none" stroke="#fff" stroke-width="5" stroke-linecap="round" opacity="0.6"/>
+  <!-- cheesecake crumb garnish -->
+  <rect x="120" y="92" width="7" height="7" rx="1.5" fill="#D9B98C" transform="rotate(12 123 95)"/>
+  <rect x="132" y="90" width="6" height="6" rx="1.5" fill="#C68B4E" transform="rotate(-14 135 93)"/>
+  <!-- handle -->
+  <path d="M176 116 Q204 118 202 146 Q200 170 174 168" fill="none" stroke="#5a4a35" stroke-width="6" stroke-linecap="round"/>
+  <path d="M80 96 L176 96 L168 196 Q165 214 146 214 L110 214 Q91 214 88 196 Z" fill="none" stroke="#43291a" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M78 100 Q128 80 178 100" fill="none" stroke="#43291a" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M98 110 L92 192" stroke="#fff" stroke-width="6" stroke-linecap="round" opacity="0.28"/>
+</svg>

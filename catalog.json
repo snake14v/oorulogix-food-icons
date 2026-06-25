@@ -3,7 +3,7 @@
   "style": "flat-cartoon",
   "viewBox": "0 0 256 256",
   "license": "MIT",
-  "count": 337,
+  "count": 372,
   "assets": [
     {
       "id": "bakery-crusts-chocolate-crust",
@@ -998,6 +998,251 @@
       "category": "toppers",
       "file": "freezer/toppers/waffle-cone.svg",
       "name": "Waffle Cone"
+    },
+    {
+      "id": "orbean-bases-butterfly-pea-infusion",
+      "theme": "orbean",
+      "category": "bases",
+      "file": "orbean/bases/butterfly-pea-infusion.svg",
+      "name": "Butterfly Pea Infusion"
+    },
+    {
+      "id": "orbean-bases-ceremonial-matcha",
+      "theme": "orbean",
+      "category": "bases",
+      "file": "orbean/bases/ceremonial-matcha.svg",
+      "name": "Ceremonial Matcha"
+    },
+    {
+      "id": "orbean-bases-espresso",
+      "theme": "orbean",
+      "category": "bases",
+      "file": "orbean/bases/espresso.svg",
+      "name": "Espresso"
+    },
+    {
+      "id": "orbean-bases-ice",
+      "theme": "orbean",
+      "category": "bases",
+      "file": "orbean/bases/ice.svg",
+      "name": "Ice"
+    },
+    {
+      "id": "orbean-foams-cream-cheese-foam",
+      "theme": "orbean",
+      "category": "foams",
+      "file": "orbean/foams/cream-cheese-foam.svg",
+      "name": "Cream Cheese Foam"
+    },
+    {
+      "id": "orbean-foams-microfoam",
+      "theme": "orbean",
+      "category": "foams",
+      "file": "orbean/foams/microfoam.svg",
+      "name": "Microfoam"
+    },
+    {
+      "id": "orbean-foams-milk-foam",
+      "theme": "orbean",
+      "category": "foams",
+      "file": "orbean/foams/milk-foam.svg",
+      "name": "Milk Foam"
+    },
+    {
+      "id": "orbean-foams-sakura-cream-foam",
+      "theme": "orbean",
+      "category": "foams",
+      "file": "orbean/foams/sakura-cream-foam.svg",
+      "name": "Sakura Cream Foam"
+    },
+    {
+      "id": "orbean-foams-vanilla-cream",
+      "theme": "orbean",
+      "category": "foams",
+      "file": "orbean/foams/vanilla-cream.svg",
+      "name": "Vanilla Cream"
+    },
+    {
+      "id": "orbean-garnishes-caramel-brittle",
+      "theme": "orbean",
+      "category": "garnishes",
+      "file": "orbean/garnishes/caramel-brittle.svg",
+      "name": "Caramel Brittle"
+    },
+    {
+      "id": "orbean-garnishes-caramel-drizzle",
+      "theme": "orbean",
+      "category": "garnishes",
+      "file": "orbean/garnishes/caramel-drizzle.svg",
+      "name": "Caramel Drizzle"
+    },
+    {
+      "id": "orbean-garnishes-chocolate-shavings",
+      "theme": "orbean",
+      "category": "garnishes",
+      "file": "orbean/garnishes/chocolate-shavings.svg",
+      "name": "Chocolate Shavings"
+    },
+    {
+      "id": "orbean-garnishes-dried-rose-petals",
+      "theme": "orbean",
+      "category": "garnishes",
+      "file": "orbean/garnishes/dried-rose-petals.svg",
+      "name": "Dried Rose Petals"
+    },
+    {
+      "id": "orbean-garnishes-hazelnut-drizzle",
+      "theme": "orbean",
+      "category": "garnishes",
+      "file": "orbean/garnishes/hazelnut-drizzle.svg",
+      "name": "Hazelnut Drizzle"
+    },
+    {
+      "id": "orbean-garnishes-roasted-hazelnut-crumble",
+      "theme": "orbean",
+      "category": "garnishes",
+      "file": "orbean/garnishes/roasted-hazelnut-crumble.svg",
+      "name": "Roasted Hazelnut Crumble"
+    },
+    {
+      "id": "orbean-garnishes-strawberry-crumble",
+      "theme": "orbean",
+      "category": "garnishes",
+      "file": "orbean/garnishes/strawberry-crumble.svg",
+      "name": "Strawberry Crumble"
+    },
+    {
+      "id": "orbean-garnishes-toasted-coconut-flakes",
+      "theme": "orbean",
+      "category": "garnishes",
+      "file": "orbean/garnishes/toasted-coconut-flakes.svg",
+      "name": "Toasted Coconut Flakes"
+    },
+    {
+      "id": "orbean-milks-coconut-milk",
+      "theme": "orbean",
+      "category": "milks",
+      "file": "orbean/milks/coconut-milk.svg",
+      "name": "Coconut Milk"
+    },
+    {
+      "id": "orbean-milks-regular-milk",
+      "theme": "orbean",
+      "category": "milks",
+      "file": "orbean/milks/regular-milk.svg",
+      "name": "Regular Milk"
+    },
+    {
+      "id": "orbean-milks-steamed-milk",
+      "theme": "orbean",
+      "category": "milks",
+      "file": "orbean/milks/steamed-milk.svg",
+      "name": "Steamed Milk"
+    },
+    {
+      "id": "orbean-signatures-blue-pea-tea-latte",
+      "theme": "orbean",
+      "category": "signatures",
+      "file": "orbean/signatures/blue-pea-tea-latte.svg",
+      "name": "Blue Pea Tea Latte"
+    },
+    {
+      "id": "orbean-signatures-caramel-craze",
+      "theme": "orbean",
+      "category": "signatures",
+      "file": "orbean/signatures/caramel-craze.svg",
+      "name": "Caramel Craze"
+    },
+    {
+      "id": "orbean-signatures-cheesecake-latte",
+      "theme": "orbean",
+      "category": "signatures",
+      "file": "orbean/signatures/cheesecake-latte.svg",
+      "name": "Cheesecake Latte"
+    },
+    {
+      "id": "orbean-signatures-coco-verde",
+      "theme": "orbean",
+      "category": "signatures",
+      "file": "orbean/signatures/coco-verde.svg",
+      "name": "Coco Verde"
+    },
+    {
+      "id": "orbean-signatures-cocomocha",
+      "theme": "orbean",
+      "category": "signatures",
+      "file": "orbean/signatures/cocomocha.svg",
+      "name": "Cocomocha"
+    },
+    {
+      "id": "orbean-signatures-emerald-hazelnut-reserve",
+      "theme": "orbean",
+      "category": "signatures",
+      "file": "orbean/signatures/emerald-hazelnut-reserve.svg",
+      "name": "Emerald Hazelnut Reserve"
+    },
+    {
+      "id": "orbean-signatures-iced-strawberry-latte",
+      "theme": "orbean",
+      "category": "signatures",
+      "file": "orbean/signatures/iced-strawberry-latte.svg",
+      "name": "Iced Strawberry Latte"
+    },
+    {
+      "id": "orbean-signatures-red-velvet-latte",
+      "theme": "orbean",
+      "category": "signatures",
+      "file": "orbean/signatures/red-velvet-latte.svg",
+      "name": "Red Velvet Latte"
+    },
+    {
+      "id": "orbean-signatures-rose-elixir",
+      "theme": "orbean",
+      "category": "signatures",
+      "file": "orbean/signatures/rose-elixir.svg",
+      "name": "Rose Elixir"
+    },
+    {
+      "id": "orbean-signatures-sakura-berry",
+      "theme": "orbean",
+      "category": "signatures",
+      "file": "orbean/signatures/sakura-berry.svg",
+      "name": "Sakura Berry"
+    },
+    {
+      "id": "orbean-signatures-velvet-vanilla",
+      "theme": "orbean",
+      "category": "signatures",
+      "file": "orbean/signatures/velvet-vanilla.svg",
+      "name": "Velvet Vanilla"
+    },
+    {
+      "id": "orbean-syrups-syrup-hazelnut",
+      "theme": "orbean",
+      "category": "syrups",
+      "file": "orbean/syrups/syrup-hazelnut.svg",
+      "name": "Hazelnut Syrup"
+    },
+    {
+      "id": "orbean-syrups-syrup-irish-cream",
+      "theme": "orbean",
+      "category": "syrups",
+      "file": "orbean/syrups/syrup-irish-cream.svg",
+      "name": "Irish Cream Syrup"
+    },
+    {
+      "id": "orbean-syrups-syrup-rose",
+      "theme": "orbean",
+      "category": "syrups",
+      "file": "orbean/syrups/syrup-rose.svg",
+      "name": "Rose Syrup"
+    },
+    {
+      "id": "orbean-syrups-syrup-vanilla-bean",
+      "theme": "orbean",
+      "category": "syrups",
+      "file": "orbean/syrups/syrup-vanilla-bean.svg",
+      "name": "Vanilla Bean Syrup"
     },
     {
       "id": "pizza-base-pizza-baked",

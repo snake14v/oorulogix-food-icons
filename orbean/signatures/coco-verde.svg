@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <ellipse cx="128" cy="228" rx="52" ry="10" fill="#000" opacity="0.12"/>
+  <defs>
+    <clipPath id="cv_glass"><path d="M90 72 L166 72 L159 210 Q157 222 145 222 L111 222 Q99 222 97 210 Z"/></clipPath>
+  </defs>
+  <g clip-path="url(#cv_glass)">
+    <rect x="84" y="72" width="88" height="56" fill="#FBF7EE"/>
+    <rect x="84" y="128" width="88" height="100" fill="#6F9E55"/>
+    <path d="M84 128 Q128 118 172 128 L172 144 Q128 134 84 144 Z" fill="#7FAF63"/>
+  </g>
+  <!-- toasted coconut flakes on top -->
+  <g fill="#D9B98C">
+    <path d="M108 80 q6 -4 11 2 q-6 4 -11 -2 Z"/>
+    <path d="M126 76 q7 -3 12 3 q-7 4 -12 -3 Z"/>
+    <path d="M142 82 q6 -4 11 2 q-6 4 -11 -2 Z"/>
+    <path d="M118 90 q6 -3 10 2 q-6 4 -10 -2 Z"/>
+  </g>
+  <g fill="#B89066">
+    <path d="M134 88 q5 -3 9 2 q-5 3 -9 -2 Z"/>
+    <path d="M104 90 q5 -2 8 2 q-5 3 -8 -2 Z"/>
+  </g>
+  <path d="M90 72 L166 72 L159 210 Q157 222 145 222 L111 222 Q99 222 97 210 Z" fill="none" stroke="#5a4a35" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M84 128 Q128 118 172 128" fill="none" stroke="#5a4a35" stroke-width="5" stroke-linecap="round"/>
+  <path d="M104 86 L100 196" stroke="#fff" stroke-width="6" stroke-linecap="round" opacity="0.3"/>
+</svg>

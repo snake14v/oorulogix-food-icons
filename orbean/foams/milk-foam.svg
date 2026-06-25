@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <linearGradient id="milk_foam_grad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#F3EBD9"/>
+    </linearGradient>
+  </defs>
+  <ellipse cx="128" cy="226" rx="58" ry="11" fill="#000" opacity="0.12"/>
+  <!-- airy rounded milk-foam dollop with cloud-like lobes -->
+  <path d="M62 174
+           Q50 148 76 140
+           Q70 118 96 116
+           Q98 92 124 94
+           Q140 82 156 98
+           Q184 100 182 126
+           Q206 136 194 162
+           Q200 184 174 190
+           Q150 198 126 196
+           Q92 198 76 190
+           Q60 184 62 174 Z"
+        fill="url(#milk_foam_grad)" stroke="#5a4a35" stroke-width="6" stroke-linejoin="round"/>
+  <!-- soft cloud lobe dips -->
+  <path d="M92 152 Q104 138 118 150" fill="none" stroke="#5a4a35" stroke-width="5" stroke-linecap="round" opacity="0.45"/>
+  <path d="M132 152 Q146 138 160 150" fill="none" stroke="#5a4a35" stroke-width="5" stroke-linecap="round" opacity="0.45"/>
+  <path d="M108 122 Q122 110 138 122" fill="none" stroke="#5a4a35" stroke-width="5" stroke-linecap="round" opacity="0.45"/>
+  <!-- gentle pooled gloss at base -->
+  <path d="M86 178 Q128 188 170 178 Q170 188 128 190 Q86 188 86 178 Z" fill="#E7DBC2" opacity="0.4"/>
+  <!-- highlight -->
+  <path d="M90 132 Q82 152 92 172" fill="none" stroke="#fff" stroke-width="8" stroke-linecap="round" opacity="0.75"/>
+  <ellipse cx="112" cy="124" rx="8" ry="10" fill="#fff" opacity="0.7"/>
+  <ellipse cx="150" cy="142" rx="5" ry="6" fill="#fff" opacity="0.5"/>
+</svg>

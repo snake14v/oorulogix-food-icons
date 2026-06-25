@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <ellipse cx="128" cy="230" rx="48" ry="9" fill="#000" opacity="0.12"/>
+  <defs>
+    <clipPath id="bpt_glass"><path d="M94 56 L162 56 L156 214 Q155 224 145 224 L111 224 Q101 224 100 214 Z"/></clipPath>
+    <linearGradient id="bpt_fade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FBF6EA"/>
+      <stop offset="0.42" stop-color="#C3CDE8"/>
+      <stop offset="1" stop-color="#7D8FD0"/>
+    </linearGradient>
+  </defs>
+  <g clip-path="url(#bpt_glass)">
+    <rect x="88" y="56" width="80" height="172" fill="url(#bpt_fade)"/>
+    <!-- ice cubes -->
+    <g fill="#DDEBF2" opacity="0.9" stroke="#fff" stroke-width="2">
+      <rect x="100" y="64" width="22" height="22" rx="4" transform="rotate(-12 111 75)"/>
+      <rect x="130" y="70" width="20" height="20" rx="4" transform="rotate(12 140 80)"/>
+      <rect x="110" y="92" width="20" height="20" rx="4" transform="rotate(6 120 102)"/>
+      <rect x="134" y="100" width="18" height="18" rx="4" transform="rotate(-10 143 109)"/>
+    </g>
+  </g>
+  <!-- straw -->
+  <path d="M140 38 L150 200" stroke="#5A6BB0" stroke-width="9" stroke-linecap="round"/>
+  <path d="M140 38 L150 200" stroke="#A8B6E0" stroke-width="3" stroke-linecap="round" opacity="0.8"/>
+  <path d="M94 56 L162 56 L156 214 Q155 224 145 224 L111 224 Q101 224 100 214 Z" fill="none" stroke="#5a4a35" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M106 66 L102 204" stroke="#fff" stroke-width="6" stroke-linecap="round" opacity="0.3"/>
+</svg>

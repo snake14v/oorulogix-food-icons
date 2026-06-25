@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <linearGradient id="coconutmilk_carton" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#FBF7EE"/>
+    </linearGradient>
+    <linearGradient id="coconutmilk_husk" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8a6a48"/>
+      <stop offset="1" stop-color="#6f4f30"/>
+    </linearGradient>
+  </defs>
+
+  <ellipse cx="128" cy="226" rx="56" ry="10" fill="#000" opacity="0.12"/>
+
+  <!-- carton body -->
+  <path d="M84 92 L160 92 L160 206 Q160 214 152 214 L92 214 Q84 214 84 206 Z" fill="url(#coconutmilk_carton)" stroke="#5a4a35" stroke-width="6" stroke-linejoin="round"/>
+
+  <!-- gable top -->
+  <path d="M84 92 L122 68 L160 92" fill="#FBF7EE" stroke="#5a4a35" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M122 68 L122 92" stroke="#5a4a35" stroke-width="5" stroke-linecap="round" opacity="0.4"/>
+  <path d="M84 92 L160 92" stroke="#5a4a35" stroke-width="6" stroke-linecap="round"/>
+
+  <!-- folded cap -->
+  <path d="M110 60 L134 60 L134 70 L110 70 Z" fill="#F4ECDD" stroke="#5a4a35" stroke-width="5" stroke-linejoin="round"/>
+
+  <!-- coconut accent: half coconut -->
+  <path d="M100 150 Q100 132 122 132 Q144 132 144 150 Z" fill="url(#coconutmilk_husk)" stroke="#5a4a35" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M104 150 Q104 138 122 138 Q140 138 140 150 Z" fill="#F4ECDD"/>
+  <ellipse cx="122" cy="150" rx="14" ry="3.5" fill="#fff" opacity="0.8"/>
+  <!-- coconut eyes -->
+  <circle cx="115" cy="145" r="1.8" fill="#6f4f30"/>
+  <circle cx="122" cy="143" r="1.8" fill="#6f4f30"/>
+  <circle cx="129" cy="145" r="1.8" fill="#6f4f30"/>
+
+  <!-- leaf accent -->
+  <path d="M150 130 Q166 120 174 130 Q160 134 150 130 Z" fill="#6F9E55" stroke="#3c2a1a" stroke-width="3" stroke-linejoin="round"/>
+
+  <!-- highlight -->
+  <path d="M95 104 L95 200" stroke="#fff" stroke-width="7" stroke-linecap="round" opacity="0.7"/>
+</svg>

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <radialGradient id="rosepetals_g" cx="42%" cy="34%" r="72%">
+      <stop offset="0%" stop-color="#D27A8A"/>
+      <stop offset="100%" stop-color="#C25B6E"/>
+    </radialGradient>
+  </defs>
+  <ellipse cx="128" cy="226" rx="58" ry="11" fill="#000" opacity="0.12"/>
+  <!-- scattered dried rose petals, curled cupped shapes -->
+  <g stroke="#43291a" stroke-width="5" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M78 72 q-14 -16 4 -28 q20 -10 30 8 q6 16 -10 26 q-16 8 -24 -6 Z" fill="url(#rosepetals_g)"/>
+    <path d="M158 64 q-10 -18 10 -26 q22 -6 28 14 q2 16 -16 22 q-16 4 -22 -10 Z" fill="url(#rosepetals_g)"/>
+    <path d="M104 122 q-12 -16 6 -26 q20 -8 28 10 q4 16 -12 24 q-16 6 -22 -8 Z" fill="url(#rosepetals_g)"/>
+    <path d="M62 144 q-10 -14 6 -23 q18 -7 25 9 q3 14 -11 21 q-14 5 -20 -7 Z" fill="url(#rosepetals_g)"/>
+    <path d="M174 128 q-8 -15 10 -22 q20 -6 25 11 q2 14 -14 19 q-15 4 -21 -8 Z" fill="url(#rosepetals_g)"/>
+    <path d="M122 178 q-12 -15 6 -25 q20 -8 27 9 q4 15 -11 23 q-16 6 -22 -7 Z" fill="url(#rosepetals_g)"/>
+    <path d="M76 190 q-8 -12 6 -20 q16 -6 22 8 q3 13 -10 18 q-13 4 -18 -6 Z" fill="url(#rosepetals_g)"/>
+  </g>
+  <!-- petal vein highlights -->
+  <g stroke="#EBA9B5" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.6">
+    <path d="M92 54 q-6 12 -2 24"/>
+    <path d="M173 50 q-4 12 0 22"/>
+    <path d="M118 104 q-5 12 -2 24"/>
+    <path d="M73 130 q-4 10 -1 20"/>
+    <path d="M186 114 q-3 10 0 18"/>
+    <path d="M136 160 q-5 12 -2 22"/>
+  </g>
+</svg>

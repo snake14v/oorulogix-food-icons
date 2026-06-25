@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <ellipse cx="128" cy="226" rx="50" ry="10" fill="#000" opacity="0.12"/>
+  <defs>
+    <clipPath id="pea_glass">
+      <path d="M88 70 L168 70 L160 210 Q158 222 146 222 L110 222 Q98 222 96 210 Z"/>
+    </clipPath>
+    <linearGradient id="pea_liquid" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#94A4DC"/>
+      <stop offset="1" stop-color="#7D8FD0"/>
+    </linearGradient>
+  </defs>
+  <!-- liquid -->
+  <g clip-path="url(#pea_glass)">
+    <rect x="80" y="92" width="100" height="140" fill="url(#pea_liquid)"/>
+    <!-- surface band -->
+    <rect x="80" y="92" width="100" height="10" fill="#A6B4E4"/>
+    <ellipse cx="128" cy="94" rx="40" ry="7" fill="#B4C0EA"/>
+    <!-- deeper indigo pooling at bottom -->
+    <ellipse cx="128" cy="216" rx="46" ry="22" fill="#5E6FB8" opacity="0.6"/>
+  </g>
+  <!-- glass outline -->
+  <path d="M88 70 L168 70 L160 210 Q158 222 146 222 L110 222 Q98 222 96 210 Z" fill="none" stroke="#3c2a1a" stroke-width="6" stroke-linejoin="round"/>
+  <!-- rim -->
+  <path d="M88 70 L168 70" stroke="#3c2a1a" stroke-width="6" stroke-linecap="round"/>
+  <!-- glass highlight -->
+  <path d="M106 88 L100 200" stroke="#fff" stroke-width="6" stroke-linecap="round" opacity="0.3"/>
+  <!-- floating butterfly-pea petals -->
+  <g stroke="#4a59a0" stroke-width="3" stroke-linejoin="round">
+    <path d="M120 150 Q112 142 120 136 Q128 142 120 150 Z" fill="#5563b0"/>
+    <path d="M142 170 Q134 162 142 156 Q150 162 142 170 Z" fill="#5563b0"/>
+  </g>
+  <!-- steam -->
+  <path d="M118 56 Q112 46 118 36 Q124 26 118 18" fill="none" stroke="#9aa6d6" stroke-width="5" stroke-linecap="round" opacity="0.5"/>
+  <path d="M140 56 Q146 46 140 36 Q134 26 140 18" fill="none" stroke="#9aa6d6" stroke-width="5" stroke-linecap="round" opacity="0.5"/>
+</svg>

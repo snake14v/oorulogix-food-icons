@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <ellipse cx="128" cy="228" rx="52" ry="10" fill="#000" opacity="0.12"/>
+  <defs>
+    <clipPath id="sak_glass"><path d="M90 72 L166 72 L159 210 Q157 222 145 222 L111 222 Q99 222 97 210 Z"/></clipPath>
+  </defs>
+  <g clip-path="url(#sak_glass)">
+    <rect x="84" y="72" width="88" height="46" fill="#F2B5C4"/>
+    <rect x="84" y="118" width="88" height="110" fill="#6F9E55"/>
+    <path d="M84 118 Q128 108 172 118 L172 134 Q128 124 84 134 Z" fill="#7FAF63"/>
+    <!-- strawberry puree swirl into matcha -->
+    <path d="M92 150 Q120 140 148 156 Q160 162 166 152" fill="none" stroke="#E16A7E" stroke-width="7" stroke-linecap="round" opacity="0.85"/>
+    <path d="M96 178 Q124 170 152 182" fill="none" stroke="#E16A7E" stroke-width="6" stroke-linecap="round" opacity="0.8"/>
+  </g>
+  <!-- sakura cream foam cap dome -->
+  <path d="M86 76 Q128 54 170 76 Q150 88 128 88 Q106 88 86 76 Z" fill="#F2B5C4"/>
+  <path d="M96 70 Q128 60 160 70" fill="none" stroke="#fff" stroke-width="5" stroke-linecap="round" opacity="0.55"/>
+  <!-- cherry-blossom petal garnish -->
+  <g transform="translate(128 70)">
+    <path d="M0 -9 Q4 -4 0 0 Q-4 -4 0 -9 Z" fill="#E16A7E"/>
+    <path d="M9 0 Q4 4 0 0 Q4 -4 9 0 Z" fill="#E16A7E"/>
+    <path d="M0 9 Q-4 4 0 0 Q4 4 0 9 Z" fill="#E16A7E"/>
+    <path d="M-9 0 Q-4 -4 0 0 Q-4 4 -9 0 Z" fill="#E16A7E"/>
+    <circle cx="0" cy="0" r="2.4" fill="#FBF3DC"/>
+  </g>
+  <path d="M90 72 L166 72 L159 210 Q157 222 145 222 L111 222 Q99 222 97 210 Z" fill="none" stroke="#5a4a35" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M86 76 Q128 54 170 76" fill="none" stroke="#5a4a35" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M104 86 L100 196" stroke="#fff" stroke-width="6" stroke-linecap="round" opacity="0.3"/>
+</svg>

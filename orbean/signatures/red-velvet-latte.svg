@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <ellipse cx="128" cy="228" rx="54" ry="10" fill="#000" opacity="0.12"/>
+  <defs>
+    <clipPath id="rvl_cup"><path d="M80 96 L176 96 L168 196 Q165 214 146 214 L110 214 Q91 214 88 196 Z"/></clipPath>
+  </defs>
+  <g clip-path="url(#rvl_cup)">
+    <rect x="74" y="96" width="108" height="40" fill="#FBF6EA"/>
+    <rect x="74" y="136" width="108" height="40" fill="#C9485B"/>
+    <rect x="74" y="176" width="108" height="44" fill="#5C3A23"/>
+    <path d="M74 136 Q128 128 182 136 L182 150 Q128 142 74 150 Z" fill="#D86072" opacity="0.7"/>
+  </g>
+  <!-- milk foam cap -->
+  <path d="M78 100 Q128 80 178 100 Q150 112 128 112 Q106 112 78 100 Z" fill="#FBF6EA"/>
+  <path d="M92 96 Q128 86 164 96" fill="none" stroke="#fff" stroke-width="5" stroke-linecap="round" opacity="0.6"/>
+  <!-- red velvet crumb garnish -->
+  <rect x="118" y="92" width="7" height="7" rx="1.5" fill="#C9485B" transform="rotate(14 121 95)"/>
+  <rect x="132" y="91" width="6" height="6" rx="1.5" fill="#A8475A" transform="rotate(-12 135 94)"/>
+  <circle cx="128" cy="99" r="2.4" fill="#C9485B"/>
+  <!-- handle -->
+  <path d="M176 116 Q204 118 202 146 Q200 170 174 168" fill="none" stroke="#43291a" stroke-width="6" stroke-linecap="round"/>
+  <path d="M80 96 L176 96 L168 196 Q165 214 146 214 L110 214 Q91 214 88 196 Z" fill="none" stroke="#43291a" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M78 100 Q128 80 178 100" fill="none" stroke="#43291a" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M98 110 L92 192" stroke="#fff" stroke-width="6" stroke-linecap="round" opacity="0.28"/>
+</svg>

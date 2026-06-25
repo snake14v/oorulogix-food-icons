@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <ellipse cx="128" cy="226" rx="52" ry="10" fill="#000" opacity="0.12"/>
+  <defs>
+    <clipPath id="espresso_glass">
+      <path d="M86 96 L170 96 L160 196 Q157 210 142 210 L114 210 Q99 210 96 196 Z"/>
+    </clipPath>
+    <linearGradient id="espresso_liquid" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#6E4630"/>
+      <stop offset="1" stop-color="#5C3A23"/>
+    </linearGradient>
+  </defs>
+  <!-- glass liquid fill -->
+  <g clip-path="url(#espresso_glass)">
+    <rect x="80" y="96" width="100" height="130" fill="url(#espresso_liquid)"/>
+    <!-- crema layer -->
+    <rect x="80" y="96" width="100" height="20" fill="#C68A57"/>
+    <ellipse cx="128" cy="100" rx="42" ry="9" fill="#D89C6A"/>
+  </g>
+  <!-- crema bubbles -->
+  <circle cx="112" cy="100" r="4" fill="#E8B988" opacity="0.85"/>
+  <circle cx="138" cy="103" r="3" fill="#E8B988" opacity="0.85"/>
+  <circle cx="148" cy="98" r="2.5" fill="#E8B988" opacity="0.85"/>
+  <!-- glass outline -->
+  <path d="M86 96 L170 96 L160 196 Q157 210 142 210 L114 210 Q99 210 96 196 Z" fill="none" stroke="#43291a" stroke-width="6" stroke-linejoin="round"/>
+  <!-- rim -->
+  <path d="M86 96 L170 96" stroke="#43291a" stroke-width="6" stroke-linecap="round"/>
+  <!-- handle -->
+  <path d="M170 110 Q196 112 196 134 Q196 156 168 158" fill="none" stroke="#43291a" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- glass highlight -->
+  <path d="M104 116 L99 188" stroke="#fff" stroke-width="6" stroke-linecap="round" opacity="0.3"/>
+  <!-- steam -->
+  <path d="M118 78 Q112 68 118 58 Q124 48 118 40" fill="none" stroke="#b9a48f" stroke-width="5" stroke-linecap="round" opacity="0.55"/>
+  <path d="M140 78 Q146 68 140 58 Q134 48 140 40" fill="none" stroke="#b9a48f" stroke-width="5" stroke-linecap="round" opacity="0.55"/>
+</svg>

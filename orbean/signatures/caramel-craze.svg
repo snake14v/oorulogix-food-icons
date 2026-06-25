@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <ellipse cx="128" cy="228" rx="54" ry="10" fill="#000" opacity="0.12"/>
+  <defs>
+    <clipPath id="cc_cup"><path d="M80 96 L176 96 L168 196 Q165 214 146 214 L110 214 Q91 214 88 196 Z"/></clipPath>
+  </defs>
+  <g clip-path="url(#cc_cup)">
+    <rect x="74" y="96" width="108" height="38" fill="#F4ECDD"/>
+    <rect x="74" y="134" width="108" height="42" fill="#D9913B"/>
+    <rect x="74" y="176" width="108" height="44" fill="#5C3A23"/>
+    <path d="M74 134 Q128 126 182 134 L182 148 Q128 140 74 148 Z" fill="#E8A957" opacity="0.7"/>
+  </g>
+  <!-- foam cap -->
+  <path d="M78 100 Q128 80 178 100 Q150 112 128 112 Q106 112 78 100 Z" fill="#F4ECDD"/>
+  <!-- caramel drizzle on foam -->
+  <path d="M88 100 Q100 92 110 102 Q120 110 132 100 Q144 92 156 102 Q164 108 170 100" fill="none" stroke="#D9913B" stroke-width="5" stroke-linecap="round"/>
+  <path d="M100 108 Q116 100 130 108 Q144 114 158 106" fill="none" stroke="#B96F2E" stroke-width="4" stroke-linecap="round"/>
+  <!-- caramel brittle bits -->
+  <rect x="116" y="90" width="7" height="6" rx="1.5" fill="#B96F2E" transform="rotate(16 119 93)"/>
+  <rect x="134" y="91" width="6" height="6" rx="1.5" fill="#D9913B" transform="rotate(-14 137 94)"/>
+  <!-- handle -->
+  <path d="M176 116 Q204 118 202 146 Q200 170 174 168" fill="none" stroke="#43291a" stroke-width="6" stroke-linecap="round"/>
+  <path d="M80 96 L176 96 L168 196 Q165 214 146 214 L110 214 Q91 214 88 196 Z" fill="none" stroke="#43291a" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M78 100 Q128 80 178 100" fill="none" stroke="#43291a" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M98 110 L92 192" stroke="#fff" stroke-width="6" stroke-linecap="round" opacity="0.28"/>
+</svg>
