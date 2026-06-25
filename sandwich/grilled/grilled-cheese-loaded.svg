@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <!-- loaded grilled cheese (bacon + tomato peeking) -->
+  <ellipse cx="128" cy="202" rx="92" ry="14" fill="#000" opacity="0.12"/>
+  <defs>
+    <linearGradient id="gcl_top" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f1c06f"/><stop offset="1" stop-color="#dd9e48"/></linearGradient>
+    <linearGradient id="gcl_bot" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#e8b25c"/><stop offset="1" stop-color="#cf8f3c"/></linearGradient>
+  </defs>
+  <!-- bottom slice -->
+  <path d="M48 152 Q48 142 58 142 L198 142 Q208 142 208 152 L208 160 Q208 174 190 174 L66 174 Q48 174 48 160 Z" fill="url(#gcl_bot)" stroke="#9a5f25" stroke-width="6" stroke-linejoin="round"/>
+  <!-- fillings peeking: cheese + tomato + bacon + lettuce -->
+  <path d="M52 150 L204 150 L204 158 Q190 172 178 158 Q166 172 154 158 Q142 172 130 158 Q118 172 106 158 Q94 172 82 158 Q70 172 56 158 Z" fill="#f8be3c" stroke="#c8841a" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M60 146 q10 -8 20 0 q10 -8 20 0 q10 -8 20 0 q10 -8 20 0 q10 -8 20 0 q10 -8 20 0 l2 8 -144 0 z" fill="#7fb23e" stroke="#4f7d22" stroke-width="3" stroke-linejoin="round"/>
+  <ellipse cx="92" cy="146" rx="20" ry="7" fill="#e8473b" stroke="#b22e26" stroke-width="3"/>
+  <ellipse cx="160" cy="146" rx="20" ry="7" fill="#e8473b" stroke="#b22e26" stroke-width="3"/>
+  <path d="M70 140 q14 -5 28 0 q14 -5 28 0 q14 -5 28 0 q14 -5 28 0" fill="none" stroke="#a23c22" stroke-width="6" stroke-linecap="round"/>
+  <!-- top slice (toasted) -->
+  <path d="M46 116 Q46 92 76 90 L180 90 Q210 92 210 116 L210 132 Q210 142 196 142 L60 142 Q46 142 46 132 Z" fill="url(#gcl_top)" stroke="#9a5f25" stroke-width="6" stroke-linejoin="round"/>
+  <g stroke="#b06f2a" stroke-width="7" stroke-linecap="round" opacity="0.5">
+    <line x1="78" y1="104" x2="96" y2="130"/><line x1="110" y1="100" x2="128" y2="130"/><line x1="142" y1="100" x2="160" y2="130"/><line x1="172" y1="102" x2="188" y2="128"/>
+  </g>
+</svg>

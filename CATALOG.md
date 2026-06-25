@@ -1,6 +1,6 @@
 # Asset Catalog
 
-223 flat-cartoon food icons (SVG, 256×256). All names are generic.
+226 flat-cartoon food icons (SVG, 256×256). All names are generic.
 
 ## Bakery (27)
 
@@ -80,7 +80,7 @@
 | Pickle | `burger/toppings/pickle.svg` |
 | Tomato | `burger/toppings/tomato.svg` |
 
-## Classics (15)
+## Classics (7)
 
 ### Burger
 
@@ -94,35 +94,7 @@
 | Tomato | `classics/burger/tomato.svg` |
 | Top Bun | `classics/burger/bun-top.svg` |
 
-### Drinks
-
-| Label | File |
-|---|---|
-| Coffee Cup | `classics/drinks/coffee-cup.svg` |
-| Coffee Mug | `classics/drinks/coffee-mug.svg` |
-| Juice Glass | `classics/drinks/juice-glass.svg` |
-| Matcha Latte | `classics/drinks/matcha-latte.svg` |
-| Soda Cup | `classics/drinks/soda-cup.svg` |
-
-### Fries
-
-| Label | File |
-|---|---|
-| Fries | `classics/fries/fries.svg` |
-
-### Pizza
-
-| Label | File |
-|---|---|
-| Whole Pizza | `classics/pizza/pizza-whole.svg` |
-
-### Sandwich
-
-| Label | File |
-|---|---|
-| Club Sandwich | `classics/sandwich/club-sandwich.svg` |
-
-## Coffee (52)
+## Coffee (57)
 
 ### Creams
 
@@ -145,6 +117,16 @@
 | Large Cup | `coffee/cups/cup-large.svg` |
 | Medium Cup | `coffee/cups/cup-medium.svg` |
 | Small Cup | `coffee/cups/cup-small.svg` |
+
+### Drinks
+
+| Label | File |
+|---|---|
+| Coffee Cup | `coffee/drinks/coffee-cup.svg` |
+| Coffee Mug | `coffee/drinks/coffee-mug.svg` |
+| Juice Glass | `coffee/drinks/juice-glass.svg` |
+| Matcha Latte | `coffee/drinks/matcha-latte.svg` |
+| Soda Cup | `coffee/drinks/soda-cup.svg` |
 
 ### Espresso
 
@@ -221,7 +203,7 @@
 | Shaved Chocolate | `coffee/toppings/topping-shaved-chocolate.svg` |
 | Toasted Coconut | `coffee/toppings/topping-toasted-coconut.svg` |
 
-## Pizza (12)
+## Pizza (13)
 
 ### Base
 
@@ -232,6 +214,7 @@
 | Pizza Dough | `pizza/base/pizza-dough.svg` |
 | Pizza Sauce | `pizza/base/pizza-sauce.svg` |
 | Pizza Slice | `pizza/base/pizza-slice.svg` |
+| Whole Pizza | `pizza/base/pizza-whole.svg` |
 
 ### Toppings
 
@@ -312,7 +295,7 @@
 | Star Rating | `pos/restaurant/star-rating.svg` |
 | Table | `pos/restaurant/table.svg` |
 
-## Sandwich (65)
+## Sandwich (70)
 
 ### Breads
 
@@ -350,6 +333,7 @@
 
 | Label | File |
 |---|---|
+| Fries Basket | `sandwich/fries/fries-basket.svg` |
 | Fries Crinkle | `sandwich/fries/fries-crinkle.svg` |
 | Fries Curly | `sandwich/fries/fries-curly.svg` |
 | Fries French | `sandwich/fries/fries-french.svg` |
@@ -369,6 +353,15 @@
 | Rosemary | `sandwich/fry-toppings/fry-rosemary.svg` |
 | Seasoning | `sandwich/fry-toppings/fry-seasoning.svg` |
 | Sour Cream | `sandwich/fry-toppings/fry-sour-cream.svg` |
+
+### Grilled
+
+| Label | File |
+|---|---|
+| Club Sandwich | `sandwich/grilled/club-sandwich.svg` |
+| Grilled Cheese | `sandwich/grilled/grilled-cheese.svg` |
+| Grilled Cheese Half | `sandwich/grilled/grilled-cheese-half.svg` |
+| Grilled Cheese Loaded | `sandwich/grilled/grilled-cheese-loaded.svg` |
 
 ### Sauces
 

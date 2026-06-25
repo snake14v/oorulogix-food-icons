@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <!-- assembled grilled cheese sandwich (whole) -->
+  <ellipse cx="128" cy="202" rx="90" ry="14" fill="#000" opacity="0.12"/>
+  <defs>
+    <linearGradient id="gc_top" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f1c06f"/><stop offset="1" stop-color="#dd9e48"/></linearGradient>
+    <linearGradient id="gc_bot" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#e8b25c"/><stop offset="1" stop-color="#cf8f3c"/></linearGradient>
+  </defs>
+  <!-- melty cheese oozing between slices + drips -->
+  <path d="M54 150 L202 150 L202 162 Q190 180 176 164 Q162 184 146 166 Q130 186 114 166 Q98 184 82 164 Q68 180 54 162 Z" fill="#f8be3c" stroke="#c8841a" stroke-width="5" stroke-linejoin="round"/>
+  <!-- bottom slice -->
+  <path d="M50 150 Q50 140 60 140 L196 140 Q206 140 206 150 L206 158 Q206 172 188 172 L68 172 Q50 172 50 158 Z" fill="url(#gc_bot)" stroke="#9a5f25" stroke-width="6" stroke-linejoin="round"/>
+  <!-- top slice (toasted) -->
+  <path d="M46 116 Q46 92 76 90 L180 90 Q210 92 210 116 L210 134 Q210 148 190 148 L66 148 Q46 148 46 134 Z" fill="url(#gc_top)" stroke="#9a5f25" stroke-width="6" stroke-linejoin="round"/>
+  <!-- grill marks -->
+  <g stroke="#b06f2a" stroke-width="7" stroke-linecap="round" opacity="0.55">
+    <line x1="76" y1="104" x2="94" y2="134"/>
+    <line x1="106" y1="100" x2="124" y2="134"/>
+    <line x1="136" y1="100" x2="154" y2="134"/>
+    <line x1="166" y1="102" x2="184" y2="132"/>
+  </g>
+  <path d="M62 104 Q120 96 182 102" fill="none" stroke="#fbe0a8" stroke-width="6" stroke-linecap="round" opacity="0.55"/>
+</svg>

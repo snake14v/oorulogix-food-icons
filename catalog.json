@@ -3,7 +3,7 @@
   "style": "flat-cartoon",
   "viewBox": "0 0 256 256",
   "license": "MIT",
-  "count": 223,
+  "count": 226,
   "assets": [
     {
       "id": "bakery-crusts-chocolate-crust",
@@ -328,62 +328,6 @@
       "name": "Top Bun"
     },
     {
-      "id": "classics-drinks-coffee-cup",
-      "theme": "classics",
-      "category": "drinks",
-      "file": "classics/drinks/coffee-cup.svg",
-      "name": "Coffee Cup"
-    },
-    {
-      "id": "classics-drinks-coffee-mug",
-      "theme": "classics",
-      "category": "drinks",
-      "file": "classics/drinks/coffee-mug.svg",
-      "name": "Coffee Mug"
-    },
-    {
-      "id": "classics-drinks-juice-glass",
-      "theme": "classics",
-      "category": "drinks",
-      "file": "classics/drinks/juice-glass.svg",
-      "name": "Juice Glass"
-    },
-    {
-      "id": "classics-drinks-matcha-latte",
-      "theme": "classics",
-      "category": "drinks",
-      "file": "classics/drinks/matcha-latte.svg",
-      "name": "Matcha Latte"
-    },
-    {
-      "id": "classics-drinks-soda-cup",
-      "theme": "classics",
-      "category": "drinks",
-      "file": "classics/drinks/soda-cup.svg",
-      "name": "Soda Cup"
-    },
-    {
-      "id": "classics-fries-fries",
-      "theme": "classics",
-      "category": "fries",
-      "file": "classics/fries/fries.svg",
-      "name": "Fries"
-    },
-    {
-      "id": "classics-pizza-pizza-whole",
-      "theme": "classics",
-      "category": "pizza",
-      "file": "classics/pizza/pizza-whole.svg",
-      "name": "Whole Pizza"
-    },
-    {
-      "id": "classics-sandwich-club-sandwich",
-      "theme": "classics",
-      "category": "sandwich",
-      "file": "classics/sandwich/club-sandwich.svg",
-      "name": "Club Sandwich"
-    },
-    {
       "id": "coffee-creams-cream-butterscotch",
       "theme": "coffee",
       "category": "creams",
@@ -466,6 +410,41 @@
       "category": "cups",
       "file": "coffee/cups/cup-small.svg",
       "name": "Small Cup"
+    },
+    {
+      "id": "coffee-drinks-coffee-cup",
+      "theme": "coffee",
+      "category": "drinks",
+      "file": "coffee/drinks/coffee-cup.svg",
+      "name": "Coffee Cup"
+    },
+    {
+      "id": "coffee-drinks-coffee-mug",
+      "theme": "coffee",
+      "category": "drinks",
+      "file": "coffee/drinks/coffee-mug.svg",
+      "name": "Coffee Mug"
+    },
+    {
+      "id": "coffee-drinks-juice-glass",
+      "theme": "coffee",
+      "category": "drinks",
+      "file": "coffee/drinks/juice-glass.svg",
+      "name": "Juice Glass"
+    },
+    {
+      "id": "coffee-drinks-matcha-latte",
+      "theme": "coffee",
+      "category": "drinks",
+      "file": "coffee/drinks/matcha-latte.svg",
+      "name": "Matcha Latte"
+    },
+    {
+      "id": "coffee-drinks-soda-cup",
+      "theme": "coffee",
+      "category": "drinks",
+      "file": "coffee/drinks/soda-cup.svg",
+      "name": "Soda Cup"
     },
     {
       "id": "coffee-espresso-espresso-dark-roast",
@@ -781,6 +760,13 @@
       "category": "base",
       "file": "pizza/base/pizza-slice.svg",
       "name": "Pizza Slice"
+    },
+    {
+      "id": "pizza-base-pizza-whole",
+      "theme": "pizza",
+      "category": "base",
+      "file": "pizza/base/pizza-whole.svg",
+      "name": "Whole Pizza"
     },
     {
       "id": "pizza-toppings-topping-anchovies",
@@ -1266,6 +1252,13 @@
       "name": "Swiss Cheese"
     },
     {
+      "id": "sandwich-fries-fries-basket",
+      "theme": "sandwich",
+      "category": "fries",
+      "file": "sandwich/fries/fries-basket.svg",
+      "name": "Fries Basket"
+    },
+    {
       "id": "sandwich-fries-fries-crinkle",
       "theme": "sandwich",
       "category": "fries",
@@ -1362,6 +1355,34 @@
       "category": "fry-toppings",
       "file": "sandwich/fry-toppings/fry-sour-cream.svg",
       "name": "Sour Cream"
+    },
+    {
+      "id": "sandwich-grilled-club-sandwich",
+      "theme": "sandwich",
+      "category": "grilled",
+      "file": "sandwich/grilled/club-sandwich.svg",
+      "name": "Club Sandwich"
+    },
+    {
+      "id": "sandwich-grilled-grilled-cheese",
+      "theme": "sandwich",
+      "category": "grilled",
+      "file": "sandwich/grilled/grilled-cheese.svg",
+      "name": "Grilled Cheese"
+    },
+    {
+      "id": "sandwich-grilled-grilled-cheese-half",
+      "theme": "sandwich",
+      "category": "grilled",
+      "file": "sandwich/grilled/grilled-cheese-half.svg",
+      "name": "Grilled Cheese Half"
+    },
+    {
+      "id": "sandwich-grilled-grilled-cheese-loaded",
+      "theme": "sandwich",
+      "category": "grilled",
+      "file": "sandwich/grilled/grilled-cheese-loaded.svg",
+      "name": "Grilled Cheese Loaded"
     },
     {
       "id": "sandwich-sauces-sauce-balsamic",
