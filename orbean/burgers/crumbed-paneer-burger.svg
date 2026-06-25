@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <linearGradient id="paneerburger-bun-grad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F2BE74"/>
+      <stop offset="1" stop-color="#E8A95C"/>
+    </linearGradient>
+    <linearGradient id="paneerburger-base-grad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#E8A95C"/>
+      <stop offset="1" stop-color="#D38F42"/>
+    </linearGradient>
+    <linearGradient id="paneerburger-crumb-grad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#E8BE76"/>
+      <stop offset="1" stop-color="#D49E4E"/>
+    </linearGradient>
+  </defs>
+
+  <!-- contact shadow -->
+  <ellipse cx="128" cy="214" rx="84" ry="15" fill="#43291a" opacity="0.18"/>
+
+  <!-- BOTTOM BUN -->
+  <path d="M58 180 C58 198 84 208 128 208 C172 208 198 198 198 180 L198 172 C198 170 196 168 192 168 L64 168 C60 168 58 170 58 172 Z"
+        fill="url(#paneerburger-base-grad)" stroke="#9a5f25" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M70 198 C92 204 164 204 186 198" fill="none" stroke="#C57E33" stroke-width="4" stroke-linecap="round" opacity="0.6"/>
+
+  <!-- MINT-MAYO drizzle layer -->
+  <path d="M60 170 C70 160 186 160 196 170 C196 176 168 180 128 180 C88 180 60 176 60 170 Z"
+        fill="#CFE0B0" stroke="#9DB573" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M70 168 C90 164 166 164 188 168" fill="none" stroke="#E6EFCF" stroke-width="3" stroke-linecap="round" opacity="0.8"/>
+  <circle cx="100" cy="171" r="1.8" fill="#7d9a4e"/>
+  <circle cx="132" cy="172" r="1.8" fill="#7d9a4e"/>
+  <circle cx="162" cy="171" r="1.8" fill="#7d9a4e"/>
+
+  <!-- CRUMBED PANEER SLAB (thick, breaded) -->
+  <path d="M56 158 C56 138 82 130 128 130 C174 130 200 138 200 158 C200 166 170 172 128 172 C86 172 56 166 56 158 Z"
+        fill="url(#paneerburger-crumb-grad)" stroke="#A9742E" stroke-width="6" stroke-linejoin="round"/>
+  <!-- crumb speckle texture -->
+  <g fill="#B8842F">
+    <circle cx="80" cy="148" r="2.4"/>
+    <circle cx="100" cy="156" r="2"/>
+    <circle cx="118" cy="145" r="2.4"/>
+    <circle cx="138" cy="155" r="2"/>
+    <circle cx="156" cy="146" r="2.4"/>
+    <circle cx="176" cy="153" r="2"/>
+    <circle cx="92" cy="140" r="1.8"/>
+    <circle cx="146" cy="139" r="1.8"/>
+  </g>
+  <g fill="#F4D894">
+    <circle cx="88" cy="152" r="2"/>
+    <circle cx="128" cy="150" r="2.2"/>
+    <circle cx="166" cy="151" r="2"/>
+    <circle cx="108" cy="139" r="1.8"/>
+  </g>
+  <path d="M70 138 C96 132 160 132 186 138" fill="none" stroke="#F4D894" stroke-width="3" stroke-linecap="round" opacity="0.7"/>
+
+  <!-- PALE SLAW (shreds) -->
+  <path d="M54 130 C54 120 86 114 128 114 C170 114 202 120 202 130 C202 136 170 140 128 140 C86 140 54 136 54 130 Z"
+        fill="#F4ECDD" stroke="#C9B98F" stroke-width="6" stroke-linejoin="round"/>
+  <g stroke-width="3" stroke-linecap="round" fill="none" opacity="0.85">
+    <path d="M72 126 C82 122 96 130 108 124" stroke="#E0C264"/>
+    <path d="M112 130 C124 124 138 132 150 126" stroke="#CFE0B0"/>
+    <path d="M150 124 C162 130 174 124 186 128" stroke="#E0C264"/>
+    <path d="M84 132 C96 128 108 134 120 130" stroke="#D9C9A0"/>
+  </g>
+
+  <!-- TOP BUN -->
+  <path d="M52 116 C52 72 86 50 128 50 C170 50 204 72 204 116 C204 122 170 126 128 126 C86 126 52 122 52 116 Z"
+        fill="url(#paneerburger-bun-grad)" stroke="#9a5f25" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M70 78 C84 64 104 60 122 62" fill="none" stroke="#FBD79A" stroke-width="7" stroke-linecap="round" opacity="0.8"/>
+  <g fill="#FBE7C0" stroke="#C99548" stroke-width="2">
+    <ellipse cx="96" cy="86" rx="6" ry="3.4" transform="rotate(-22 96 86)"/>
+    <ellipse cx="126" cy="76" rx="6" ry="3.4" transform="rotate(6 126 76)"/>
+    <ellipse cx="158" cy="86" rx="6" ry="3.4" transform="rotate(22 158 86)"/>
+    <ellipse cx="112" cy="102" rx="6" ry="3.4" transform="rotate(-10 112 102)"/>
+    <ellipse cx="146" cy="102" rx="6" ry="3.4" transform="rotate(12 146 102)"/>
+    <ellipse cx="80" cy="106" rx="5.4" ry="3.1" transform="rotate(-30 80 106)"/>
+    <ellipse cx="176" cy="106" rx="5.4" ry="3.1" transform="rotate(30 176 106)"/>
+  </g>
+</svg>

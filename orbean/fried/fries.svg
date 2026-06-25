@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <linearGradient id="fries-carton" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e0503f"/>
+      <stop offset="1" stop-color="#C0392B"/>
+    </linearGradient>
+    <linearGradient id="fries-stick" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f7d666"/>
+      <stop offset="1" stop-color="#e6ad34"/>
+    </linearGradient>
+  </defs>
+
+  <!-- contact shadow -->
+  <ellipse cx="128" cy="212" rx="76" ry="17" fill="#43291a" opacity="0.18"/>
+
+  <!-- FRIES sticking out (behind carton top) -->
+  <g stroke="#9a5f25" stroke-width="6" stroke-linejoin="round" stroke-linecap="round">
+    <rect x="86" y="44" width="16" height="92" rx="5" fill="url(#fries-stick)" transform="rotate(-12 94 90)"/>
+    <rect x="104" y="36" width="16" height="100" rx="5" fill="#f2c84b" transform="rotate(-4 112 86)"/>
+    <rect x="124" y="34" width="16" height="102" rx="5" fill="url(#fries-stick)" transform="rotate(3 132 85)"/>
+    <rect x="142" y="40" width="16" height="98" rx="5" fill="#f2c84b" transform="rotate(10 150 89)"/>
+    <rect x="160" y="50" width="16" height="88" rx="5" fill="url(#fries-stick)" transform="rotate(16 168 94)"/>
+    <rect x="116" y="48" width="15" height="90" rx="5" fill="#f6d35a" transform="rotate(-1 123 93)"/>
+  </g>
+
+  <!-- sea salt flecks -->
+  <g fill="#ffffff" opacity="0.85">
+    <circle cx="96" cy="74" r="2"/><circle cx="112" cy="62" r="1.8"/>
+    <circle cx="130" cy="58" r="2"/><circle cx="146" cy="70" r="1.8"/>
+    <circle cx="164" cy="84" r="2"/><circle cx="120" cy="90" r="1.7"/>
+    <circle cx="138" cy="86" r="1.7"/>
+  </g>
+  <!-- stick highlights -->
+  <g stroke="#fbe79a" stroke-width="4" stroke-linecap="round" opacity="0.8" fill="none">
+    <path d="M111 50 l-2 70"/>
+    <path d="M131 46 l-1 72"/>
+  </g>
+
+  <!-- CARTON front -->
+  <g stroke="#9a5f25" stroke-width="6" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M76 124 L180 124 L168 198 a14 8 0 0 1 -80 0 Z" fill="url(#fries-carton)"/>
+    <!-- carton top rim -->
+    <path d="M72 118 L184 118 L180 132 L76 132 Z" fill="#e0503f" stroke="#9a5f25" stroke-width="6"/>
+  </g>
+
+  <!-- carton white chevron band -->
+  <g stroke="#C0392B" stroke-width="4" stroke-linejoin="round">
+    <path d="M90 144 l14 16 l-14 16 l8 0 l14 -16 l-14 -16 Z" fill="#f6ece0"/>
+    <path d="M118 144 l14 16 l-14 16 l8 0 l14 -16 l-14 -16 Z" fill="#f6ece0"/>
+    <path d="M146 144 l14 16 l-14 16 l8 0 l14 -16 l-14 -16 Z" fill="#f6ece0"/>
+  </g>
+
+  <!-- carton highlight -->
+  <path d="M84 130 l-7 58" fill="none" stroke="#f5897c" stroke-width="6" stroke-linecap="round" opacity="0.7"/>
+</svg>

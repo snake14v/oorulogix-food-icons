@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <linearGradient id="paneerfingers-crumb" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e9c07a"/>
+      <stop offset="1" stop-color="#d6a04f"/>
+    </linearGradient>
+    <linearGradient id="paneerfingers-plate" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fbf4e6"/>
+      <stop offset="1" stop-color="#ecdcc0"/>
+    </linearGradient>
+    <radialGradient id="paneerfingers-dip" cx="0.5" cy="0.4" r="0.7">
+      <stop offset="0" stop-color="#86c466"/>
+      <stop offset="1" stop-color="#6fae5c"/>
+    </radialGradient>
+  </defs>
+
+  <!-- contact shadow -->
+  <ellipse cx="128" cy="206" rx="80" ry="18" fill="#43291a" opacity="0.18"/>
+
+  <!-- plate -->
+  <ellipse cx="128" cy="184" rx="86" ry="28" fill="url(#paneerfingers-plate)" stroke="#9a5f25" stroke-width="6"/>
+  <ellipse cx="128" cy="181" rx="62" ry="16" fill="none" stroke="#d9c39a" stroke-width="4" opacity="0.7"/>
+
+  <!-- FINGERS fanned out -->
+  <g stroke="#9a5f25" stroke-width="6" stroke-linejoin="round" stroke-linecap="round">
+    <!-- finger 1 (far left) -->
+    <rect x="48" y="96" width="30" height="78" rx="14" fill="url(#paneerfingers-crumb)" transform="rotate(-24 63 135)"/>
+    <!-- finger 2 -->
+    <rect x="74" y="86" width="30" height="84" rx="14" fill="#e0b46a" transform="rotate(-10 89 128)"/>
+    <!-- finger 3 (center) -->
+    <rect x="104" y="82" width="30" height="86" rx="14" fill="url(#paneerfingers-crumb)" transform="rotate(2 119 125)"/>
+    <!-- finger 4 -->
+    <rect x="132" y="86" width="30" height="84" rx="14" fill="#e0b46a" transform="rotate(14 147 128)"/>
+  </g>
+
+  <!-- paneer cross-section peek on front finger -->
+  <rect x="135" y="92" width="22" height="10" rx="5" fill="#F2E3C9" stroke="#cdb88f" stroke-width="3" transform="rotate(14 146 97)"/>
+
+  <!-- crumb speckle texture -->
+  <g fill="#b87f2f" opacity="0.5">
+    <circle cx="60" cy="120" r="2.3"/><circle cx="66" cy="140" r="2.1"/>
+    <circle cx="88" cy="112" r="2.4"/><circle cx="92" cy="134" r="2.2"/>
+    <circle cx="118" cy="108" r="2.5"/><circle cx="120" cy="132" r="2.2"/>
+    <circle cx="146" cy="116" r="2.3"/><circle cx="150" cy="138" r="2.1"/>
+  </g>
+
+  <!-- highlights -->
+  <path d="M58 110 l-8 22" fill="none" stroke="#f6dca0" stroke-width="6" stroke-linecap="round" opacity="0.8"/>
+  <path d="M114 96 l0 24" fill="none" stroke="#f6dca0" stroke-width="6" stroke-linecap="round" opacity="0.8"/>
+
+  <!-- green chutney dip -->
+  <g stroke="#4f8c40" stroke-width="5" stroke-linejoin="round">
+    <ellipse cx="186" cy="174" rx="26" ry="14" fill="#f2e3c9"/>
+    <ellipse cx="186" cy="172" rx="19" ry="9" fill="url(#paneerfingers-dip)"/>
+  </g>
+  <ellipse cx="180" cy="169" rx="6" ry="3" fill="#a6dd7e" opacity="0.85"/>
+  <!-- chutney specks -->
+  <g fill="#3f7330" opacity="0.7">
+    <circle cx="190" cy="174" r="1.6"/><circle cx="183" cy="176" r="1.4"/>
+  </g>
+</svg>

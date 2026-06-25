@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <linearGradient id="bombaypotato-bread" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F2B85A"/>
+      <stop offset="1" stop-color="#E8A95C"/>
+    </linearGradient>
+    <linearGradient id="bombaypotato-potato" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#EBC06A"/>
+      <stop offset="1" stop-color="#E0B25A"/>
+    </linearGradient>
+    <clipPath id="bombaypotato-clip">
+      <path d="M44 120 L196 86 L226 150 L92 188 Z"/>
+    </clipPath>
+  </defs>
+  <ellipse cx="132" cy="206" rx="84" ry="17" fill="#43291a" opacity="0.18"/>
+  <path d="M40 132 L190 98 L222 158 L88 196 Z" fill="url(#bombaypotato-bread)" stroke="#9a5f25" stroke-width="6" stroke-linejoin="round"/>
+  <!-- green chutney layer peeking -->
+  <path d="M48 124 L194 90 L220 140 L86 178 Z" fill="#6FAE5C" stroke="#3f6e30" stroke-width="6" stroke-linejoin="round"/>
+  <!-- spiced potato filling -->
+  <path d="M52 120 L192 88 L214 132 L88 168 Z" fill="url(#bombaypotato-potato)" stroke="#9a5f25" stroke-width="6" stroke-linejoin="round"/>
+  <g clip-path="url(#bombaypotato-clip)">
+    <!-- potato chunks -->
+    <circle cx="100" cy="132" r="10" fill="#E8BC64" stroke="#b5862f" stroke-width="4"/>
+    <circle cx="128" cy="122" r="11" fill="#EBC06A" stroke="#b5862f" stroke-width="4"/>
+    <circle cx="158" cy="128" r="9" fill="#E8BC64" stroke="#b5862f" stroke-width="4"/>
+    <!-- mustard seeds / spice flecks -->
+    <circle cx="112" cy="138" r="2.5" fill="#8a5a1f"/>
+    <circle cx="140" cy="118" r="2.5" fill="#8a5a1f"/>
+    <circle cx="150" cy="136" r="2.5" fill="#C0392B"/>
+    <circle cx="122" cy="134" r="2.5" fill="#C0392B"/>
+  </g>
+  <path d="M44 110 L188 76 L208 122 L66 158 Z" fill="url(#bombaypotato-bread)" stroke="#9a5f25" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M72 95 L94 131" stroke="#C77C2E" stroke-width="6" stroke-linecap="round"/>
+  <path d="M108 87 L130 123" stroke="#C77C2E" stroke-width="6" stroke-linecap="round"/>
+  <path d="M144 79 L166 115" stroke="#C77C2E" stroke-width="6" stroke-linecap="round"/>
+  <path d="M52 104 L150 81" stroke="#FFE3A8" stroke-width="6" stroke-linecap="round" opacity="0.8"/>
+</svg>

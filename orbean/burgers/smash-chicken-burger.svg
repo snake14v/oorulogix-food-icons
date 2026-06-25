@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <linearGradient id="smashchicken-bun-grad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F2BE74"/>
+      <stop offset="1" stop-color="#E8A95C"/>
+    </linearGradient>
+    <linearGradient id="smashchicken-base-grad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#E8A95C"/>
+      <stop offset="1" stop-color="#D38F42"/>
+    </linearGradient>
+    <linearGradient id="smashchicken-patty-grad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#9C6838"/>
+      <stop offset="1" stop-color="#7A4E27"/>
+    </linearGradient>
+  </defs>
+
+  <!-- contact shadow -->
+  <ellipse cx="128" cy="214" rx="84" ry="15" fill="#43291a" opacity="0.18"/>
+
+  <!-- BOTTOM BUN -->
+  <path d="M58 182 C58 200 84 210 128 210 C172 210 198 200 198 182 L198 174 C198 172 196 170 192 170 L64 170 C60 170 58 172 58 174 Z"
+        fill="url(#smashchicken-base-grad)" stroke="#9a5f25" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M70 200 C92 206 164 206 186 200" fill="none" stroke="#C57E33" stroke-width="4" stroke-linecap="round" opacity="0.6"/>
+
+  <!-- SLAW layer -->
+  <path d="M56 172 C56 162 86 156 128 156 C170 156 200 162 200 172 C200 178 170 182 128 182 C86 182 56 178 56 172 Z"
+        fill="#F4ECDD" stroke="#C9B98F" stroke-width="6" stroke-linejoin="round"/>
+  <g stroke-width="3" stroke-linecap="round" fill="none" opacity="0.85">
+    <path d="M74 168 C84 164 98 172 110 166" stroke="#E0A24C"/>
+    <path d="M114 172 C126 166 140 174 152 168" stroke="#C0392B"/>
+    <path d="M152 166 C164 172 176 166 186 170" stroke="#E0A24C"/>
+    <path d="M86 174 C98 170 110 176 122 172" stroke="#D9C9A0"/>
+  </g>
+
+  <!-- SMASH CHICKEN PATTY (crispy browned, ragged edges) -->
+  <path d="M52 156 C50 150 56 140 64 138 C66 132 74 130 80 133 C84 128 92 128 96 132 C102 127 110 129 113 134 C118 129 128 129 132 134 C138 128 147 130 150 135 C156 130 165 132 168 137 C175 133 184 136 186 142 C194 142 200 148 200 154 C202 160 196 166 188 168 C170 174 86 174 68 168 C58 166 52 162 52 156 Z"
+        fill="url(#smashchicken-patty-grad)" stroke="#5a3a1f" stroke-width="6" stroke-linejoin="round"/>
+  <!-- crispy speckle / sear marks -->
+  <g fill="#5e3c1d">
+    <circle cx="84" cy="150" r="2.6"/>
+    <circle cx="108" cy="156" r="2.2"/>
+    <circle cx="132" cy="149" r="2.6"/>
+    <circle cx="158" cy="155" r="2.2"/>
+    <circle cx="96" cy="160" r="1.8"/>
+    <circle cx="146" cy="160" r="1.8"/>
+  </g>
+  <path d="M70 144 C96 139 160 139 184 145" fill="none" stroke="#B5814A" stroke-width="3" stroke-linecap="round" opacity="0.7"/>
+
+  <!-- MELTY CHEDDAR (draping over patty) -->
+  <path d="M60 138 L196 138 C200 138 202 141 200 144 L188 158 C186 160 184 160 182 158 L174 148 L162 160 C160 162 158 162 156 160 L146 148 L134 161 C132 163 130 163 128 161 L118 148 L106 160 C104 162 102 162 100 160 L90 149 L78 159 C76 161 74 161 72 159 L60 144 C58 141 58 138 60 138 Z"
+        fill="#F8BE3C" stroke="#D08A1C" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M72 138 L184 138" fill="none" stroke="#FFD773" stroke-width="3" stroke-linecap="round" opacity="0.85"/>
+
+  <!-- TOP BUN -->
+  <path d="M52 118 C52 74 86 52 128 52 C170 52 204 74 204 118 C204 124 170 128 128 128 C86 128 52 124 52 118 Z"
+        fill="url(#smashchicken-bun-grad)" stroke="#9a5f25" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M70 80 C84 66 104 62 122 64" fill="none" stroke="#FBD79A" stroke-width="7" stroke-linecap="round" opacity="0.8"/>
+  <g fill="#FBE7C0" stroke="#C99548" stroke-width="2">
+    <ellipse cx="96" cy="88" rx="6" ry="3.4" transform="rotate(-22 96 88)"/>
+    <ellipse cx="126" cy="78" rx="6" ry="3.4" transform="rotate(6 126 78)"/>
+    <ellipse cx="158" cy="88" rx="6" ry="3.4" transform="rotate(22 158 88)"/>
+    <ellipse cx="112" cy="104" rx="6" ry="3.4" transform="rotate(-10 112 104)"/>
+    <ellipse cx="146" cy="104" rx="6" ry="3.4" transform="rotate(12 146 104)"/>
+    <ellipse cx="80" cy="108" rx="5.4" ry="3.1" transform="rotate(-30 80 108)"/>
+    <ellipse cx="176" cy="108" rx="5.4" ry="3.1" transform="rotate(30 176 108)"/>
+  </g>
+</svg>

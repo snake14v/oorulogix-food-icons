@@ -1,6 +1,6 @@
 # Asset Catalog
 
-380 flat-cartoon food icons (SVG, 256×256). All names are generic.
+402 flat-cartoon food icons (SVG, 256×256). All names are generic.
 
 ## Bakery (27)
 
@@ -277,7 +277,7 @@
 | Gummy Rings | `freezer/toppers/gummy-rings.svg` |
 | Waffle Cone | `freezer/toppers/waffle-cone.svg` |
 
-## Orbean (43)
+## Orbean (65)
 
 ### Bases
 
@@ -288,6 +288,14 @@
 | Espresso | `orbean/bases/espresso.svg` |
 | Ice | `orbean/bases/ice.svg` |
 
+### Burgers
+
+| Label | File |
+|---|---|
+| Crumbed Paneer Burger | `orbean/burgers/crumbed-paneer-burger.svg` |
+| Smash Chicken Burger | `orbean/burgers/smash-chicken-burger.svg` |
+| Veg Burger | `orbean/burgers/veg-burger.svg` |
+
 ### Foams
 
 | Label | File |
@@ -297,6 +305,16 @@
 | Milk Foam | `orbean/foams/milk-foam.svg` |
 | Sakura Cream Foam | `orbean/foams/sakura-cream-foam.svg` |
 | Vanilla Cream | `orbean/foams/vanilla-cream.svg` |
+
+### Fried
+
+| Label | File |
+|---|---|
+| Cheese Jalapeno Poppers | `orbean/fried/cheese-jalapeno-poppers.svg` |
+| Chicken Strips | `orbean/fried/chicken-strips.svg` |
+| Chicken Wings | `orbean/fried/chicken-wings.svg` |
+| Fries | `orbean/fried/fries.svg` |
+| Paneer Fingers | `orbean/fried/paneer-fingers.svg` |
 
 ### Garnishes
 
@@ -336,6 +354,30 @@
 | Coconut Milk | `orbean/milks/coconut-milk.svg` |
 | Regular Milk | `orbean/milks/regular-milk.svg` |
 | Steamed Milk | `orbean/milks/steamed-milk.svg` |
+
+### Pizzas
+
+| Label | File |
+|---|---|
+| Makhani Paneer | `orbean/pizzas/makhani-paneer.svg` |
+| Margherita | `orbean/pizzas/margherita.svg` |
+| Peri Peri Chicken | `orbean/pizzas/peri-peri-chicken.svg` |
+| Shredded Chicken | `orbean/pizzas/shredded-chicken.svg` |
+| Smoky Chicken | `orbean/pizzas/smoky-chicken.svg` |
+| Veggie | `orbean/pizzas/veggie.svg` |
+
+### Sandwiches
+
+| Label | File |
+|---|---|
+| Bombay Potato | `orbean/sandwiches/bombay-potato.svg` |
+| Garden Veg | `orbean/sandwiches/garden-veg.svg` |
+| Garlic Mushroom | `orbean/sandwiches/garlic-mushroom.svg` |
+| Masala Paneer | `orbean/sandwiches/masala-paneer.svg` |
+| Peri Peri Chicken | `orbean/sandwiches/peri-peri-chicken.svg` |
+| Shredded Chicken | `orbean/sandwiches/shredded-chicken.svg` |
+| Smoky Chicken | `orbean/sandwiches/smoky-chicken.svg` |
+| Triple Cheese | `orbean/sandwiches/triple-cheese.svg` |
 
 ### Signatures
 

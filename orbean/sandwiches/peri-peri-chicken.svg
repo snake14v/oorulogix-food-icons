@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <linearGradient id="periperichicken-bread" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F2B85A"/>
+      <stop offset="1" stop-color="#E8A95C"/>
+    </linearGradient>
+    <linearGradient id="periperichicken-chick" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#C5784A"/>
+      <stop offset="1" stop-color="#B5683A"/>
+    </linearGradient>
+    <clipPath id="periperichicken-clip">
+      <path d="M44 120 L196 86 L226 150 L92 188 Z"/>
+    </clipPath>
+  </defs>
+  <ellipse cx="132" cy="206" rx="84" ry="17" fill="#43291a" opacity="0.18"/>
+  <path d="M40 132 L190 98 L222 158 L88 196 Z" fill="url(#periperichicken-bread)" stroke="#9a5f25" stroke-width="6" stroke-linejoin="round"/>
+  <!-- pale slaw layer peeking -->
+  <path d="M48 124 L194 90 L220 142 L86 180 Z" fill="#F0E6CC" stroke="#b89a5c" stroke-width="6" stroke-linejoin="round"/>
+  <g clip-path="url(#periperichicken-clip)">
+    <!-- slaw strands -->
+    <path d="M92 150 q22 -6 44 -2" fill="none" stroke="#C9B07A" stroke-width="3" stroke-linecap="round"/>
+    <path d="M96 158 q22 -6 46 -2" fill="none" stroke="#cf6a4a" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  <!-- crispy peri chicken layer -->
+  <path d="M52 122 L188 90 L210 130 L90 166 Z" fill="url(#periperichicken-chick)" stroke="#7a3a1f" stroke-width="6" stroke-linejoin="round"/>
+  <g clip-path="url(#periperichicken-clip)">
+    <!-- crispy texture bumps -->
+    <circle cx="98" cy="130" r="5" fill="#D08B5A"/>
+    <circle cx="124" cy="122" r="6" fill="#CF7E4A"/>
+    <circle cx="152" cy="126" r="5" fill="#D08B5A"/>
+    <circle cx="138" cy="134" r="4" fill="#C5704a"/>
+    <!-- peri sauce streaks -->
+    <path d="M96 140 q20 8 50 0" fill="none" stroke="#C0392B" stroke-width="4" stroke-linecap="round" opacity="0.85"/>
+    <path d="M110 116 q16 6 40 2" fill="none" stroke="#A82B20" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  <path d="M44 110 L188 76 L208 122 L66 158 Z" fill="url(#periperichicken-bread)" stroke="#9a5f25" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M72 95 L94 131" stroke="#C77C2E" stroke-width="6" stroke-linecap="round"/>
+  <path d="M108 87 L130 123" stroke="#C77C2E" stroke-width="6" stroke-linecap="round"/>
+  <path d="M144 79 L166 115" stroke="#C77C2E" stroke-width="6" stroke-linecap="round"/>
+  <path d="M52 104 L150 81" stroke="#FFE3A8" stroke-width="6" stroke-linecap="round" opacity="0.8"/>
+</svg>

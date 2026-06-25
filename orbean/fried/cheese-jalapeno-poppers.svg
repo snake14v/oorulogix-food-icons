@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <linearGradient id="poppers-crumb" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e9c07a"/>
+      <stop offset="1" stop-color="#d6a04f"/>
+    </linearGradient>
+    <radialGradient id="poppers-cheese" cx="0.5" cy="0.4" r="0.7">
+      <stop offset="0" stop-color="#ffd766"/>
+      <stop offset="1" stop-color="#f8be3c"/>
+    </radialGradient>
+    <linearGradient id="poppers-plate" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fbf4e6"/>
+      <stop offset="1" stop-color="#ecdcc0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- contact shadow -->
+  <ellipse cx="128" cy="206" rx="80" ry="18" fill="#43291a" opacity="0.18"/>
+
+  <!-- plate -->
+  <ellipse cx="128" cy="184" rx="86" ry="28" fill="url(#poppers-plate)" stroke="#9a5f25" stroke-width="6"/>
+  <ellipse cx="128" cy="181" rx="62" ry="16" fill="none" stroke="#d9c39a" stroke-width="4" opacity="0.7"/>
+
+  <!-- BACK popper (left) -->
+  <g stroke="#9a5f25" stroke-width="6" stroke-linejoin="round" stroke-linecap="round">
+    <rect x="58" y="118" width="74" height="44" rx="22" fill="url(#poppers-crumb)" transform="rotate(-14 95 140)"/>
+  </g>
+  <!-- back popper cheese ooze -->
+  <path d="M70 132 q12 -14 26 -8 q10 4 6 14 q-6 12 -22 8 q-14 -4 -10 -14 Z" fill="url(#poppers-cheese)" stroke="#d99312" stroke-width="4" transform="rotate(-14 90 138)"/>
+
+  <!-- FRONT popper (right) -->
+  <g stroke="#9a5f25" stroke-width="6" stroke-linejoin="round" stroke-linecap="round">
+    <rect x="120" y="126" width="80" height="46" rx="23" fill="#e0b46a" transform="rotate(12 160 149)"/>
+  </g>
+  <!-- crumb speckle texture -->
+  <g fill="#b87f2f" opacity="0.5">
+    <circle cx="138" cy="140" r="2.4"/><circle cx="156" cy="150" r="2.2"/>
+    <circle cx="176" cy="142" r="2.5"/><circle cx="150" cy="160" r="2.1"/>
+    <circle cx="84" cy="128" r="2.3"/><circle cx="104" cy="138" r="2.2"/>
+    <circle cx="118" cy="150" r="2"/>
+  </g>
+
+  <!-- molten cheese on front popper -->
+  <path d="M150 142 q16 -16 32 -6 q12 8 4 20 q-8 12 -26 8 q-18 -4 -10 -22 Z" fill="url(#poppers-cheese)" stroke="#d99312" stroke-width="4"/>
+  <path d="M158 162 q2 12 -4 18" fill="none" stroke="#f8be3c" stroke-width="6" stroke-linecap="round"/>
+
+  <!-- green jalapeno peeking -->
+  <g stroke="#3e7320" stroke-width="5" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M166 150 q14 -2 22 6 q6 6 -2 9 q-12 4 -22 -5 q-6 -6 2 -10 Z" fill="#5f9a2e"/>
+    <path d="M150 146 q-12 0 -18 6" fill="none" stroke="#5f9a2e" stroke-width="5"/>
+  </g>
+  <path d="M172 150 q8 0 12 4" fill="none" stroke="#86c24a" stroke-width="4" stroke-linecap="round" opacity="0.85"/>
+
+  <!-- highlights -->
+  <path d="M78 122 q20 -8 40 -2" fill="none" stroke="#f6dca0" stroke-width="6" stroke-linecap="round" opacity="0.8"/>
+  <path d="M134 130 q24 -8 46 0" fill="none" stroke="#f6dca0" stroke-width="6" stroke-linecap="round" opacity="0.8"/>
+</svg>

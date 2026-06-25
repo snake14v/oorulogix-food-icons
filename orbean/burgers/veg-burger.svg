@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <linearGradient id="vegburger-bun-grad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F2BE74"/>
+      <stop offset="1" stop-color="#E8A95C"/>
+    </linearGradient>
+    <linearGradient id="vegburger-base-grad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#E8A95C"/>
+      <stop offset="1" stop-color="#D38F42"/>
+    </linearGradient>
+    <clipPath id="vegburger-topclip">
+      <path d="M52 92 C52 52 88 34 128 34 C168 34 204 52 204 92 Z"/>
+    </clipPath>
+  </defs>
+
+  <!-- contact shadow -->
+  <ellipse cx="128" cy="214" rx="84" ry="15" fill="#43291a" opacity="0.18"/>
+
+  <!-- BOTTOM BUN -->
+  <path d="M58 178 C58 196 84 206 128 206 C172 206 198 196 198 178 L198 170 C198 168 196 166 192 166 L64 166 C60 166 58 168 58 170 Z"
+        fill="url(#vegburger-base-grad)" stroke="#9a5f25" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M70 196 C92 202 164 202 186 196" fill="none" stroke="#C57E33" stroke-width="4" stroke-linecap="round" opacity="0.6"/>
+
+  <!-- TOMATO slice -->
+  <path d="M60 168 C70 158 186 158 196 168 C196 174 168 178 128 178 C88 178 60 174 60 168 Z"
+        fill="#D94F3A" stroke="#A8341F" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M68 167 C90 162 166 162 188 167" fill="none" stroke="#E87A66" stroke-width="3" stroke-linecap="round" opacity="0.7"/>
+
+  <!-- VEG PATTY (green-brown) -->
+  <path d="M54 156 C54 142 80 134 128 134 C176 134 202 142 202 156 C202 162 172 166 128 166 C84 166 54 162 54 156 Z"
+        fill="#7a8a3a" stroke="#4e5a22" stroke-width="6" stroke-linejoin="round"/>
+  <circle cx="92" cy="148" r="3.5" fill="#5e6b29"/>
+  <circle cx="120" cy="152" r="3" fill="#5e6b29"/>
+  <circle cx="150" cy="147" r="3.5" fill="#5e6b29"/>
+  <circle cx="172" cy="152" r="2.6" fill="#5e6b29"/>
+  <path d="M66 142 C92 136 164 136 190 142" fill="none" stroke="#9aa84f" stroke-width="3" stroke-linecap="round" opacity="0.7"/>
+
+  <!-- ORANGE CHEESE slice (drips) -->
+  <path d="M62 134 L194 134 C198 134 200 136 198 139 L188 150 C186 152 184 152 182 150 L176 142 L166 152 C164 154 162 154 160 152 L150 142 L138 153 C136 155 134 155 132 153 L122 142 L110 151 C108 153 106 153 104 151 L94 142 L82 150 C80 152 78 152 76 150 L62 139 C60 136 60 134 62 134 Z"
+        fill="#F0A23C" stroke="#C77A20" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M74 134 L182 134" fill="none" stroke="#FBC56A" stroke-width="3" stroke-linecap="round" opacity="0.8"/>
+
+  <!-- LETTUCE (frilly) -->
+  <path d="M52 130 C58 120 66 128 74 120 C82 128 90 120 98 128 C106 120 114 128 122 120 C130 128 138 120 146 128 C154 120 162 128 170 120 C178 128 186 120 194 128 C200 124 204 128 204 132 C204 138 170 142 128 142 C86 142 52 138 52 132 Z"
+        fill="#8FBF4A" stroke="#5d8a2e" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M70 132 C96 128 160 128 186 132" fill="none" stroke="#B6DD78" stroke-width="3" stroke-linecap="round" opacity="0.7"/>
+
+  <!-- TOP BUN -->
+  <path d="M52 116 C52 72 86 50 128 50 C170 50 204 72 204 116 C204 122 170 126 128 126 C86 126 52 122 52 116 Z"
+        fill="url(#vegburger-bun-grad)" stroke="#9a5f25" stroke-width="6" stroke-linejoin="round"/>
+  <!-- bun highlight -->
+  <path d="M70 78 C84 64 104 60 122 62" fill="none" stroke="#FBD79A" stroke-width="7" stroke-linecap="round" opacity="0.8"/>
+  <!-- sesame seeds -->
+  <g fill="#FBE7C0" stroke="#C99548" stroke-width="2">
+    <ellipse cx="96" cy="86" rx="6" ry="3.4" transform="rotate(-22 96 86)"/>
+    <ellipse cx="126" cy="76" rx="6" ry="3.4" transform="rotate(6 126 76)"/>
+    <ellipse cx="158" cy="86" rx="6" ry="3.4" transform="rotate(22 158 86)"/>
+    <ellipse cx="112" cy="102" rx="6" ry="3.4" transform="rotate(-10 112 102)"/>
+    <ellipse cx="146" cy="102" rx="6" ry="3.4" transform="rotate(12 146 102)"/>
+    <ellipse cx="80" cy="106" rx="5.4" ry="3.1" transform="rotate(-30 80 106)"/>
+    <ellipse cx="176" cy="106" rx="5.4" ry="3.1" transform="rotate(30 176 106)"/>
+  </g>
+</svg>

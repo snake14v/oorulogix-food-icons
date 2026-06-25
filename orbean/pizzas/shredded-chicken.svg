@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <radialGradient id="shredded-chicken-crust" cx="50%" cy="42%" r="58%">
+      <stop offset="0%" stop-color="#F0D199"/>
+      <stop offset="100%" stop-color="#E8C27A"/>
+    </radialGradient>
+    <clipPath id="shredded-chicken-clip">
+      <circle cx="128" cy="130" r="80"/>
+    </clipPath>
+  </defs>
+  <ellipse cx="128" cy="222" rx="80" ry="14" fill="#43291a" opacity="0.18"/>
+  <circle cx="128" cy="130" r="92" fill="url(#shredded-chicken-crust)" stroke="#9a5f25" stroke-width="6"/>
+  <!-- makhani base -->
+  <circle cx="128" cy="130" r="80" fill="#D9913B" stroke="#9a5f25" stroke-width="4"/>
+  <g clip-path="url(#shredded-chicken-clip)">
+    <!-- sauce swirls -->
+    <path d="M66 106 q26 10 50 0 t60 6" fill="none" stroke="#C57F2C" stroke-width="6" stroke-linecap="round" opacity="0.7"/>
+    <path d="M64 156 q28 -8 54 4 t58 -6" fill="none" stroke="#C57F2C" stroke-width="6" stroke-linecap="round" opacity="0.7"/>
+    <!-- shredded chicken strands -->
+    <g fill="none" stroke="#cf9a5a" stroke-width="7" stroke-linecap="round">
+      <path d="M82 96 q22 -10 44 -2"/>
+      <path d="M96 110 q26 -6 50 4"/>
+      <path d="M84 128 q28 -4 54 6"/>
+      <path d="M100 146 q26 0 50 -8"/>
+      <path d="M88 162 q26 8 52 -2"/>
+      <path d="M118 178 q22 2 44 -10"/>
+      <path d="M140 92 q16 6 28 -2"/>
+    </g>
+    <!-- shredded chicken highlights -->
+    <g fill="none" stroke="#E5C089" stroke-width="3" stroke-linecap="round" opacity="0.8">
+      <path d="M90 94 q20 -8 38 -2"/>
+      <path d="M92 126 q26 -4 50 4"/>
+      <path d="M96 160 q24 6 48 -2"/>
+    </g>
+    <!-- onion slivers -->
+    <g fill="none" stroke="#E7D7E8" stroke-width="4" stroke-linecap="round">
+      <path d="M104 100 q14 -6 28 -2"/>
+      <path d="M120 138 q16 6 30 -2"/>
+      <path d="M96 168 q14 6 28 0"/>
+    </g>
+    <!-- coriander flecks -->
+    <g fill="#4f8a2e">
+      <circle cx="110" cy="106" r="3"/>
+      <circle cx="148" cy="120" r="3"/>
+      <circle cx="92" cy="140" r="3"/>
+      <circle cx="158" cy="148" r="3"/>
+      <circle cx="124" cy="158" r="3"/>
+      <circle cx="134" cy="96" r="2.6"/>
+      <circle cx="106" cy="170" r="2.6"/>
+    </g>
+  </g>
+  <path d="M70 90 q26 -34 70 -30" fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" opacity="0.26"/>
+</svg>

@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <radialGradient id="smoky-chicken-crust" cx="50%" cy="42%" r="58%">
+      <stop offset="0%" stop-color="#F0D199"/>
+      <stop offset="100%" stop-color="#E8C27A"/>
+    </radialGradient>
+    <clipPath id="smoky-chicken-clip">
+      <circle cx="128" cy="130" r="80"/>
+    </clipPath>
+  </defs>
+  <ellipse cx="128" cy="222" rx="80" ry="14" fill="#43291a" opacity="0.18"/>
+  <circle cx="128" cy="130" r="92" fill="url(#smoky-chicken-crust)" stroke="#9a5f25" stroke-width="6"/>
+  <circle cx="128" cy="130" r="80" fill="#C0392B" stroke="#9a5f25" stroke-width="4"/>
+  <g clip-path="url(#smoky-chicken-clip)">
+    <!-- sauce swirls -->
+    <path d="M66 102 q26 10 50 -2 t60 6" fill="none" stroke="#A93226" stroke-width="5" stroke-linecap="round" opacity="0.7"/>
+    <path d="M64 160 q28 -8 54 4 t58 -6" fill="none" stroke="#A93226" stroke-width="5" stroke-linecap="round" opacity="0.7"/>
+    <!-- mozzarella patches -->
+    <ellipse cx="98" cy="156" rx="19" ry="14" fill="#F4ECDD" stroke="#9a5f25" stroke-width="4"/>
+    <ellipse cx="160" cy="98" rx="18" ry="13" fill="#F4ECDD" stroke="#9a5f25" stroke-width="4"/>
+    <ellipse cx="126" cy="128" rx="15" ry="11" fill="#F4ECDD" stroke="#9a5f25" stroke-width="4"/>
+    <!-- smoky chicken pieces (darker, charred) -->
+    <g fill="#a8623a" stroke="#6b3a1f" stroke-width="5" stroke-linejoin="round">
+      <path d="M98 88 q20 -4 24 14 q-12 16 -28 6 q-6 -14 4 -20 Z"/>
+      <path d="M150 132 q20 0 22 18 q-16 12 -30 0 q-2 -14 8 -18 Z"/>
+      <path d="M84 132 q18 -4 22 12 q-8 16 -26 8 q-6 -14 4 -20 Z"/>
+      <path d="M134 162 q18 -2 22 14 q-14 12 -28 2 q-4 -12 6 -16 Z"/>
+    </g>
+    <!-- smoky char stripes -->
+    <g stroke="#3a2114" stroke-width="3" stroke-linecap="round" opacity="0.8">
+      <path d="M100 92 l16 12"/>
+      <path d="M104 100 l14 10"/>
+      <path d="M154 138 l14 10"/>
+      <path d="M88 138 l14 10"/>
+      <path d="M138 168 l14 8"/>
+    </g>
+    <!-- red & green pepper strips -->
+    <path d="M74 112 q20 -4 36 4" fill="none" stroke="#D6453A" stroke-width="8" stroke-linecap="round"/>
+    <path d="M126 76 q-8 16 4 32" fill="none" stroke="#4f8a2e" stroke-width="8" stroke-linecap="round"/>
+    <path d="M120 174 q22 0 38 -10" fill="none" stroke="#4f8a2e" stroke-width="8" stroke-linecap="round"/>
+    <path d="M172 122 q-6 16 2 32" fill="none" stroke="#D6453A" stroke-width="8" stroke-linecap="round"/>
+  </g>
+  <path d="M70 90 q26 -34 70 -30" fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" opacity="0.26"/>
+</svg>

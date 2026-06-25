@@ -3,7 +3,7 @@
   "style": "flat-cartoon",
   "viewBox": "0 0 256 256",
   "license": "MIT",
-  "count": 380,
+  "count": 402,
   "assets": [
     {
       "id": "bakery-crusts-chocolate-crust",
@@ -1028,6 +1028,27 @@
       "name": "Ice"
     },
     {
+      "id": "orbean-burgers-crumbed-paneer-burger",
+      "theme": "orbean",
+      "category": "burgers",
+      "file": "orbean/burgers/crumbed-paneer-burger.svg",
+      "name": "Crumbed Paneer Burger"
+    },
+    {
+      "id": "orbean-burgers-smash-chicken-burger",
+      "theme": "orbean",
+      "category": "burgers",
+      "file": "orbean/burgers/smash-chicken-burger.svg",
+      "name": "Smash Chicken Burger"
+    },
+    {
+      "id": "orbean-burgers-veg-burger",
+      "theme": "orbean",
+      "category": "burgers",
+      "file": "orbean/burgers/veg-burger.svg",
+      "name": "Veg Burger"
+    },
+    {
       "id": "orbean-foams-cream-cheese-foam",
       "theme": "orbean",
       "category": "foams",
@@ -1061,6 +1082,41 @@
       "category": "foams",
       "file": "orbean/foams/vanilla-cream.svg",
       "name": "Vanilla Cream"
+    },
+    {
+      "id": "orbean-fried-cheese-jalapeno-poppers",
+      "theme": "orbean",
+      "category": "fried",
+      "file": "orbean/fried/cheese-jalapeno-poppers.svg",
+      "name": "Cheese Jalapeno Poppers"
+    },
+    {
+      "id": "orbean-fried-chicken-strips",
+      "theme": "orbean",
+      "category": "fried",
+      "file": "orbean/fried/chicken-strips.svg",
+      "name": "Chicken Strips"
+    },
+    {
+      "id": "orbean-fried-chicken-wings",
+      "theme": "orbean",
+      "category": "fried",
+      "file": "orbean/fried/chicken-wings.svg",
+      "name": "Chicken Wings"
+    },
+    {
+      "id": "orbean-fried-fries",
+      "theme": "orbean",
+      "category": "fried",
+      "file": "orbean/fried/fries.svg",
+      "name": "Fries"
+    },
+    {
+      "id": "orbean-fried-paneer-fingers",
+      "theme": "orbean",
+      "category": "fried",
+      "file": "orbean/fried/paneer-fingers.svg",
+      "name": "Paneer Fingers"
     },
     {
       "id": "orbean-garnishes-caramel-brittle",
@@ -1194,6 +1250,104 @@
       "category": "milks",
       "file": "orbean/milks/steamed-milk.svg",
       "name": "Steamed Milk"
+    },
+    {
+      "id": "orbean-pizzas-makhani-paneer",
+      "theme": "orbean",
+      "category": "pizzas",
+      "file": "orbean/pizzas/makhani-paneer.svg",
+      "name": "Makhani Paneer"
+    },
+    {
+      "id": "orbean-pizzas-margherita",
+      "theme": "orbean",
+      "category": "pizzas",
+      "file": "orbean/pizzas/margherita.svg",
+      "name": "Margherita"
+    },
+    {
+      "id": "orbean-pizzas-peri-peri-chicken",
+      "theme": "orbean",
+      "category": "pizzas",
+      "file": "orbean/pizzas/peri-peri-chicken.svg",
+      "name": "Peri Peri Chicken"
+    },
+    {
+      "id": "orbean-pizzas-shredded-chicken",
+      "theme": "orbean",
+      "category": "pizzas",
+      "file": "orbean/pizzas/shredded-chicken.svg",
+      "name": "Shredded Chicken"
+    },
+    {
+      "id": "orbean-pizzas-smoky-chicken",
+      "theme": "orbean",
+      "category": "pizzas",
+      "file": "orbean/pizzas/smoky-chicken.svg",
+      "name": "Smoky Chicken"
+    },
+    {
+      "id": "orbean-pizzas-veggie",
+      "theme": "orbean",
+      "category": "pizzas",
+      "file": "orbean/pizzas/veggie.svg",
+      "name": "Veggie"
+    },
+    {
+      "id": "orbean-sandwiches-bombay-potato",
+      "theme": "orbean",
+      "category": "sandwiches",
+      "file": "orbean/sandwiches/bombay-potato.svg",
+      "name": "Bombay Potato"
+    },
+    {
+      "id": "orbean-sandwiches-garden-veg",
+      "theme": "orbean",
+      "category": "sandwiches",
+      "file": "orbean/sandwiches/garden-veg.svg",
+      "name": "Garden Veg"
+    },
+    {
+      "id": "orbean-sandwiches-garlic-mushroom",
+      "theme": "orbean",
+      "category": "sandwiches",
+      "file": "orbean/sandwiches/garlic-mushroom.svg",
+      "name": "Garlic Mushroom"
+    },
+    {
+      "id": "orbean-sandwiches-masala-paneer",
+      "theme": "orbean",
+      "category": "sandwiches",
+      "file": "orbean/sandwiches/masala-paneer.svg",
+      "name": "Masala Paneer"
+    },
+    {
+      "id": "orbean-sandwiches-peri-peri-chicken",
+      "theme": "orbean",
+      "category": "sandwiches",
+      "file": "orbean/sandwiches/peri-peri-chicken.svg",
+      "name": "Peri Peri Chicken"
+    },
+    {
+      "id": "orbean-sandwiches-shredded-chicken",
+      "theme": "orbean",
+      "category": "sandwiches",
+      "file": "orbean/sandwiches/shredded-chicken.svg",
+      "name": "Shredded Chicken"
+    },
+    {
+      "id": "orbean-sandwiches-smoky-chicken",
+      "theme": "orbean",
+      "category": "sandwiches",
+      "file": "orbean/sandwiches/smoky-chicken.svg",
+      "name": "Smoky Chicken"
+    },
+    {
+      "id": "orbean-sandwiches-triple-cheese",
+      "theme": "orbean",
+      "category": "sandwiches",
+      "file": "orbean/sandwiches/triple-cheese.svg",
+      "name": "Triple Cheese"
     },
     {
       "id": "orbean-signatures-blue-pea-tea-latte",

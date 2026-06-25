@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <linearGradient id="smokychicken-bread" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F2B85A"/>
+      <stop offset="1" stop-color="#E8A95C"/>
+    </linearGradient>
+    <linearGradient id="smokychicken-chick" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#B86E48"/>
+      <stop offset="1" stop-color="#A8623A"/>
+    </linearGradient>
+    <clipPath id="smokychicken-clip">
+      <path d="M44 120 L196 86 L226 150 L92 188 Z"/>
+    </clipPath>
+  </defs>
+  <ellipse cx="132" cy="206" rx="84" ry="17" fill="#43291a" opacity="0.18"/>
+  <path d="M40 132 L190 98 L222 158 L88 196 Z" fill="url(#smokychicken-bread)" stroke="#9a5f25" stroke-width="6" stroke-linejoin="round"/>
+  <!-- smoky chicken layer -->
+  <path d="M48 122 L194 88 L222 144 L86 182 Z" fill="url(#smokychicken-chick)" stroke="#7a3a1f" stroke-width="6" stroke-linejoin="round"/>
+  <g clip-path="url(#smokychicken-clip)">
+    <!-- chicken chunks -->
+    <path d="M90 132 q16 -12 30 -2 q-2 14 -18 14 q-16 0 -12 -12 Z" fill="#BC724C" stroke="#7a3a1f" stroke-width="4" stroke-linejoin="round"/>
+    <path d="M128 122 q16 -12 30 -2 q-2 14 -18 14 q-16 0 -12 -12 Z" fill="#B06642" stroke="#7a3a1f" stroke-width="4" stroke-linejoin="round"/>
+    <!-- char grill marks -->
+    <path d="M96 128 l10 -4" stroke="#5a2e18" stroke-width="3" stroke-linecap="round"/>
+    <path d="M102 136 l10 -4" stroke="#5a2e18" stroke-width="3" stroke-linecap="round"/>
+    <path d="M136 118 l10 -4" stroke="#5a2e18" stroke-width="3" stroke-linecap="round"/>
+    <!-- red pepper strips -->
+    <path d="M104 148 q16 -4 30 0" fill="none" stroke="#C0392B" stroke-width="6" stroke-linecap="round"/>
+    <!-- green pepper strips -->
+    <path d="M120 116 q14 -3 26 0" fill="none" stroke="#5b9f3e" stroke-width="6" stroke-linecap="round"/>
+  </g>
+  <path d="M44 110 L188 76 L208 122 L66 158 Z" fill="url(#smokychicken-bread)" stroke="#9a5f25" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M72 95 L94 131" stroke="#C77C2E" stroke-width="6" stroke-linecap="round"/>
+  <path d="M108 87 L130 123" stroke="#C77C2E" stroke-width="6" stroke-linecap="round"/>
+  <path d="M144 79 L166 115" stroke="#C77C2E" stroke-width="6" stroke-linecap="round"/>
+  <path d="M52 104 L150 81" stroke="#FFE3A8" stroke-width="6" stroke-linecap="round" opacity="0.8"/>
+</svg>

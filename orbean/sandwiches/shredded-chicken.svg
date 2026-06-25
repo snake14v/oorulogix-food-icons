@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <linearGradient id="shreddedchicken-bread" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F2B85A"/>
+      <stop offset="1" stop-color="#E8A95C"/>
+    </linearGradient>
+    <linearGradient id="shreddedchicken-cheese" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FBD06A"/>
+      <stop offset="1" stop-color="#F8BE3C"/>
+    </linearGradient>
+    <clipPath id="shreddedchicken-clip">
+      <path d="M44 120 L196 86 L226 150 L92 188 Z"/>
+    </clipPath>
+  </defs>
+  <ellipse cx="132" cy="206" rx="84" ry="17" fill="#43291a" opacity="0.18"/>
+  <!-- cheese drip -->
+  <path d="M120 152 q-5 20 4 28 q9 -6 6 -24 Z" fill="url(#shreddedchicken-cheese)" stroke="#9a5f25" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M40 132 L190 98 L222 158 L88 196 Z" fill="url(#shreddedchicken-bread)" stroke="#9a5f25" stroke-width="6" stroke-linejoin="round"/>
+  <!-- cheese base -->
+  <path d="M48 122 L194 88 L222 144 L86 182 Z" fill="url(#shreddedchicken-cheese)" stroke="#9a5f25" stroke-width="6" stroke-linejoin="round"/>
+  <g clip-path="url(#shreddedchicken-clip)">
+    <!-- shredded chicken strands -->
+    <path d="M88 134 q24 -10 50 -6" fill="none" stroke="#CF9A5A" stroke-width="6" stroke-linecap="round"/>
+    <path d="M92 142 q26 -10 56 -4" fill="none" stroke="#C28C4A" stroke-width="6" stroke-linecap="round"/>
+    <path d="M100 124 q24 -8 48 -4" fill="none" stroke="#D8A765" stroke-width="6" stroke-linecap="round"/>
+    <path d="M114 150 q22 -6 44 -2" fill="none" stroke="#CF9A5A" stroke-width="6" stroke-linecap="round"/>
+    <!-- green chilli slices -->
+    <path d="M104 130 q10 -3 16 2" fill="none" stroke="#5b9f3e" stroke-width="5" stroke-linecap="round"/>
+    <path d="M146 124 q9 -3 15 2" fill="none" stroke="#5b9f3e" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="132" cy="142" r="3" fill="#3f6e30"/>
+  </g>
+  <path d="M44 110 L188 76 L208 122 L66 158 Z" fill="url(#shreddedchicken-bread)" stroke="#9a5f25" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M72 95 L94 131" stroke="#C77C2E" stroke-width="6" stroke-linecap="round"/>
+  <path d="M108 87 L130 123" stroke="#C77C2E" stroke-width="6" stroke-linecap="round"/>
+  <path d="M144 79 L166 115" stroke="#C77C2E" stroke-width="6" stroke-linecap="round"/>
+  <path d="M52 104 L150 81" stroke="#FFE3A8" stroke-width="6" stroke-linecap="round" opacity="0.8"/>
+</svg>

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <linearGradient id="masalapaneer-bread" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F2B85A"/>
+      <stop offset="1" stop-color="#E8A95C"/>
+    </linearGradient>
+    <linearGradient id="masalapaneer-sauce" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#E2A24A"/>
+      <stop offset="1" stop-color="#D9913B"/>
+    </linearGradient>
+    <clipPath id="masalapaneer-clip">
+      <path d="M44 120 L196 86 L226 150 L92 188 Z"/>
+    </clipPath>
+  </defs>
+  <ellipse cx="132" cy="206" rx="84" ry="17" fill="#43291a" opacity="0.18"/>
+  <path d="M40 132 L190 98 L222 158 L88 196 Z" fill="url(#masalapaneer-bread)" stroke="#9a5f25" stroke-width="6" stroke-linejoin="round"/>
+  <!-- makhani masala filling -->
+  <path d="M48 122 L194 88 L222 144 L86 182 Z" fill="url(#masalapaneer-sauce)" stroke="#9a5f25" stroke-width="6" stroke-linejoin="round"/>
+  <g clip-path="url(#masalapaneer-clip)">
+    <!-- paneer cubes -->
+    <path d="M94 130 l16 -4 l4 14 l-16 4 Z" fill="#F2E3C9" stroke="#b48a4a" stroke-width="4" stroke-linejoin="round"/>
+    <path d="M124 120 l16 -4 l4 14 l-16 4 Z" fill="#F2E3C9" stroke="#b48a4a" stroke-width="4" stroke-linejoin="round"/>
+    <path d="M156 134 l15 -4 l4 13 l-15 4 Z" fill="#F8EEDB" stroke="#b48a4a" stroke-width="4" stroke-linejoin="round"/>
+    <!-- charred red pepper -->
+    <path d="M108 146 q12 -4 20 2 q-6 8 -16 6 q-8 -2 -4 -8 Z" fill="#C0392B" stroke="#7a2018" stroke-width="4" stroke-linejoin="round"/>
+    <!-- charred green pepper -->
+    <path d="M150 116 q12 -4 20 2 q-6 8 -16 6 q-8 -2 -4 -8 Z" fill="#5b8f3e" stroke="#37591f" stroke-width="4" stroke-linejoin="round"/>
+    <circle cx="138" cy="148" r="3" fill="#7a2018"/>
+  </g>
+  <path d="M44 110 L188 76 L208 122 L66 158 Z" fill="url(#masalapaneer-bread)" stroke="#9a5f25" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M72 95 L94 131" stroke="#C77C2E" stroke-width="6" stroke-linecap="round"/>
+  <path d="M108 87 L130 123" stroke="#C77C2E" stroke-width="6" stroke-linecap="round"/>
+  <path d="M144 79 L166 115" stroke="#C77C2E" stroke-width="6" stroke-linecap="round"/>
+  <path d="M52 104 L150 81" stroke="#FFE3A8" stroke-width="6" stroke-linecap="round" opacity="0.8"/>
+</svg>

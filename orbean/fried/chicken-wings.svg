@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <linearGradient id="chickenwings-glaze" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c97a45"/>
+      <stop offset="1" stop-color="#a9572f"/>
+    </linearGradient>
+    <linearGradient id="chickenwings-bowl" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fbf4e6"/>
+      <stop offset="1" stop-color="#eadcc1"/>
+    </linearGradient>
+  </defs>
+
+  <!-- contact shadow -->
+  <ellipse cx="128" cy="208" rx="82" ry="18" fill="#43291a" opacity="0.18"/>
+
+  <!-- bowl -->
+  <path d="M50 158 a78 30 0 0 0 156 0 Z" fill="url(#chickenwings-bowl)" stroke="#9a5f25" stroke-width="6" stroke-linejoin="round"/>
+  <ellipse cx="128" cy="158" rx="78" ry="26" fill="#fdf8ec" stroke="#9a5f25" stroke-width="6"/>
+  <ellipse cx="128" cy="156" rx="58" ry="16" fill="#e9d6b4" opacity="0.6"/>
+
+  <!-- WINGS (drumette shapes) - lacquered -->
+  <g stroke="#5a3a1f" stroke-width="6" stroke-linejoin="round" stroke-linecap="round">
+    <!-- back left -->
+    <path d="M70 150 q-6 -26 18 -32 q20 -5 28 12 q8 18 -10 28 q-24 10 -36 -8 Z" fill="url(#chickenwings-glaze)"/>
+    <!-- back right -->
+    <path d="M186 150 q6 -26 -18 -32 q-20 -5 -28 12 q-8 18 10 28 q24 10 36 -8 Z" fill="url(#chickenwings-glaze)"/>
+    <!-- bone tip left -->
+    <path d="M64 122 l-12 -6 q-5 -2 -3 4 l6 12" fill="#f2e3c9"/>
+    <!-- bone tip right -->
+    <path d="M192 122 l12 -6 q5 -2 3 4 l-6 12" fill="#f2e3c9"/>
+    <!-- front center drumette -->
+    <path d="M104 156 q-8 -34 26 -40 q26 -4 34 18 q9 24 -16 36 q-32 12 -44 -14 Z" fill="#b5683a"/>
+    <!-- center bone -->
+    <path d="M126 116 l-2 -16 q0 -6 6 -4 l4 14" fill="#f2e3c9"/>
+  </g>
+
+  <!-- glossy highlights -->
+  <g fill="#e8a26b" opacity="0.85">
+    <ellipse cx="86" cy="130" rx="9" ry="5" transform="rotate(-20 86 130)"/>
+    <ellipse cx="170" cy="130" rx="9" ry="5" transform="rotate(20 170 130)"/>
+    <ellipse cx="124" cy="128" rx="11" ry="6" transform="rotate(-8 124 128)"/>
+  </g>
+  <!-- tiny sesame/pepper specks -->
+  <g fill="#5a3a1f" opacity="0.6">
+    <circle cx="112" cy="148" r="1.8"/><circle cx="140" cy="142" r="1.8"/>
+    <circle cx="80" cy="146" r="1.6"/><circle cx="176" cy="146" r="1.6"/>
+  </g>
+
+  <!-- bowl rim highlight -->
+  <path d="M86 150 q42 16 84 0" fill="none" stroke="#ffffff" stroke-width="4" stroke-linecap="round" opacity="0.55"/>
+</svg>
