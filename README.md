@@ -2,14 +2,13 @@
 
 # 🍱 Flat Food Icons
 
-An open-source pack of **226 original flat-cartoon icons** — food items **and** restaurant POS / management UI — for food-ordering apps, cooking games, dashboards, kiosks, and prototypes. Hand-built SVG — scalable, tiny, and easy to animate.
+An open-source pack of **219 original flat-cartoon icons** — food items **and** restaurant POS / management UI — for food-ordering apps, cooking games, dashboards, kiosks, and prototypes. Hand-built SVG — scalable, tiny, and easy to animate.
 
 All artwork is original and all names are generic. Licensed under the **MIT License** (see `LICENSE`).
 
 ## Contents
 - **Bakery** — 27 icons
 - **Burger** — 12 icons
-- **Classics** — 7 icons
 - **Coffee** — 57 icons
 - **Pizza** — 13 icons
 - **Pos** — 40 icons
@@ -18,12 +17,11 @@ All artwork is original and all names are generic. Licensed under the **MIT Lice
 ## Structure
 ```
 food-assets/
-├── coffee/      cups, espresso, milk, syrups, ice, powders, creams, toppings, pastry-shells
-├── sandwich/    breads, cheeses, toppings, sauces, fries, fry-toppings
+├── coffee/      cups, espresso, milk, syrups, ice, powders, creams, toppings, pastry-shells, drinks
+├── sandwich/    breads, cheeses, toppings, sauces, fries, fry-toppings, grilled
 ├── pizza/       base, toppings
 ├── burger/      base, toppings, sauces
 ├── bakery/      crusts, fillings, top-crusts, toppers
-├── classics/    burger, drinks, pizza, sandwich, fries  (composed / finished items)
 ├── pos/         payment, orders, restaurant, actions, dashboard  (POS / management UI icons)
 ├── catalog.json   machine-readable index (id, label, path) of every asset
 ├── CATALOG.md      human-readable catalog

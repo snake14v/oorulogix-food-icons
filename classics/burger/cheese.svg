@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
-  <!-- cheese : melty american slice -->
-  <ellipse cx="128" cy="170" rx="78" ry="11" fill="#000" opacity="0.10"/>
-  <path d="M56 120 L200 120 L200 138 L182 162 L168 140 L146 168 L128 142 L108 166 L88 140 L70 160 L56 138 Z"
-        fill="#F8BE3C" stroke="#C8841A" stroke-width="6" stroke-linejoin="round"/>
-  <path d="M64 126 L192 126" stroke="#FCDB7E" stroke-width="6" stroke-linecap="round" opacity="0.8"/>
-</svg>

@@ -1,6 +1,6 @@
 # Asset Catalog
 
-226 flat-cartoon food icons (SVG, 256×256). All names are generic.
+219 flat-cartoon food icons (SVG, 256×256). All names are generic.
 
 ## Bakery (27)
 
@@ -79,20 +79,6 @@
 | Onion | `burger/toppings/onion.svg` |
 | Pickle | `burger/toppings/pickle.svg` |
 | Tomato | `burger/toppings/tomato.svg` |
-
-## Classics (7)
-
-### Burger
-
-| Label | File |
-|---|---|
-| Bottom Bun | `classics/burger/bun-bottom.svg` |
-| Cheese | `classics/burger/cheese.svg` |
-| Full Burger | `classics/burger/burger-full.svg` |
-| Lettuce | `classics/burger/lettuce.svg` |
-| Patty | `classics/burger/patty.svg` |
-| Tomato | `classics/burger/tomato.svg` |
-| Top Bun | `classics/burger/bun-top.svg` |
 
 ## Coffee (57)
 

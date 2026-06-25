@@ -3,7 +3,7 @@
   "style": "flat-cartoon",
   "viewBox": "0 0 256 256",
   "license": "MIT",
-  "count": 226,
+  "count": 219,
   "assets": [
     {
       "id": "bakery-crusts-chocolate-crust",
@@ -277,55 +277,6 @@
       "category": "toppings",
       "file": "burger/toppings/tomato.svg",
       "name": "Tomato"
-    },
-    {
-      "id": "classics-burger-bun-bottom",
-      "theme": "classics",
-      "category": "burger",
-      "file": "classics/burger/bun-bottom.svg",
-      "name": "Bottom Bun"
-    },
-    {
-      "id": "classics-burger-cheese",
-      "theme": "classics",
-      "category": "burger",
-      "file": "classics/burger/cheese.svg",
-      "name": "Cheese"
-    },
-    {
-      "id": "classics-burger-burger-full",
-      "theme": "classics",
-      "category": "burger",
-      "file": "classics/burger/burger-full.svg",
-      "name": "Full Burger"
-    },
-    {
-      "id": "classics-burger-lettuce",
-      "theme": "classics",
-      "category": "burger",
-      "file": "classics/burger/lettuce.svg",
-      "name": "Lettuce"
-    },
-    {
-      "id": "classics-burger-patty",
-      "theme": "classics",
-      "category": "burger",
-      "file": "classics/burger/patty.svg",
-      "name": "Patty"
-    },
-    {
-      "id": "classics-burger-tomato",
-      "theme": "classics",
-      "category": "burger",
-      "file": "classics/burger/tomato.svg",
-      "name": "Tomato"
-    },
-    {
-      "id": "classics-burger-bun-top",
-      "theme": "classics",
-      "category": "burger",
-      "file": "classics/burger/bun-top.svg",
-      "name": "Top Bun"
     },
     {
       "id": "coffee-creams-cream-butterscotch",

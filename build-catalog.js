@@ -119,12 +119,11 @@ ${themeCounts}
 ## Structure
 \`\`\`
 food-assets/
-├── coffee/      cups, espresso, milk, syrups, ice, powders, creams, toppings, pastry-shells
-├── sandwich/    breads, cheeses, toppings, sauces, fries, fry-toppings
+├── coffee/      cups, espresso, milk, syrups, ice, powders, creams, toppings, pastry-shells, drinks
+├── sandwich/    breads, cheeses, toppings, sauces, fries, fry-toppings, grilled
 ├── pizza/       base, toppings
 ├── burger/      base, toppings, sauces
 ├── bakery/      crusts, fillings, top-crusts, toppers
-├── classics/    burger, drinks, pizza, sandwich, fries  (composed / finished items)
 ├── pos/         payment, orders, restaurant, actions, dashboard  (POS / management UI icons)
 ├── catalog.json   machine-readable index (id, label, path) of every asset
 ├── CATALOG.md      human-readable catalog
