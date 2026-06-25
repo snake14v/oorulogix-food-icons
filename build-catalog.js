@@ -105,7 +105,9 @@ fs.writeFileSync(path.join(OUT,'gallery.html'), gallery);
 
 const themeCounts = Object.keys(byTheme).sort().map(t=>`- **${tc(t)}** — ${Object.values(byTheme[t]).reduce((n,a)=>n+a.length,0)} icons`).join('\n');
 fs.writeFileSync(path.join(OUT,'README.md'),
-`# 🍱 Flat Food Icons
+`<p align="center"><img src="banner.svg" alt="Oorulogix — Flat Food Icons" width="760"></p>
+
+# 🍱 Flat Food Icons
 
 An open-source pack of **${catalog.length} original flat-cartoon food icons** for food-ordering apps, cooking games, menus, and prototypes. Hand-built SVG — scalable, tiny, and easy to animate.
 
@@ -139,7 +141,7 @@ Inline the SVG to animate inner groups — e.g. drink cups expose \`<g id="steam
 After adding or renaming files, run \`node build-catalog.js\` to refresh the catalog and gallery.
 
 ## Credits
-Original artwork. No third-party assets included. Set the copyright holder in \`LICENSE\` before publishing.
+Original artwork — no third-party assets included. Released under the MIT License (see \`LICENSE\`).
 `);
 
 console.log('catalog rebuilt:', catalog.length, 'assets');
