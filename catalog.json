@@ -3,7 +3,7 @@
   "style": "flat-cartoon",
   "viewBox": "0 0 256 256",
   "license": "MIT",
-  "count": 405,
+  "count": 407,
   "assets": [
     {
       "id": "bakery-crusts-chocolate-crust",
@@ -1511,11 +1511,25 @@
       "name": "Garlic Bread"
     },
     {
+      "id": "pizza-sides-garlic-breadsticks",
+      "theme": "pizza",
+      "category": "sides",
+      "file": "pizza/sides/garlic-breadsticks.svg",
+      "name": "Garlic Breadsticks"
+    },
+    {
       "id": "pizza-sides-garlic-knot",
       "theme": "pizza",
       "category": "sides",
       "file": "pizza/sides/garlic-knot.svg",
       "name": "Garlic Knot"
+    },
+    {
+      "id": "pizza-sides-garlic-toast",
+      "theme": "pizza",
+      "category": "sides",
+      "file": "pizza/sides/garlic-toast.svg",
+      "name": "Garlic Toast"
     },
     {
       "id": "pizza-toppings-topping-anchovies",

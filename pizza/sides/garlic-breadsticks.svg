@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <linearGradient id="d-breadsticks-stick" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#edbb6a"/>
+      <stop offset="1" stop-color="#e0a850"/>
+    </linearGradient>
+    <linearGradient id="d-breadsticks-butter" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f6cf7e"/>
+      <stop offset="1" stop-color="#eab95c"/>
+    </linearGradient>
+  </defs>
+
+  <!-- contact shadow -->
+  <ellipse cx="128" cy="206" rx="74" ry="13" fill="#000" opacity="0.12"/>
+
+  <!-- ===== LEFT breadstick (leaning left) ===== -->
+  <g transform="rotate(-15 128 130)">
+    <rect x="58" y="44" width="38" height="158" rx="19"
+          fill="url(#d-breadsticks-stick)" stroke="#9a5f25" stroke-width="6"/>
+    <!-- shaded side -->
+    <path d="M86 50 a19 19 0 0 1 10 16 v120 a19 19 0 0 1 -10 16 z"
+          fill="#c98a3a" opacity="0.85"/>
+    <!-- glossy garlic-herb butter brush -->
+    <path d="M64 64 q14 -8 28 0 q-4 36 -2 72 q-12 7 -24 0 q2 -36 -2 -72 z"
+          fill="url(#d-breadsticks-butter)" opacity="0.9"/>
+    <!-- soft twist/score -->
+    <path d="M77 56 q8 12 -2 24 q8 12 -2 24 q8 12 -2 24 q8 12 -2 24 q8 12 -2 24"
+          fill="none" stroke="#c98a3a" stroke-width="4" stroke-linecap="round"/>
+    <!-- highlight -->
+    <path d="M67 60 q4 0 5 4 v110 q-1 4 -5 4 z" fill="#f6d28e" opacity="0.7"/>
+    <!-- parsley flecks -->
+    <circle cx="72" cy="84" r="3" fill="#4f8a2e"/>
+    <circle cx="84" cy="110" r="2.5" fill="#4f8a2e"/>
+    <circle cx="70" cy="140" r="2.5" fill="#4f8a2e"/>
+    <circle cx="83" cy="160" r="3" fill="#4f8a2e"/>
+    <circle cx="74" cy="180" r="2.5" fill="#4f8a2e"/>
+  </g>
+
+  <!-- ===== CENTER breadstick (upright) ===== -->
+  <g>
+    <rect x="109" y="40" width="38" height="166" rx="19"
+          fill="url(#d-breadsticks-stick)" stroke="#9a5f25" stroke-width="6"/>
+    <!-- shaded side -->
+    <path d="M137 46 a19 19 0 0 1 10 16 v128 a19 19 0 0 1 -10 16 z"
+          fill="#c98a3a" opacity="0.85"/>
+    <!-- glossy garlic-herb butter brush -->
+    <path d="M115 60 q14 -8 28 0 q-4 40 -2 80 q-12 7 -24 0 q2 -40 -2 -80 z"
+          fill="url(#d-breadsticks-butter)" opacity="0.9"/>
+    <!-- soft twist/score -->
+    <path d="M128 52 q8 13 -2 26 q8 13 -2 26 q8 13 -2 26 q8 13 -2 26 q8 13 -2 26"
+          fill="none" stroke="#c98a3a" stroke-width="4" stroke-linecap="round"/>
+    <!-- highlight -->
+    <path d="M118 56 q4 0 5 4 v118 q-1 4 -5 4 z" fill="#f6d28e" opacity="0.7"/>
+    <!-- parsley flecks -->
+    <circle cx="123" cy="78" r="3" fill="#4f8a2e"/>
+    <circle cx="135" cy="104" r="2.5" fill="#4f8a2e"/>
+    <circle cx="121" cy="132" r="2.5" fill="#4f8a2e"/>
+    <circle cx="134" cy="158" r="3" fill="#4f8a2e"/>
+    <circle cx="124" cy="184" r="2.5" fill="#4f8a2e"/>
+  </g>
+
+  <!-- ===== RIGHT breadstick (leaning right) ===== -->
+  <g transform="rotate(15 128 130)">
+    <rect x="160" y="44" width="38" height="158" rx="19"
+          fill="url(#d-breadsticks-stick)" stroke="#9a5f25" stroke-width="6"/>
+    <!-- shaded side -->
+    <path d="M188 50 a19 19 0 0 1 10 16 v120 a19 19 0 0 1 -10 16 z"
+          fill="#c98a3a" opacity="0.85"/>
+    <!-- glossy garlic-herb butter brush -->
+    <path d="M166 64 q14 -8 28 0 q-4 36 -2 72 q-12 7 -24 0 q2 -36 -2 -72 z"
+          fill="url(#d-breadsticks-butter)" opacity="0.9"/>
+    <!-- soft twist/score -->
+    <path d="M179 56 q8 12 -2 24 q8 12 -2 24 q8 12 -2 24 q8 12 -2 24 q8 12 -2 24"
+          fill="none" stroke="#c98a3a" stroke-width="4" stroke-linecap="round"/>
+    <!-- highlight -->
+    <path d="M169 60 q4 0 5 4 v110 q-1 4 -5 4 z" fill="#f6d28e" opacity="0.7"/>
+    <!-- parsley flecks -->
+    <circle cx="174" cy="84" r="3" fill="#4f8a2e"/>
+    <circle cx="186" cy="110" r="2.5" fill="#4f8a2e"/>
+    <circle cx="172" cy="140" r="2.5" fill="#4f8a2e"/>
+    <circle cx="185" cy="160" r="3" fill="#4f8a2e"/>
+    <circle cx="176" cy="180" r="2.5" fill="#4f8a2e"/>
+  </g>
+</svg>

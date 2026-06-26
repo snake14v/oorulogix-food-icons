@@ -1,18 +1,97 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
-  <!-- classic garlic-butter bread (sliced loaf) -->
-  <ellipse cx="128" cy="204" rx="92" ry="14" fill="#000" opacity="0.12"/>
   <defs>
-    <linearGradient id="garlic-bread_loaf" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ecb863"/><stop offset="1" stop-color="#cf8f3c"/></linearGradient>
+    <linearGradient id="abaguette-crust" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d99a48"/>
+      <stop offset="1" stop-color="#c98a3a"/>
+    </linearGradient>
+    <linearGradient id="abaguette-crumb" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f6e6bf"/>
+      <stop offset="1" stop-color="#f0d9a6"/>
+    </linearGradient>
+    <linearGradient id="abaguette-butter" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f7e2a0"/>
+      <stop offset="1" stop-color="#f4d98a"/>
+    </linearGradient>
+    <clipPath id="abaguette-faceclip">
+      <path d="M40 96 Q34 86 50 84 L206 84 Q222 86 216 96 L214 124 Q210 134 196 134 L60 134 Q46 134 42 124 Z"/>
+    </clipPath>
   </defs>
-  <path d="M44 152 Q40 116 80 110 L176 110 Q216 116 212 152 Q214 172 192 178 L64 178 Q42 172 44 152 Z" fill="url(#garlic-bread_loaf)" stroke="#9a5f25" stroke-width="6" stroke-linejoin="round"/>
-  <!-- garlic-butter top band -->
-  <path d="M50 130 Q128 112 206 130 Q206 142 198 142 Q128 126 58 142 Q50 142 50 130 Z" fill="#f4d99a" stroke="#cf8f3c" stroke-width="3" stroke-linejoin="round"/>
-  <!-- slice cuts -->
-  <g stroke="#a9763a" stroke-width="5" stroke-linecap="round" opacity="0.8">
-    <path d="M84 122 L82 176"/><path d="M116 118 L114 178"/><path d="M148 118 L146 178"/><path d="M180 122 L178 176"/>
+
+  <!-- contact shadow -->
+  <ellipse cx="128" cy="204" rx="92" ry="13" fill="#000" opacity="0.12"/>
+
+  <!-- crusty outer body (bottom + ends), torpedo half-baguette -->
+  <path d="M40 100
+           Q26 100 24 116
+           Q22 134 34 150
+           Q44 162 70 164
+           L186 164
+           Q212 162 222 150
+           Q234 134 232 116
+           Q230 100 216 100 Z"
+        fill="url(#abaguette-crust)" stroke="#9a5f25" stroke-width="6" stroke-linejoin="round"/>
+
+  <!-- crust shading underside -->
+  <path d="M40 138
+           Q44 156 70 158
+           L186 158
+           Q212 156 216 138
+           Q200 150 128 150
+           Q56 150 40 138 Z"
+        fill="#b97a2e" opacity="0.55"/>
+
+  <!-- pale buttery crumb face (cut side up) -->
+  <path d="M40 96 Q34 86 50 84 L206 84 Q222 86 216 96 L214 124 Q210 134 196 134 L60 134 Q46 134 42 124 Z"
+        fill="url(#abaguette-crumb)" stroke="#9a5f25" stroke-width="6" stroke-linejoin="round"/>
+
+  <!-- glossy garlic-herb butter sheen pooled on the face -->
+  <g clip-path="url(#abaguette-faceclip)">
+    <path d="M50 92 Q128 80 206 92 L208 120 Q128 130 48 120 Z"
+          fill="url(#abaguette-butter)" opacity="0.92"/>
+    <!-- buttery top highlight -->
+    <path d="M58 92 Q128 84 198 92 Q128 98 58 96 Z"
+          fill="#fbeeb6" opacity="0.85"/>
+
+    <!-- diagonal toast / score marks across the buttered face -->
+    <g stroke="#c98a3a" stroke-width="5" stroke-linecap="round" opacity="0.65">
+      <line x1="74" y1="90" x2="58" y2="128"/>
+      <line x1="112" y1="88" x2="96" y2="130"/>
+      <line x1="150" y1="88" x2="134" y2="130"/>
+      <line x1="188" y1="90" x2="172" y2="128"/>
+    </g>
+
+    <!-- green parsley flecks -->
+    <g fill="#4f8a2e">
+      <circle cx="66" cy="100" r="3"/>
+      <circle cx="92" cy="114" r="2.6"/>
+      <circle cx="108" cy="98" r="3.1"/>
+      <circle cx="128" cy="116" r="2.8"/>
+      <circle cx="146" cy="100" r="3"/>
+      <circle cx="170" cy="112" r="2.7"/>
+      <circle cx="190" cy="100" r="3"/>
+      <circle cx="80" cy="124" r="2.4"/>
+      <circle cx="158" cy="124" r="2.5"/>
+      <circle cx="120" cy="104" r="2.2"/>
+    </g>
+    <!-- darker parsley accents -->
+    <g fill="#3a6e1f">
+      <circle cx="100" cy="108" r="1.8"/>
+      <circle cx="136" cy="106" r="1.8"/>
+      <circle cx="178" cy="120" r="1.6"/>
+      <circle cx="72" cy="112" r="1.6"/>
+    </g>
+    <!-- tiny pale garlic bits -->
+    <g fill="#fbf3da" stroke="#e9d49a" stroke-width="1">
+      <circle cx="86" cy="104" r="2.4"/>
+      <circle cx="124" cy="124" r="2.2"/>
+      <circle cx="160" cy="104" r="2.4"/>
+      <circle cx="196" cy="116" r="2"/>
+      <circle cx="58" cy="116" r="2"/>
+    </g>
   </g>
-  <!-- parsley flecks + garlic bits -->
-  <g fill="#4f8a2e"><circle cx="72" cy="132" r="3"/><circle cx="104" cy="127" r="3"/><circle cx="136" cy="125" r="3"/><circle cx="168" cy="127" r="3"/><circle cx="92" cy="135" r="2.4"/><circle cx="152" cy="133" r="2.4"/></g>
-  <g fill="#f0e6cf"><circle cx="120" cy="132" r="2.4"/><circle cx="160" cy="135" r="2.2"/></g>
-  <path d="M60 124 Q120 113 180 122" fill="none" stroke="#fbe6bc" stroke-width="4" stroke-linecap="round" opacity="0.7"/>
+
+  <!-- end-cap crumb hint (left) -->
+  <path d="M42 110 Q34 116 38 126 Q44 124 46 116 Z" fill="#f0d9a6" opacity="0.7"/>
+  <!-- end-cap crumb hint (right) -->
+  <path d="M214 110 Q222 116 218 126 Q212 124 210 116 Z" fill="#f0d9a6" opacity="0.7"/>
 </svg>
