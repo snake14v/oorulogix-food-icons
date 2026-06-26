@@ -1,6 +1,6 @@
 # Asset Catalog
 
-402 flat-cartoon food icons (SVG, 256×256). All names are generic.
+405 flat-cartoon food icons (SVG, 256×256). All names are generic.
 
 ## Bakery (27)
 
@@ -404,7 +404,7 @@
 | Rose Syrup | `orbean/syrups/syrup-rose.svg` |
 | Vanilla Bean Syrup | `orbean/syrups/syrup-vanilla-bean.svg` |
 
-## Pizza (13)
+## Pizza (16)
 
 ### Base
 
@@ -416,6 +416,14 @@
 | Pizza Sauce | `pizza/base/pizza-sauce.svg` |
 | Pizza Slice | `pizza/base/pizza-slice.svg` |
 | Whole Pizza | `pizza/base/pizza-whole.svg` |
+
+### Sides
+
+| Label | File |
+|---|---|
+| Cheesy Garlic Bread | `pizza/sides/cheesy-garlic-bread.svg` |
+| Garlic Bread | `pizza/sides/garlic-bread.svg` |
+| Garlic Knot | `pizza/sides/garlic-knot.svg` |
 
 ### Toppings
 

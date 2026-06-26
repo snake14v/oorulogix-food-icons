@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <!-- garlic knot (twisted buttered roll) -->
+  <ellipse cx="128" cy="198" rx="72" ry="13" fill="#000" opacity="0.12"/>
+  <defs>
+    <linearGradient id="garlic-knot_d" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ecb863"/><stop offset="1" stop-color="#cf8f3c"/></linearGradient>
+  </defs>
+  <!-- roll body -->
+  <path d="M62 152 Q56 108 98 102 Q128 98 158 102 Q200 108 194 152 Q198 184 156 190 Q128 194 100 190 Q58 184 62 152 Z" fill="url(#garlic-knot_d)" stroke="#9a5f25" stroke-width="6" stroke-linejoin="round"/>
+  <!-- knot strands crossing over -->
+  <path d="M84 118 Q128 152 172 120" fill="none" stroke="#a9763a" stroke-width="9" stroke-linecap="round"/>
+  <path d="M96 170 Q128 138 160 168" fill="none" stroke="#a9763a" stroke-width="8" stroke-linecap="round" opacity="0.85"/>
+  <path d="M110 104 Q120 150 110 186" fill="none" stroke="#b9813f" stroke-width="7" stroke-linecap="round" opacity="0.55"/>
+  <path d="M146 104 Q136 150 146 186" fill="none" stroke="#b9813f" stroke-width="7" stroke-linecap="round" opacity="0.55"/>
+  <!-- butter sheen + parsley -->
+  <path d="M84 116 Q128 104 172 116" fill="none" stroke="#fbe6bc" stroke-width="5" stroke-linecap="round" opacity="0.6"/>
+  <g fill="#4f8a2e"><circle cx="104" cy="120" r="3"/><circle cx="150" cy="122" r="3"/><circle cx="128" cy="114" r="2.6"/><circle cx="120" cy="172" r="2.6"/><circle cx="142" cy="168" r="2.4"/></g>
+</svg>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <!-- cheesy garlic bread (melted cheese on top) -->
+  <ellipse cx="128" cy="204" rx="92" ry="14" fill="#000" opacity="0.12"/>
+  <defs>
+    <linearGradient id="cheesy-garlic-bread_loaf" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#e8b25c"/><stop offset="1" stop-color="#cf8f3c"/></linearGradient>
+  </defs>
+  <path d="M44 154 Q40 120 80 114 L176 114 Q216 120 212 154 Q214 172 192 178 L64 178 Q42 172 44 154 Z" fill="url(#cheesy-garlic-bread_loaf)" stroke="#9a5f25" stroke-width="6" stroke-linejoin="round"/>
+  <!-- melted cheese blanket with drippy edge -->
+  <path d="M50 134 Q128 112 206 134 L206 152 Q196 166 186 152 Q174 168 162 152 Q150 168 138 152 Q126 168 114 152 Q102 168 90 152 Q78 166 66 152 Q56 162 50 152 Z" fill="#f4c84a" stroke="#cf9a32" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M64 128 Q128 116 192 128" fill="none" stroke="#fbe39b" stroke-width="5" stroke-linecap="round" opacity="0.7"/>
+  <!-- slice cuts (faint, through cheese) -->
+  <g stroke="#cf9a32" stroke-width="4" stroke-linecap="round" opacity="0.5"><path d="M114 128 L114 150"/><path d="M148 128 L148 150"/><path d="M82 130 L82 148"/><path d="M180 130 L180 148"/></g>
+  <!-- parsley flecks -->
+  <g fill="#4f8a2e"><circle cx="86" cy="132" r="3"/><circle cx="122" cy="128" r="3"/><circle cx="158" cy="132" r="3"/><circle cx="104" cy="138" r="2.4"/><circle cx="140" cy="138" r="2.4"/></g>
+</svg>

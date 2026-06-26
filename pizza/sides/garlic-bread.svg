@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <!-- classic garlic-butter bread (sliced loaf) -->
+  <ellipse cx="128" cy="204" rx="92" ry="14" fill="#000" opacity="0.12"/>
+  <defs>
+    <linearGradient id="garlic-bread_loaf" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ecb863"/><stop offset="1" stop-color="#cf8f3c"/></linearGradient>
+  </defs>
+  <path d="M44 152 Q40 116 80 110 L176 110 Q216 116 212 152 Q214 172 192 178 L64 178 Q42 172 44 152 Z" fill="url(#garlic-bread_loaf)" stroke="#9a5f25" stroke-width="6" stroke-linejoin="round"/>
+  <!-- garlic-butter top band -->
+  <path d="M50 130 Q128 112 206 130 Q206 142 198 142 Q128 126 58 142 Q50 142 50 130 Z" fill="#f4d99a" stroke="#cf8f3c" stroke-width="3" stroke-linejoin="round"/>
+  <!-- slice cuts -->
+  <g stroke="#a9763a" stroke-width="5" stroke-linecap="round" opacity="0.8">
+    <path d="M84 122 L82 176"/><path d="M116 118 L114 178"/><path d="M148 118 L146 178"/><path d="M180 122 L178 176"/>
+  </g>
+  <!-- parsley flecks + garlic bits -->
+  <g fill="#4f8a2e"><circle cx="72" cy="132" r="3"/><circle cx="104" cy="127" r="3"/><circle cx="136" cy="125" r="3"/><circle cx="168" cy="127" r="3"/><circle cx="92" cy="135" r="2.4"/><circle cx="152" cy="133" r="2.4"/></g>
+  <g fill="#f0e6cf"><circle cx="120" cy="132" r="2.4"/><circle cx="160" cy="135" r="2.2"/></g>
+  <path d="M60 124 Q120 113 180 122" fill="none" stroke="#fbe6bc" stroke-width="4" stroke-linecap="round" opacity="0.7"/>
+</svg>

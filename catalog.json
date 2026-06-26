@@ -3,7 +3,7 @@
   "style": "flat-cartoon",
   "viewBox": "0 0 256 256",
   "license": "MIT",
-  "count": 402,
+  "count": 405,
   "assets": [
     {
       "id": "bakery-crusts-chocolate-crust",
@@ -1495,6 +1495,27 @@
       "category": "base",
       "file": "pizza/base/pizza-whole.svg",
       "name": "Whole Pizza"
+    },
+    {
+      "id": "pizza-sides-cheesy-garlic-bread",
+      "theme": "pizza",
+      "category": "sides",
+      "file": "pizza/sides/cheesy-garlic-bread.svg",
+      "name": "Cheesy Garlic Bread"
+    },
+    {
+      "id": "pizza-sides-garlic-bread",
+      "theme": "pizza",
+      "category": "sides",
+      "file": "pizza/sides/garlic-bread.svg",
+      "name": "Garlic Bread"
+    },
+    {
+      "id": "pizza-sides-garlic-knot",
+      "theme": "pizza",
+      "category": "sides",
+      "file": "pizza/sides/garlic-knot.svg",
+      "name": "Garlic Knot"
     },
     {
       "id": "pizza-toppings-topping-anchovies",
