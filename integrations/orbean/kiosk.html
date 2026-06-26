@@ -1,0 +1,230 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"/>
+<title>Orbéan — Self-Order Kiosk</title>
+<style>
+  :root{
+    --bg:#0b110c; --panel:#111a13; --card:#16211a; --card2:#1b281f;
+    --cream:#F4ECDD; --muted:#a9b3a3; --gold:#E0A23C; --green:#6F9E55; --rose:#D87093;
+    --line:rgba(244,236,221,.10);
+  }
+  *{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+  html,body{margin:0;height:100%}
+  body{font-family:"Segoe UI",system-ui,sans-serif;color:var(--cream);
+       background:radial-gradient(120% 80% at 0% 0%,#13201600,#0b110c),var(--bg);overflow:hidden}
+  .kiosk{display:flex;height:100vh}
+
+  /* ---------- LEFT: menu (static) ---------- */
+  .menu{flex:1.35;display:flex;flex-direction:column;min-width:0;padding:26px 24px 0;overflow:hidden}
+  .brand{display:flex;align-items:baseline;gap:14px;margin-bottom:4px}
+  .brand h1{margin:0;font-size:30px;letter-spacing:4px;font-weight:700}
+  .brand span{color:var(--gold);font-size:13px;letter-spacing:3px;text-transform:uppercase}
+  .sub{color:var(--muted);font-size:13px;margin:0 0 16px}
+  .tabs{display:flex;gap:9px;overflow-x:auto;padding-bottom:14px;scrollbar-width:none}
+  .tabs::-webkit-scrollbar{display:none}
+  .tab{flex:0 0 auto;padding:9px 17px;border-radius:999px;border:1px solid var(--line);
+       background:var(--card);color:var(--muted);font-size:13px;font-weight:600;cursor:pointer;
+       letter-spacing:.4px;transition:.18s}
+  .tab:hover{color:var(--cream)}
+  .tab.on{background:var(--gold);color:#1c1405;border-color:var(--gold)}
+  .grid{flex:1;overflow-y:auto;display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));
+        gap:14px;padding:6px 4px 26px;align-content:start;scrollbar-width:thin}
+  .grid::-webkit-scrollbar{width:8px}.grid::-webkit-scrollbar-thumb{background:#26342a;border-radius:8px}
+  .item{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:12px 10px 14px;
+        text-align:center;cursor:pointer;transition:transform .15s,border-color .15s,background .15s;position:relative}
+  .item:hover{transform:translateY(-3px);border-color:#34492f;background:var(--card2)}
+  .item:active{transform:scale(.97)}
+  .item img{width:84px;height:84px;display:block;margin:0 auto 6px;pointer-events:none}
+  .item .nm{font-size:13px;line-height:1.25;min-height:32px;display:flex;align-items:center;justify-content:center}
+  .item .pr{color:var(--gold);font-size:13px;font-weight:700;margin-top:4px}
+  .item .plus{position:absolute;top:8px;right:8px;width:26px;height:26px;border-radius:50%;
+       background:var(--green);color:#0c160d;font-size:18px;font-weight:700;display:flex;align-items:center;
+       justify-content:center;opacity:0;transform:scale(.5);transition:.18s}
+  .item:hover .plus{opacity:1;transform:scale(1)}
+
+  /* ---------- RIGHT: stage (ALL animation) ---------- */
+  .stage{flex:1;display:flex;flex-direction:column;background:linear-gradient(180deg,#0f1711,#0b110c);
+         border-left:1px solid var(--line);min-width:360px}
+  .hero{flex:1;position:relative;display:flex;flex-direction:column;align-items:center;justify-content:center;
+        overflow:hidden;padding:24px}
+  .glow{position:absolute;width:420px;height:420px;border-radius:50%;
+        background:radial-gradient(circle,rgba(111,158,85,.34),rgba(224,162,60,.10) 45%,transparent 70%);
+        animation:glow 5s ease-in-out infinite;filter:blur(2px)}
+  @keyframes glow{0%,100%{transform:scale(.9);opacity:.7}50%{transform:scale(1.12);opacity:1}}
+  .steam{position:absolute;top:18%;display:flex;gap:26px;opacity:0;transition:opacity .5s}
+  .steam.show{opacity:.55}
+  .wisp{width:7px;height:74px;border-radius:8px;
+        background:linear-gradient(180deg,transparent,rgba(244,236,221,.85),transparent);
+        animation:steam 2.8s ease-in-out infinite}
+  .wisp:nth-child(2){animation-delay:.6s;height:90px}.wisp:nth-child(3){animation-delay:1.2s}
+  @keyframes steam{0%{transform:translateY(26px) scaleY(.6);opacity:0}
+    35%{opacity:.9}100%{transform:translateY(-26px) scaleY(1.25);opacity:0}}
+  .hero-img{width:300px;height:300px;position:relative;z-index:2;filter:drop-shadow(0 18px 22px rgba(0,0,0,.45));
+            animation:float 4s ease-in-out infinite}
+  @keyframes float{0%,100%{transform:translateY(0) rotate(-1.5deg)}50%{transform:translateY(-16px) rotate(1.5deg)}}
+  .hero-img.pour{animation:float 4s ease-in-out infinite, pour .55s cubic-bezier(.2,.9,.3,1.2)}
+  @keyframes pour{0%{opacity:0;transform:translateY(-70px) scale(.6)}60%{transform:translateY(6px) scale(1.05)}100%{transform:translateY(0) scale(1)}}
+  .spark{position:absolute;z-index:3;color:var(--gold);font-size:18px;animation:tw 2.2s ease-in-out infinite}
+  @keyframes tw{0%,100%{opacity:0;transform:scale(.5)}50%{opacity:1;transform:scale(1)}}
+  .hero-name{z-index:2;margin-top:14px;font-size:26px;font-weight:700;text-align:center;letter-spacing:.5px}
+  .hero-price{z-index:2;color:var(--gold);font-size:20px;font-weight:700;margin-top:2px}
+  .hint{position:absolute;bottom:20px;color:var(--muted);font-size:13px;z-index:2}
+
+  /* cart */
+  .cart{background:#0c1410;border-top:1px solid var(--line);padding:16px 20px 20px;max-height:42%;
+        display:flex;flex-direction:column}
+  .cart h3{margin:0 0 10px;font-size:12px;letter-spacing:2px;text-transform:uppercase;color:var(--muted)}
+  .clist{list-style:none;margin:0 0 10px;padding:0;overflow-y:auto;flex:1;scrollbar-width:thin}
+  .clist li{display:flex;align-items:center;gap:10px;padding:7px 0;border-bottom:1px solid var(--line);
+            font-size:14px;animation:slidein .35s ease}
+  @keyframes slidein{from{opacity:0;transform:translateX(18px)}to{opacity:1;transform:none}}
+  .clist img{width:30px;height:30px}
+  .clist .q{margin-left:auto;color:var(--muted)}.clist .lp{color:var(--gold);font-weight:700;min-width:54px;text-align:right}
+  .empty{color:var(--muted);font-size:13px;padding:10px 0}
+  .total{display:flex;justify-content:space-between;align-items:baseline;font-size:15px;margin:6px 0 12px}
+  .total b{font-size:24px;color:var(--gold)}
+  .place{position:relative;overflow:hidden;border:none;border-radius:14px;padding:16px;width:100%;
+         background:var(--gold);color:#1b1305;font-size:16px;font-weight:800;letter-spacing:1px;cursor:pointer;text-transform:uppercase}
+  .place:active{transform:scale(.98)}
+  .place::after{content:"";position:absolute;top:0;left:-60%;width:40%;height:100%;
+        background:linear-gradient(110deg,transparent,rgba(255,255,255,.55),transparent);
+        transform:skewX(-18deg);animation:sheen 3.2s ease-in-out infinite}
+  @keyframes sheen{0%{left:-60%}45%,100%{left:130%}}
+</style>
+</head>
+<body>
+<div class="kiosk">
+  <section class="menu">
+    <div class="brand"><h1>ORBÉAN</h1><span>Self-Order</span></div>
+    <p class="sub">Tap an item to add it to your order</p>
+    <nav class="tabs" id="tabs"></nav>
+    <div class="grid" id="grid"></div>
+  </section>
+
+  <aside class="stage">
+    <div class="hero">
+      <div class="glow"></div>
+      <div class="steam" id="steam"><div class="wisp"></div><div class="wisp"></div><div class="wisp"></div></div>
+      <span class="spark" style="top:24%;left:30%">✦</span>
+      <span class="spark" style="top:30%;right:28%;animation-delay:.7s">✦</span>
+      <span class="spark" style="top:58%;left:26%;animation-delay:1.3s">✦</span>
+      <img class="hero-img" id="heroImg" alt=""/>
+      <div class="hero-name" id="heroName">Welcome to Orbéan</div>
+      <div class="hero-price" id="heroPrice"></div>
+      <div class="hint" id="hint">Choose your craft coffee or kitchen bite →</div>
+    </div>
+    <div class="cart">
+      <h3>Your Order</h3>
+      <ul class="clist" id="clist"><li class="empty">Nothing added yet</li></ul>
+      <div class="total"><span>Total</span><b id="total">₹0</b></div>
+      <button class="place" id="place">Place Order</button>
+    </div>
+  </aside>
+</div>
+
+<script>
+const CDN = "https://cdn.jsdelivr.net/gh/snake14v/oorulogix-food-icons";
+// menu: [id, name, category, price, assetRelPath, hot?]
+const MENU = [
+  ["matcha-0","Emerald Hazelnut Reserve","Matcha",320,"orbean/signatures/emerald-hazelnut-reserve.svg",1],
+  ["matcha-1","Sakura Berry","Matcha",330,"orbean/signatures/sakura-berry.svg",1],
+  ["matcha-2","Velvet Vanilla","Matcha",310,"orbean/signatures/velvet-vanilla.svg",1],
+  ["matcha-3","Rose Élixir","Matcha",330,"orbean/signatures/rose-elixir.svg",1],
+  ["matcha-4","Coco Verde","Matcha",320,"orbean/signatures/coco-verde.svg",1],
+  ["sig-0","Cheesecake","Signature",300,"orbean/signatures/cheesecake-latte.svg",1],
+  ["sig-1","Red Velvet","Signature",300,"orbean/signatures/red-velvet-latte.svg",1],
+  ["sig-2","Caramel Craze","Signature",290,"orbean/signatures/caramel-craze.svg",1],
+  ["sig-3","Cocomocha","Signature",300,"orbean/signatures/cocomocha.svg",1],
+  ["iced-0","Iced Strawberry Latte","Signature",290,"orbean/signatures/iced-strawberry-latte.svg",0],
+  ["iced-1","Blue Pea Tea Latte","Signature",300,"orbean/signatures/blue-pea-tea-latte.svg",0],
+  ["classic-0","Classic Latte","Lattes",220,"orbean/lattes/classic-latte.svg",1],
+  ["classic-1","Caramel Latte","Lattes",250,"orbean/lattes/caramel-latte.svg",1],
+  ["classic-2","Hazelnut Latte","Lattes",250,"orbean/lattes/hazelnut-latte.svg",1],
+  ["classic-3","Irish Cream Latte","Lattes",260,"orbean/lattes/irish-cream-latte.svg",1],
+  ["mac-0","Espresso Macchiato","Macchiato",180,"orbean/macchiatos/espresso-macchiato.svg",1],
+  ["mac-1","Caramel Macchiato","Macchiato",240,"orbean/macchiatos/caramel-macchiato.svg",1],
+  ["mac-2","Hazelnut Macchiato","Macchiato",240,"orbean/macchiatos/hazelnut-macchiato.svg",1],
+  ["mac-3","Irish Macchiato","Macchiato",250,"orbean/macchiatos/irish-macchiato.svg",1],
+  ["pizza-0","Margherita","Pizza",349,"orbean/pizzas/margherita.svg",0],
+  ["pizza-1","Veggie","Pizza",379,"orbean/pizzas/veggie.svg",0],
+  ["pizza-2","Makhani Paneer","Pizza",399,"orbean/pizzas/makhani-paneer.svg",0],
+  ["pizza-3","Peri-Peri Chicken","Pizza",429,"orbean/pizzas/peri-peri-chicken.svg",0],
+  ["pizza-4","Shredded Chicken","Pizza",429,"orbean/pizzas/shredded-chicken.svg",0],
+  ["pizza-5","Smoky Chicken","Pizza",429,"orbean/pizzas/smoky-chicken.svg",0],
+  ["burger-0","Veg Burger","Burgers",199,"orbean/burgers/veg-burger.svg",0],
+  ["burger-1","Crumbed Paneer","Burgers",229,"orbean/burgers/crumbed-paneer-burger.svg",0],
+  ["burger-2","Smash Chicken","Burgers",259,"orbean/burgers/smash-chicken-burger.svg",0],
+  ["sandwich-0","Triple Cheese","Sandwiches",199,"orbean/sandwiches/triple-cheese.svg",0],
+  ["sandwich-1","Garlic Mushroom","Sandwiches",219,"orbean/sandwiches/garlic-mushroom.svg",0],
+  ["sandwich-2","Masala Paneer","Sandwiches",229,"orbean/sandwiches/masala-paneer.svg",0],
+  ["sandwich-3","Bombay Potato","Sandwiches",189,"orbean/sandwiches/bombay-potato.svg",0],
+  ["sandwich-4","Garden Veg","Sandwiches",199,"orbean/sandwiches/garden-veg.svg",0],
+  ["sandwich-5","Peri-Peri Chicken","Sandwiches",249,"orbean/sandwiches/peri-peri-chicken.svg",0],
+  ["sandwich-6","Shredded Chicken","Sandwiches",249,"orbean/sandwiches/shredded-chicken.svg",0],
+  ["sandwich-7","Smoky Chicken","Sandwiches",259,"orbean/sandwiches/smoky-chicken.svg",0],
+  ["fried-0","Chicken Strips","Sides",229,"orbean/fried/chicken-strips.svg",0],
+  ["fried-1","Chicken Wings (6)","Sides",249,"orbean/fried/chicken-wings.svg",0],
+  ["fried-2","Cheese Jalapeño Poppers","Sides",179,"orbean/fried/cheese-jalapeno-poppers.svg",0],
+  ["fried-3","Paneer Fingers","Sides",199,"orbean/fried/paneer-fingers.svg",0],
+  ["fried-4","French Fries","Sides",129,"orbean/fried/fries.svg",0],
+  ["side-0","Garlic Bread","Sides",149,"pizza/sides/garlic-bread.svg",0],
+  ["side-1","Cheesy Garlic Bread","Sides",179,"pizza/sides/cheesy-garlic-bread.svg",0],
+  ["side-2","Garlic Knot","Sides",149,"pizza/sides/garlic-knot.svg",0]
+];
+const CATS = ["Matcha","Signature","Lattes","Macchiato","Pizza","Burgers","Sandwiches","Sides"];
+const url = r => `${CDN}/${r}`;
+const inr = n => "₹" + n;
+
+const tabsEl=document.getElementById('tabs'), gridEl=document.getElementById('grid');
+const heroImg=document.getElementById('heroImg'), heroName=document.getElementById('heroName'),
+      heroPrice=document.getElementById('heroPrice'), steam=document.getElementById('steam'),
+      hint=document.getElementById('hint'), clist=document.getElementById('clist'),
+      totalEl=document.getElementById('total');
+let active=CATS[0], cart=[];
+
+CATS.forEach(c=>{const b=document.createElement('button');b.className='tab'+(c===active?' on':'');
+  b.textContent=c;b.onclick=()=>{active=c;[...tabsEl.children].forEach(x=>x.classList.toggle('on',x.textContent===c));renderGrid();};
+  tabsEl.appendChild(b);});
+
+function renderGrid(){
+  gridEl.innerHTML='';
+  MENU.filter(m=>m[2]===active).forEach(m=>{
+    const [id,nm,cat,pr,rel]=m;
+    const d=document.createElement('div');d.className='item';
+    d.innerHTML=`<span class="plus">+</span><img loading="lazy" src="${url(rel)}" alt="${nm}"/>
+                 <div class="nm">${nm}</div><div class="pr">${inr(pr)}</div>`;
+    d.onclick=()=>pick(m);
+    gridEl.appendChild(d);
+  });
+}
+function pick(m){
+  const [id,nm,cat,pr,rel,hot]=m;
+  heroImg.src=url(rel); heroImg.alt=nm;
+  heroImg.classList.remove('pour'); void heroImg.offsetWidth; heroImg.classList.add('pour');
+  heroName.textContent=nm; heroPrice.textContent=inr(pr);
+  steam.classList.toggle('show', !!hot);
+  hint.style.display='none';
+  const ex=cart.find(c=>c.id===id); if(ex) ex.q++; else cart.push({id,nm,pr,rel,q:1});
+  renderCart();
+}
+function renderCart(){
+  if(!cart.length){clist.innerHTML='<li class="empty">Nothing added yet</li>';totalEl.textContent='₹0';return;}
+  clist.innerHTML='';
+  cart.forEach(c=>{const li=document.createElement('li');
+    li.innerHTML=`<img src="${url(c.rel)}" alt=""/><span>${c.nm}</span>
+                  <span class="q">×${c.q}</span><span class="lp">${inr(c.pr*c.q)}</span>`;
+    clist.appendChild(li);});
+  totalEl.textContent=inr(cart.reduce((s,c)=>s+c.pr*c.q,0));
+}
+document.getElementById('place').onclick=()=>{
+  if(!cart.length) return;
+  const t=cart.reduce((s,c)=>s+c.pr*c.q,0), n=cart.reduce((s,c)=>s+c.q,0);
+  heroName.textContent="Order Placed ✓"; heroPrice.textContent=`${n} item${n>1?'s':''} · ${inr(t)}`;
+  cart=[]; renderCart();
+};
+renderGrid();
+</script>
+</body>
+</html>
